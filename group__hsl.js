@@ -89,13 +89,13 @@ var group__hsl =
       [ "SetSoundVolume", "classAudio.html#ac1a60628d170cc99feb8693ba32801b7", null ]
     ] ],
     [ "Collision", "classCollision.html", [
-      [ "CheckObjectCollisionBox", "classCollision.html#a5f84e6216991073f7777478badc217c1", null ],
-      [ "CheckObjectCollisionCircle", "classCollision.html#a8d098c0b6522e0cb5358d7b8ef49c6b9", null ],
-      [ "CheckObjectCollisionPlatform", "classCollision.html#ac7d8dc92a1370598f6305287948eb4f9", null ],
-      [ "CheckObjectCollisionTouch", "classCollision.html#aaba251b742a2409007abec0c053d155c", null ],
-      [ "ObjectTileCollision", "classCollision.html#a1aacb40091d6072fc0a35e98542c8aec", null ],
-      [ "ObjectTileGrip", "classCollision.html#ab1b7ad7957777d3c6be1f46849040821", null ],
-      [ "ProcessObjectMovement", "classCollision.html#a0433fa91949a66a0e0386e32fcf72cb2", null ]
+      [ "CheckEntityBox", "classCollision.html#a4119d853cca39fb800431a5be35bb94c", null ],
+      [ "CheckEntityCircle", "classCollision.html#a998f17bd615a484f130fda563487708b", null ],
+      [ "CheckEntityPlatform", "classCollision.html#a30f64e73fd6b7789c5e902786f915194", null ],
+      [ "CheckEntityTouch", "classCollision.html#a4df406c5a26923e3a25fbe80fffdeeb7", null ],
+      [ "CheckTileCollision", "classCollision.html#a5af10a892c0d13010a2a13ca9cbbaca6", null ],
+      [ "CheckTileGrip", "classCollision.html#a9ba5dfb6df0fbe157745e457b9171e77", null ],
+      [ "ProcessEntityMovement", "classCollision.html#a520d6e4fe37531a801ee93ace5411098", null ]
     ] ],
     [ "Controller", "classController.html", [
       [ "GetAxis", "classController.html#af5d5f8ae4846e24cf4d92148cfe366c8", null ],
@@ -1312,6 +1312,8 @@ var group__hsl =
       [ "KeyBind_DevStepFrame", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba341c5af6feec8141dbc954a154185587", null ],
       [ "KeyBind_DevTileCol", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba2c08ca95bd4f0ab9b29497ac99966467", null ],
       [ "KeyBind_DevObjectRegions", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba44553cf9c2b7c3082894c69d0df739d0", null ],
+      [ "KeyBind_DevViewHitboxes", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bac94fab0620b0400a2a95fe3137089e32", null ],
+      [ "KeyBind_DevMenuToggle", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baba553f08ff90c92886f60d40321bb2ea", null ],
       [ "KeyBind_DevQuit", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baeb9252565e62a539faf78b31165ad53a", null ]
     ] ],
     [ "MOUSEMODE", "group__hsl.html#gacdf9599c2f11830b8dd61a796653990e", [
