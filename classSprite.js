@@ -1,0 +1,27 @@
+var classSprite =
+[
+    [ "GetAnimationCount", "classSprite.html#a0d6eae9164be9eb50773736d238b2114", null ],
+    [ "GetAnimationIndexByName", "classSprite.html#a8056ef291d7abcabf6f2e7aec7e824e1", null ],
+    [ "GetAnimationName", "classSprite.html#a9be3e0e627956a08b97ad3e85e9bdc25", null ],
+    [ "GetFrameCount", "classSprite.html#aaaf73cb0239e40b5deef7b410baa6fe3", null ],
+    [ "GetFrameDuration", "classSprite.html#a3cdbd5af4f93c85a72fa6e32c0dc8d1a", null ],
+    [ "GetFrameExists", "classSprite.html#aab9a343bd2785a017f7ba2611b3c1d0f", null ],
+    [ "GetFrameHeight", "classSprite.html#a1878021a9590b15d11f151e4c7fe5c95", null ],
+    [ "GetFrameID", "classSprite.html#a07a49b850e0c9917942e6cb39b492b6f", null ],
+    [ "GetFrameLoopIndex", "classSprite.html#a949228aaa1acb1449c3431f2f52260ac", null ],
+    [ "GetFrameOffsetX", "classSprite.html#a07300d143fb030ad4e40c344e3d50cbc", null ],
+    [ "GetFrameOffsetY", "classSprite.html#a188f578daa88a9207ed56fb5fa3907f8", null ],
+    [ "GetFrameSpeed", "classSprite.html#adc07be87e889dba3ff91c9c409d8c45d", null ],
+    [ "GetFrameWidth", "classSprite.html#ac3fbeaa2af31a53c0dffadc299e88273", null ],
+    [ "GetHitbox", "classSprite.html#adef100f1457681bc02d999de64197ca4", null ],
+    [ "GetHitbox", "classSprite.html#ae87899aabedfbbe889de0a28c11a4261", null ],
+    [ "GetHitbox", "classSprite.html#ac7a677bbc98c01812a09c6f95f6ee1c7", null ],
+    [ "GetHitbox", "classSprite.html#a4fc4379a0b91d240af0d916ef59e7cd0", null ],
+    [ "GetHitboxCount", "classSprite.html#a7ee057010a5af0a7f74a48499bcb101d", null ],
+    [ "GetHitboxIndex", "classSprite.html#a76d6a52b990941ab741ad5044ab98b3b", null ],
+    [ "GetHitboxName", "classSprite.html#abd9c8f91232c5dab3c164ff6f2bb1689", null ],
+    [ "GetTextArray", "classSprite.html#a15b8122fa8b18fed34e08b1759f6b189", null ],
+    [ "GetTextWidth", "classSprite.html#a82ef651834e2603fa5e431e36bc27a50", null ],
+    [ "MakeNonPalettized", "classSprite.html#a84f26be3efd0b37ca7af48e7b74d25b0", null ],
+    [ "MakePalettized", "classSprite.html#a7bad6864c89c388d5daf8f2897c707b4", null ]
+];

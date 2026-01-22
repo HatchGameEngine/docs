@@ -1,0 +1,26 @@
+var classController =
+[
+    [ "GetAxis", "classController.html#af5d5f8ae4846e24cf4d92148cfe366c8", null ],
+    [ "GetButton", "classController.html#a68099d7eb9f0ebd8a6071f5b36ece734", null ],
+    [ "GetCount", "classController.html#ac44c121acdae691b6c904c21401e1f8c", null ],
+    [ "GetName", "classController.html#a0f2dac99d4b8dac5746d6491e5d8c5d7", null ],
+    [ "GetType", "classController.html#a9a7d9f9dd4f4d4745a875cdd97eeb8da", null ],
+    [ "HasMicrophoneButton", "classController.html#a46a10b7329b7342f297f517fb9d8d94e", null ],
+    [ "HasPaddles", "classController.html#a9b2adbf2524d25eb15db54f3d3c85055", null ],
+    [ "HasRumble", "classController.html#a438892a927d2a38d3cf8f03733a1a37b", null ],
+    [ "HasShareButton", "classController.html#ad88a792e9450a9f1135bf3bb8d9e8f86", null ],
+    [ "IsButtonHeld", "classController.html#a1555255ec2f83f3c814afc67a09ff355", null ],
+    [ "IsButtonPressed", "classController.html#ada841b4569cee4ba7a937b12320a25fb", null ],
+    [ "IsConnected", "classController.html#ad5385f981b911b36ea9f64f2f51726f0", null ],
+    [ "IsJoyCon", "classController.html#a941e39756b84a2d0e2ce17f030891f5d", null ],
+    [ "IsPlayStation", "classController.html#a8e05fbb7d07f3d579c1997ed2bf290c9", null ],
+    [ "IsRumbleActive", "classController.html#a7ddf219d29261a5d8e9477c0551d2911", null ],
+    [ "IsRumblePaused", "classController.html#a4bdda7c59077ad91d12db1b63c1f3dde", null ],
+    [ "IsXbox", "classController.html#aa525f00b35896e1d352300ff6de44d9c", null ],
+    [ "Rumble", "classController.html#a8c303b20fb7bd012a68c2eb7ec91fa4e", null ],
+    [ "SetLargeMotorFrequency", "classController.html#a21ed1e1673d7bbd2cb236f22152638d4", null ],
+    [ "SetPlayerIndex", "classController.html#ad7be03610a49c874ac90aa9b861c40dd", null ],
+    [ "SetRumblePaused", "classController.html#a9dc24413addabc7d3ba47ceefbbc626e", null ],
+    [ "SetSmallMotorFrequency", "classController.html#a0162f6c274863aad31fbd475d0bb986a", null ],
+    [ "StopRumble", "classController.html#a6e169e18c5af47b57b8fdbb115a07c31", null ]
+];

@@ -1,0 +1,27 @@
+var classRSDK_1_1Math =
+[
+    [ "ACos1024", "classRSDK_1_1Math.html#a27ac16d6765c017e9ddbfc157ad91838", null ],
+    [ "ACos256", "classRSDK_1_1Math.html#a3318f23076a9aa3388286acf58506f5d", null ],
+    [ "ACos512", "classRSDK_1_1Math.html#a0317b25d5ce297fd48ea797cf3e2e4ec", null ],
+    [ "ASin1024", "classRSDK_1_1Math.html#adcf4d77502ee3dc083d63b2e3f4f8a43", null ],
+    [ "ASin256", "classRSDK_1_1Math.html#a02fedaa41790bcc4dc61ade8b78ea64f", null ],
+    [ "ASin512", "classRSDK_1_1Math.html#a18169672975954a8c258b767b6198ef0", null ],
+    [ "ATan2", "classRSDK_1_1Math.html#adb1bccc909d96009b888d6f189f687e3", null ],
+    [ "CalculateTrigAngles", "classRSDK_1_1Math.html#a9188aad07e14816405e61f63d4f5aeaf", null ],
+    [ "ClearTrigLookupTables", "classRSDK_1_1Math.html#abc73b0ede4aa1fe67a2d898228c4cb5c", null ],
+    [ "Cos1024", "classRSDK_1_1Math.html#a7cefc54f69d14c2076c4d9177f34a3b0", null ],
+    [ "Cos256", "classRSDK_1_1Math.html#a64b1952184a7a1b7edc719dcd41d543f", null ],
+    [ "Cos512", "classRSDK_1_1Math.html#aec3c056bd30d0432c01170c0844fa6c4", null ],
+    [ "FromFixed", "classRSDK_1_1Math.html#a8cc544a80b518647016057a864071b4d", null ],
+    [ "GetRandSeed", "classRSDK_1_1Math.html#ae786f4835577a7bb72d11e20127fe1f1", null ],
+    [ "IntegerToRadian", "classRSDK_1_1Math.html#a1c26d520e6d5b75d35f98c8d04f23799", null ],
+    [ "RadianToInteger", "classRSDK_1_1Math.html#aaf31a6c2efca88e579bc9aaa3606a116", null ],
+    [ "RandomInteger", "classRSDK_1_1Math.html#aa6eab5aefb177ffcd45971c69bac1e3b", null ],
+    [ "RandomIntegerSeeded", "classRSDK_1_1Math.html#a60cdcfaeb507fc4b8677204542245889", null ],
+    [ "SetRandSeed", "classRSDK_1_1Math.html#aa723adfe46565661ca269df75ac60539", null ],
+    [ "Sin1024", "classRSDK_1_1Math.html#ad7735b72ed8bc83f40592a75643336b1", null ],
+    [ "Tan1024", "classRSDK_1_1Math.html#a34c0fe9082c564bfe6970f98a6e1ec1c", null ],
+    [ "Tan256", "classRSDK_1_1Math.html#a370eb04ef7d3158eda83ae66d4e0a3bf", null ],
+    [ "Tan512", "classRSDK_1_1Math.html#ab5d0b94fb44ca11717e6554d86c857c0", null ],
+    [ "ToFixed", "classRSDK_1_1Math.html#aa2a87219f2575f1c1f65235ab7165ad5", null ]
+];
