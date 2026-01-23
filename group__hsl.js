@@ -89,9 +89,9 @@ var group__hsl =
       [ "SetSoundVolume", "classAudio.html#ac1a60628d170cc99feb8693ba32801b7", null ]
     ] ],
     [ "Collision", "classCollision.html", [
-      [ "CheckEntityBox", "classCollision.html#a4119d853cca39fb800431a5be35bb94c", null ],
-      [ "CheckEntityCircle", "classCollision.html#a998f17bd615a484f130fda563487708b", null ],
-      [ "CheckEntityPlatform", "classCollision.html#a30f64e73fd6b7789c5e902786f915194", null ],
+      [ "CheckEntityBox", "classCollision.html#a0cb2ed3d06a9e261996e25a3b92b062c", null ],
+      [ "CheckEntityCircle", "classCollision.html#a8ce0c5409e72c36f46952a36ccb064ae", null ],
+      [ "CheckEntityPlatform", "classCollision.html#aefc0fa19d4a8098af1277bc977f63228", null ],
       [ "CheckEntityTouch", "classCollision.html#a4df406c5a26923e3a25fbe80fffdeeb7", null ],
       [ "CheckTileCollision", "classCollision.html#a5af10a892c0d13010a2a13ca9cbbaca6", null ],
       [ "CheckTileGrip", "classCollision.html#a9ba5dfb6df0fbe157745e457b9171e77", null ],
@@ -221,7 +221,7 @@ var group__hsl =
       [ "UseFillSmoothing", "classDraw.html#aed8ab5028b8820647c465b4899adec9b", null ],
       [ "UseSpriteDeform", "classDraw.html#aad941a533cd1ecc5e49e6eee4ad726ab", null ],
       [ "UseStencil", "classDraw.html#a26477c42f7f8d83b85038d171bc36ff1", null ],
-      [ "UseStrokeSmoothing", "classDraw.html#a7b028ebdefeaa8dcdd7b4a663faf433b", null ],
+      [ "UseStrokeSmoothing", "classDraw.html#acae6a390552b205005a9f353140663bf", null ],
       [ "UseTinting", "classDraw.html#a5d83bae4b17c846b45072b19411b7988", null ],
       [ "View", "classDraw.html#a2835b6d2dde28e6b03062b7e57cdb6a6", null ],
       [ "ViewPart", "classDraw.html#a22578528d85d8cc6b8c856e2ae2af843", null ],
@@ -301,7 +301,7 @@ var group__hsl =
       [ "LoopSound", "classEntity.html#a1a9ff79c444881cae63b99c22bccdc57", null ],
       [ "PlaySound", "classEntity.html#ae03564ac1d1218b29e6699337f48a030", null ],
       [ "PropertyExists", "classEntity.html#a4246f27bcd096415b011d9b94bceba52", null ],
-      [ "PropertyGet", "classEntity.html#a8b246effa32d3e616187dbd915247727", null ],
+      [ "PropertyGet", "classEntity.html#ae93cece4286dcb4f62fd11f1f9f707de", null ],
       [ "RemoveFromDrawGroup", "classEntity.html#a4b1b6813ccc04efab5f0b3bc0f436397", null ],
       [ "RemoveFromRegistry", "classEntity.html#ac18b404511d83689be60821efecf2557", null ],
       [ "ResetAnimation", "classEntity.html#a4d7533895460e441fdf5ee66da9e7c77", null ],
@@ -502,7 +502,7 @@ var group__hsl =
     ] ],
     [ "JSON", "classJSON.html", [
       [ "Parse", "classJSON.html#adc76881e4f826e88915ea90a3e0c0681", null ],
-      [ "ToString", "classJSON.html#aff85075f78c756e82f422a7add634cfe", null ]
+      [ "ToString", "classJSON.html#ac696e1dd73ea9d030b19fdace1b147b3", null ]
     ] ],
     [ "Material", "classMaterial.html", [
       [ "Material", "classMaterial.html#a65144a0041cede1f0363812792fd81f7", null ],
@@ -662,7 +662,7 @@ var group__hsl =
       [ "GetLayerOffsetY", "classScene.html#ac587ad4a538692064be5f6efc7a2e4a3", null ],
       [ "GetLayerOpacity", "classScene.html#a78ee4403e736eea13654df43b123ad90", null ],
       [ "GetLayerProperty", "classScene.html#ae9b794bfa5b59017c72bf5ea0d73d50b", null ],
-      [ "GetLayerShader", "classScene.html#a32559e0db726dc889c8ddb3f8e3b32c7", null ],
+      [ "GetLayerShader", "classScene.html#aa596837ae997209101fb548c1317651d", null ],
       [ "GetLayerUsePaletteIndexLines", "classScene.html#ada864b6bd0f80cbee59126e820bd8305", null ],
       [ "GetLayerVerticalRepeat", "classScene.html#ae4aa4b9e06f9736cf2c07ce9e23097e8", null ],
       [ "GetLayerVisible", "classScene.html#a14f4eadded19bc894d11227011cd3e8b", null ],
@@ -967,7 +967,7 @@ var group__hsl =
       [ "GetDrawTarget", "classView.html#a326222e10f78b2a4dd4b14e523b8bf4d", null ],
       [ "GetHeight", "classView.html#a5cc25d91ae23ae3a36c45645c8084dab", null ],
       [ "GetPriority", "classView.html#a44224f3937f0bfe5152b78dd876dfc71", null ],
-      [ "GetShader", "classView.html#a0589ef0d2686b56eaa67d3e5a67a8842", null ],
+      [ "GetShader", "classView.html#af7402c606e82c322e8fb3c80e122f129", null ],
       [ "GetWidth", "classView.html#ab847cd54d61766a3b30a8bc1662f2ae5", null ],
       [ "GetX", "classView.html#a9f8e1096d46dca5681eda7f621c72966", null ],
       [ "GetY", "classView.html#a7fd7748284674c03f39ea429b4ce3dde", null ],

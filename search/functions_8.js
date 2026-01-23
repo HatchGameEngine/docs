@@ -13,7 +13,7 @@ var searchData=
   ['indexof_10',['IndexOf',['../classString.html#a0ec54297e2504ba1dfa28be0fdcaef30',1,'String']]],
   ['inelastic_11',['InElastic',['../classEase.html#ab2d1126e036739a705b2019c18393550',1,'Ease']]],
   ['inexpo_12',['InExpo',['../classEase.html#a3ab5a53419e32f794d44b8c3774fe8f2',1,'Ease']]],
-  ['init_13',['Init',['../classAPI_1_1Discord.html#ab5567858f8cbcb4e398741e6f7f2a674',1,'API::Discord']]],
+  ['init_13',['Init',['../classAPI_1_1Discord.html#aa889027c23ca22fbcbe233ff2587bac9',1,'API::Discord']]],
   ['inoutback_14',['InOutBack',['../classEase.html#a815a8d6fddd7d9f64a8ef2ff9c922e33',1,'Ease']]],
   ['inoutbounce_15',['InOutBounce',['../classEase.html#a6eb6f985de94017774b0376a1382d3e8',1,'Ease']]],
   ['inoutcirc_16',['InOutCirc',['../classEase.html#a1ef5804e3c2defdd3cef8eb6b0b44861',1,'Ease']]],

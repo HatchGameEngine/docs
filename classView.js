@@ -13,7 +13,7 @@ var classView =
     [ "GetDrawTarget", "classView.html#a326222e10f78b2a4dd4b14e523b8bf4d", null ],
     [ "GetHeight", "classView.html#a5cc25d91ae23ae3a36c45645c8084dab", null ],
     [ "GetPriority", "classView.html#a44224f3937f0bfe5152b78dd876dfc71", null ],
-    [ "GetShader", "classView.html#a0589ef0d2686b56eaa67d3e5a67a8842", null ],
+    [ "GetShader", "classView.html#af7402c606e82c322e8fb3c80e122f129", null ],
     [ "GetWidth", "classView.html#ab847cd54d61766a3b30a8bc1662f2ae5", null ],
     [ "GetX", "classView.html#a9f8e1096d46dca5681eda7f621c72966", null ],
     [ "GetY", "classView.html#a7fd7748284674c03f39ea429b4ce3dde", null ],

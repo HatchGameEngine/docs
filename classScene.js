@@ -29,7 +29,7 @@ var classScene =
     [ "GetLayerOffsetY", "classScene.html#ac587ad4a538692064be5f6efc7a2e4a3", null ],
     [ "GetLayerOpacity", "classScene.html#a78ee4403e736eea13654df43b123ad90", null ],
     [ "GetLayerProperty", "classScene.html#ae9b794bfa5b59017c72bf5ea0d73d50b", null ],
-    [ "GetLayerShader", "classScene.html#a32559e0db726dc889c8ddb3f8e3b32c7", null ],
+    [ "GetLayerShader", "classScene.html#aa596837ae997209101fb548c1317651d", null ],
     [ "GetLayerUsePaletteIndexLines", "classScene.html#ada864b6bd0f80cbee59126e820bd8305", null ],
     [ "GetLayerVerticalRepeat", "classScene.html#ae4aa4b9e06f9736cf2c07ce9e23097e8", null ],
     [ "GetLayerVisible", "classScene.html#a14f4eadded19bc894d11227011cd3e8b", null ],

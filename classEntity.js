@@ -16,7 +16,7 @@ var classEntity =
     [ "LoopSound", "classEntity.html#a1a9ff79c444881cae63b99c22bccdc57", null ],
     [ "PlaySound", "classEntity.html#ae03564ac1d1218b29e6699337f48a030", null ],
     [ "PropertyExists", "classEntity.html#a4246f27bcd096415b011d9b94bceba52", null ],
-    [ "PropertyGet", "classEntity.html#a8b246effa32d3e616187dbd915247727", null ],
+    [ "PropertyGet", "classEntity.html#ae93cece4286dcb4f62fd11f1f9f707de", null ],
     [ "RemoveFromDrawGroup", "classEntity.html#a4b1b6813ccc04efab5f0b3bc0f436397", null ],
     [ "RemoveFromRegistry", "classEntity.html#ac18b404511d83689be60821efecf2557", null ],
     [ "ResetAnimation", "classEntity.html#a4d7533895460e441fdf5ee66da9e7c77", null ],

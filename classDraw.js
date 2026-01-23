@@ -73,7 +73,7 @@ var classDraw =
     [ "UseFillSmoothing", "classDraw.html#aed8ab5028b8820647c465b4899adec9b", null ],
     [ "UseSpriteDeform", "classDraw.html#aad941a533cd1ecc5e49e6eee4ad726ab", null ],
     [ "UseStencil", "classDraw.html#a26477c42f7f8d83b85038d171bc36ff1", null ],
-    [ "UseStrokeSmoothing", "classDraw.html#a7b028ebdefeaa8dcdd7b4a663faf433b", null ],
+    [ "UseStrokeSmoothing", "classDraw.html#acae6a390552b205005a9f353140663bf", null ],
     [ "UseTinting", "classDraw.html#a5d83bae4b17c846b45072b19411b7988", null ],
     [ "View", "classDraw.html#a2835b6d2dde28e6b03062b7e57cdb6a6", null ],
     [ "ViewPart", "classDraw.html#a22578528d85d8cc6b8c856e2ae2af843", null ],

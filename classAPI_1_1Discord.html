@@ -109,25 +109,135 @@ $(document).ready(function(){initNavTree('classAPI_1_1Discord.html',''); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab5567858f8cbcb4e398741e6f7f2a674" id="r_ab5567858f8cbcb4e398741e6f7f2a674"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#ab5567858f8cbcb4e398741e6f7f2a674">Init</a> (string applicationID)</td></tr>
-<tr class="memdesc:ab5567858f8cbcb4e398741e6f7f2a674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes Discord integration.  <br /></td></tr>
-<tr class="separator:ab5567858f8cbcb4e398741e6f7f2a674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa889027c23ca22fbcbe233ff2587bac9" id="r_aa889027c23ca22fbcbe233ff2587bac9"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#aa889027c23ca22fbcbe233ff2587bac9">Init</a> (string applicationID)</td></tr>
+<tr class="memdesc:aa889027c23ca22fbcbe233ff2587bac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes Discord integration.  <br /></td></tr>
+<tr class="separator:aa889027c23ca22fbcbe233ff2587bac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90f535ae7d98d31206e39f36d0072783" id="r_a90f535ae7d98d31206e39f36d0072783"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a90f535ae7d98d31206e39f36d0072783">UpdateRichPresence</a> (string details, string state, string largeImageKey, string smallImageKey, integer startTime)</td></tr>
-<tr class="memdesc:a90f535ae7d98d31206e39f36d0072783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Discord Rich Presence.  <br /></td></tr>
+<tr class="memdesc:a90f535ae7d98d31206e39f36d0072783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Discord Rich Presence. The integration must have been initialized with.  <br /></td></tr>
 <tr class="separator:a90f535ae7d98d31206e39f36d0072783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61839a16f05b77639cc0c8b56433e38c" id="r_a61839a16f05b77639cc0c8b56433e38c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a61839a16f05b77639cc0c8b56433e38c">SetActivityDetails</a> (<a class="el" href="classString.html">String</a> details)</td></tr>
+<tr class="memdesc:a61839a16f05b77639cc0c8b56433e38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the first line of text of the activity. This doesn't update the user's presence; you must call.  <br /></td></tr>
+<tr class="separator:a61839a16f05b77639cc0c8b56433e38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46382cb55cdbde7e582e3f4f8ce4dd8f" id="r_a46382cb55cdbde7e582e3f4f8ce4dd8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a46382cb55cdbde7e582e3f4f8ce4dd8f">SetActivityState</a> (<a class="el" href="classString.html">String</a> details)</td></tr>
+<tr class="memdesc:a46382cb55cdbde7e582e3f4f8ce4dd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the second line of text of the activity. This doesn't update the user's presence; you must call.  <br /></td></tr>
+<tr class="separator:a46382cb55cdbde7e582e3f4f8ce4dd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b8236ea36e21b5a7d8edab86cf65d5" id="r_af1b8236ea36e21b5a7d8edab86cf65d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#af1b8236ea36e21b5a7d8edab86cf65d5">SetActivityLargeImage</a> (<a class="el" href="classString.html">String</a> largeImageKey, <a class="el" href="classString.html">String</a> largeImageText)</td></tr>
+<tr class="memdesc:af1b8236ea36e21b5a7d8edab86cf65d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the image (and optionally) the hover text of the large image asset. This doesn't update the user's presence; you must call.  <br /></td></tr>
+<tr class="separator:af1b8236ea36e21b5a7d8edab86cf65d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4002f12129a57bfaaf889db7d0558ac8" id="r_a4002f12129a57bfaaf889db7d0558ac8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a4002f12129a57bfaaf889db7d0558ac8">SetActivitySmallImage</a> (<a class="el" href="classString.html">String</a> smallImageKey, <a class="el" href="classString.html">String</a> smallImageText)</td></tr>
+<tr class="memdesc:a4002f12129a57bfaaf889db7d0558ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the image (and optionally) the hover text of the small image asset. This doesn't update the user's presence; you must call.  <br /></td></tr>
+<tr class="separator:a4002f12129a57bfaaf889db7d0558ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10877d2d29407cb6c434b9804972e278" id="r_a10877d2d29407cb6c434b9804972e278"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a10877d2d29407cb6c434b9804972e278">SetActivityElapsedTimer</a> (Integer timestamp)</td></tr>
+<tr class="memdesc:a10877d2d29407cb6c434b9804972e278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the elapsed timer of the activity. This doesn't update the user's presence; you must call.  <br /></td></tr>
+<tr class="separator:a10877d2d29407cb6c434b9804972e278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f55017c98f94e188dac645624174db" id="r_aa1f55017c98f94e188dac645624174db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#aa1f55017c98f94e188dac645624174db">SetActivityRemainingTimer</a> (Integer timestamp)</td></tr>
+<tr class="memdesc:aa1f55017c98f94e188dac645624174db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the remaining timer of the activity. This doesn't update the user's presence; you must call.  <br /></td></tr>
+<tr class="separator:aa1f55017c98f94e188dac645624174db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581596c4ae9080643f07f0f8a684d75b" id="r_a581596c4ae9080643f07f0f8a684d75b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a581596c4ae9080643f07f0f8a684d75b">SetActivityPartySize</a> (Integer currentSize, Integer maxSize)</td></tr>
+<tr class="memdesc:a581596c4ae9080643f07f0f8a684d75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current party size (and optionally) the max party size of the activity. This doesn't update the user's presence; you must call.  <br /></td></tr>
+<tr class="separator:a581596c4ae9080643f07f0f8a684d75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b41ec1d3b4547c75a95a510af67d56" id="r_a63b41ec1d3b4547c75a95a510af67d56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a63b41ec1d3b4547c75a95a510af67d56">UpdateActivity</a> (<a class="el" href="classString.html">String</a> details)</td></tr>
+<tr class="memdesc:a63b41ec1d3b4547c75a95a510af67d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the user's presence. The integration must have been initialized with.  <br /></td></tr>
+<tr class="separator:a63b41ec1d3b4547c75a95a510af67d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a554398693f4663ec8bb48ef465f141a3" id="r_a554398693f4663ec8bb48ef465f141a3"><td class="memItemLeft" align="right" valign="top">Returns&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a554398693f4663ec8bb48ef465f141a3">GetCurrentUsername</a> ()</td></tr>
+<tr class="memdesc:a554398693f4663ec8bb48ef465f141a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current user's username. This returns.  <br /></td></tr>
+<tr class="separator:a554398693f4663ec8bb48ef465f141a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e82578e0766dc7c57cbb2187bafecd4" id="r_a0e82578e0766dc7c57cbb2187bafecd4"><td class="memItemLeft" align="right" valign="top">Returns&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a0e82578e0766dc7c57cbb2187bafecd4">GetCurrentUserID</a> ()</td></tr>
+<tr class="memdesc:a0e82578e0766dc7c57cbb2187bafecd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current user's ID. This returns.  <br /></td></tr>
+<tr class="separator:a0e82578e0766dc7c57cbb2187bafecd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66fdca1ce93500fb76c55d28c265e81b" id="r_a66fdca1ce93500fb76c55d28c265e81b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a66fdca1ce93500fb76c55d28c265e81b">GetCurrentUserAvatar</a> (Integer size, Function callback)</td></tr>
+<tr class="memdesc:a66fdca1ce93500fb76c55d28c265e81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current user's avatar. This is an asynchronous operation. The callback function must have one parameter, and it receives an Image if the operation succeeded, or.  <br /></td></tr>
+<tr class="separator:a66fdca1ce93500fb76c55d28c265e81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Discord integration functions. </p>
 <p>They require the Game SDK library to be present. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab5567858f8cbcb4e398741e6f7f2a674" name="ab5567858f8cbcb4e398741e6f7f2a674"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5567858f8cbcb4e398741e6f7f2a674">&#9670;&#160;</a></span>Init()</h2>
+<a id="a66fdca1ce93500fb76c55d28c265e81b" name="a66fdca1ce93500fb76c55d28c265e81b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66fdca1ce93500fb76c55d28c265e81b">&#9670;&#160;</a></span>GetCurrentUserAvatar()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boolean API.Discord.Init </td>
+          <td class="memname">void API.Discord.GetCurrentUserAvatar </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Function&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current user's avatar. This is an asynchronous operation. The callback function must have one parameter, and it receives an Image if the operation succeeded, or. </p>
+<p><code>null</code> if the operation failed. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>The size of the avatar to fetch. Must be one of: 16, 32, 64, 128, 256, 512, 1024 </td></tr>
+    <tr><td class="paramname">callback</td><td>The callback to execute. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0e82578e0766dc7c57cbb2187bafecd4" name="a0e82578e0766dc7c57cbb2187bafecd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e82578e0766dc7c57cbb2187bafecd4">&#9670;&#160;</a></span>GetCurrentUserID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Returns API.Discord.GetCurrentUserID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current user's ID. This returns. </p>
+<p><code>null</code> if the integration hasn't received the user's information yet. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="section return"><dt>Returns</dt><dd>a String value, or <code>null</code>. </dd></dl>
+
+</div>
+</div>
+<a id="a554398693f4663ec8bb48ef465f141a3" name="a554398693f4663ec8bb48ef465f141a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a554398693f4663ec8bb48ef465f141a3">&#9670;&#160;</a></span>GetCurrentUsername()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Returns API.Discord.GetCurrentUsername </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current user's username. This returns. </p>
+<p><code>null</code> if the integration hasn't received the user's information yet. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="section return"><dt>Returns</dt><dd>a String value, or <code>null</code>. </dd></dl>
+
+</div>
+</div>
+<a id="aa889027c23ca22fbcbe233ff2587bac9" name="aa889027c23ca22fbcbe233ff2587bac9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa889027c23ca22fbcbe233ff2587bac9">&#9670;&#160;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer API.Discord.Init </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>applicationID</em></td><td>)</td>
@@ -143,7 +253,248 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns whether initialization was successful. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns an API response code. </dd></dl>
+
+</div>
+</div>
+<a id="a61839a16f05b77639cc0c8b56433e38c" name="a61839a16f05b77639cc0c8b56433e38c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61839a16f05b77639cc0c8b56433e38c">&#9670;&#160;</a></span>SetActivityDetails()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.SetActivityDetails </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a>&#160;</td>
+          <td class="paramname"><em>details</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the first line of text of the activity. This doesn't update the user's presence; you must call. </p>
+<p><code>API.Discord.UpdateActivity</code>. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">details</td><td>The first line of text in the Rich Presence. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a10877d2d29407cb6c434b9804972e278" name="a10877d2d29407cb6c434b9804972e278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10877d2d29407cb6c434b9804972e278">&#9670;&#160;</a></span>SetActivityElapsedTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.SetActivityElapsedTimer </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>timestamp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the elapsed timer of the activity. This doesn't update the user's presence; you must call. </p>
+<p><code>API.Discord.UpdateActivity</code>. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timestamp</td><td>A Unix timestamp of when the timer started. If <code>0</code>, the timer is disabled. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af1b8236ea36e21b5a7d8edab86cf65d5" name="af1b8236ea36e21b5a7d8edab86cf65d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b8236ea36e21b5a7d8edab86cf65d5">&#9670;&#160;</a></span>SetActivityLargeImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.SetActivityLargeImage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a>&#160;</td>
+          <td class="paramname"><em>largeImageKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a>&#160;</td>
+          <td class="paramname"><em>largeImageText</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the image (and optionally) the hover text of the large image asset. This doesn't update the user's presence; you must call. </p>
+<p><code>API.Discord.UpdateActivity</code>. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">largeImageKey</td><td>The internal name of the large image asset to display, created via the Discord Developer Portal. </td></tr>
+    <tr><td class="paramname">largeImageText</td><td>The hover text of the large image. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a581596c4ae9080643f07f0f8a684d75b" name="a581596c4ae9080643f07f0f8a684d75b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a581596c4ae9080643f07f0f8a684d75b">&#9670;&#160;</a></span>SetActivityPartySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.SetActivityPartySize </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>currentSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>maxSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the current party size (and optionally) the max party size of the activity. This doesn't update the user's presence; you must call. </p>
+<p><code>API.Discord.UpdateActivity</code>. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">currentSize</td><td>The current size of the party. </td></tr>
+    <tr><td class="paramname">maxSize</td><td>The max size of the party. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa1f55017c98f94e188dac645624174db" name="aa1f55017c98f94e188dac645624174db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f55017c98f94e188dac645624174db">&#9670;&#160;</a></span>SetActivityRemainingTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.SetActivityRemainingTimer </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>timestamp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the remaining timer of the activity. This doesn't update the user's presence; you must call. </p>
+<p><code>API.Discord.UpdateActivity</code>. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timestamp</td><td>A Unix timestamp of when the timer will end. If <code>0</code>, the timer is disabled. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4002f12129a57bfaaf889db7d0558ac8" name="a4002f12129a57bfaaf889db7d0558ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4002f12129a57bfaaf889db7d0558ac8">&#9670;&#160;</a></span>SetActivitySmallImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.SetActivitySmallImage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a>&#160;</td>
+          <td class="paramname"><em>smallImageKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a>&#160;</td>
+          <td class="paramname"><em>smallImageText</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the image (and optionally) the hover text of the small image asset. This doesn't update the user's presence; you must call. </p>
+<p><code>API.Discord.UpdateActivity</code>. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">smallImageKey</td><td>The internal name of the small image asset to display, created via the Discord Developer Portal. </td></tr>
+    <tr><td class="paramname">smallImageText</td><td>The hover text of the small image. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a46382cb55cdbde7e582e3f4f8ce4dd8f" name="a46382cb55cdbde7e582e3f4f8ce4dd8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46382cb55cdbde7e582e3f4f8ce4dd8f">&#9670;&#160;</a></span>SetActivityState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.SetActivityState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a>&#160;</td>
+          <td class="paramname"><em>details</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the second line of text of the activity. This doesn't update the user's presence; you must call. </p>
+<p><code>API.Discord.UpdateActivity</code>. The integration must have been initialized with <code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">details</td><td>The second line of text, appearing below details. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a63b41ec1d3b4547c75a95a510af67d56" name="a63b41ec1d3b4547c75a95a510af67d56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63b41ec1d3b4547c75a95a510af67d56">&#9670;&#160;</a></span>UpdateActivity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.UpdateActivity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classString.html">String</a>&#160;</td>
+          <td class="paramname"><em>details</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates the user's presence. The integration must have been initialized with. </p>
+<p><code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">details</td><td>The first line of text in the Rich Presence. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -191,14 +542,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Updates Discord Rich Presence. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Updates Discord Rich Presence. The integration must have been initialized with. </p>
+<p><code>API.Discord.Init</code> before calling this. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">details</td><td>The first line of text in the Rich Presence. </td></tr>
     <tr><td class="paramname">state</td><td>The second line of text, appearing below details. </td></tr>
     <tr><td class="paramname">largeImageKey</td><td>The internal name of the large image asset to display, created via the Discord Developer Portal. </td></tr>
     <tr><td class="paramname">smallImageKey</td><td>The internal name of the small image asset to display, also created via the Discord Developer Portal. </td></tr>
-    <tr><td class="paramname">startTime</td><td>A Unix timestamp (in seconds) of when the activity started. This can also be used as the 4th argument in smallImageKey's place. </td></tr>
+    <tr><td class="paramname">startTime</td><td>A Unix timestamp of when the activity started. This can also be used as the 4th argument in smallImageKey's place. If <code>0</code>, the timer is disabled. </td></tr>
   </table>
   </dd>
 </dl>
