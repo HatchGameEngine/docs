@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classTileCollision.html#a96fee3501135f920e8d8b416c2230f0e":[4,0,47,1],
 "classTileCollision.html#ac263c6b81ebe5f4ae42033577b76af4a":[4,0,47,2],
 "classTileCollision.html#ad57112bf2a512e406e1b50811a4444f1":[4,0,47,0],
 "classTileInfo.html":[4,0,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa990b26c47b7a23695dd3fd41c0af800d":[4,0,86,11],
 "group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa9c3a94cf3e63bd416854579c42270d5c":[4,0,86,15],
 "group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa9c9a134a9aae281ac32d5625ff72c4ae":[4,0,86,3],
-"group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa9e5fa1b92018b341871594c3ab5b7915":[4,0,86,6],
-"group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aac4327ba71c63768a97df7b0c1d962ed0":[4,0,86,2]
+"group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa9e5fa1b92018b341871594c3ab5b7915":[4,0,86,6]
 };

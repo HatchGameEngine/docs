@@ -3,6 +3,7 @@ var classScene =
     [ "AddTileset", "classScene.html#af076297ea21df00113ec42a302f80525", null ],
     [ "AreTileCollisionsLoaded", "classScene.html#ae29957474591c9f782f53d0630f14e00", null ],
     [ "Change", "classScene.html#a6677d06163518fe6ba99a4fd5688cb3f", null ],
+    [ "Change", "classScene.html#a7865987c746716676f0f4f2a7f4beed9", null ],
     [ "GetCurrentCategory", "classScene.html#a9d68d7283ba1f3b353ac9a6b479b9021", null ],
     [ "GetCurrentFolder", "classScene.html#a11b296f9de0efc6f88d5124add45fdd5", null ],
     [ "GetCurrentID", "classScene.html#a49e9b146e25825b412680e19a4748fde", null ],

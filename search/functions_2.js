@@ -3,7 +3,7 @@ var searchData=
   ['calculatetrigangles_0',['CalculateTrigAngles',['../classRSDK_1_1Math.html#a9188aad07e14816405e61f63d4f5aeaf',1,'RSDK::Math']]],
   ['cancompile_1',['CanCompile',['../classShader.html#ae9d85e9fae61c4a092edf2e2427b2180',1,'Shader']]],
   ['ceil_2',['Ceil',['../classMath.html#a3e890985ff572ae12f1236e83d1e2f46',1,'Math']]],
-  ['change_3',['Change',['../classScene.html#a6677d06163518fe6ba99a4fd5688cb3f',1,'Scene']]],
+  ['change_3',['change',['../classScene.html#a7865987c746716676f0f4f2a7f4beed9',1,'Scene.Change(string scene)'],['../classScene.html#a6677d06163518fe6ba99a4fd5688cb3f',1,'Scene.Change(string category, string scene)']]],
   ['changeclass_4',['ChangeClass',['../classInstance.html#a05c2e469604cc4250ea3191d3852a73d',1,'Instance']]],
   ['changegame_5',['ChangeGame',['../classApplication.html#a86990e86ba999635ccf4af5474d8d758',1,'Application']]],
   ['charat_6',['CharAt',['../classString.html#a5ab35ea48eacd2a69a2147efcd074314',1,'String']]],

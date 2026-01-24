@@ -115,8 +115,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3e1690a033fdbc7aa91563eba6185695" id="r_a3e1690a033fdbc7aa91563eba6185695"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScene.html#a3e1690a033fdbc7aa91563eba6185695">Load</a> (boolean persistency)</td></tr>
 <tr class="memdesc:a3e1690a033fdbc7aa91563eba6185695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the active scene. The active scene is changed to the currently set entry in the scene list, if it exists (see <a class="el" href="classSceneList.html">SceneList</a>.)  <br /></td></tr>
 <tr class="separator:a3e1690a033fdbc7aa91563eba6185695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7865987c746716676f0f4f2a7f4beed9" id="r_a7865987c746716676f0f4f2a7f4beed9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScene.html#a7865987c746716676f0f4f2a7f4beed9">Change</a> (string scene)</td></tr>
+<tr class="memdesc:a7865987c746716676f0f4f2a7f4beed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current scene.  <br /></td></tr>
+<tr class="separator:a7865987c746716676f0f4f2a7f4beed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6677d06163518fe6ba99a4fd5688cb3f" id="r_a6677d06163518fe6ba99a4fd5688cb3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScene.html#a6677d06163518fe6ba99a4fd5688cb3f">Change</a> (string category, string scene)</td></tr>
-<tr class="memdesc:a6677d06163518fe6ba99a4fd5688cb3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current scene if the category name and scene name are valid. If only one argument is provided, the global category is used. Note that this does not load the scene; you must use <a class="el" href="classScene.html#a31649fe3441cfd3cbe756e098abe7ccb">Scene.Load</a>.  <br /></td></tr>
+<tr class="memdesc:a6677d06163518fe6ba99a4fd5688cb3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current scene.  <br /></td></tr>
 <tr class="separator:a6677d06163518fe6ba99a4fd5688cb3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992f27b00b03f16c336bf9f5b21e3eca" id="r_a992f27b00b03f16c336bf9f5b21e3eca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScene.html#a992f27b00b03f16c336bf9f5b21e3eca">LoadTileCollisions</a> (string filename, integer tilesetID)</td></tr>
 <tr class="memdesc:a992f27b00b03f16c336bf9f5b21e3eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load tile collisions from a resource file.  <br /></td></tr>
@@ -495,7 +498,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetLayerSetParallaxLi
 </div>
 </div>
 <a id="a6677d06163518fe6ba99a4fd5688cb3f" name="a6677d06163518fe6ba99a4fd5688cb3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6677d06163518fe6ba99a4fd5688cb3f">&#9670;&#160;</a></span>Change()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6677d06163518fe6ba99a4fd5688cb3f">&#9670;&#160;</a></span>Change() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -520,11 +523,37 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetLayerSetParallaxLi
       </table>
 </div><div class="memdoc">
 
-<p>Changes the current scene if the category name and scene name are valid. If only one argument is provided, the global category is used. Note that this does not load the scene; you must use <a class="el" href="classScene.html#a31649fe3441cfd3cbe756e098abe7ccb">Scene.Load</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Changes the current scene. </p>
+<p>This does not load the scene. You must call <a class="el" href="classScene.html#a31649fe3441cfd3cbe756e098abe7ccb">Scene.Load</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">category</td><td>Category name. </td></tr>
+    <tr><td class="paramname">category</td><td>Category name. If this is not valid, this function does nothing. </td></tr>
     <tr><td class="paramname">scene</td><td>Scene name. If the scene name is not found but the category name is, the first scene in the category is used. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7865987c746716676f0f4f2a7f4beed9" name="a7865987c746716676f0f4f2a7f4beed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7865987c746716676f0f4f2a7f4beed9">&#9670;&#160;</a></span>Change() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.Change </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>scene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes the current scene. </p>
+<p>This does not load the scene. You must call <a class="el" href="classScene.html#a31649fe3441cfd3cbe756e098abe7ccb">Scene.Load</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene</td><td>Scene name in the global category. If the scene name is not found, the first scene in the category is used. </td></tr>
   </table>
   </dd>
 </dl>
