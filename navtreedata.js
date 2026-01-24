@@ -66,8 +66,8 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classDraw.html#ae502c5bb7f8ef52d999cfea14e0903ab",
-"classInput.html#ac0ff3fda65e13aefd7b0b3dd4fdf5042",
-"classScene.html#a5504978073fe9e3343b70053a6e0c4d5",
+"classInput.html#ac72dd2ae8954ea99fafe126040e33f1e",
+"classScene.html#a5fde1d27a79a2424e3a56db6bc2bb452",
 "classTileCollision.html#ac263c6b81ebe5f4ae42033577b76af4a",
 "group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aacc2d401a8aa000c74134e619f0f35970",
 "group__hsl.html#ggabf9db434fbfc4453d83068d8963f6627a366dc907e849fef670fe9163d8fe9af8"

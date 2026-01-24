@@ -128,8 +128,8 @@ var group__hsl =
       [ "GetMinute", "classDate.html#aaed2b0aafc40210d19e1d769c1dcbb0f", null ],
       [ "GetSecond", "classDate.html#a37c66f6f37ada3eafdeab3b70941a27c", null ],
       [ "GetTicks", "classDate.html#a59fee2607b290c2be4d8e90cd919a87c", null ],
-      [ "GetTimeOfDay", "classDate.html#a339e14fcedce2d5ba2b3a84da527084c", null ],
-      [ "GetWeekday", "classDate.html#ac4cc1e48e6cc7cef938a01ed90257e49", null ]
+      [ "GetTimeOfDay", "classDate.html#a1b8523679c1ba3e0263374f99930cf80", null ],
+      [ "GetWeekday", "classDate.html#ae78d3f4aa48bba60c9065c690084fbca", null ]
     ] ],
     [ "Device", "classDevice.html", [
       [ "GetCapability", "classDevice.html#a91671aa31e6893c159395544c513b752", null ],
@@ -483,8 +483,8 @@ var group__hsl =
       [ "IsMouseButtonPressed", "classInput.html#a18728866f8515b5cf387296bd710fa19", null ],
       [ "IsMouseButtonReleased", "classInput.html#a105b1ec8de1b80c1032cd3e256da6663", null ],
       [ "IsPlayerUsingDevice", "classInput.html#a73b9c6d493009c6c569f0bc5539387eb", null ],
-      [ "ParseAxisName", "classInput.html#a8f2df2197f37d3cbcfd8f1198631c7a7", null ],
-      [ "ParseButtonName", "classInput.html#a3de0dfe33874e07a9a4ba21254d3966c", null ],
+      [ "ParseAxisName", "classInput.html#a8617b44affe316ce694d0df3d046cb33", null ],
+      [ "ParseButtonName", "classInput.html#af19442559c1c7b518c81a644ea1e3440", null ],
       [ "ParseKeyName", "classInput.html#a0cdf14faa7e0b142652afb47b1fab872", null ],
       [ "RemoveActionBind", "classInput.html#ab8b3e923791b57a07b12829dce1b97fe", null ],
       [ "RemoveDefaultActionBind", "classInput.html#a97264fd34cb7071c38c0cf6e4f4c8fd4", null ],
@@ -605,7 +605,7 @@ var group__hsl =
       [ "ToString", "classNumber.html#ad50dbc1c0578078ff5b56f7aed7fec83", null ]
     ] ],
     [ "Object", "classObject.html", [
-      [ "GetActivity", "classObject.html#ac7f788b2088f1ec3f295a528d6971aba", null ],
+      [ "GetActivity", "classObject.html#a3d9e45fcc1b64dd8ff8fb55eed26f1ed", null ],
       [ "Loaded", "classObject.html#abdbca67c87d36e9245215e9c0b2f5ea0", null ],
       [ "SetActivity", "classObject.html#a6879edfd84b1a9506607372909c3a18a", null ]
     ] ],
@@ -697,7 +697,7 @@ var group__hsl =
       [ "GetTilesetPaletteIndex", "classScene.html#a06f5f0242106de16c29b212e5e96d403", null ],
       [ "GetTilesetTileCount", "classScene.html#a742728ad0dba8c62a52690cbe144fec9", null ],
       [ "GetTileWidth", "classScene.html#a99d323dff57bea2e8afa83eb5cb47ae2", null ],
-      [ "GetType", "classScene.html#a02b32b4bc36da0cf1b86fd888bc35112", null ],
+      [ "GetType", "classScene.html#ada7aa7f489ad05d53dc36b812ade9f9e", null ],
       [ "GetWidth", "classScene.html#a4299cb61e650ea0fa7fb9f5ea37f54aa", null ],
       [ "IsCurrentEntryValid", "classScene.html#abcabe8ddda2c332c708e4bb663851a11", null ],
       [ "IsPaused", "classScene.html#aba4cbd6b8002fec9d027bc5cc55d7e70", null ],

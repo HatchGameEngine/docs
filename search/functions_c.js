@@ -1,8 +1,8 @@
 var searchData=
 [
   ['parse_0',['parse',['../classXML.html#aaee15904873051217a38351d7e54a60d',1,'XML.Parse()'],['../classJSON.html#adc76881e4f826e88915ea90a3e0c0681',1,'JSON.Parse()']]],
-  ['parseaxisname_1',['ParseAxisName',['../classInput.html#a8f2df2197f37d3cbcfd8f1198631c7a7',1,'Input']]],
-  ['parsebuttonname_2',['ParseButtonName',['../classInput.html#a3de0dfe33874e07a9a4ba21254d3966c',1,'Input']]],
+  ['parseaxisname_1',['ParseAxisName',['../classInput.html#a8617b44affe316ce694d0df3d046cb33',1,'Input']]],
+  ['parsebuttonname_2',['ParseButtonName',['../classInput.html#af19442559c1c7b518c81a644ea1e3440',1,'Input']]],
   ['parsedecimal_3',['ParseDecimal',['../classString.html#a1fc755c2a1fa0508a94f9a6897fc360d',1,'String']]],
   ['parseinteger_4',['ParseInteger',['../classString.html#a444d51afbeb528a9920df0a29153fd6a',1,'String']]],
   ['parsekeyname_5',['ParseKeyName',['../classInput.html#a0cdf14faa7e0b142652afb47b1fab872',1,'Input']]],
