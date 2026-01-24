@@ -43,7 +43,7 @@ var searchData=
   ['collidedwithobject_40',['collidedwithobject',['../classEntity.html#a4fbc053914bf362109e08e9258ed3179',1,'Entity.CollidedWithObject(string other)'],['../classEntity.html#a3a13f5c7a36eb4c0c8f527f9848e5f75',1,'Entity.CollidedWithObject(Entity other)']]],
   ['collidewithobject_41',['CollideWithObject',['../classEntity.html#a0f57ae7c98c978cedc7463ba6e1feb78',1,'Entity']]],
   ['collision_42',['collision',['../classCollision.html',1,'Collision'],['../hello_world.html#physics-and-tile-collision',1,'Physics and tile collision']]],
-  ['collisionlayers_43',['CollisionLayers',['../classEntity.html#a054dc0cca55bd2737d8f8f8b6d476ece',1,'Entity']]],
+  ['collisionlayers_43',['CollisionLayers',['../classEntity.html#abc5a44c713740593daa34c32ee3cdddb',1,'Entity']]],
   ['compare_44',['Compare',['../classString.html#a78a220cb3f1314ee26406c5ce7eee2e8',1,'String']]],
   ['compile_45',['Compile',['../classShader.html#a14662f1a1b44ad3129e9459259eb93fc',1,'Shader']]],
   ['concepts_46',['Core engine concepts',['../introduction_to_hatch.html#core-engine-concepts',1,'']]],
