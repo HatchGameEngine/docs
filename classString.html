@@ -125,7 +125,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a057ceff4b461d9a65b3f501cb0457e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the length of the string value.  <br /></td></tr>
 <tr class="separator:a057ceff4b461d9a65b3f501cb0457e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78a220cb3f1314ee26406c5ce7eee2e8" id="r_a78a220cb3f1314ee26406c5ce7eee2e8"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a78a220cb3f1314ee26406c5ce7eee2e8">Compare</a> (string stringA, string stringB)</td></tr>
-<tr class="memdesc:a78a220cb3f1314ee26406c5ce7eee2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two Strings lexicographically.  <br /></td></tr>
+<tr class="memdesc:a78a220cb3f1314ee26406c5ce7eee2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two strings lexicographically.  <br /></td></tr>
 <tr class="separator:a78a220cb3f1314ee26406c5ce7eee2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ec54297e2504ba1dfa28be0fdcaef30" id="r_a0ec54297e2504ba1dfa28be0fdcaef30"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#a0ec54297e2504ba1dfa28be0fdcaef30">IndexOf</a> (string string, string substring)</td></tr>
 <tr class="memdesc:a0ec54297e2504ba1dfa28be0fdcaef30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first index at which the substring occurs in the string.  <br /></td></tr>
@@ -263,7 +263,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compares two Strings lexicographically. </p>
+<p>Compares two strings lexicographically. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stringA</td><td>The first string to compare. </td></tr>
@@ -271,7 +271,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns the comparison result as an integer. The return value is a negative integer if <code>stringA</code> appears before <code>stringB</code> lexicographically, a positive integer if <code>stringA</code> appears after <code>stringB</code> lexicographically, and zero if <code>stringA</code> and <code>stringB</code> are equal. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the comparison result as an integer. The return value is a negative integer if <em>stringA</em> appears before <code>stringB</code> lexicographically, a positive integer if <em>stringA</em> appears after <em>stringB</em> lexicographically, and zero if <em>stringA</em> and <em>stringB</em> are equal. </dd></dl>
 
 </div>
 </div>
@@ -630,9 +630,9 @@ For String values, this is the maximum amount of characters to be printed.</li>
   <table class="params">
     <tr><td class="paramname">string</td><td>The string to parse. </td></tr>
     <tr><td class="paramname">radix</td><td>The numerical base, or radix. If <code>0</code>, the radix is detected by the value of <code>string</code>: <br  />
-If <code>string</code> begins with <code>0x</code>, it is a hexadecimal number (base 16);<br  />
-Else, if <code>string</code> begins with <code>0</code>, it is an octal number (base 8);<br  />
-Else, if <code>string</code> begins with <code>0b</code>, it is a binary number (base 2);<br  />
+If <em>string</em> begins with <code>0x</code>, it is a hexadecimal number (base 16);<br  />
+Else, if <em>string</em> begins with <code>0</code>, it is an octal number (base 8);<br  />
+Else, if <em>string</em> begins with <code>0b</code>, it is a binary number (base 2);<br  />
 Else, the number is assumed to be in base 10. </td></tr>
   </table>
   </dd>

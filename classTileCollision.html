@@ -110,13 +110,13 @@ $(document).ready(function(){initNavTree('classTileCollision.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a96fee3501135f920e8d8b416c2230f0e" id="r_a96fee3501135f920e8d8b416c2230f0e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTileCollision.html#a96fee3501135f920e8d8b416c2230f0e">Point</a> (number x, number y)</td></tr>
-<tr class="memdesc:a96fee3501135f920e8d8b416c2230f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision at a specified point, returning <code>true</code> if successful, <code>false</code> if otherwise.  <br /></td></tr>
+<tr class="memdesc:a96fee3501135f920e8d8b416c2230f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision at a specified point.  <br /></td></tr>
 <tr class="separator:a96fee3501135f920e8d8b416c2230f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac263c6b81ebe5f4ae42033577b76af4a" id="r_ac263c6b81ebe5f4ae42033577b76af4a"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTileCollision.html#ac263c6b81ebe5f4ae42033577b76af4a">PointExtended</a> (number x, number y, integer collisionField, integer collisionSide)</td></tr>
-<tr class="memdesc:ac263c6b81ebe5f4ae42033577b76af4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision at a specified point, returning the angle value if successful, <code>-1</code> if otherwise.  <br /></td></tr>
+<tr class="memdesc:ac263c6b81ebe5f4ae42033577b76af4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision at a specified point.  <br /></td></tr>
 <tr class="separator:ac263c6b81ebe5f4ae42033577b76af4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad57112bf2a512e406e1b50811a4444f1" id="r_ad57112bf2a512e406e1b50811a4444f1"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTileCollision.html#ad57112bf2a512e406e1b50811a4444f1">Line</a> (number x, number y, integer directionType, integer length, integer collisionField, integer compareAngle, <a class="el" href="classEntity.html">Entity</a> entity)</td></tr>
-<tr class="memdesc:ad57112bf2a512e406e1b50811a4444f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision in a straight line, returning the angle value if successful, <code>-1</code> if otherwise.  <br /></td></tr>
+<tr class="memdesc:ad57112bf2a512e406e1b50811a4444f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision in a straight line.  <br /></td></tr>
 <tr class="separator:ad57112bf2a512e406e1b50811a4444f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -178,7 +178,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Checks for a tile collision in a straight line, returning the angle value if successful, <code>-1</code> if otherwise. </p>
+<p>Checks for a tile collision in a straight line. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X position to start checking from. </td></tr>
@@ -193,10 +193,10 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Returns <code>false</code> if no tile collision, but if <code>true</code>: <br  />
 <pre class="code"><br  />
-instance.SensorX: (number), // X Position where the sensor collided if it did. <br  />
-instance.SensorY: (number), // Y Position where the sensor collided if it did. <br  />
-instance.SensorCollided: (boolean), // Whether the sensor collided. <br  />
-instance.SensorAngle: (integer) // Tile angle at the collision. <br  />
+entity.SensorX: (number), // X Position where the sensor collided if it did. <br  />
+entity.SensorY: (number), // Y Position where the sensor collided if it did. <br  />
+entity.SensorCollided: (boolean), // Whether the sensor collided. <br  />
+entity.SensorAngle: (integer) // Tile angle at the collision. <br  />
 </pre> </dd></dl>
 
 </div>
@@ -227,7 +227,7 @@ instance.SensorAngle: (integer) // Tile angle at the collision. <br  />
       </table>
 </div><div class="memdoc">
 
-<p>Checks for a tile collision at a specified point, returning <code>true</code> if successful, <code>false</code> if otherwise. </p>
+<p>Checks for a tile collision at a specified point. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X position to check. </td></tr>
@@ -277,7 +277,7 @@ instance.SensorAngle: (integer) // Tile angle at the collision. <br  />
       </table>
 </div><div class="memdoc">
 
-<p>Checks for a tile collision at a specified point, returning the angle value if successful, <code>-1</code> if otherwise. </p>
+<p>Checks for a tile collision at a specified point. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X position to check. </td></tr>
@@ -287,7 +287,7 @@ instance.SensorAngle: (integer) // Tile angle at the collision. <br  />
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns the angle of the ground as an integer value. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the angle of the ground if successful, <code>-1</code> if otherwise. </dd></dl>
 
 </div>
 </div>
