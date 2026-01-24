@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['rendering_0',['Rendering',['../rendering.html',1,'manual_page']]],
-  ['resource_20management_1',['Resource Management',['../resource_management.html',1,'manual_page']]]
+  ['o_0',['Filesystem and I/O',['../filesystem_and_input_output.html',1,'manual_page']]],
+  ['of_1',['What is Hatch capable of?',['../introduction_to_hatch.html#what-is-hatch-capable-of',1,'']]],
+  ['organizing_20the_20code_2',['Organizing the code',['../hello_world.html#organizing-the-code',1,'']]]
 ];

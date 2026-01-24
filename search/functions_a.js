@@ -3,7 +3,7 @@ var searchData=
   ['makenonpalettized_0',['MakeNonPalettized',['../classSprite.html#a84f26be3efd0b37ca7af48e7b74d25b0',1,'Sprite']]],
   ['makepalettized_1',['MakePalettized',['../classSprite.html#a7bad6864c89c388d5daf8f2897c707b4',1,'Sprite']]],
   ['material_2',['Material',['../classMaterial.html#a65144a0041cede1f0363812792fd81f7',1,'Material']]],
-  ['max_3',['max',['../classMath.html#aa2c6f1c300138e612e0e7048896e2dae',1,'Math.Max()'],['../classRandom.html#a68f8392f3d5c66c29155dd9e356fe012',1,'Random.Max()']]],
+  ['max_3',['Max',['../classMath.html#aa2c6f1c300138e612e0e7048896e2dae',1,'Math.Max()'],['../classRandom.html#a68f8392f3d5c66c29155dd9e356fe012',1,'Random.Max()']]],
   ['measuretext_4',['MeasureText',['../classDraw.html#a6129bff56677fb0ea44ca61a82dbb51c',1,'Draw']]],
   ['measuretextwrapped_5',['MeasureTextWrapped',['../classDraw.html#a4f8143cd4d901cd462736cb87c8edd50',1,'Draw']]],
   ['min_6',['Min',['../classMath.html#a5648d54edb049e370f6d422881349c03',1,'Math']]],

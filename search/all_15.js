@@ -2,9 +2,9 @@ var searchData=
 [
   ['velocityx_0',['VelocityX',['../classEntity.html#a706345707adfd86b9c1afa560c0fc955',1,'Entity']]],
   ['velocityy_1',['VelocityY',['../classEntity.html#a34887b668c01aa3bb5e17bc9ce61c5f6',1,'Entity']]],
-  ['vertexbuffer_2',['vertexbuffer',['../classVertexBuffer.html',1,'VertexBuffer'],['../classDraw3D.html#aef48492f73e108ed6abde668d0bc59c7',1,'Draw3D.VertexBuffer()']]],
+  ['vertexbuffer_2',['VertexBuffer',['../classVertexBuffer.html',1,'VertexBuffer'],['../classDraw3D.html#aef48492f73e108ed6abde668d0bc59c7',1,'Draw3D.VertexBuffer()']]],
   ['video_3',['Video',['../classVideo.html',1,'']]],
-  ['view_4',['view',['../classView.html',1,'View'],['../classDraw.html#a2835b6d2dde28e6b03062b7e57cdb6a6',1,'Draw.View()']]],
+  ['view_4',['View',['../classView.html',1,'View'],['../classDraw.html#a2835b6d2dde28e6b03062b7e57cdb6a6',1,'Draw.View()']]],
   ['viewoverrideflag_5',['ViewOverrideFlag',['../classEntity.html#a964e77f5d2e921189c088aacf9b9ac46',1,'Entity']]],
   ['viewpart_6',['ViewPart',['../classDraw.html#a22578528d85d8cc6b8c856e2ae2af843',1,'Draw']]],
   ['viewpartsized_7',['ViewPartSized',['../classDraw.html#aeec47345ae788144bff734c71895dae9',1,'Draw']]],

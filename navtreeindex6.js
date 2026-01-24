@@ -54,6 +54,8 @@ var NAVTREEINDEX6 =
 "introduction_to_hatch.html":[0],
 "manual_page.html":[2],
 "math.html":[2,10],
+"namespaceAPI.html":[4,0,0],
+"namespaceRSDK.html":[4,0,1],
 "namespaces.html":[5,0],
 "pages.html":[],
 "rendering.html":[2,6],

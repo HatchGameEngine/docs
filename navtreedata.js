@@ -27,24 +27,7 @@ var NAVTREE =
   [ "Hatch Game Engine Documentation", "index.html", [
     [ "Introduction", "introduction_to_hatch.html", null ],
     [ "Hello World Tutorial", "hello_world.html", null ],
-    [ "Manual", "manual_page.html", [
-      [ "Scripting", "scripting.html", null ],
-      [ "Game Configuration File", "gameconfig.html", null ],
-      [ "Settings File", "settings.html", null ],
-      [ "Scenes", "scenes.html", null ],
-      [ "Entities", "entities.html", null ],
-      [ "Resource Management", "resource_management.html", null ],
-      [ "Rendering", "rendering.html", null ],
-      [ "Sprites, Images, and Textures", "sprites_images_and_textures.html", null ],
-      [ "Audio, Sounds, and Music", "audio_sounds_and_music.html", null ],
-      [ "Input", "input.html", null ],
-      [ "Math", "math.html", null ],
-      [ "Filesystem and I/O", "filesystem_and_input_output.html", null ],
-      [ "Virtual File System", "vfs.html", null ],
-      [ "Capabilities", "capabilities.html", null ],
-      [ "Shaders", "shaders.html", null ],
-      [ "Distributing Games", "distribution.html", null ]
-    ] ],
+    [ "Manual", "manual_page.html", "manual_page" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
@@ -73,5 +56,6 @@ var NAVTREEINDEX =
 "group__hsl.html#ggabf9db434fbfc4453d83068d8963f6627a1ba51cf2ccc75158a422b719ee40bbc4"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';
