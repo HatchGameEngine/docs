@@ -18,7 +18,7 @@ var searchData=
   ['circle_15',['Circle',['../classDraw.html#ac1fc573bdcd631ba36a2a966d45dd8ce',1,'Draw']]],
   ['circlestroke_16',['CircleStroke',['../classDraw.html#ad8821eda3b4d5945545e2058bc1d2fb1',1,'Draw']]],
   ['clamp_17',['Clamp',['../classMath.html#ae59c2fe5bb1b2088d168572038c15f98',1,'Math']]],
-  ['clear_18',['clear',['../classArray.html#a9a045036ddca9accb8ba76bb14f01fa1',1,'Array.Clear()'],['../classMusic.html#af1ddeeeda69d6515f83ceed5665d268b',1,'Music.Clear()'],['../classScene3D.html#a428d7cdaed483878ca62b604820e2f63',1,'Scene3D.Clear()'],['../classVertexBuffer.html#a286bb32b8d42ceeaf7e2313130ea70a3',1,'VertexBuffer.Clear()']]],
+  ['clear_18',['clear',['../classArray.html#a9a045036ddca9accb8ba76bb14f01fa1',1,'Array.Clear()'],['../classDraw.html#ac003dda8a3be79c9273551138721f262',1,'Draw.Clear()'],['../classMusic.html#af1ddeeeda69d6515f83ceed5665d268b',1,'Music.Clear()'],['../classScene3D.html#a428d7cdaed483878ca62b604820e2f63',1,'Scene3D.Clear()'],['../classVertexBuffer.html#a286bb32b8d42ceeaf7e2313130ea70a3',1,'VertexBuffer.Clear()']]],
   ['clearclip_19',['ClearClip',['../classDraw.html#ad3a50b48e578fe4fb8a7b95fc2c40ea5',1,'Draw']]],
   ['clearstencil_20',['ClearStencil',['../classDraw.html#a2ba6088180bb118ffabd4b9392a7f890',1,'Draw']]],
   ['cleartriglookuptables_21',['ClearTrigLookupTables',['../classRSDK_1_1Math.html#abc73b0ede4aa1fe67a2d898228c4cb5c',1,'RSDK::Math']]],

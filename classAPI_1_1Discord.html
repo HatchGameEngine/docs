@@ -112,6 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa889027c23ca22fbcbe233ff2587bac9" id="r_aa889027c23ca22fbcbe233ff2587bac9"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#aa889027c23ca22fbcbe233ff2587bac9">Init</a> (string applicationID)</td></tr>
 <tr class="memdesc:aa889027c23ca22fbcbe233ff2587bac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes Discord integration.  <br /></td></tr>
 <tr class="separator:aa889027c23ca22fbcbe233ff2587bac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b50d201d276c9bb1981ff3c2a6eb925" id="r_a4b50d201d276c9bb1981ff3c2a6eb925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a4b50d201d276c9bb1981ff3c2a6eb925">UpdateRichPresence</a> (string details, string state, string largeImageKey, string smallImageKey)</td></tr>
+<tr class="memdesc:a4b50d201d276c9bb1981ff3c2a6eb925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Discord Rich Presence.  <br /></td></tr>
+<tr class="separator:a4b50d201d276c9bb1981ff3c2a6eb925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5d5195c455de462d8656cd0b2d46ef" id="r_aca5d5195c455de462d8656cd0b2d46ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#aca5d5195c455de462d8656cd0b2d46ef">UpdateRichPresence</a> (string details, string state, string largeImageKey, integer startTime)</td></tr>
+<tr class="memdesc:aca5d5195c455de462d8656cd0b2d46ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Discord Rich Presence.  <br /></td></tr>
+<tr class="separator:aca5d5195c455de462d8656cd0b2d46ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90f535ae7d98d31206e39f36d0072783" id="r_a90f535ae7d98d31206e39f36d0072783"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAPI_1_1Discord.html#a90f535ae7d98d31206e39f36d0072783">UpdateRichPresence</a> (string details, string state, string largeImageKey, string smallImageKey, integer startTime)</td></tr>
 <tr class="memdesc:a90f535ae7d98d31206e39f36d0072783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Discord Rich Presence.  <br /></td></tr>
 <tr class="separator:a90f535ae7d98d31206e39f36d0072783"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -498,8 +504,110 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aca5d5195c455de462d8656cd0b2d46ef" name="aca5d5195c455de462d8656cd0b2d46ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5d5195c455de462d8656cd0b2d46ef">&#9670;&#160;</a></span>UpdateRichPresence() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.UpdateRichPresence </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>largeImageKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer&#160;</td>
+          <td class="paramname"><em>startTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates Discord Rich Presence. </p>
+<p>The integration must have been initialized with <code>API.Discord.Init</code> before calling this.</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">details</td><td>The first line of text in the Rich Presence. </td></tr>
+    <tr><td class="paramname">state</td><td>The second line of text, appearing below details. </td></tr>
+    <tr><td class="paramname">largeImageKey</td><td>The internal name of the large image asset to display, created via the Discord Developer Portal. </td></tr>
+    <tr><td class="paramname">startTime</td><td>A Unix timestamp of when the activity started. If <code>0</code>, the timer is disabled. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4b50d201d276c9bb1981ff3c2a6eb925" name="a4b50d201d276c9bb1981ff3c2a6eb925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b50d201d276c9bb1981ff3c2a6eb925">&#9670;&#160;</a></span>UpdateRichPresence() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void API.Discord.UpdateRichPresence </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>largeImageKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>smallImageKey</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates Discord Rich Presence. </p>
+<p>The integration must have been initialized with <code>API.Discord.Init</code> before calling this.</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">details</td><td>The first line of text in the Rich Presence. </td></tr>
+    <tr><td class="paramname">state</td><td>The second line of text, appearing below details. </td></tr>
+    <tr><td class="paramname">largeImageKey</td><td>The internal name of the large image asset to display, created via the Discord Developer Portal. </td></tr>
+    <tr><td class="paramname">smallImageKey</td><td>The internal name of the small image asset to display, also created via the Discord Developer Portal. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a90f535ae7d98d31206e39f36d0072783" name="a90f535ae7d98d31206e39f36d0072783"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90f535ae7d98d31206e39f36d0072783">&#9670;&#160;</a></span>UpdateRichPresence()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a90f535ae7d98d31206e39f36d0072783">&#9670;&#160;</a></span>UpdateRichPresence() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -549,7 +657,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">state</td><td>The second line of text, appearing below details. </td></tr>
     <tr><td class="paramname">largeImageKey</td><td>The internal name of the large image asset to display, created via the Discord Developer Portal. </td></tr>
     <tr><td class="paramname">smallImageKey</td><td>The internal name of the small image asset to display, also created via the Discord Developer Portal. </td></tr>
-    <tr><td class="paramname">startTime</td><td>A Unix timestamp of when the activity started. This can also be used as the 4th argument in smallImageKey's place. If <code>0</code>, the timer is disabled. </td></tr>
+    <tr><td class="paramname">startTime</td><td>A Unix timestamp of when the activity started. If <code>0</code>, the timer is disabled. </td></tr>
   </table>
   </dd>
 </dl>

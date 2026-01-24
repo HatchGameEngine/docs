@@ -27,7 +27,7 @@ var searchData=
   ['alter_24',['Alter',['../classMusic.html#a5532bd00338ada729b5c598d8643eb27',1,'Music']]],
   ['alterchannel_25',['AlterChannel',['../classSound.html#aa9cfec778861c90c4d506d55eaec6a62',1,'Sound']]],
   ['animate_26',['animate',['../classAnimator.html#afbe0fdfe24ffe20e0916c5a6bea8708f',1,'Animator.Animate()'],['../classEntity.html#a1b17ec6b14a5c3fe5813914f1b9ed3e9',1,'Entity.Animate()']]],
-  ['animator_27',['Animator',['../classDraw.html#a4a745d5432865d9df0f1360887d4fb77',1,'Draw']]],
+  ['animator_27',['Animator',['../classDraw.html#a6ef7ca5b6767dda6022516bbb97a24f5',1,'Draw']]],
   ['animatorbasic_28',['AnimatorBasic',['../classDraw.html#a7577735348ce6521b0568d1c74157b31',1,'Draw']]],
   ['applymotion_29',['ApplyMotion',['../classEntity.html#afe42c664dba691ddabbb21291baee8bd',1,'Entity']]],
   ['aretilecollisionsloaded_30',['AreTileCollisionsLoaded',['../classScene.html#ae29957474591c9f782f53d0630f14e00',1,'Scene']]],

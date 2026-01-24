@@ -159,7 +159,7 @@ var searchData=
   ['getreservedslotids_156',['GetReservedSlotIDs',['../classScene.html#a9b5a285a24827094110b4c25fd46977b',1,'Scene']]],
   ['getrotationstyle_157',['GetRotationStyle',['../classAnimator.html#a9d0778540486042ff4f5e4b75ad53ed7',1,'Animator']]],
   ['getscale_158',['GetScale',['../classWindow.html#a39efd2ec2cbd5530ddec91d541e8932f',1,'Window']]],
-  ['getscenecount_159',['GetSceneCount',['../classSceneList.html#aaefc31c5851f8b1c83928c81fa4062e8',1,'SceneList']]],
+  ['getscenecount_159',['getscenecount',['../classSceneList.html#af118183a269f940c4741348dacb99945',1,'SceneList.GetSceneCount()'],['../classSceneList.html#aaefc31c5851f8b1c83928c81fa4062e8',1,'SceneList.GetSceneCount(string categoryName)']]],
   ['getsecond_160',['GetSecond',['../classDate.html#a37c66f6f37ada3eafdeab3b70941a27c',1,'Date']]],
   ['getsectioncount_161',['GetSectionCount',['../classSettings.html#a23aafa879516cff7a296f228079a3e70',1,'Settings']]],
   ['getseed_162',['GetSeed',['../classRandom.html#a798afb96da2d26d7c84d7cd4bc3f1348',1,'Random']]],

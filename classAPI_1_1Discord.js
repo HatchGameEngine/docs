@@ -12,5 +12,7 @@ var classAPI_1_1Discord =
     [ "SetActivitySmallImage", "classAPI_1_1Discord.html#a24bff5df9207d2db6f9d0b7ca2b00a39", null ],
     [ "SetActivityState", "classAPI_1_1Discord.html#ab8dff4ce8c586fd7bb9de2040cbd4986", null ],
     [ "UpdateActivity", "classAPI_1_1Discord.html#a199eafbe742cb9da9e06acacbbfc5cb5", null ],
+    [ "UpdateRichPresence", "classAPI_1_1Discord.html#aca5d5195c455de462d8656cd0b2d46ef", null ],
+    [ "UpdateRichPresence", "classAPI_1_1Discord.html#a4b50d201d276c9bb1981ff3c2a6eb925", null ],
     [ "UpdateRichPresence", "classAPI_1_1Discord.html#a90f535ae7d98d31206e39f36d0072783", null ]
 ];

@@ -148,10 +148,11 @@ var group__hsl =
       [ "GetWidth", "classDisplay.html#a1527b236a19254275877648fcfb0afe9", null ]
     ] ],
     [ "Draw", "classDraw.html", [
-      [ "Animator", "classDraw.html#a4a745d5432865d9df0f1360887d4fb77", null ],
+      [ "Animator", "classDraw.html#a6ef7ca5b6767dda6022516bbb97a24f5", null ],
       [ "AnimatorBasic", "classDraw.html#a7577735348ce6521b0568d1c74157b31", null ],
       [ "Circle", "classDraw.html#ac1fc573bdcd631ba36a2a966d45dd8ce", null ],
       [ "CircleStroke", "classDraw.html#ad8821eda3b4d5945545e2058bc1d2fb1", null ],
+      [ "Clear", "classDraw.html#ac003dda8a3be79c9273551138721f262", null ],
       [ "ClearClip", "classDraw.html#ad3a50b48e578fe4fb8a7b95fc2c40ea5", null ],
       [ "ClearStencil", "classDraw.html#a2ba6088180bb118ffabd4b9392a7f890", null ],
       [ "CopyScreen", "classDraw.html#a7b2d1ddce053e5d8ad4fd8af5a478b1c", null ],
@@ -176,6 +177,12 @@ var group__hsl =
       [ "QuadTextured", "classDraw.html#a4df328286483f367fe22c04e87985c15", null ],
       [ "Rectangle", "classDraw.html#a80f6f5b8e0859f4cae73dc5315ecd930", null ],
       [ "RectangleStroke", "classDraw.html#a82f077d00ba94840e0ee2cbd700f23b9", null ],
+      [ "ResetTextureTarget", "classDraw.html#a31be666e5096b5966eb2ea0d06868679", null ],
+      [ "Restore", "classDraw.html#a51abac1b84a1d8396924d0d4d76d05cc", null ],
+      [ "Rotate", "classDraw.html#aa0bf461d60f7efaf9507c4012e567fbe", null ],
+      [ "Rotate", "classDraw.html#ab42c08cd6174bc5b69ba8df8456c418e", null ],
+      [ "Save", "classDraw.html#ab2e264590ac1fb423d106b744cf4f1be", null ],
+      [ "Scale", "classDraw.html#a259ec66cbb3b621e979864ff09acffcf", null ],
       [ "SetBlendColor", "classDraw.html#a01c6bc53ee06c86875dc3d225503aa00", null ],
       [ "SetBlendFactor", "classDraw.html#a62060001e3868fbf6050a13ca769b732", null ],
       [ "SetBlendFactorExtended", "classDraw.html#ab3817fdf3b85d7f17f3fda5b6db084fb", null ],
@@ -198,6 +205,7 @@ var group__hsl =
       [ "SetTextBaseline", "classDraw.html#aafa760bdac7812a3bd64c5746645bea7", null ],
       [ "SetTextLineAscent", "classDraw.html#a5a7bebbbac6e73ca6ac8e3ed933e497a", null ],
       [ "SetTextureBlend", "classDraw.html#afb8b13bd27d2b371e6e4aca6d8cddf7e", null ],
+      [ "SetTextureTarget", "classDraw.html#ad75e2e92272d083bb3209f6b86a22280", null ],
       [ "SetTintColor", "classDraw.html#a1d6c4af98f541b8338145b9f1f46cc7c", null ],
       [ "SetTintMode", "classDraw.html#a2893f87c1831d6fc6ecca11176c5fab1", null ],
       [ "SetVerticalDotMask", "classDraw.html#aaf763171e8026a069196a79571df1f20", null ],
@@ -213,6 +221,7 @@ var group__hsl =
       [ "TextureSized", "classDraw.html#aca36ba908a3149db34d8b71b0af6fd78", null ],
       [ "TextWrapped", "classDraw.html#abd8bcc43634da01d5e6fcc4a3757abde", null ],
       [ "Tile", "classDraw.html#a0972fbb53802807a5f2f66e51fb4842e", null ],
+      [ "Translate", "classDraw.html#a79c4b5673c0cb5fd4b9a1a09176ff6eb", null ],
       [ "Triangle", "classDraw.html#ab1c473697050bee1b03ee683d1d9d198", null ],
       [ "TriangleBlend", "classDraw.html#a7b075c2233c70260c5e1372ba72e1223", null ],
       [ "TriangleStroke", "classDraw.html#ae502c5bb7f8ef52d999cfea14e0903ab", null ],
@@ -593,7 +602,7 @@ var group__hsl =
     [ "Number", "classNumber.html", [
       [ "AsDecimal", "classNumber.html#af0e7935d7fbee138d7587e8165a290f0", null ],
       [ "AsInteger", "classNumber.html#ad0c68aa9a4eba297653c1517456ef871", null ],
-      [ "ToString", "classNumber.html#abce4ad0ee431fb8511fe9146189c54b3", null ]
+      [ "ToString", "classNumber.html#ad50dbc1c0578078ff5b56f7aed7fec83", null ]
     ] ],
     [ "Object", "classObject.html", [
       [ "GetActivity", "classObject.html#ac7f788b2088f1ec3f295a528d6971aba", null ],
@@ -775,6 +784,7 @@ var group__hsl =
       [ "GetEntryID", "classSceneList.html#aee6c700ed97e7fff221c9bc10e650395", null ],
       [ "GetEntryName", "classSceneList.html#a84d1da3e0c7c024c501fc9b2839e5a9b", null ],
       [ "GetEntryProperty", "classSceneList.html#a18a2289703fbde7f728bd3e4c1d80dca", null ],
+      [ "GetSceneCount", "classSceneList.html#af118183a269f940c4741348dacb99945", null ],
       [ "GetSceneCount", "classSceneList.html#aaefc31c5851f8b1c83928c81fa4062e8", null ],
       [ "HasCategoryProperty", "classSceneList.html#afeecb9a59de06e8c4f47bcf606bbfe6a", null ],
       [ "HasEntryProperty", "classSceneList.html#ae2c72c6785254b20002b777675c7ff45", null ]
@@ -795,6 +805,7 @@ var group__hsl =
       [ "PropertyExists", "classSettings.html#a869cb4b23c16b1df4bca764ba0239908", null ],
       [ "RemoveProperty", "classSettings.html#aa6930e5554f6018b41f96e4244999a5b", null ],
       [ "RemoveSection", "classSettings.html#ae92977dc6574bcd1c7b066bb2163b278", null ],
+      [ "Save", "classSettings.html#ae5b00b8649c4e746625fcf3d9c761d84", null ],
       [ "Save", "classSettings.html#a676d522d141e92acc84d5088b3aba558", null ],
       [ "SectionExists", "classSettings.html#a0c7954db3015c3f0376cb597fd62e1c2", null ],
       [ "SetBool", "classSettings.html#a870de60d9892b8fc44ed9a22d6715a65", null ],

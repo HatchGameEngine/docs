@@ -63,7 +63,7 @@ var searchData=
   ['animationspeedadd_60',['AnimationSpeedAdd',['../classEntity.html#ae080524f3a16e685d149a3f890bfe97b',1,'Entity']]],
   ['animationspeedmult_61',['AnimationSpeedMult',['../classEntity.html#adcd11cdb391e95f315f61ac55bc5ce63',1,'Entity']]],
   ['animationtimer_62',['AnimationTimer',['../classEntity.html#ad69d6938e3b1d05ffb58faab5705ac35',1,'Entity']]],
-  ['animator_63',['animator',['../classDraw.html#a4a745d5432865d9df0f1360887d4fb77',1,'Draw.Animator()'],['../classAnimator.html',1,'Animator']]],
+  ['animator_63',['animator',['../classDraw.html#a6ef7ca5b6767dda6022516bbb97a24f5',1,'Draw.Animator()'],['../classAnimator.html',1,'Animator']]],
   ['animatorbasic_64',['AnimatorBasic',['../classDraw.html#a7577735348ce6521b0568d1c74157b31',1,'Draw']]],
   ['api_65',['API',['../namespaceAPI.html',1,'']]],
   ['api_20reference_66',['API Reference',['../index.html#api-reference',1,'']]],

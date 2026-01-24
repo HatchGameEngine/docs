@@ -8,6 +8,7 @@ var classSceneList =
     [ "GetEntryID", "classSceneList.html#aee6c700ed97e7fff221c9bc10e650395", null ],
     [ "GetEntryName", "classSceneList.html#a84d1da3e0c7c024c501fc9b2839e5a9b", null ],
     [ "GetEntryProperty", "classSceneList.html#a18a2289703fbde7f728bd3e4c1d80dca", null ],
+    [ "GetSceneCount", "classSceneList.html#af118183a269f940c4741348dacb99945", null ],
     [ "GetSceneCount", "classSceneList.html#aaefc31c5851f8b1c83928c81fa4062e8", null ],
     [ "HasCategoryProperty", "classSceneList.html#afeecb9a59de06e8c4f47bcf606bbfe6a", null ],
     [ "HasEntryProperty", "classSceneList.html#ae2c72c6785254b20002b777675c7ff45", null ]

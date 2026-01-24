@@ -11,6 +11,7 @@ var classSettings =
     [ "PropertyExists", "classSettings.html#a869cb4b23c16b1df4bca764ba0239908", null ],
     [ "RemoveProperty", "classSettings.html#aa6930e5554f6018b41f96e4244999a5b", null ],
     [ "RemoveSection", "classSettings.html#ae92977dc6574bcd1c7b066bb2163b278", null ],
+    [ "Save", "classSettings.html#ae5b00b8649c4e746625fcf3d9c761d84", null ],
     [ "Save", "classSettings.html#a676d522d141e92acc84d5088b3aba558", null ],
     [ "SectionExists", "classSettings.html#a0c7954db3015c3f0376cb597fd62e1c2", null ],
     [ "SetBool", "classSettings.html#a870de60d9892b8fc44ed9a22d6715a65", null ],
