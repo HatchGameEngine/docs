@@ -113,10 +113,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac6585db7c54e962a433f7638aa84cf05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if a tile at the ID is empty.  <br /></td></tr>
 <tr class="memitem:aafb17317b8a3f99e96639b1a60eb5f16" id="r_aafb17317b8a3f99e96639b1a60eb5f16"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#aafb17317b8a3f99e96639b1a60eb5f16">GetEmptyTile</a> ()</td></tr>
 <tr class="memdesc:aafb17317b8a3f99e96639b1a60eb5f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scene's empty tile ID.  <br /></td></tr>
-<tr class="memitem:a3025d59a706a9538057c22b335869429" id="r_a3025d59a706a9538057c22b335869429"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a3025d59a706a9538057c22b335869429">GetCollision</a> (integer tileID, integer collisionField, integer directionType, integer position, boolean flipX, boolean flipY)</td></tr>
-<tr class="memdesc:a3025d59a706a9538057c22b335869429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the collision value at the pixel position of the desired tile, -1 if no collision.  <br /></td></tr>
-<tr class="memitem:ae109a7d719ad2686a7df7957ee6d19ad" id="r_ae109a7d719ad2686a7df7957ee6d19ad"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#ae109a7d719ad2686a7df7957ee6d19ad">GetAngle</a> (integer tileID, integer collisionField, integer directionType, boolean flipX, boolean flipY)</td></tr>
-<tr class="memdesc:ae109a7d719ad2686a7df7957ee6d19ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the angle value of the desired tile.  <br /></td></tr>
+<tr class="memitem:ab9e3cb1eaa095881f163f68db15f8aeb" id="r_ab9e3cb1eaa095881f163f68db15f8aeb"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#ab9e3cb1eaa095881f163f68db15f8aeb">GetCollision</a> (integer tileID, integer collisionField, <a class="el" href="group__hsl.html#ga37636acd6f892f0a1e3cddbe084dac66">SensorDirection</a> directionType, integer position, boolean flipX, boolean flipY)</td></tr>
+<tr class="memdesc:ab9e3cb1eaa095881f163f68db15f8aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the collision value at the pixel position of the desired tile, -1 if no collision.  <br /></td></tr>
+<tr class="memitem:a5e224d46cfcb7bd68ab9468d31db5f0a" id="r_a5e224d46cfcb7bd68ab9468d31db5f0a"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a5e224d46cfcb7bd68ab9468d31db5f0a">GetAngle</a> (integer tileID, integer collisionField, <a class="el" href="group__hsl.html#ga37636acd6f892f0a1e3cddbe084dac66">SensorDirection</a> directionType, boolean flipX, boolean flipY)</td></tr>
+<tr class="memdesc:a5e224d46cfcb7bd68ab9468d31db5f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the angle value of the desired tile.  <br /></td></tr>
 <tr class="memitem:aad5e8656c956944b484fcac0a06d4c8e" id="r_aad5e8656c956944b484fcac0a06d4c8e"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#aad5e8656c956944b484fcac0a06d4c8e">GetBehaviorFlag</a> (integer tileID, integer collisionPlane)</td></tr>
 <tr class="memdesc:aad5e8656c956944b484fcac0a06d4c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the behavior value of the desired tile.  <br /></td></tr>
 <tr class="memitem:a482a20bdc4dddf3796d1c364f81e7378" id="r_a482a20bdc4dddf3796d1c364f81e7378"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a482a20bdc4dddf3796d1c364f81e7378">IsCeiling</a> (integer tileID, integer collisionPlane)</td></tr>
@@ -125,8 +125,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions for retrieving information about tiles. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ae109a7d719ad2686a7df7957ee6d19ad" name="ae109a7d719ad2686a7df7957ee6d19ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae109a7d719ad2686a7df7957ee6d19ad">&#9670;&#160;</a></span>GetAngle()</h2>
+<a id="a5e224d46cfcb7bd68ab9468d31db5f0a" name="a5e224d46cfcb7bd68ab9468d31db5f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e224d46cfcb7bd68ab9468d31db5f0a">&#9670;&#160;</a></span>GetAngle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,7 +144,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>directionType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#ga37636acd6f892f0a1e3cddbe084dac66">SensorDirection</a></td>          <td class="paramname"><span class="paramname"><em>directionType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -164,7 +164,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">tileID</td><td>ID of the tile to get the value of. </td></tr>
     <tr><td class="paramname">collisionField</td><td>The collision plane of the tile to get the angle from. </td></tr>
-    <tr><td class="paramname">directionType</td><td>Ordinal direction to check in. (0: Down, 1: Right, 2: Up, 3: Left, or one of the enums: SensorDirection_Up, SensorDirection_Left, SensorDirection_Down, SensorDirection_Right) </td></tr>
+    <tr><td class="paramname">directionType</td><td>Ordinal direction to check in. </td></tr>
     <tr><td class="paramname">flipX</td><td>Whether to check the angle with the tile horizontally flipped. </td></tr>
     <tr><td class="paramname">flipY</td><td>Whether to check the angle with the tile vertically flipped. </td></tr>
   </table>
@@ -205,8 +205,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3025d59a706a9538057c22b335869429" name="a3025d59a706a9538057c22b335869429"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3025d59a706a9538057c22b335869429">&#9670;&#160;</a></span>GetCollision()</h2>
+<a id="ab9e3cb1eaa095881f163f68db15f8aeb" name="ab9e3cb1eaa095881f163f68db15f8aeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e3cb1eaa095881f163f68db15f8aeb">&#9670;&#160;</a></span>GetCollision()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +224,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>directionType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#ga37636acd6f892f0a1e3cddbe084dac66">SensorDirection</a></td>          <td class="paramname"><span class="paramname"><em>directionType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -249,7 +249,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">tileID</td><td>ID of the tile to get the value of. </td></tr>
     <tr><td class="paramname">collisionField</td><td>The collision plane of the tile to get the collision from. </td></tr>
-    <tr><td class="paramname">directionType</td><td>Ordinal direction to check in. (0: Down, 1: Right, 2: Up, 3: Left, or one of the enums: SensorDirection_Up, SensorDirection_Left, SensorDirection_Down, SensorDirection_Right) </td></tr>
+    <tr><td class="paramname">directionType</td><td>Ordinal direction to check in. </td></tr>
     <tr><td class="paramname">position</td><td>Position on the tile to check, X position if the directionType is Up/Down, Y position if the directionType is Left/Right. </td></tr>
     <tr><td class="paramname">flipX</td><td>Whether to check the collision with the tile horizontally flipped. </td></tr>
     <tr><td class="paramname">flipY</td><td>Whether to check the collision with the tile vertically flipped. </td></tr>

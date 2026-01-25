@@ -941,14 +941,14 @@ var group__hsl =
     [ "Texture", "classTexture.html", null ],
     [ "Thread", "classThread.html", null ],
     [ "TileCollision", "classTileCollision.html", [
-      [ "Line", "classTileCollision.html#ad57112bf2a512e406e1b50811a4444f1", null ],
+      [ "Line", "classTileCollision.html#ad0412cde361dc979fae25c7c6e082f4f", null ],
       [ "Point", "classTileCollision.html#a96fee3501135f920e8d8b416c2230f0e", null ],
       [ "PointExtended", "classTileCollision.html#ac263c6b81ebe5f4ae42033577b76af4a", null ]
     ] ],
     [ "TileInfo", "classTileInfo.html", [
-      [ "GetAngle", "classTileInfo.html#ae109a7d719ad2686a7df7957ee6d19ad", null ],
+      [ "GetAngle", "classTileInfo.html#a5e224d46cfcb7bd68ab9468d31db5f0a", null ],
       [ "GetBehaviorFlag", "classTileInfo.html#aad5e8656c956944b484fcac0a06d4c8e", null ],
-      [ "GetCollision", "classTileInfo.html#a3025d59a706a9538057c22b335869429", null ],
+      [ "GetCollision", "classTileInfo.html#ab9e3cb1eaa095881f163f68db15f8aeb", null ],
       [ "GetEmptyTile", "classTileInfo.html#aafb17317b8a3f99e96639b1a60eb5f16", null ],
       [ "IsCeiling", "classTileInfo.html#a482a20bdc4dddf3796d1c364f81e7378", null ],
       [ "IsEmptySpace", "classTileInfo.html#ac6585db7c54e962a433f7638aa84cf05", null ],

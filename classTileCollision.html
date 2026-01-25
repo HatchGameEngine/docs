@@ -111,14 +111,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a96fee3501135f920e8d8b416c2230f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision at a specified point.  <br /></td></tr>
 <tr class="memitem:ac263c6b81ebe5f4ae42033577b76af4a" id="r_ac263c6b81ebe5f4ae42033577b76af4a"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#ac263c6b81ebe5f4ae42033577b76af4a">PointExtended</a> (number x, number y, integer collisionField, integer collisionSide)</td></tr>
 <tr class="memdesc:ac263c6b81ebe5f4ae42033577b76af4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision at a specified point.  <br /></td></tr>
-<tr class="memitem:ad57112bf2a512e406e1b50811a4444f1" id="r_ad57112bf2a512e406e1b50811a4444f1"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#ad57112bf2a512e406e1b50811a4444f1">Line</a> (number x, number y, integer directionType, integer length, integer collisionField, integer compareAngle, <a class="el" href="classEntity.html">Entity</a> entity)</td></tr>
-<tr class="memdesc:ad57112bf2a512e406e1b50811a4444f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision in a straight line.  <br /></td></tr>
+<tr class="memitem:ad0412cde361dc979fae25c7c6e082f4f" id="r_ad0412cde361dc979fae25c7c6e082f4f"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#ad0412cde361dc979fae25c7c6e082f4f">Line</a> (number x, number y, <a class="el" href="group__hsl.html#ga37636acd6f892f0a1e3cddbe084dac66">SensorDirection</a> directionType, integer length, integer collisionField, integer compareAngle, <a class="el" href="classEntity.html">Entity</a> entity)</td></tr>
+<tr class="memdesc:ad0412cde361dc979fae25c7c6e082f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for a tile collision in a straight line.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Basic functions for performing collision with scene tiles. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ad57112bf2a512e406e1b50811a4444f1" name="ad57112bf2a512e406e1b50811a4444f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad57112bf2a512e406e1b50811a4444f1">&#9670;&#160;</a></span>Line()</h2>
+<a id="ad0412cde361dc979fae25c7c6e082f4f" name="ad0412cde361dc979fae25c7c6e082f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0412cde361dc979fae25c7c6e082f4f">&#9670;&#160;</a></span>Line()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +136,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>directionType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#ga37636acd6f892f0a1e3cddbe084dac66">SensorDirection</a></td>          <td class="paramname"><span class="paramname"><em>directionType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -166,21 +166,15 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">x</td><td>X position to start checking from. </td></tr>
     <tr><td class="paramname">y</td><td>Y position to start checking from. </td></tr>
-    <tr><td class="paramname">directionType</td><td>Ordinal direction to check in. (0: Down, 1: Right, 2: Up, 3: Left, or one of the enums: SensorDirection_Up, SensorDirection_Left, SensorDirection_Down, SensorDirection_Right) </td></tr>
+    <tr><td class="paramname">directionType</td><td>Ordinal direction to check in. </td></tr>
     <tr><td class="paramname">length</td><td>How many pixels to check. </td></tr>
     <tr><td class="paramname">collisionField</td><td>Low (0) or high (1) field to check. </td></tr>
-    <tr><td class="paramname">compareAngle</td><td>Only return a collision if the angle is within 0x20 this value, otherwise if angle comparison is not desired, set this value to -1. </td></tr>
-    <tr><td class="paramname">entity</td><td>Instance to write the values to. </td></tr>
+    <tr><td class="paramname">compareAngle</td><td>Only return a collision if the angle is within <span class="tt">0x20</span> of this value. If angle comparison is not desired, pass <span class="tt">-1</span> to this parameter. </td></tr>
+    <tr><td class="paramname">entity</td><td>Entity to write the values to. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns <span class="tt">false</span> if no tile collision, but if <span class="tt">true</span>: <br  />
-<pre class="code"><br  />
-entity.SensorX: (number), // X Position where the sensor collided if it did. <br  />
-entity.SensorY: (number), // Y Position where the sensor collided if it did. <br  />
-entity.SensorCollided: (boolean), // Whether the sensor collided. <br  />
-entity.SensorAngle: (integer) // Tile angle at the collision. <br  />
-</pre> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns <span class="tt">true</span> if tile collision happened, and sets <a class="el" href="classEntity.html#acda76aa8fe2a4b4e544443bbb0e444e7" title="Entity.SensorCollided">Entity.SensorCollided</a>, <a class="el" href="classEntity.html#acc19d67422101c1f1411fc1be0019359" title="Entity.SensorX">Entity.SensorX</a>, <a class="el" href="classEntity.html#a940460449c082dee034cc5a2625092fd" title="Entity.SensorY">Entity.SensorY</a>, and <a class="el" href="classEntity.html#a94f2f594c102559f9ac9b96f60c80f4c" title="Entity.SensorAngle">Entity.SensorAngle</a>. Otherwise, just returns <span class="tt">false</span>. </dd></dl>
 
 </div>
 </div>

@@ -5,7 +5,7 @@ var searchData=
   ['layer_2',['Layer',['../classDraw.html#a0921ca772365ef72a211d9a13bf5cb88',1,'Draw']]],
   ['layerpropertyexists_3',['LayerPropertyExists',['../classScene.html#a198110226b9a6f2188a6d97b6b889052',1,'Scene']]],
   ['length_4',['Length',['../classArray.html#af52337fbc21e65c40ed453bc18093572',1,'Array.Length()'],['../classStream.html#a8bcf91d477ee502a2f5b23b823432cb2',1,'Stream.Length()'],['../classString.html#a057ceff4b461d9a65b3f501cb0457e26',1,'String.Length()']]],
-  ['line_5',['Line',['../classDraw.html#a0ab4f2de8ac4b28160ac0979d4ea9203',1,'Draw.Line()'],['../classTileCollision.html#ad57112bf2a512e406e1b50811a4444f1',1,'TileCollision.Line()']]],
+  ['line_5',['Line',['../classDraw.html#a0ab4f2de8ac4b28160ac0979d4ea9203',1,'Draw.Line()'],['../classTileCollision.html#ad0412cde361dc979fae25c7c6e082f4f',1,'TileCollision.Line()']]],
   ['list_6',['Deprecated List',['../deprecated.html',1,'']]],
   ['load_7',['Load',['../classScene.html#a31649fe3441cfd3cbe756e098abe7ccb',1,'Scene.Load(string filename, boolean persistency)'],['../classScene.html#a3e1690a033fdbc7aa91563eba6185695',1,'Scene.Load(boolean persistency)'],['../classSettings.html#abc07a33f561cd93bf9c46a2fbf3d3007',1,'Settings.Load()']]],
   ['loaddynamicsprite_8',['LoadDynamicSprite',['../classResources.html#a44f4f87be7668bfd363ee823923a9f9c',1,'Resources']]],
