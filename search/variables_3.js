@@ -7,5 +7,5 @@ var searchData=
   ['diffusegreen_4',['DiffuseGreen',['../classMaterial.html#a00e47cd860df7d022bfd9a718565a962',1,'Material']]],
   ['diffusered_5',['DiffuseRed',['../classMaterial.html#a357fc3dd96a2a61b52cabd05bc71aecc',1,'Material']]],
   ['diffusetexture_6',['DiffuseTexture',['../classMaterial.html#a1ddf7485ccfbdccee1e86871e6332e5f',1,'Material']]],
-  ['direction_7',['Direction',['../classEntity.html#a30029093e6c558bee9a1d4b925d78b7e',1,'Entity']]]
+  ['direction_7',['Direction',['../classEntity.html#a8f36778afb5819ba656e38e0e1766b62',1,'Entity']]]
 ];

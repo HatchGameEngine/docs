@@ -12,7 +12,7 @@ var searchData=
   ['diffusegreen_9',['DiffuseGreen',['../classMaterial.html#a00e47cd860df7d022bfd9a718565a962',1,'Material']]],
   ['diffusered_10',['DiffuseRed',['../classMaterial.html#a357fc3dd96a2a61b52cabd05bc71aecc',1,'Material']]],
   ['diffusetexture_11',['DiffuseTexture',['../classMaterial.html#a1ddf7485ccfbdccee1e86871e6332e5f',1,'Material']]],
-  ['direction_12',['Direction',['../classEntity.html#a30029093e6c558bee9a1d4b925d78b7e',1,'Entity.Direction'],['../classMath.html#a0de5e9a2379326ef11eb00742210d68c',1,'Math.Direction()']]],
+  ['direction_12',['Direction',['../classEntity.html#a8f36778afb5819ba656e38e0e1766b62',1,'Entity.Direction'],['../classMath.html#a0de5e9a2379326ef11eb00742210d68c',1,'Math.Direction()']]],
   ['directory_13',['Directory',['../classDirectory.html',1,'']]],
   ['disableautoanimate_14',['DisableAutoAnimate',['../classInstance.html#a896d1f6f3a78aa939269d6ef2e883dc6',1,'Instance']]],
   ['discord_15',['Discord',['../classAPI_1_1Discord.html',1,'API']]],

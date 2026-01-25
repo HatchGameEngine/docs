@@ -22,5 +22,7 @@ var searchData=
   ['speculargreen_19',['SpecularGreen',['../classMaterial.html#a445a7cc181193451ade655227a0e0201',1,'Material']]],
   ['specularred_20',['SpecularRed',['../classMaterial.html#a0317fe14aa12630477261073959d28a2',1,'Material']]],
   ['speculartexture_21',['SpecularTexture',['../classMaterial.html#aaa65cd28e57ed3c3d3fba9ef5f253c0e',1,'Material']]],
-  ['sprite_22',['Sprite',['../classEntity.html#a9ba93400e5184424812cb6a8081f1131',1,'Entity']]]
+  ['speedx_22',['SpeedX',['../classEntity.html#a813262c3421251749d8323eb907522c3',1,'Entity']]],
+  ['speedy_23',['SpeedY',['../classEntity.html#a57b21045471577a482ed5b0ce8260214',1,'Entity']]],
+  ['sprite_24',['Sprite',['../classEntity.html#a9ba93400e5184424812cb6a8081f1131',1,'Entity']]]
 ];

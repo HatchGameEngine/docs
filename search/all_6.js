@@ -217,7 +217,7 @@ var searchData=
   ['getz_214',['GetZ',['../classView.html#af3cc87994850e9ae4984728686060197',1,'View']]],
   ['glyph_215',['Glyph',['../classDraw.html#afddfa4dab2e934e5de9fde88ec6b129e',1,'Draw']]],
   ['gravity_216',['Gravity',['../classEntity.html#a6e43939a579364ab32167e5b1c21c640',1,'Entity']]],
-  ['ground_217',['Ground',['../classEntity.html#a4cfcc8c0ca25f5cf87e80b2f6c832bec',1,'Entity']]],
-  ['groundspeed_218',['GroundSpeed',['../classEntity.html#aa3fbeaa01cafe08311925e896ec1e4c6',1,'Entity']]],
-  ['groundvel_219',['GroundVel',['../classEntity.html#a777866b447d9d8eedf301e79f2bf2c12',1,'Entity']]]
+  ['gravityspeed_217',['GravitySpeed',['../classEntity.html#a463547ec988f244fa3ac853817c056ab',1,'Entity']]],
+  ['ground_218',['Ground',['../classEntity.html#a4cfcc8c0ca25f5cf87e80b2f6c832bec',1,'Entity']]],
+  ['groundspeed_219',['GroundSpeed',['../classEntity.html#aa3fbeaa01cafe08311925e896ec1e4c6',1,'Entity']]]
 ];
