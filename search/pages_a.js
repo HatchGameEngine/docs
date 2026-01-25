@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['management_0',['Resource Management',['../resource_management.html',1,'manual_page']]],
-  ['manual_1',['Manual',['../manual_page.html',1,'Manual'],['../index.html#manual',1,'Manual']]],
-  ['math_2',['Math',['../math.html',1,'manual_page']]],
-  ['methods_3',['Entities and methods',['../hello_world.html#entities-and-methods',1,'']]],
-  ['music_4',['Audio, Sounds, and Music',['../audio_sounds_and_music.html',1,'manual_page']]]
+  ['language_0',['The Hatch Scripting Language',['../hello_world.html#the-hatch-scripting-language',1,'']]],
+  ['list_1',['Deprecated List',['../deprecated.html',1,'']]],
+  ['loading_20a_20scene_20file_2',['Loading a scene file',['../hello_world.html#loading-a-scene-file',1,'']]]
 ];

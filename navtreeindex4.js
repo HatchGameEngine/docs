@@ -135,6 +135,7 @@ var NAVTREEINDEX4 =
 "functions_y.html":[6,2,0,21],
 "functions_z.html":[6,2,0,22],
 "gameconfig.html":[2,1],
+"gameconfig.html#example-gameconfigxml":[2,1,0],
 "group__hsl.html":[4,0],
 "group__hsl.html#ga00f6fcbefe9dd06c7e5d78d3939577da":[4,0,129],
 "group__hsl.html#ga02bca338bff6eee9053ccf5f70e34572":[4,0,94],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa623e7795ff46e43c6e5688ccc50bac1b":[4,0,86,9],
 "group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa77a834b44eea1d053f75d608d3dda985":[4,0,86,0],
 "group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa79e07b6a2ae23f0f9f3d702a3c9d5ce0":[4,0,86,16],
-"group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa98075735f8eee37b5b12ca3dd81d7a8d":[4,0,86,8],
-"group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa990b26c47b7a23695dd3fd41c0af800d":[4,0,86,11]
+"group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa98075735f8eee37b5b12ca3dd81d7a8d":[4,0,86,8]
 };

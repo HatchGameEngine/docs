@@ -1,7 +1,9 @@
 var manual_page =
 [
     [ "Scripting", "scripting.html", null ],
-    [ "Game Configuration File", "gameconfig.html", null ],
+    [ "Game Configuration File", "gameconfig.html", [
+      [ "Example <span class=\"tt\">GameConfig.xml</span>", "gameconfig.html#example-gameconfigxml", null ]
+    ] ],
     [ "Settings File", "settings.html", null ],
     [ "Scenes", "scenes.html", null ],
     [ "Entities", "entities.html", null ],

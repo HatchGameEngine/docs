@@ -101,10 +101,246 @@ $(function(){initNavTree('gameconfig.html','',''); });
   <div class="headertitle"><div class="title">Game Configuration File </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>TODO </p>
-</div></div><!-- contents -->
+<div class="textblock"><p>The <b>Game Configuration File</b> is the first Resource read by Hatch after the game's resource files are loaded. It's used to configure engine-specific options, as well as define metadata for your game. For instance, you can set the game's name, its resolution, framerate, whether palettes are enabled, which scene file to load first, among others.</p>
+<p>Hatch reads a file named <span class="tt">GameConfig.xml</span> from the root of the VFS, but it's not required to be present for the game to be able to start. All nodes must be under a root <span class="tt">gameconfig</span> node. The following is a list of all options read by Hatch:</p>
+<h2 class="doxsection"><a class="anchor" id="main-options"></a>
+Main options</h2>
+<p>Configures basic information about the game.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">gameTitle</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The full game title. <span class="tt">name</span> is also accepted.  </td><td class="markdownTableBodyNone"><span class="tt">"Hatch Game Engine"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">shortTitle</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">A shorter version of the game's title.  </td><td class="markdownTableBodyNone"><span class="tt">"Hatch Game Engine"</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">version</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The version of the game.  </td><td class="markdownTableBodyNone"><span class="tt">"1.0"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">description</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">A short description of the game.  </td><td class="markdownTableBodyNone"><span class="tt">"Cluck cluck I'm a chicken"</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">developer</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The name of the developer.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">gameIdentifier</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The game's identifier. If not set, this is generated from the short game title.  </td><td class="markdownTableBodyNone"><span class="tt">"hatch"</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">developerIdentifier</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The identifier of the developer. If not set, this is generated from the developer name.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">useDeveloperIdentifierInPaths</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to use <span class="tt">developerIdentifier</span> in paths.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">savesDir</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The name of the saves directory.  </td><td class="markdownTableBodyNone"><span class="tt">"saves"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">preferencesDir</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The name of the preferences directory.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">activeCategory</span>  </td><td class="markdownTableBodyNone">string/integer  </td><td class="markdownTableBodyNone">Which scene list category to use when the game starts.  </td><td class="markdownTableBodyNone"><span class="tt">0</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">startscene</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Which scene file to load first. When using a scene list, this is the name of the entry within the active category instead. If both <span class="tt">startscene</span> and <span class="tt">startSceneNum</span> are present while a scene list is loaded, this takes priority.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">startSceneNum</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">Which entry in the active scene list category to load.  </td><td class="markdownTableBodyNone"><span class="tt">0</span>  </td></tr>
+</table>
+<p>The <span class="tt">version</span> option also accepts an alternative method of defining the game version:</p>
+<div class="fragment"><div class="line">&lt;<span class="keywordtype">version</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">major</span>&gt;1&lt;/<span class="keywordtype">major</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">minor</span>&gt;4&lt;/<span class="keywordtype">minor</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">patch</span>&gt;0&lt;/<span class="keywordtype">patch</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">prerelease</span>&gt;<span class="keyword">indev</span>&lt;/<span class="keywordtype">prerelease</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">version</span>&gt;</div>
+</div><!-- fragment --><p>This generates the following version string: <span class="tt">1.4.0-indev</span></p>
+<h2 class="doxsection"><a class="anchor" id="engine-options"></a>
+<span class="tt">engine</span> options</h2>
+<p>Configures general engine options.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">framerate</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The rate of all fixed timestep updates.  </td><td class="markdownTableBodyNone"><span class="tt">60</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">useFixedTimestep</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to use a fixed timestep, instead of a variable timestep.  </td><td class="markdownTableBodyNone"><span class="tt">true</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">enablePaletteUsage</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to enable palette usage by default.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">loadAllClasses</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to load all classes when loading the game.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">useSoftwareRenderer</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to enable the software renderer by default.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">disableDefaultActions</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to not add the default set of input actions.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">allowCmdLineSceneLoad</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether the game allows loading scenes from command line parameters.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">settingsFile</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The path to the settings file.  </td><td class="markdownTableBodyNone"><span class="tt">"config://config.ini"</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">writeLogFile</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to write to the logfile.  </td><td class="markdownTableBodyNone"><span class="tt">true</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">logFilename</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">The name of the logfile.  </td><td class="markdownTableBodyNone"><span class="tt">"HatchGameEngine.log"</span>  </td></tr>
+</table>
+<h2 class="doxsection"><a class="anchor" id="display-options"></a>
+<span class="tt">display</span> options</h2>
+<p>Configures display options.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">width</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The width of the screen.  </td><td class="markdownTableBodyNone"><span class="tt">424</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">height</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The height of the screen.  </td><td class="markdownTableBodyNone"><span class="tt">240</span>  </td></tr>
+</table>
+<h2 class="doxsection"><a class="anchor" id="audio-options"></a>
+<span class="tt">audio</span> options</h2>
+<p>Configures audio options.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">music</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The music volume.  </td><td class="markdownTableBodyNone"><span class="tt">100</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">sound</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The sound volume.  </td><td class="markdownTableBodyNone"><span class="tt">100</span>  </td></tr>
+</table>
+<p>To set the default master/music/sound volume, you must use the <span class="tt">volume</span> attribute. Example:</p>
+<div class="fragment"><div class="line">&lt;<span class="keywordtype">audio</span> <span class="keyword">volume</span>=<span class="stringliteral">&quot;50&quot;</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">music</span> <span class="keyword">volume</span>=<span class="stringliteral">&quot;100&quot;</span>&gt;&lt;/<span class="keywordtype">music</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">sound</span> <span class="keyword">volume</span>=<span class="stringliteral">&quot;50&quot;</span>&gt;&lt;/<span class="keywordtype">sound</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">audio</span>&gt;</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="keys-options"></a>
+<span class="tt">keys</span> options</h2>
+<p>Configures the default keybinds.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">fullscreen</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Fullscreen toggle.  </td><td class="markdownTableBodyNone"><span class="tt">"F4"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">toggleFPSCounter</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">FPS counter toggle.  </td><td class="markdownTableBodyNone"><span class="tt">"F2"</span>  </td></tr>
+</table>
+<p>The following keybinds are developer mode keys:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devMenuToggle</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Opens and closes the developer menu.  </td><td class="markdownTableBodyNone"><span class="tt">"ESCAPE"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devRestartApp</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Restarts the application.  </td><td class="markdownTableBodyNone"><span class="tt">"F1"</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devRestartScene</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Restarts the current scene.  </td><td class="markdownTableBodyNone"><span class="tt">"F6"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devRecompile</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Recompiles scripts that have changed, and restarts the current scene.  </td><td class="markdownTableBodyNone"><span class="tt">"F5"</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devPerfSnapshot</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Logs the performance measurements taken during the frame.  </td><td class="markdownTableBodyNone"><span class="tt">"F3"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devLogLayerInfo</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Logs information about the layers in the current scene.  </td><td class="markdownTableBodyNone"><span class="tt">"F7"</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devFastForward</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Toggles fast forward.  </td><td class="markdownTableBodyNone"><span class="tt">"BACKSPACE"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devToggleFrameStepper</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Toggles the frame stepper.  </td><td class="markdownTableBodyNone"><span class="tt">"F9"</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devStepFrame</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Steps through frames.  </td><td class="markdownTableBodyNone"><span class="tt">"F10"</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devQuit</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Closes the application.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devShowTileCol</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Toggles the tile collision viewer.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devShowObjectRegions</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Toggles the entity update and render regions viewer.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devViewHitboxes</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Toggles the entity collisions viewer.  </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<h2 class="doxsection"><a class="anchor" id="controls-options"></a>
+<span class="tt">controls</span> options</h2>
+<p>See the Input Actions section of the Input page for more details.</p>
+<h1 class="doxsection"><a class="anchor" id="example-gameconfigxml"></a>
+Example <span class="tt">GameConfig.xml</span></h1>
+<div class="fragment"><div class="line">&lt;<span class="keywordtype">gameconfig</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">gameTitle</span>&gt;<span class="keyword">Miss</span> <span class="keyword">Hatch:</span> <span class="keyword">Coping</span> <span class="keyword">with</span> <span class="keyword">Brooding</span>&lt;/<span class="keywordtype">gameTitle</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">shortTitle</span>&gt;<span class="keyword">Miss</span> <span class="keyword">Hatch</span>&lt;/<span class="keywordtype">shortTitle</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">developer</span>&gt;<span class="keyword">EggSoft</span>&lt;/<span class="keywordtype">developer</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">description</span>&gt;<span class="keyword">Help</span> <span class="keyword">Miss</span> <span class="keyword">Hatch</span> <span class="keyword">take</span> <span class="keyword">care</span> <span class="keyword">of</span> <span class="keyword">her</span> <span class="keyword">nest</span>&lt;/<span class="keywordtype">description</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">version</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">major</span>&gt;1&lt;/<span class="keywordtype">major</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">minor</span>&gt;0&lt;/<span class="keywordtype">minor</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">version</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">    &lt;<span class="keywordtype">engine</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">enablePaletteUsage</span>&gt;<span class="keyword">true</span>&lt;/<span class="keywordtype">enablePaletteUsage</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">disableDefaultActions</span>&gt;<span class="keyword">true</span>&lt;/<span class="keywordtype">disableDefaultActions</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">engine</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">    &lt;<span class="keywordtype">startscene</span>&gt;<span class="keyword">scenes</span>/<span class="keyword">eggsoft-screen.tmx</span>&lt;/<span class="keywordtype">startscene</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">    &lt;<span class="keywordtype">display</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">width</span>&gt;480&lt;/<span class="keywordtype">width</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">height</span>&gt;270&lt;/<span class="keywordtype">height</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">display</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">    &lt;<span class="keywordtype">audio</span> <span class="keyword">volume</span>=<span class="stringliteral">&quot;50&quot;</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">music</span> <span class="keyword">volume</span>=<span class="stringliteral">&quot;100&quot;</span>&gt;&lt;/<span class="keywordtype">music</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">sound</span> <span class="keyword">volume</span>=<span class="stringliteral">&quot;50&quot;</span>&gt;&lt;/<span class="keywordtype">sound</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">audio</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">    &lt;<span class="keywordtype">keys</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">fullscreen</span>&gt;<span class="keyword">F4</span>&lt;/<span class="keywordtype">fullscreen</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">keys</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">    &lt;<span class="keywordtype">controls</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">action</span>&gt;<span class="keyword">up</span>&lt;/<span class="keywordtype">action</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">action</span>&gt;<span class="keyword">down</span>&lt;/<span class="keywordtype">action</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">action</span>&gt;<span class="keyword">left</span>&lt;/<span class="keywordtype">action</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">action</span>&gt;<span class="keyword">right</span>&lt;/<span class="keywordtype">action</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">action</span>&gt;<span class="keyword">start</span>&lt;/<span class="keywordtype">action</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">action</span>&gt;<span class="keyword">select</span>&lt;/<span class="keywordtype">action</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">        &lt;<span class="keywordtype">player</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;1&quot;</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">action</span>=<span class="stringliteral">&quot;up&quot;</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">key</span>&gt;<span class="keyword">UP</span>&lt;/<span class="keywordtype">key</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">button</span>&gt;<span class="keyword">DPAD_UP</span>&lt;/<span class="keywordtype">button</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">axis</span> <span class="keyword">digital_threshold</span>=<span class="stringliteral">&quot;0.5&quot;</span>&gt;-<span class="keyword">LEFTY</span>&lt;/<span class="keywordtype">axis</span>&gt;</div>
+<div class="line">            &lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">action</span>=<span class="stringliteral">&quot;down&quot;</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">key</span>&gt;<span class="keyword">DOWN</span>&lt;/<span class="keywordtype">key</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">button</span>&gt;<span class="keyword">DPAD_DOWN</span>&lt;/<span class="keywordtype">button</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">axis</span> <span class="keyword">digital_threshold</span>=<span class="stringliteral">&quot;0.5&quot;</span>&gt;+<span class="keyword">LEFTY</span>&lt;/<span class="keywordtype">axis</span>&gt;</div>
+<div class="line">            &lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">action</span>=<span class="stringliteral">&quot;left&quot;</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">key</span>&gt;<span class="keyword">LEFT</span>&lt;/<span class="keywordtype">key</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">button</span>&gt;<span class="keyword">DPAD_LEFT</span>&lt;/<span class="keywordtype">button</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">axis</span> <span class="keyword">digital_threshold</span>=<span class="stringliteral">&quot;0.5&quot;</span>&gt;-<span class="keyword">LEFTX</span>&lt;/<span class="keywordtype">axis</span>&gt;</div>
+<div class="line">            &lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">action</span>=<span class="stringliteral">&quot;right&quot;</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">key</span>&gt;<span class="keyword">RIGHT</span>&lt;/<span class="keywordtype">key</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">button</span>&gt;<span class="keyword">DPAD_RIGHT</span>&lt;/<span class="keywordtype">button</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">axis</span> <span class="keyword">digital_threshold</span>=<span class="stringliteral">&quot;0.5&quot;</span>&gt;+<span class="keyword">LEFTX</span>&lt;/<span class="keywordtype">axis</span>&gt;</div>
+<div class="line">            &lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">action</span>=<span class="stringliteral">&quot;start&quot;</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">key</span>&gt;<span class="keyword">RETURN</span>&lt;/<span class="keywordtype">key</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">button</span>&gt;<span class="keyword">START</span>&lt;/<span class="keywordtype">button</span>&gt;</div>
+<div class="line">            &lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">action</span>=<span class="stringliteral">&quot;select&quot;</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">key</span>&gt;<span class="keyword">RSHIFT</span>&lt;/<span class="keywordtype">key</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">button</span>&gt;<span class="keyword">BACK</span>&lt;/<span class="keywordtype">button</span>&gt;</div>
+<div class="line">            &lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">player</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">        &lt;<span class="keywordtype">player</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;2&quot;</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">copy</span>=<span class="stringliteral">&quot;button&quot;</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;1&quot;</span>&gt;&lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">copy</span>=<span class="stringliteral">&quot;axis&quot;</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;1&quot;</span>&gt;&lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">player</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">        &lt;<span class="keywordtype">player</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;3&quot;</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">copy</span>=<span class="stringliteral">&quot;button&quot;</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;1&quot;</span>&gt;&lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">copy</span>=<span class="stringliteral">&quot;axis&quot;</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;1&quot;</span>&gt;&lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">player</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">        &lt;<span class="keywordtype">player</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;4&quot;</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">copy</span>=<span class="stringliteral">&quot;button&quot;</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;1&quot;</span>&gt;&lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">default</span> <span class="keyword">copy</span>=<span class="stringliteral">&quot;axis&quot;</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;1&quot;</span>&gt;&lt;/<span class="keywordtype">default</span>&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">player</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">controls</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">gameconfig</span>&gt;</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

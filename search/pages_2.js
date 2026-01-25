@@ -7,5 +7,6 @@ var searchData=
   ['concepts_4',['Core engine concepts',['../introduction_to_hatch.html#core-engine-concepts',1,'']]],
   ['conclusion_5',['Conclusion',['../hello_world.html#conclusion',1,'']]],
   ['configuration_20file_6',['Configuration File',['../gameconfig.html',1,'Game Configuration File'],['../hello_world.html#the-game-configuration-file',1,'The Game Configuration File']]],
-  ['core_20engine_20concepts_7',['Core engine concepts',['../introduction_to_hatch.html#core-engine-concepts',1,'']]]
+  ['controls_20options_7',['&lt;span class=&quot;tt&quot;&gt;controls&lt;/span&gt; options',['../gameconfig.html#controls-options',1,'']]],
+  ['core_20engine_20concepts_8',['Core engine concepts',['../introduction_to_hatch.html#core-engine-concepts',1,'']]]
 ];

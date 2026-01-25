@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['reference_0',['API Reference',['../index.html#api-reference',1,'']]],
-  ['rendering_1',['Rendering',['../rendering.html',1,'manual_page']]],
-  ['resource_2',['Resource',['../introduction_to_hatch.html#resource',1,'']]],
-  ['resource_20management_3',['Resource Management',['../resource_management.html',1,'manual_page']]]
+  ['physics_20and_20tile_20collision_0',['Physics and tile collision',['../hello_world.html#physics-and-tile-collision',1,'']]],
+  ['properties_1',['Entity properties',['../hello_world.html#entity-properties',1,'']]]
 ];

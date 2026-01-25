@@ -8,5 +8,6 @@ var searchData=
   ['and_20textures_5',['Sprites, Images, and Textures',['../sprites_images_and_textures.html',1,'manual_page']]],
   ['and_20tile_20collision_6',['Physics and tile collision',['../hello_world.html#physics-and-tile-collision',1,'']]],
   ['api_20reference_7',['API Reference',['../index.html#api-reference',1,'']]],
-  ['audio_20sounds_20and_20music_8',['Audio, Sounds, and Music',['../audio_sounds_and_music.html',1,'manual_page']]]
+  ['audio_20options_8',['&lt;span class=&quot;tt&quot;&gt;audio&lt;/span&gt; options',['../gameconfig.html#audio-options',1,'']]],
+  ['audio_20sounds_20and_20music_9',['Audio, Sounds, and Music',['../audio_sounds_and_music.html',1,'manual_page']]]
 ];

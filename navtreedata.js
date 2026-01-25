@@ -52,8 +52,8 @@ var NAVTREEINDEX =
 "classInput.html#ab7ebba75ddff9037825d78a8baed856f",
 "classScene.html#a533f56d6939866bee47c35220c6ba5d7",
 "classTexture.html",
-"group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa9c3a94cf3e63bd416854579c42270d5c",
-"group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73af965102ae5e5fad961cc0b556716cf6d"
+"group__hsl.html#gga0c4b70f214a66471f4af679b5471af2aa990b26c47b7a23695dd3fd41c0af800d",
+"group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73af912d1d03d4a592076d1bd1900b2e35e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
