@@ -217,8 +217,9 @@ var searchData=
   ['gety_214',['GetY',['../classTouch.html#a846568e2a6c8f292cf181a71427210c9',1,'Touch.GetY()'],['../classView.html#a7fd7748284674c03f39ea429b4ce3dde',1,'View.GetY(integer viewIndex)']]],
   ['getz_215',['GetZ',['../classView.html#af3cc87994850e9ae4984728686060197',1,'View']]],
   ['glyph_216',['Glyph',['../classDraw.html#afddfa4dab2e934e5de9fde88ec6b129e',1,'Draw']]],
-  ['gravity_217',['Gravity',['../classEntity.html#a6e43939a579364ab32167e5b1c21c640',1,'Entity']]],
-  ['gravityspeed_218',['GravitySpeed',['../classEntity.html#a463547ec988f244fa3ac853817c056ab',1,'Entity']]],
-  ['ground_219',['Ground',['../classEntity.html#a4cfcc8c0ca25f5cf87e80b2f6c832bec',1,'Entity']]],
-  ['groundspeed_220',['GroundSpeed',['../classEntity.html#aa3fbeaa01cafe08311925e896ec1e4c6',1,'Entity']]]
+  ['graphics_217',['Graphics',['../capabilities.html#graphics',1,'']]],
+  ['gravity_218',['Gravity',['../classEntity.html#a6e43939a579364ab32167e5b1c21c640',1,'Entity']]],
+  ['gravityspeed_219',['GravitySpeed',['../classEntity.html#a463547ec988f244fa3ac853817c056ab',1,'Entity']]],
+  ['ground_220',['Ground',['../classEntity.html#a4cfcc8c0ca25f5cf87e80b2f6c832bec',1,'Entity']]],
+  ['groundspeed_221',['GroundSpeed',['../classEntity.html#aa3fbeaa01cafe08311925e896ec1e4c6',1,'Entity']]]
 ];

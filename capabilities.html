@@ -101,10 +101,32 @@ $(function(){initNavTree('capabilities.html','',''); });
   <div class="headertitle"><div class="title">Capabilities </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>TODO </p>
+<div class="textblock"><p>A <b>capability</b> indicates the presence or limits of a specific feature of the hardware that the game is running on, hence the name. They were introduced in version 1.4. You can query a given capability by using <a class="el" href="classDevice.html#a91671aa31e6893c159395544c513b752" title="Device.GetCapability">Device.GetCapability</a>.</p>
+<p>The following is a categorized list of all capabilities:</p>
+<h2 class="doxsection"><a class="anchor" id="graphics"></a>
+Graphics</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">graphics_shaders</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether shaders are supported by the current renderer. See <a class="el" href="rendering.html" title="Rendering">Rendering</a>.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">gpu_maxTextureWidth</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The maximum texture width supported by the GPU.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">gpu_maxTextureHeight</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The maximum texture height supported by the GPU.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">gpu_maxTextureUnits</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The maximum amount of texture units supported by the GPU.  </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
