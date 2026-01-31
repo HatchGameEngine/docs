@@ -216,7 +216,7 @@ var searchData=
   ['getx_213',['GetX',['../classTouch.html#a9d81ec2fbdc0e14e4a6e19bdc7ad4b17',1,'Touch.GetX()'],['../classView.html#a9f8e1096d46dca5681eda7f621c72966',1,'View.GetX()']]],
   ['gety_214',['GetY',['../classTouch.html#a846568e2a6c8f292cf181a71427210c9',1,'Touch.GetY()'],['../classView.html#a7fd7748284674c03f39ea429b4ce3dde',1,'View.GetY(integer viewIndex)']]],
   ['getz_215',['GetZ',['../classView.html#af3cc87994850e9ae4984728686060197',1,'View']]],
-  ['glyph_216',['Glyph',['../classDraw.html#afddfa4dab2e934e5de9fde88ec6b129e',1,'Draw']]],
+  ['glyph_216',['Glyph',['../classDraw.html#a113f9284ebfe0ae0ef137a54eb08a965',1,'Draw']]],
   ['graphics_217',['Graphics',['../capabilities.html#graphics',1,'']]],
   ['gravity_218',['Gravity',['../classEntity.html#a6e43939a579364ab32167e5b1c21c640',1,'Entity']]],
   ['gravityspeed_219',['GravitySpeed',['../classEntity.html#a463547ec988f244fa3ac853817c056ab',1,'Entity']]],
