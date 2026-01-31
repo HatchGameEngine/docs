@@ -11,6 +11,7 @@ var annotated_dup =
     [ "Application", "classApplication.html", "classApplication" ],
     [ "Array", "classArray.html", "classArray" ],
     [ "Audio", "classAudio.html", "classAudio" ],
+    [ "Camera", "classCamera.html", "classCamera" ],
     [ "Collision", "classCollision.html", "classCollision" ],
     [ "Controller", "classController.html", "classController" ],
     [ "Date", "classDate.html", "classDate" ],

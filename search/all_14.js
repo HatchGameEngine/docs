@@ -13,12 +13,13 @@ var searchData=
   ['updateregiontop_10',['UpdateRegionTop',['../classEntity.html#af3cdb061c2ad6ed8be1dcb4a1258fc3f',1,'Entity']]],
   ['updateregionw_11',['UpdateRegionW',['../classEntity.html#acbe48623016ec4c3c970e5f7ce84bac5',1,'Entity']]],
   ['updaterichpresence_12',['UpdateRichPresence',['../classAPI_1_1Discord.html#a4b50d201d276c9bb1981ff3c2a6eb925',1,'API.Discord.UpdateRichPresence(string details, string state, string largeImageKey, string smallImageKey)'],['../classAPI_1_1Discord.html#aca5d5195c455de462d8656cd0b2d46ef',1,'API.Discord.UpdateRichPresence(string details, string state, string largeImageKey, integer startTime)'],['../classAPI_1_1Discord.html#a90f535ae7d98d31206e39f36d0072783',1,'API.Discord.UpdateRichPresence(string details, string state, string largeImageKey, string smallImageKey, integer startTime)']]],
-  ['usedepthtesting_13',['UseDepthTesting',['../classDraw.html#ab4242086713fc8c7e3f1565bb38a5c56',1,'Draw']]],
-  ['usefillsmoothing_14',['UseFillSmoothing',['../classDraw.html#aed8ab5028b8820647c465b4899adec9b',1,'Draw']]],
-  ['usefixedtimestep_15',['UseFixedTimestep',['../classApplication.html#a17594992568837db92c3f3653978e1df',1,'Application']]],
-  ['usepaletteindexlines_16',['UsePaletteIndexLines',['../classPalette.html#a35317affab2c239fa4507a726712eaee',1,'Palette']]],
-  ['usespritedeform_17',['UseSpriteDeform',['../classDraw.html#aad941a533cd1ecc5e49e6eee4ad726ab',1,'Draw']]],
-  ['usestencil_18',['UseStencil',['../classDraw.html#a26477c42f7f8d83b85038d171bc36ff1',1,'Draw']]],
-  ['usestrokesmoothing_19',['UseStrokeSmoothing',['../classDraw.html#acae6a390552b205005a9f353140663bf',1,'Draw']]],
-  ['usetinting_20',['UseTinting',['../classDraw.html#a5d83bae4b17c846b45072b19411b7988',1,'Draw']]]
+  ['usebounds_13',['UseBounds',['../classCamera.html#a5c21f4750c49b8b6e94ba7eca08adae8',1,'Camera']]],
+  ['usedepthtesting_14',['UseDepthTesting',['../classDraw.html#ab4242086713fc8c7e3f1565bb38a5c56',1,'Draw']]],
+  ['usefillsmoothing_15',['UseFillSmoothing',['../classDraw.html#aed8ab5028b8820647c465b4899adec9b',1,'Draw']]],
+  ['usefixedtimestep_16',['UseFixedTimestep',['../classApplication.html#a17594992568837db92c3f3653978e1df',1,'Application']]],
+  ['usepaletteindexlines_17',['UsePaletteIndexLines',['../classPalette.html#a35317affab2c239fa4507a726712eaee',1,'Palette']]],
+  ['usespritedeform_18',['UseSpriteDeform',['../classDraw.html#aad941a533cd1ecc5e49e6eee4ad726ab',1,'Draw']]],
+  ['usestencil_19',['UseStencil',['../classDraw.html#a26477c42f7f8d83b85038d171bc36ff1',1,'Draw']]],
+  ['usestrokesmoothing_20',['UseStrokeSmoothing',['../classDraw.html#acae6a390552b205005a9f353140663bf',1,'Draw']]],
+  ['usetinting_21',['UseTinting',['../classDraw.html#a5d83bae4b17c846b45072b19411b7988',1,'Draw']]]
 ];

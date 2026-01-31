@@ -88,6 +88,11 @@ var group__hsl =
       [ "SetMusicVolume", "classAudio.html#abac5eb53d0ea9224c87c63a688dcb866", null ],
       [ "SetSoundVolume", "classAudio.html#ac1a60628d170cc99feb8693ba32801b7", null ]
     ] ],
+    [ "Camera", "classCamera.html", [
+      [ "TargetEntity", "classCamera.html#a28d8ecefd43eed04bfe4117c0e7c8cd0", null ],
+      [ "UseBounds", "classCamera.html#a5c21f4750c49b8b6e94ba7eca08adae8", null ],
+      [ "ViewIndex", "classCamera.html#a9074efae5d322ee5affb26b0c069547a", null ]
+    ] ],
     [ "Collision", "classCollision.html", [
       [ "CheckEntityBox", "classCollision.html#a0cb2ed3d06a9e261996e25a3b92b062c", null ],
       [ "CheckEntityCircle", "classCollision.html#a8ce0c5409e72c36f46952a36ccb064ae", null ],

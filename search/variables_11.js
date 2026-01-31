@@ -5,5 +5,6 @@ var searchData=
   ['updateregionleft_2',['UpdateRegionLeft',['../classEntity.html#ae6cde5ce2bc736b58e505debf4b33a3a',1,'Entity']]],
   ['updateregionright_3',['UpdateRegionRight',['../classEntity.html#a96b39890b95c80f4ed11b5a1b7f5f08b',1,'Entity']]],
   ['updateregiontop_4',['UpdateRegionTop',['../classEntity.html#af3cdb061c2ad6ed8be1dcb4a1258fc3f',1,'Entity']]],
-  ['updateregionw_5',['UpdateRegionW',['../classEntity.html#acbe48623016ec4c3c970e5f7ce84bac5',1,'Entity']]]
+  ['updateregionw_5',['UpdateRegionW',['../classEntity.html#acbe48623016ec4c3c970e5f7ce84bac5',1,'Entity']]],
+  ['usebounds_6',['UseBounds',['../classCamera.html#a5c21f4750c49b8b6e94ba7eca08adae8',1,'Camera']]]
 ];
