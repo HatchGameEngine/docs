@@ -265,7 +265,7 @@ var searchData=
   ['speedx_262',['SpeedX',['../classEntity.html#a813262c3421251749d8323eb907522c3',1,'Entity']]],
   ['speedy_263',['SpeedY',['../classEntity.html#a57b21045471577a482ed5b0ce8260214',1,'Entity']]],
   ['split_264',['Split',['../classString.html#a3200a9ab596a04a8670202ec88ccebde',1,'String']]],
-  ['sprite_265',['Sprite',['../classSprite.html',1,'Sprite'],['../classEntity.html#a9ba93400e5184424812cb6a8081f1131',1,'Entity.Sprite'],['../classDraw.html#a77328a1c95930a10395cc0ab5bffc393',1,'Draw.Sprite()'],['../classDraw3D.html#ab47a2c330ca95f96115da829136c50cf',1,'Draw3D.Sprite()']]],
+  ['sprite_265',['Sprite',['../classSprite.html',1,'Sprite'],['../classEntity.html#a9ba93400e5184424812cb6a8081f1131',1,'Entity.Sprite'],['../classDraw.html#a7bfa453d82575dbcb23a98f21c166379',1,'Draw.Sprite()'],['../classDraw3D.html#ab47a2c330ca95f96115da829136c50cf',1,'Draw3D.Sprite()']]],
   ['spritebasic_266',['SpriteBasic',['../classDraw.html#a61650b897168ae5c948d01790256ecfa',1,'Draw']]],
   ['spritepart_267',['SpritePart',['../classDraw.html#a79875aff56043928305a3debcc7fd39b',1,'Draw.SpritePart()'],['../classDraw3D.html#a15d5bd117047e11d545b85f5125447ad',1,'Draw3D.SpritePart(integer sprite, integer animation, integer frame, number x, number y, number z, integer partX, integer partY, integer partW, integer partH, integer flipX, integer flipY, number scaleX, number scaleY, matrix matrixModel, matrix matrixNormal)']]],
   ['spritepoints_268',['SpritePoints',['../classDraw3D.html#a39a02854bab65644c42c87b40eba4aa0',1,'Draw3D']]],

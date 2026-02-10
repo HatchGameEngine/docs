@@ -62,7 +62,7 @@ var classDraw =
     [ "SetTintMode", "classDraw.html#a2893f87c1831d6fc6ecca11176c5fab1", null ],
     [ "SetVerticalDotMask", "classDraw.html#aaf763171e8026a069196a79571df1f20", null ],
     [ "SetVerticalDotMaskOffset", "classDraw.html#a97524bdf526a3434ebd2c3c92f415bc1", null ],
-    [ "Sprite", "classDraw.html#a77328a1c95930a10395cc0ab5bffc393", null ],
+    [ "Sprite", "classDraw.html#a7bfa453d82575dbcb23a98f21c166379", null ],
     [ "SpriteBasic", "classDraw.html#a61650b897168ae5c948d01790256ecfa", null ],
     [ "SpritePart", "classDraw.html#a79875aff56043928305a3debcc7fd39b", null ],
     [ "Text", "classDraw.html#afd8592893ad9a4583ca0636872bc0fa8", null ],

@@ -192,7 +192,7 @@ var searchData=
   ['solidcollidewithobject_189',['SolidCollideWithObject',['../classEntity.html#a15b91b25ac461c105475792466144a13',1,'Entity']]],
   ['sort_190',['Sort',['../classArray.html#aef8a3c18aba317bcb88091f1bffd8543',1,'Array']]],
   ['split_191',['Split',['../classString.html#a3200a9ab596a04a8670202ec88ccebde',1,'String']]],
-  ['sprite_192',['Sprite',['../classDraw.html#a77328a1c95930a10395cc0ab5bffc393',1,'Draw.Sprite()'],['../classDraw3D.html#ab47a2c330ca95f96115da829136c50cf',1,'Draw3D.Sprite()']]],
+  ['sprite_192',['Sprite',['../classDraw.html#a7bfa453d82575dbcb23a98f21c166379',1,'Draw.Sprite()'],['../classDraw3D.html#ab47a2c330ca95f96115da829136c50cf',1,'Draw3D.Sprite()']]],
   ['spritebasic_193',['SpriteBasic',['../classDraw.html#a61650b897168ae5c948d01790256ecfa',1,'Draw']]],
   ['spritepart_194',['SpritePart',['../classDraw.html#a79875aff56043928305a3debcc7fd39b',1,'Draw.SpritePart()'],['../classDraw3D.html#a15d5bd117047e11d545b85f5125447ad',1,'Draw3D.SpritePart(integer sprite, integer animation, integer frame, number x, number y, number z, integer partX, integer partY, integer partW, integer partH, integer flipX, integer flipY, number scaleX, number scaleY, matrix matrixModel, matrix matrixNormal)']]],
   ['spritepoints_195',['SpritePoints',['../classDraw3D.html#a39a02854bab65644c42c87b40eba4aa0',1,'Draw3D']]],
