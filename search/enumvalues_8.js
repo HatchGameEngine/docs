@@ -118,5 +118,6 @@ var searchData=
   ['keybind_5fdevtilecol_115',['KeyBind_DevTileCol',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba2c08ca95bd4f0ab9b29497ac99966467',1,'KeyBind.hsl']]],
   ['keybind_5fdevviewhitboxes_116',['KeyBind_DevViewHitboxes',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bac94fab0620b0400a2a95fe3137089e32',1,'KeyBind.hsl']]],
   ['keybind_5ffullscreen_117',['KeyBind_Fullscreen',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba89253b4efcfa73dfd8c1c6e88762eeb5',1,'KeyBind.hsl']]],
-  ['keybind_5ftogglefpscounter_118',['KeyBind_ToggleFPSCounter',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baa41e90760e64f1fde3d30b6b37a08f29',1,'KeyBind.hsl']]]
+  ['keybind_5fscreenshot_118',['KeyBind_Screenshot',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bacd3d361fa1a4186081b4e3af005a65ed',1,'KeyBind.hsl']]],
+  ['keybind_5ftogglefpscounter_119',['KeyBind_ToggleFPSCounter',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baa41e90760e64f1fde3d30b6b37a08f29',1,'KeyBind.hsl']]]
 ];

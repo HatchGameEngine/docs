@@ -65,6 +65,7 @@ var group__hsl =
       [ "SetKeyBind", "classApplication.html#a748b136cfabd2cb23867ee237e316719", null ],
       [ "SetTargetFrameRate", "classApplication.html#ad005dd5dcc5dcfadeb660ff91ea19933", null ],
       [ "ShowFPSCounter", "classApplication.html#a5a95706aff4a5f0dce3b07672570385b", null ],
+      [ "TakeScreenshot", "classApplication.html#a9585dd41f353d947c8287e663e4619c3", null ],
       [ "UseFixedTimestep", "classApplication.html#a17594992568837db92c3f3653978e1df", null ]
     ] ],
     [ "Array", "classArray.html", [
@@ -1321,6 +1322,7 @@ var group__hsl =
     ] ],
     [ "KeyBind", "group__hsl.html#ga4b246822d2357bc7be50a0c0211bf26b", [
       [ "KeyBind_Fullscreen", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba89253b4efcfa73dfd8c1c6e88762eeb5", null ],
+      [ "KeyBind_Screenshot", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bacd3d361fa1a4186081b4e3af005a65ed", null ],
       [ "KeyBind_ToggleFPSCounter", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baa41e90760e64f1fde3d30b6b37a08f29", null ],
       [ "KeyBind_DevRestartApp", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba53a46f507e6dd16fd8d1f769cc1e543c", null ],
       [ "KeyBind_DevRestartScene", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba305ae8995df62c4d67897ee11d0775aa", null ],

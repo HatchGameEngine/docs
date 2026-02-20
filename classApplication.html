@@ -159,6 +159,8 @@ void&#160;</td><td class="memItemRight"><b>GetGameDescription</b> ()</td></tr>
 <tr class="memdesc:a24074e53ffcf45801516aebeb9c32321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the cursor.  <br /></td></tr>
 <tr class="memitem:aee0a1f82de572fc51651f1d1392114c3" id="r_aee0a1f82de572fc51651f1d1392114c3"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#aee0a1f82de572fc51651f1d1392114c3">GetCursorVisible</a> ()</td></tr>
 <tr class="memdesc:aee0a1f82de572fc51651f1d1392114c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the visibility of the cursor.  <br /></td></tr>
+<tr class="memitem:a9585dd41f353d947c8287e663e4619c3" id="r_a9585dd41f353d947c8287e663e4619c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9585dd41f353d947c8287e663e4619c3">TakeScreenshot</a> (string path, function callback)</td></tr>
+<tr class="memdesc:a9585dd41f353d947c8287e663e4619c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a screenshot to <span class="tt">path</span>. This operation only completes at the end of the frame, so you may optionally provide a callback.  <br /></td></tr>
 <tr class="memitem:a27007a4654e592832fbc44aeda6c9f0e" id="r_a27007a4654e592832fbc44aeda6c9f0e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a27007a4654e592832fbc44aeda6c9f0e">Error</a> (string message, boolean detailed=true)</td></tr>
 <tr class="memdesc:a27007a4654e592832fbc44aeda6c9f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows an error message to the user through a dialog box, if possible. The error message is also logged.  <br /></td></tr>
 <tr class="memitem:a46940d8b4a52db72ba3fabf86526b29d" id="r_a46940d8b4a52db72ba3fabf86526b29d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a46940d8b4a52db72ba3fabf86526b29d">SetDefaultFont</a> (string font)</td></tr>
@@ -790,6 +792,36 @@ Graphics rendering backend</li>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">show</td><td>Whether to show the FPS counter. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9585dd41f353d947c8287e663e4619c3" name="a9585dd41f353d947c8287e663e4619c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9585dd41f353d947c8287e663e4619c3">&#9670;&#160;</a></span>TakeScreenshot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Application.TakeScreenshot </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">function</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves a screenshot to <span class="tt">path</span>. This operation only completes at the end of the frame, so you may optionally provide a callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The path to save the screenshot to. If not passed, the screenshot is saved to the default screenshot path. </td></tr>
+    <tr><td class="paramname">callback</td><td>The function to call when the screenshot operation finishes. When called, it receives two arguments: a boolean indicating whether the screenshot was saved, and the path the screenshot was saved to, as a string. The function may have less than two parameters, but no more than two. </td></tr>
   </table>
   </dd>
 </dl>

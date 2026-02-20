@@ -28,5 +28,6 @@ var classApplication =
     [ "SetKeyBind", "classApplication.html#a748b136cfabd2cb23867ee237e316719", null ],
     [ "SetTargetFrameRate", "classApplication.html#ad005dd5dcc5dcfadeb660ff91ea19933", null ],
     [ "ShowFPSCounter", "classApplication.html#a5a95706aff4a5f0dce3b07672570385b", null ],
+    [ "TakeScreenshot", "classApplication.html#a9585dd41f353d947c8287e663e4619c3", null ],
     [ "UseFixedTimestep", "classApplication.html#a17594992568837db92c3f3653978e1df", null ]
 ];
