@@ -513,15 +513,14 @@ Loading a scene file</h2>
  <a href="tileset.png">tileset.png</a> <br  />
  <a href="background.png">background.png</a> <br  />
 </p>
-<p>The <span class="tt">scene.tmx</span> file is the scene file we'll be loading. It's pretty simple; it has only two layers, and one object, the chick. The tileset images are the files <span class="tt">tileset.png</span> and <span class="tt">background.png</span>. Hatch supports loading external Tiled tileset files (TSX) if specified by the map, but <span class="tt">scene.tmx</span> stores its tileset internally.</p>
-<p>Go back to <span class="tt">init.hsl</span>. Remove the call to Instance.Create:</p>
-<div class="fragment"><div class="line">- Instance.Create(&quot;Chick&quot;, 48.0, 48.0);</div>
-</div><!-- fragment --><p>And in your <span class="tt">GameConfig.xml</span>, add this line:</p>
+<p>The <span class="tt">scene.tmx</span> file is the scene file we'll be loading. It's pretty simple; it has only two layers, and one object, the chick. The tileset images are the files <span class="tt">tileset.png</span> and <span class="tt">background.png</span>. Hatch supports loading external Tiled tileset files (TSX) if specified by the map, but <span class="tt">scene.tmx</span> stores its tileset internally. To make Hatch load <span class="tt">scene.tmx</span> when it opens, add this line to <span class="tt">GameConfig.xml</span>:</p>
 <div class="fragment"><div class="line"> &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</div>
 <div class="line"> &lt;gameconfig&gt;</div>
 <div class="line">     &lt;name&gt;My Hatch Game&lt;/name&gt;</div>
 <div class="line">+    &lt;startscene&gt;scene.tmx&lt;/startscene&gt;</div>
 <div class="line"> &lt;/gameconfig&gt;</div>
+</div><!-- fragment --><p>Since <span class="tt">scene.tmx</span> has an instance of the <span class="tt">Chick</span> object, your script doesn't need to create one anymore. Go back to <span class="tt">init.hsl</span>, and remove the call to Instance.Create:</p>
+<div class="fragment"><div class="line">- Instance.Create(&quot;Chick&quot;, 48.0, 48.0);</div>
 </div><!-- fragment --><p>Press F1, and you should see this:</p>
 <p><img src="tutorial-9.png" alt="A scene with a background and foreground layer. The background is a night sky in a pixel art style, and the foreground uses an industrial tileset" class="inline"/></p>
 <p>The tiles are being displayed, but the chick isn't visible. Why?</p>
