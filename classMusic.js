@@ -2,6 +2,7 @@ var classMusic =
 [
     [ "Alter", "classMusic.html#a5532bd00338ada729b5c598d8643eb27", null ],
     [ "Clear", "classMusic.html#af1ddeeeda69d6515f83ceed5665d268b", null ],
+    [ "GetDuration", "classMusic.html#a60f57a4af90705db95969fc92e8be4df", null ],
     [ "GetLoopPoint", "classMusic.html#a46ea18ce785fb8bc4416ce8997b2a1d3", null ],
     [ "GetPosition", "classMusic.html#a3d83556cf252e6fab118e33ceb0c83fa", null ],
     [ "IsPlaying", "classMusic.html#ac54cddc2c4ae58033976d0de42dbfb21", null ],

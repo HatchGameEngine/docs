@@ -65,7 +65,7 @@ var searchData=
   ['getdrawgroupcount_62',['GetDrawGroupCount',['../classScene.html#a2293dc3f7be36922d99a50cafd91b438',1,'Scene']]],
   ['getdrawgroupentitydepthsorting_63',['GetDrawGroupEntityDepthSorting',['../classScene.html#ae809e0c2261a7acdf138916116bc2ed1',1,'Scene']]],
   ['getdrawtarget_64',['GetDrawTarget',['../classView.html#a326222e10f78b2a4dd4b14e523b8bf4d',1,'View']]],
-  ['getduration_65',['GetDuration',['../classAnimator.html#afcb4f4e06092a418ba1d8c1fa2b0df0d',1,'Animator']]],
+  ['getduration_65',['GetDuration',['../classAnimator.html#afcb4f4e06092a418ba1d8c1fa2b0df0d',1,'Animator.GetDuration()'],['../classMusic.html#a60f57a4af90705db95969fc92e8be4df',1,'Music.GetDuration()']]],
   ['getdynamicinstancecount_66',['GetDynamicInstanceCount',['../classScene.html#a4e4753b5918868e2159625e83283c881',1,'Scene']]],
   ['getemptytile_67',['GetEmptyTile',['../classTileInfo.html#aafb17317b8a3f99e96639b1a60eb5f16',1,'TileInfo']]],
   ['getengineversioncodename_68',['GetEngineVersionCodename',['../classApplication.html#a0d1dc9831c1655944fecb8cc74ce15ea',1,'Application']]],
