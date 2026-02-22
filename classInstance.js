@@ -10,5 +10,6 @@ var classInstance =
     [ "GetNextInstance", "classInstance.html#a8a7ac1dcb051d6d3f38d409377ab08c3", null ],
     [ "GetNth", "classInstance.html#a7b191acffe013512f97f1810ae927d5a", null ],
     [ "IsClass", "classInstance.html#a9fe401234ee05787237de08850af6c24", null ],
-    [ "SetUseRenderRegions", "classInstance.html#a538de1345085e82125e5a88eec48b657", null ]
+    [ "SetUseRenderRegions", "classInstance.html#a538de1345085e82125e5a88eec48b657", null ],
+    [ "UseAnimationFrameSkip", "classInstance.html#a2965caa9ba4614e0ad27e15e401b8052", null ]
 ];

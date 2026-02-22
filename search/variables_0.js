@@ -11,11 +11,12 @@ var searchData=
   ['angle_8',['Angle',['../classEntity.html#a99ad0c5c27ac1c38f8aba76fec4920a6',1,'Entity']]],
   ['anglemode_9',['AngleMode',['../classEntity.html#abbc7c43f2aed1bc570fbccf863983a6b',1,'Entity']]],
   ['animationframeduration_10',['AnimationFrameDuration',['../classEntity.html#a99685429276e2e61193a1a092284a89f',1,'Entity']]],
-  ['animationloopindex_11',['AnimationLoopIndex',['../classEntity.html#a8039deddb660160671197d8e0defa790',1,'Entity']]],
-  ['animationspeed_12',['AnimationSpeed',['../classEntity.html#ab1b86378db6ae8ef1c2e479a62f41fc9',1,'Entity']]],
-  ['animationspeedadd_13',['AnimationSpeedAdd',['../classEntity.html#ae080524f3a16e685d149a3f890bfe97b',1,'Entity']]],
-  ['animationspeedmult_14',['AnimationSpeedMult',['../classEntity.html#adcd11cdb391e95f315f61ac55bc5ce63',1,'Entity']]],
-  ['animationtimer_15',['AnimationTimer',['../classEntity.html#ad69d6938e3b1d05ffb58faab5705ac35',1,'Entity']]],
-  ['autoanimate_16',['AutoAnimate',['../classEntity.html#ace78bddc64161d68493a69eec246656d',1,'Entity']]],
-  ['autophysics_17',['AutoPhysics',['../classEntity.html#a49acd423e398f63fcee9a9ce73fa80d7',1,'Entity']]]
+  ['animationframeskip_11',['AnimationFrameSkip',['../classEntity.html#aa2c37b1fa0808d46dbe48528a7286660',1,'Entity']]],
+  ['animationloopindex_12',['AnimationLoopIndex',['../classEntity.html#a8039deddb660160671197d8e0defa790',1,'Entity']]],
+  ['animationspeed_13',['AnimationSpeed',['../classEntity.html#ab1b86378db6ae8ef1c2e479a62f41fc9',1,'Entity']]],
+  ['animationspeedadd_14',['AnimationSpeedAdd',['../classEntity.html#ae080524f3a16e685d149a3f890bfe97b',1,'Entity']]],
+  ['animationspeedmult_15',['AnimationSpeedMult',['../classEntity.html#adcd11cdb391e95f315f61ac55bc5ce63',1,'Entity']]],
+  ['animationtimer_16',['AnimationTimer',['../classEntity.html#ad69d6938e3b1d05ffb58faab5705ac35',1,'Entity']]],
+  ['autoanimate_17',['AutoAnimate',['../classEntity.html#ace78bddc64161d68493a69eec246656d',1,'Entity']]],
+  ['autophysics_18',['AutoPhysics',['../classEntity.html#a49acd423e398f63fcee9a9ce73fa80d7',1,'Entity']]]
 ];

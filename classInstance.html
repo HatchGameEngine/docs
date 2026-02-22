@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4e044cf105e1084ff69f0f6067c83283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an instance by its slot ID.  <br /></td></tr>
 <tr class="memitem:a896d1f6f3a78aa939269d6ef2e883dc6" id="r_a896d1f6f3a78aa939269d6ef2e883dc6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a896d1f6f3a78aa939269d6ef2e883dc6">DisableAutoAnimate</a> (boolean disableAutoAnimate)</td></tr>
 <tr class="memdesc:a896d1f6f3a78aa939269d6ef2e883dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the AutoAnimate function of entities.  <br /></td></tr>
+<tr class="memitem:a2965caa9ba4614e0ad27e15e401b8052" id="r_a2965caa9ba4614e0ad27e15e401b8052"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2965caa9ba4614e0ad27e15e401b8052">UseAnimationFrameSkip</a> (boolean allowAnimationFrameSkip)</td></tr>
+<tr class="memdesc:a2965caa9ba4614e0ad27e15e401b8052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lets entities skip animation frames when their associated AnimationTimer passes multiples of the AnimationFrameDuration.  <br /></td></tr>
 <tr class="memitem:a538de1345085e82125e5a88eec48b657" id="r_a538de1345085e82125e5a88eec48b657"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a538de1345085e82125e5a88eec48b657">SetUseRenderRegions</a> (boolean useRenderRegions)</td></tr>
 <tr class="memdesc:a538de1345085e82125e5a88eec48b657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether entities will use Render Regions when rendering. If false, entities will use their Update Regions instead.  <br /></td></tr>
 <tr class="memitem:a870bc33b2da4a5f831c3e1beb4fc3138" id="r_a870bc33b2da4a5f831c3e1beb4fc3138"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a870bc33b2da4a5f831c3e1beb4fc3138">Copy</a> (<a class="el" href="classEntity.html">Entity</a> destInstance, <a class="el" href="classEntity.html">Entity</a> srcInstance, boolean copyClass=true)</td></tr>
@@ -458,6 +460,31 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">useRenderRegions</td><td>Whether render regions will be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2965caa9ba4614e0ad27e15e401b8052" name="a2965caa9ba4614e0ad27e15e401b8052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2965caa9ba4614e0ad27e15e401b8052">&#9670;&#160;</a></span>UseAnimationFrameSkip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Instance.UseAnimationFrameSkip </td>
+          <td>(</td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>allowAnimationFrameSkip</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lets entities skip animation frames when their associated AnimationTimer passes multiples of the AnimationFrameDuration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">allowAnimationFrameSkip</td><td>Whether to turn on the engine automatically applying AnimationFrameSkip when entities are initialized. </td></tr>
   </table>
   </dd>
 </dl>

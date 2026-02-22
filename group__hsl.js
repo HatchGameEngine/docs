@@ -336,6 +336,7 @@ var group__hsl =
       [ "Angle", "classEntity.html#a99ad0c5c27ac1c38f8aba76fec4920a6", null ],
       [ "AngleMode", "classEntity.html#abbc7c43f2aed1bc570fbccf863983a6b", null ],
       [ "AnimationFrameDuration", "classEntity.html#a99685429276e2e61193a1a092284a89f", null ],
+      [ "AnimationFrameSkip", "classEntity.html#aa2c37b1fa0808d46dbe48528a7286660", null ],
       [ "AnimationLoopIndex", "classEntity.html#a8039deddb660160671197d8e0defa790", null ],
       [ "AnimationSpeed", "classEntity.html#ab1b86378db6ae8ef1c2e479a62f41fc9", null ],
       [ "AnimationSpeedAdd", "classEntity.html#ae080524f3a16e685d149a3f890bfe97b", null ],
@@ -516,7 +517,8 @@ var group__hsl =
       [ "GetNextInstance", "classInstance.html#a8a7ac1dcb051d6d3f38d409377ab08c3", null ],
       [ "GetNth", "classInstance.html#a7b191acffe013512f97f1810ae927d5a", null ],
       [ "IsClass", "classInstance.html#a9fe401234ee05787237de08850af6c24", null ],
-      [ "SetUseRenderRegions", "classInstance.html#a538de1345085e82125e5a88eec48b657", null ]
+      [ "SetUseRenderRegions", "classInstance.html#a538de1345085e82125e5a88eec48b657", null ],
+      [ "UseAnimationFrameSkip", "classInstance.html#a2965caa9ba4614e0ad27e15e401b8052", null ]
     ] ],
     [ "JSON", "classJSON.html", [
       [ "Parse", "classJSON.html#adc76881e4f826e88915ea90a3e0c0681", null ],

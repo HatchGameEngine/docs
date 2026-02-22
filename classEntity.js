@@ -36,6 +36,7 @@ var classEntity =
     [ "Angle", "classEntity.html#a99ad0c5c27ac1c38f8aba76fec4920a6", null ],
     [ "AngleMode", "classEntity.html#abbc7c43f2aed1bc570fbccf863983a6b", null ],
     [ "AnimationFrameDuration", "classEntity.html#a99685429276e2e61193a1a092284a89f", null ],
+    [ "AnimationFrameSkip", "classEntity.html#aa2c37b1fa0808d46dbe48528a7286660", null ],
     [ "AnimationLoopIndex", "classEntity.html#a8039deddb660160671197d8e0defa790", null ],
     [ "AnimationSpeed", "classEntity.html#ab1b86378db6ae8ef1c2e479a62f41fc9", null ],
     [ "AnimationSpeedAdd", "classEntity.html#ae080524f3a16e685d149a3f890bfe97b", null ],
