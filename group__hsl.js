@@ -874,6 +874,7 @@ var group__hsl =
       [ "GetFrameDuration", "classSprite.html#a3cdbd5af4f93c85a72fa6e32c0dc8d1a", null ],
       [ "GetFrameExists", "classSprite.html#aab9a343bd2785a017f7ba2611b3c1d0f", null ],
       [ "GetFrameHeight", "classSprite.html#a1878021a9590b15d11f151e4c7fe5c95", null ],
+      [ "GetFrameID", "classSprite.html#a691bca46ee44c274a783f563a28dd791", null ],
       [ "GetFrameID", "classSprite.html#a07a49b850e0c9917942e6cb39b492b6f", null ],
       [ "GetFrameLoopIndex", "classSprite.html#a949228aaa1acb1449c3431f2f52260ac", null ],
       [ "GetFrameOffsetX", "classSprite.html#a07300d143fb030ad4e40c344e3d50cbc", null ],

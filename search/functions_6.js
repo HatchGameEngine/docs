@@ -85,7 +85,7 @@ var searchData=
   ['getframeduration_82',['GetFrameDuration',['../classSprite.html#a3cdbd5af4f93c85a72fa6e32c0dc8d1a',1,'Sprite']]],
   ['getframeexists_83',['GetFrameExists',['../classSprite.html#aab9a343bd2785a017f7ba2611b3c1d0f',1,'Sprite']]],
   ['getframeheight_84',['GetFrameHeight',['../classSprite.html#a1878021a9590b15d11f151e4c7fe5c95',1,'Sprite']]],
-  ['getframeid_85',['GetFrameID',['../classSprite.html#a07a49b850e0c9917942e6cb39b492b6f',1,'Sprite']]],
+  ['getframeid_85',['GetFrameID',['../classSprite.html#a691bca46ee44c274a783f563a28dd791',1,'Sprite.GetFrameID(integer animator)'],['../classSprite.html#a07a49b850e0c9917942e6cb39b492b6f',1,'Sprite.GetFrameID(integer sprite, integer animation, integer frame)']]],
   ['getframeloopindex_86',['GetFrameLoopIndex',['../classSprite.html#a949228aaa1acb1449c3431f2f52260ac',1,'Sprite']]],
   ['getframeoffsetx_87',['GetFrameOffsetX',['../classSprite.html#a07300d143fb030ad4e40c344e3d50cbc',1,'Sprite']]],
   ['getframeoffsety_88',['GetFrameOffsetY',['../classSprite.html#a188f578daa88a9207ed56fb5fa3907f8',1,'Sprite']]],
