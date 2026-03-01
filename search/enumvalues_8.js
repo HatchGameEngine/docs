@@ -114,10 +114,11 @@ var searchData=
   ['keybind_5fdevrecompile_111',['KeyBind_DevRecompile',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba0554e4b9410b91cfd7da631fef6f517f',1,'KeyBind.hsl']]],
   ['keybind_5fdevrestartapp_112',['KeyBind_DevRestartApp',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba53a46f507e6dd16fd8d1f769cc1e543c',1,'KeyBind.hsl']]],
   ['keybind_5fdevrestartscene_113',['KeyBind_DevRestartScene',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba305ae8995df62c4d67897ee11d0775aa',1,'KeyBind.hsl']]],
-  ['keybind_5fdevstepframe_114',['KeyBind_DevStepFrame',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba341c5af6feec8141dbc954a154185587',1,'KeyBind.hsl']]],
-  ['keybind_5fdevtilecol_115',['KeyBind_DevTileCol',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba2c08ca95bd4f0ab9b29497ac99966467',1,'KeyBind.hsl']]],
-  ['keybind_5fdevviewhitboxes_116',['KeyBind_DevViewHitboxes',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bac94fab0620b0400a2a95fe3137089e32',1,'KeyBind.hsl']]],
-  ['keybind_5ffullscreen_117',['KeyBind_Fullscreen',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba89253b4efcfa73dfd8c1c6e88762eeb5',1,'KeyBind.hsl']]],
-  ['keybind_5fscreenshot_118',['KeyBind_Screenshot',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bacd3d361fa1a4186081b4e3af005a65ed',1,'KeyBind.hsl']]],
-  ['keybind_5ftogglefpscounter_119',['KeyBind_ToggleFPSCounter',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baa41e90760e64f1fde3d30b6b37a08f29',1,'KeyBind.hsl']]]
+  ['keybind_5fdevscriptdebugger_114',['KeyBind_DevScriptDebugger',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba9bbf31c6a72242f28b98ff3344ce615a',1,'KeyBind.hsl']]],
+  ['keybind_5fdevstepframe_115',['KeyBind_DevStepFrame',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba341c5af6feec8141dbc954a154185587',1,'KeyBind.hsl']]],
+  ['keybind_5fdevtilecol_116',['KeyBind_DevTileCol',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba2c08ca95bd4f0ab9b29497ac99966467',1,'KeyBind.hsl']]],
+  ['keybind_5fdevviewhitboxes_117',['KeyBind_DevViewHitboxes',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bac94fab0620b0400a2a95fe3137089e32',1,'KeyBind.hsl']]],
+  ['keybind_5ffullscreen_118',['KeyBind_Fullscreen',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba89253b4efcfa73dfd8c1c6e88762eeb5',1,'KeyBind.hsl']]],
+  ['keybind_5fscreenshot_119',['KeyBind_Screenshot',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bacd3d361fa1a4186081b4e3af005a65ed',1,'KeyBind.hsl']]],
+  ['keybind_5ftogglefpscounter_120',['KeyBind_ToggleFPSCounter',['../group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baa41e90760e64f1fde3d30b6b37a08f29',1,'KeyBind.hsl']]]
 ];
