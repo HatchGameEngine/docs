@@ -42,7 +42,7 @@ var searchData=
   ['getcolor_39',['GetColor',['../classPalette.html#a7ff87529a28ae9e3591ccdc3c56f1f4f',1,'Palette']]],
   ['getcolortransparent_40',['GetColorTransparent',['../classPalette.html#a39e4cad0002e57ab135664479faf5830',1,'Palette']]],
   ['getcommandlinearguments_41',['GetCommandLineArguments',['../classApplication.html#ab090f327fc4fde0cad46d203f7b7ea87',1,'Application']]],
-  ['getcount_42',['GetCount',['../classController.html#ac44c121acdae691b6c904c21401e1f8c',1,'Controller.GetCount()'],['../classInstance.html#a815a9fe029b32ef856266dd800a75492',1,'Instance.GetCount()'],['../classView.html#a740496b1af7223b377a20815c7bc93b4',1,'View.GetCount()']]],
+  ['getcount_42',['GetCount',['../classController.html#ac44c121acdae691b6c904c21401e1f8c',1,'Controller.GetCount()'],['../classInstance.html#a53181ab0b2ba59db38b0efe9e547343e',1,'Instance.GetCount()'],['../classView.html#a740496b1af7223b377a20815c7bc93b4',1,'View.GetCount()']]],
   ['getcurrent_43',['GetCurrent',['../classView.html#a3b9987bcc081d52dff7ba2aeac33432d',1,'View']]],
   ['getcurrentanimation_44',['GetCurrentAnimation',['../classAnimator.html#ac1c223602f8e45f43c682e336120357b',1,'Animator']]],
   ['getcurrentcategory_45',['GetCurrentCategory',['../classScene.html#a9d68d7283ba1f3b353ac9a6b479b9021',1,'Scene']]],
