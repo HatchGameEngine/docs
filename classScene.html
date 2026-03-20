@@ -115,6 +115,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7865987c746716676f0f4f2a7f4beed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current scene.  <br /></td></tr>
 <tr class="memitem:a6677d06163518fe6ba99a4fd5688cb3f" id="r_a6677d06163518fe6ba99a4fd5688cb3f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6677d06163518fe6ba99a4fd5688cb3f">Change</a> (string category, string scene)</td></tr>
 <tr class="memdesc:a6677d06163518fe6ba99a4fd5688cb3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current scene.  <br /></td></tr>
+<tr class="memitem:aa413b2f918fe0cb375e62b8a88d62030" id="r_aa413b2f918fe0cb375e62b8a88d62030"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa413b2f918fe0cb375e62b8a88d62030">ChangeFromPath</a> (string scene, integer filter)</td></tr>
+<tr class="memdesc:aa413b2f918fe0cb375e62b8a88d62030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for a scene by its file path and sets it as the current scene.  <br /></td></tr>
 <tr class="memitem:a992f27b00b03f16c336bf9f5b21e3eca" id="r_a992f27b00b03f16c336bf9f5b21e3eca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a992f27b00b03f16c336bf9f5b21e3eca">LoadTileCollisions</a> (string filename, integer tilesetID)</td></tr>
 <tr class="memdesc:a992f27b00b03f16c336bf9f5b21e3eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load tile collisions from a resource file.  <br /></td></tr>
 <tr class="memitem:ae29957474591c9f782f53d0630f14e00" id="r_ae29957474591c9f782f53d0630f14e00"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#ae29957474591c9f782f53d0630f14e00">AreTileCollisionsLoaded</a> ()</td></tr>
@@ -432,6 +434,36 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 <p>This does not load the scene. You must call <a class="el" href="#a31649fe3441cfd3cbe756e098abe7ccb" title="Scene.Load">Scene.Load</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">scene</td><td>Scene name in the global category. If the scene name is not found, the first scene in the category is used. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa413b2f918fe0cb375e62b8a88d62030" name="aa413b2f918fe0cb375e62b8a88d62030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa413b2f918fe0cb375e62b8a88d62030">&#9670;&#160;</a></span>ChangeFromPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.ChangeFromPath </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>scene</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches for a scene by its file path and sets it as the current scene. </p>
+<p>This does not load the scene. You must call <a class="el" href="#a31649fe3441cfd3cbe756e098abe7ccb" title="Scene.Load">Scene.Load</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene</td><td>The file path of the scene to change. </td></tr>
+    <tr><td class="paramname">filter</td><td>Filter to match </td></tr>
   </table>
   </dd>
 </dl>
