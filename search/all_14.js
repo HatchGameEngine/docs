@@ -18,10 +18,9 @@ var searchData=
   ['usedepthtesting_15',['UseDepthTesting',['../classDraw.html#ab4242086713fc8c7e3f1565bb38a5c56',1,'Draw']]],
   ['usefillsmoothing_16',['UseFillSmoothing',['../classDraw.html#aed8ab5028b8820647c465b4899adec9b',1,'Draw']]],
   ['usefixedtimestep_17',['UseFixedTimestep',['../classApplication.html#a17594992568837db92c3f3653978e1df',1,'Application']]],
-  ['useintegerrotation_18',['UseIntegerRotation',['../classDraw.html#a699574494a984a83650640b26c2371c9',1,'Draw']]],
-  ['usepaletteindexlines_19',['UsePaletteIndexLines',['../classPalette.html#a35317affab2c239fa4507a726712eaee',1,'Palette']]],
-  ['usespritedeform_20',['UseSpriteDeform',['../classDraw.html#aad941a533cd1ecc5e49e6eee4ad726ab',1,'Draw']]],
-  ['usestencil_21',['UseStencil',['../classDraw.html#a26477c42f7f8d83b85038d171bc36ff1',1,'Draw']]],
-  ['usestrokesmoothing_22',['UseStrokeSmoothing',['../classDraw.html#acae6a390552b205005a9f353140663bf',1,'Draw']]],
-  ['usetinting_23',['UseTinting',['../classDraw.html#a5d83bae4b17c846b45072b19411b7988',1,'Draw']]]
+  ['usepaletteindexlines_18',['UsePaletteIndexLines',['../classPalette.html#a35317affab2c239fa4507a726712eaee',1,'Palette']]],
+  ['usespritedeform_19',['UseSpriteDeform',['../classDraw.html#aad941a533cd1ecc5e49e6eee4ad726ab',1,'Draw']]],
+  ['usestencil_20',['UseStencil',['../classDraw.html#a26477c42f7f8d83b85038d171bc36ff1',1,'Draw']]],
+  ['usestrokesmoothing_21',['UseStrokeSmoothing',['../classDraw.html#acae6a390552b205005a9f353140663bf',1,'Draw']]],
+  ['usetinting_22',['UseTinting',['../classDraw.html#a5d83bae4b17c846b45072b19411b7988',1,'Draw']]]
 ];
