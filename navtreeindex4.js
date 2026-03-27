@@ -1,5 +1,13 @@
 var NAVTREEINDEX4 =
 {
+"classStream.html#aeb679144e21ddfe9b823ae14b1ae4e15":[4,0,44,29],
+"classStream.html#af1924111ba1fff1a1ae5f04278d77eac":[4,0,44,18],
+"classString.html":[4,0,45],
+"classString.html#a057ceff4b461d9a65b3f501cb0457e26":[4,0,45,9],
+"classString.html#a0cebf41064c7bc0522604dafcb9ea59f":[4,0,45,13],
+"classString.html#a0ec54297e2504ba1dfa28be0fdcaef30":[4,0,45,7],
+"classString.html#a1fc755c2a1fa0508a94f9a6897fc360d":[4,0,45,10],
+"classString.html#a3200a9ab596a04a8670202ec88ccebde":[4,0,45,12],
 "classString.html#a444d51afbeb528a9920df0a29153fd6a":[4,0,45,11],
 "classString.html#a4efdf5020ba0e918b9bbae5e216a4c88":[4,0,45,6],
 "classString.html#a4f1d5c99207a355121904672908f30e6":[4,0,45,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX4 =
 "group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0aa7c9d214d2d5d9ddae83f69b4717399c":[4,0,62,11],
 "group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0aaee47b7aa086ff7956efb073aade2d65":[4,0,62,15],
 "group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0ab1e9ca2b4f06b1cb38ddb25cd801d669":[4,0,62,20],
-"group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0ac470eaad9e18f7def7bd626486e39dff":[4,0,62,21],
-"group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0ac4f6415c64a44ddbd7485f4d217facd2":[4,0,62,8],
-"group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0ade8f6552ddb820f012fd5d1b3aee3cc4":[4,0,62,0],
-"group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0ae9034b9b80469632f5441c0e1db2fbc9":[4,0,62,5],
-"group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0aeecf9f3f31ad509c0069e827cb588c5d":[4,0,62,22],
-"group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0af14a135ca7a0cc0727696e6ea16ad545":[4,0,62,2],
-"group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0afd3c635669948521b967735db0d50789":[4,0,62,7],
-"group__hsl.html#gga07c952913bd6dbc4a9fcf4e9cdd53ba9a05ebfde92510d1053be07cc0fdfd05fb":[4,0,83,1],
-"group__hsl.html#gga07c952913bd6dbc4a9fcf4e9cdd53ba9a3be4577fb24ea31f0ef78b91240d429f":[4,0,83,5]
+"group__hsl.html#gga03bfec859eac87be20f8952c1eb89de0ac470eaad9e18f7def7bd626486e39dff":[4,0,62,21]
 };

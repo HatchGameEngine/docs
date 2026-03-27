@@ -178,6 +178,14 @@ void&#160;</td><td class="memItemRight"><b>Restart</b> ()</td></tr>
 <tr class="memdesc:a3687bca4f6c9bffdcabcb5b407970d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the layer repeats horizontally.  <br /></td></tr>
 <tr class="memitem:ae4aa4b9e06f9736cf2c07ce9e23097e8" id="r_ae4aa4b9e06f9736cf2c07ce9e23097e8"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#ae4aa4b9e06f9736cf2c07ce9e23097e8">GetLayerVerticalRepeat</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:ae4aa4b9e06f9736cf2c07ce9e23097e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the layer repeats vertically.  <br /></td></tr>
+<tr class="memitem:ac112f1f3b8aec3de2be9170ed20dcc77" id="r_ac112f1f3b8aec3de2be9170ed20dcc77"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#ac112f1f3b8aec3de2be9170ed20dcc77">GetLayerHorizontalParallaxFactor</a> (integer layerIndex)</td></tr>
+<tr class="memdesc:ac112f1f3b8aec3de2be9170ed20dcc77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the horizontal parallax scroll factor of the layer.  <br /></td></tr>
+<tr class="memitem:a21743a0e4b714e1f79ce3b99a1648519" id="r_a21743a0e4b714e1f79ce3b99a1648519"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#a21743a0e4b714e1f79ce3b99a1648519">GetLayerVerticalParallaxFactor</a> (integer layerIndex)</td></tr>
+<tr class="memdesc:a21743a0e4b714e1f79ce3b99a1648519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the vertical parallax scroll factor of the layer.  <br /></td></tr>
+<tr class="memitem:a32da3151edc81b4400317002d61f9964" id="r_a32da3151edc81b4400317002d61f9964"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#a32da3151edc81b4400317002d61f9964">GetLayerHorizontalConstantScroll</a> (integer layerIndex)</td></tr>
+<tr class="memdesc:a32da3151edc81b4400317002d61f9964"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the horizontal constant scroll amount of the layer.  <br /></td></tr>
+<tr class="memitem:aca42ae88c18145ec8df9d511fd61901c" id="r_aca42ae88c18145ec8df9d511fd61901c"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#aca42ae88c18145ec8df9d511fd61901c">GetLayerVerticalConstantScroll</a> (integer layerIndex)</td></tr>
+<tr class="memdesc:aca42ae88c18145ec8df9d511fd61901c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the vertical constant scroll amount of the layer.  <br /></td></tr>
 <tr class="memitem:a1e23502796b89751288f28d7fb664fbc" id="r_a1e23502796b89751288f28d7fb664fbc"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a1e23502796b89751288f28d7fb664fbc">GetTilesetCount</a> ()</td></tr>
 <tr class="memdesc:a1e23502796b89751288f28d7fb664fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the amount of tilesets in the current scene.  <br /></td></tr>
 <tr class="memitem:a6800623995eed693c89e3351b88f3c2a" id="r_a6800623995eed693c89e3351b88f3c2a"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a6800623995eed693c89e3351b88f3c2a">GetTilesetIndex</a> (integer tilesetID)</td></tr>
@@ -308,6 +316,14 @@ void&#160;</td><td class="memItemRight"><b>SetLayerInternalSize</b> ()</td></tr>
 <tr class="memdesc:a0d8a96cc819a398c6f2b27fec11c9db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the use of the global palette index table for the specified layer.  <br /></td></tr>
 <tr class="memitem:a723f65d3a31253f34b05143f63b18a40" id="r_a723f65d3a31253f34b05143f63b18a40"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a723f65d3a31253f34b05143f63b18a40">SetLayerScroll</a> (integer layerIndex, decimal relative, decimal constant)</td></tr>
 <tr class="memdesc:a723f65d3a31253f34b05143f63b18a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scroll values of the layer. (Horizontal Parallax = Up/Down values, Vertical Parallax = Left/Right values).  <br /></td></tr>
+<tr class="memitem:a77ab459ef6941bb52cb111d6b7a54a71" id="r_a77ab459ef6941bb52cb111d6b7a54a71"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a77ab459ef6941bb52cb111d6b7a54a71">SetLayerHorizontalParallaxFactor</a> (integer layerIndex, decimal scrollFactor)</td></tr>
+<tr class="memdesc:a77ab459ef6941bb52cb111d6b7a54a71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the horizontal parallax scroll factor of the layer.  <br /></td></tr>
+<tr class="memitem:a9276cee453b1711d27c570d710abde18" id="r_a9276cee453b1711d27c570d710abde18"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9276cee453b1711d27c570d710abde18">SetLayerVerticalParallaxFactor</a> (integer layerIndex, decimal scrollFactor)</td></tr>
+<tr class="memdesc:a9276cee453b1711d27c570d710abde18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the vertical parallax scroll factor of the layer.  <br /></td></tr>
+<tr class="memitem:af646402b020c19a63e8e019859526db8" id="r_af646402b020c19a63e8e019859526db8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af646402b020c19a63e8e019859526db8">SetLayerHorizontalConstantScroll</a> (integer layerIndex, decimal constant)</td></tr>
+<tr class="memdesc:af646402b020c19a63e8e019859526db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the horizontal constant scroll amount of the layer.  <br /></td></tr>
+<tr class="memitem:ad4155a5c7b808f9fde9bbbdf2d2b9708" id="r_ad4155a5c7b808f9fde9bbbdf2d2b9708"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad4155a5c7b808f9fde9bbbdf2d2b9708">SetLayerVerticalConstantScroll</a> (integer layerIndex, decimal constant)</td></tr>
+<tr class="memdesc:ad4155a5c7b808f9fde9bbbdf2d2b9708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the vertical constant scroll amount of the layer.  <br /></td></tr>
 <tr class="memitem:aaf638a69ed75dccdf65c38509cc02b0d" id="r_aaf638a69ed75dccdf65c38509cc02b0d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaf638a69ed75dccdf65c38509cc02b0d">SetLayerSetParallaxLinesBegin</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:aaf638a69ed75dccdf65c38509cc02b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begins setup for changing the parallax lines.  <br /></td></tr>
 <tr class="memitem:a4c3107378a2d1b3f534b87697ffc45e2" id="r_a4c3107378a2d1b3f534b87697ffc45e2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4c3107378a2d1b3f534b87697ffc45e2">SetLayerSetParallaxLines</a> (integer lineStart, integer lineEnd, number relative, number constant, boolean canDeform)</td></tr>
@@ -893,6 +909,58 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 
 </div>
 </div>
+<a id="a32da3151edc81b4400317002d61f9964" name="a32da3151edc81b4400317002d61f9964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32da3151edc81b4400317002d61f9964">&#9670;&#160;</a></span>GetLayerHorizontalConstantScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decimal Scene.GetLayerHorizontalConstantScroll </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the horizontal constant scroll amount of the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a decimal value. </dd></dl>
+
+</div>
+</div>
+<a id="ac112f1f3b8aec3de2be9170ed20dcc77" name="ac112f1f3b8aec3de2be9170ed20dcc77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac112f1f3b8aec3de2be9170ed20dcc77">&#9670;&#160;</a></span>GetLayerHorizontalParallaxFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decimal Scene.GetLayerHorizontalParallaxFactor </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the horizontal parallax scroll factor of the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a decimal value. </dd></dl>
+
+</div>
+</div>
 <a id="a3687bca4f6c9bffdcabcb5b407970d10" name="a3687bca4f6c9bffdcabcb5b407970d10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3687bca4f6c9bffdcabcb5b407970d10">&#9670;&#160;</a></span>GetLayerHorizontalRepeat()</h2>
 
@@ -1129,6 +1197,58 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Returns a boolean value. </dd></dl>
+
+</div>
+</div>
+<a id="aca42ae88c18145ec8df9d511fd61901c" name="aca42ae88c18145ec8df9d511fd61901c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca42ae88c18145ec8df9d511fd61901c">&#9670;&#160;</a></span>GetLayerVerticalConstantScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decimal Scene.GetLayerVerticalConstantScroll </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the vertical constant scroll amount of the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a decimal value. </dd></dl>
+
+</div>
+</div>
+<a id="a21743a0e4b714e1f79ce3b99a1648519" name="a21743a0e4b714e1f79ce3b99a1648519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21743a0e4b714e1f79ce3b99a1648519">&#9670;&#160;</a></span>GetLayerVerticalParallaxFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decimal Scene.GetLayerVerticalParallaxFactor </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the vertical parallax scroll factor of the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a decimal value. </dd></dl>
 
 </div>
 </div>
@@ -2323,6 +2443,66 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 
 </div>
 </div>
+<a id="af646402b020c19a63e8e019859526db8" name="af646402b020c19a63e8e019859526db8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af646402b020c19a63e8e019859526db8">&#9670;&#160;</a></span>SetLayerHorizontalConstantScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.SetLayerHorizontalConstantScroll </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decimal</td>          <td class="paramname"><span class="paramname"><em>constant</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the horizontal constant scroll amount of the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+    <tr><td class="paramname">constant</td><td>How many pixels to move the layer horizontally per frame. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a77ab459ef6941bb52cb111d6b7a54a71" name="a77ab459ef6941bb52cb111d6b7a54a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77ab459ef6941bb52cb111d6b7a54a71">&#9670;&#160;</a></span>SetLayerHorizontalParallaxFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.SetLayerHorizontalParallaxFactor </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decimal</td>          <td class="paramname"><span class="paramname"><em>scrollFactor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the horizontal parallax scroll factor of the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+    <tr><td class="paramname">scrollFactor</td><td>How much to move the layer horizontally relative to the camera. (0.0 = no movement, 1.0 = moves opposite to speed of camera, 2.0 = moves twice the speed opposite to camera) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a005a7067c1c65a47cbbc5198aaf8528b" name="a005a7067c1c65a47cbbc5198aaf8528b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a005a7067c1c65a47cbbc5198aaf8528b">&#9670;&#160;</a></span>SetLayerHorizontalRepeat()</h2>
 
@@ -2537,11 +2717,12 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
-    <tr><td class="paramname">relative</td><td>How much to move the layer relative to the camera. (0.0 = no movement, 1.0 = moves opposite to speed of camera, 2.0 = moves twice the speed opposite to camera) </td></tr>
-    <tr><td class="paramname">constant</td><td>How many pixels to move the layer per frame. </td></tr>
+    <tr><td class="paramname">relative</td><td>How much to move the layer vertically relative to the camera. (0.0 = no movement, 1.0 = moves opposite to speed of camera, 2.0 = moves twice the speed opposite to camera) </td></tr>
+    <tr><td class="paramname">constant</td><td>How many pixels to move the layer vertically per frame. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated</a></b></dt><dd>Use <a class="el" href="#a9276cee453b1711d27c570d710abde18" title="Scene.SetLayerVerticalParallaxFactor">Scene.SetLayerVerticalParallaxFactor</a> and <a class="el" href="#ad4155a5c7b808f9fde9bbbdf2d2b9708" title="Scene.SetLayerVerticalConstantScroll">Scene.SetLayerVerticalConstantScroll</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -2780,6 +2961,66 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
   <table class="params">
     <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
     <tr><td class="paramname">usePaletteIndexLines</td><td>Whether the layer is using the global palette index table. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad4155a5c7b808f9fde9bbbdf2d2b9708" name="ad4155a5c7b808f9fde9bbbdf2d2b9708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4155a5c7b808f9fde9bbbdf2d2b9708">&#9670;&#160;</a></span>SetLayerVerticalConstantScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.SetLayerVerticalConstantScroll </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decimal</td>          <td class="paramname"><span class="paramname"><em>constant</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the vertical constant scroll amount of the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+    <tr><td class="paramname">constant</td><td>How many pixels to move the layer vertically per frame. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9276cee453b1711d27c570d710abde18" name="a9276cee453b1711d27c570d710abde18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9276cee453b1711d27c570d710abde18">&#9670;&#160;</a></span>SetLayerVerticalParallaxFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.SetLayerVerticalParallaxFactor </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decimal</td>          <td class="paramname"><span class="paramname"><em>scrollFactor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the vertical parallax scroll factor of the layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+    <tr><td class="paramname">scrollFactor</td><td>How much to move the layer vertically relative to the camera. (0.0 = no movement, 1.0 = moves opposite to speed of camera, 2.0 = moves twice the speed opposite to camera) </td></tr>
   </table>
   </dd>
 </dl>
