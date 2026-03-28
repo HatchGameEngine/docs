@@ -5,7 +5,7 @@ var searchData=
   ['uint64_2',['Uint64',['../classMath.html#ad58c11703f225bf8131c1b52503ce5d0',1,'Math']]],
   ['uint8_3',['Uint8',['../classMath.html#a78427fa8d8aa30ab067e075510daccb4',1,'Math']]],
   ['unbindvertexbuffer_4',['UnbindVertexBuffer',['../classDraw3D.html#a4562bd9042f5f6c5f7d6f81e726ea136',1,'Draw3D']]],
-  ['updateactivity_5',['UpdateActivity',['../classAPI_1_1Discord.html#a199eafbe742cb9da9e06acacbbfc5cb5',1,'API::Discord']]],
+  ['updateactivity_5',['UpdateActivity',['../classAPI_1_1Discord.html#a1affa9211cf6b11e14f6c5636f26e1c8',1,'API::Discord']]],
   ['updaterichpresence_6',['UpdateRichPresence',['../classAPI_1_1Discord.html#a4b50d201d276c9bb1981ff3c2a6eb925',1,'API.Discord.UpdateRichPresence(string details, string state, string largeImageKey, string smallImageKey)'],['../classAPI_1_1Discord.html#aca5d5195c455de462d8656cd0b2d46ef',1,'API.Discord.UpdateRichPresence(string details, string state, string largeImageKey, integer startTime)'],['../classAPI_1_1Discord.html#a90f535ae7d98d31206e39f36d0072783',1,'API.Discord.UpdateRichPresence(string details, string state, string largeImageKey, string smallImageKey, integer startTime)']]],
   ['useanimationframeskip_7',['UseAnimationFrameSkip',['../classInstance.html#a2965caa9ba4614e0ad27e15e401b8052',1,'Instance']]],
   ['usedepthtesting_8',['UseDepthTesting',['../classDraw.html#ab4242086713fc8c7e3f1565bb38a5c56',1,'Draw']]],
