@@ -29,9 +29,10 @@ var searchData=
   ['fogequation_5fexp_26',['FogEquation_Exp',['../group__hsl.html#gga751ac63276b49c4797fbf7c96eec1bc8a3861c98c270ef72d0baf4b5499c93bd3',1,'FogEquation.hsl']]],
   ['fogequation_5flinear_27',['FogEquation_Linear',['../group__hsl.html#gga751ac63276b49c4797fbf7c96eec1bc8a7f57c2f6e1e10779f268d899cbe6e02d',1,'FogEquation.hsl']]],
   ['font_28',['Font',['../classFont.html',1,'Font'],['../classFont.html#a50162138949a7f27cd560ed1956e3f5d',1,'Font.Font(string font)'],['../classFont.html#a2c3f3a27df600ecdba036297cd5c5a94',1,'Font.Font(stream font)'],['../classFont.html#a1c8fd851009fd1b76eecc7ce7b139030',1,'Font.Font(array font)']]],
-  ['format_29',['Format',['../classString.html#acc421363d69d3eed6be45110af36aae5',1,'String']]],
-  ['fromcodepoints_30',['FromCodepoints',['../classString.html#aaefa772f11897c16d32464f91d6343ee',1,'String']]],
-  ['fromfile_31',['FromFile',['../classStream.html#a6a5dd5858017ec024b6ae9e70306f5c3',1,'Stream']]],
-  ['fromfixed_32',['FromFixed',['../classRSDK_1_1Math.html#a8cc544a80b518647016057a864071b4d',1,'RSDK::Math']]],
-  ['fromresource_33',['FromResource',['../classStream.html#a95c84abd59d99c54953fb76b5f3304b5',1,'Stream']]]
+  ['format_29',['Format',['../classTexture.html#afc42c0767fe71cb7ccf2cb99d37fff3b',1,'Texture.Format'],['../classString.html#acc421363d69d3eed6be45110af36aae5',1,'String.Format()']]],
+  ['formathasalphachannel_30',['FormatHasAlphaChannel',['../classTexture.html#a60aed5ade43033f5f5f251929f920c8e',1,'Texture']]],
+  ['fromcodepoints_31',['FromCodepoints',['../classString.html#aaefa772f11897c16d32464f91d6343ee',1,'String']]],
+  ['fromfile_32',['FromFile',['../classStream.html#a6a5dd5858017ec024b6ae9e70306f5c3',1,'Stream']]],
+  ['fromfixed_33',['FromFixed',['../classRSDK_1_1Math.html#a8cc544a80b518647016057a864071b4d',1,'RSDK::Math']]],
+  ['fromresource_34',['FromResource',['../classStream.html#a95c84abd59d99c54953fb76b5f3304b5',1,'Stream']]]
 ];

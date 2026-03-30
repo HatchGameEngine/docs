@@ -8,7 +8,7 @@ var classDraw3D =
     [ "ModelSimple", "classDraw3D.html#aae4cef1ea076e764d4dcdd139060536a", null ],
     [ "ModelSkinned", "classDraw3D.html#a479b2237d2a4312c2d9c6787008a855e", null ],
     [ "Quad", "classDraw3D.html#a2fef5513f0ef044c2fe52ab20fcc4b2f", null ],
-    [ "QuadTextured", "classDraw3D.html#a7ad47e10bd37efa6cdef133f191ef638", null ],
+    [ "QuadTextured", "classDraw3D.html#a0c9b75ed00da5b9ce8c86f2c34b62f8b", null ],
     [ "RenderScene", "classDraw3D.html#a1d49faf8d5a5f95751baa4837eb272ab", null ],
     [ "SceneLayer", "classDraw3D.html#adfc274067ba782cd673718cfa94ce1f9", null ],
     [ "SceneLayerPart", "classDraw3D.html#af3f7856db8f1af8b0d1be31718ec4275", null ],
@@ -18,7 +18,7 @@ var classDraw3D =
     [ "Tile", "classDraw3D.html#a5cfb5e3f0d946457bfcaf7c23cefdd46", null ],
     [ "TilePoints", "classDraw3D.html#ad2b546f7e224321abd9a1eceacf0a137", null ],
     [ "Triangle", "classDraw3D.html#aa12e96f81ded9554cb795e8a044a87cf", null ],
-    [ "TriangleTextured", "classDraw3D.html#a53a992a99e58db0c8e9d392037810f8b", null ],
+    [ "TriangleTextured", "classDraw3D.html#a4780720d2c3d54ff509a60d0594cb018", null ],
     [ "UnbindVertexBuffer", "classDraw3D.html#a4562bd9042f5f6c5f7d6f81e726ea136", null ],
     [ "VertexBuffer", "classDraw3D.html#aef48492f73e108ed6abde668d0bc59c7", null ]
 ];

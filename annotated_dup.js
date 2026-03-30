@@ -51,7 +51,7 @@ var annotated_dup =
     [ "Sprite", "classSprite.html", "classSprite" ],
     [ "Stream", "classStream.html", "classStream" ],
     [ "String", "classString.html", "classString" ],
-    [ "Texture", "classTexture.html", null ],
+    [ "Texture", "classTexture.html", "classTexture" ],
     [ "Thread", "classThread.html", null ],
     [ "TileCollision", "classTileCollision.html", "classTileCollision" ],
     [ "TileInfo", "classTileInfo.html", "classTileInfo" ],

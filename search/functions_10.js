@@ -8,7 +8,7 @@ var searchData=
   ['text_5',['Text',['../classDraw.html#afd8592893ad9a4583ca0636872bc0fa8',1,'Draw']]],
   ['textarray_6',['TextArray',['../classDraw.html#a9c9f59abbf13041efb65459a4ae48672',1,'Draw']]],
   ['textellipsis_7',['TextEllipsis',['../classDraw.html#a394d0efb3f81f08b032d82e6a8f82a57',1,'Draw']]],
-  ['texture_8',['Texture',['../classDraw.html#a4e3e251a5478b10eeece7304b3711deb',1,'Draw']]],
+  ['texture_8',['Texture',['../classDraw.html#a4e3e251a5478b10eeece7304b3711deb',1,'Draw.Texture()'],['../classTexture.html#a70afea98a78efba4a8d305235bfd0967',1,'Texture.Texture(integer width, integer height, TEXTUREACCESS access, TEXTUREFORMAT format, array pixels, array palette)'],['../classTexture.html#a416bc05cf92a84d57bd439746b259e43',1,'Texture.Texture(integer width, integer height, TEXTUREACCESS access, TEXTUREFORMAT format, Drawable source, array palette)']]],
   ['texturepart_9',['TexturePart',['../classDraw.html#ab02f22e69cf0bc495000594a939445bb',1,'Draw']]],
   ['texturesized_10',['TextureSized',['../classDraw.html#aca36ba908a3149db34d8b71b0af6fd78',1,'Draw']]],
   ['textwrapped_11',['TextWrapped',['../classDraw.html#a61713765e7100a76ff26e074e212f94a',1,'Draw']]],
@@ -24,6 +24,6 @@ var searchData=
   ['triangle_21',['Triangle',['../classDraw.html#ab1c473697050bee1b03ee683d1d9d198',1,'Draw.Triangle()'],['../classDraw3D.html#aa12e96f81ded9554cb795e8a044a87cf',1,'Draw3D.Triangle()'],['../classEase.html#ae37087e90dc081aa1ae30e1d782bb529',1,'Ease.Triangle()']]],
   ['triangleblend_22',['TriangleBlend',['../classDraw.html#a7b075c2233c70260c5e1372ba72e1223',1,'Draw']]],
   ['trianglestroke_23',['TriangleStroke',['../classDraw.html#ae502c5bb7f8ef52d999cfea14e0903ab',1,'Draw']]],
-  ['triangletextured_24',['TriangleTextured',['../classDraw.html#a8676e7bf3e636590ab4c775239e61dc6',1,'Draw.TriangleTextured()'],['../classDraw3D.html#a53a992a99e58db0c8e9d392037810f8b',1,'Draw3D.TriangleTextured()']]],
+  ['triangletextured_24',['TriangleTextured',['../classDraw.html#ad72296ef3d899aa793e04ac3dbf769dd',1,'Draw.TriangleTextured()'],['../classDraw3D.html#a4780720d2c3d54ff509a60d0594cb018',1,'Draw3D.TriangleTextured()']]],
   ['triangulate_25',['Triangulate',['../classGeometry.html#a4f89fc21ace4d9b14268fb3c4ad94d36',1,'Geometry']]]
 ];

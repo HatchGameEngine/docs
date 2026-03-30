@@ -1,7 +1,7 @@
 var searchData=
 [
   ['date_0',['Date',['../classDate.html',1,'']]],
-  ['delete_1',['Delete',['../classScene3D.html#a9d7cd141c83f80820521da576bdcdc1b',1,'Scene3D.Delete()'],['../classShader.html#ac46169990a729308047eca8daec8e01f',1,'Shader.Delete()'],['../classVertexBuffer.html#ac6b315c7797af16e1483d919b4eecccb',1,'VertexBuffer.Delete()']]],
+  ['delete_1',['Delete',['../classScene3D.html#a9d7cd141c83f80820521da576bdcdc1b',1,'Scene3D.Delete()'],['../classShader.html#ac46169990a729308047eca8daec8e01f',1,'Shader.Delete()'],['../classTexture.html#a654001bce4a5c518a218cee5bba97a46',1,'Texture.Delete()'],['../classVertexBuffer.html#ac6b315c7797af16e1483d919b4eecccb',1,'VertexBuffer.Delete()']]],
   ['deletearmature_2',['DeleteArmature',['../classModel.html#a1622fd40bb41acc65b3546b38424f005',1,'Model']]],
   ['deltatime_3',['DeltaTime',['../group__hsl.html#ga32f61e5cdfb67952506588d08d10d4a2',1,'globals.hsl']]],
   ['deprecated_20list_4',['Deprecated List',['../deprecated.html',1,'']]],

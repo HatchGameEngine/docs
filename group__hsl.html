@@ -201,7 +201,7 @@ Classes</h2></td></tr>
 <tr class="memitem:String" id="r_String"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classString.html">String</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">String manipulation functions.  <a href="classString.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Texture" id="r_Texture"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classTexture.html">Texture</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texture manipulation functions.  <a href="classTexture.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a GPU texture.  <a href="classTexture.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Thread" id="r_Thread"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classThread.html">Thread</a></td></tr>
 <tr class="memitem:TileCollision" id="r_TileCollision"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classTileCollision.html">TileCollision</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic functions for performing collision with scene tiles.  <a href="classTileCollision.html#details">More...</a><br /></td></tr>
@@ -701,6 +701,23 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:gabf9db434fbfc4453d83068d8963f6627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Documentation for the StencilTest enum.  <a href="#gabf9db434fbfc4453d83068d8963f6627">More...</a><br /></td></tr>
+<tr class="memitem:ga3f0d888586c300e3aa214f9c0a0a427a" id="r_ga3f0d888586c300e3aa214f9c0a0a427a"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#ga3f0d888586c300e3aa214f9c0a0a427a">TEXTUREACCESS</a> { <a class="el" href="#gga3f0d888586c300e3aa214f9c0a0a427aaccd8c904771395856fcc597fca870dbb">TEXTUREACCESS_STATIC</a>
+, <a class="el" href="#gga3f0d888586c300e3aa214f9c0a0a427aa8c6fb12de6fe3c7c26797fa489c12095">TEXTUREACCESS_STREAMING</a>
+, <a class="el" href="#gga3f0d888586c300e3aa214f9c0a0a427aa737570b5cf755d814544f720c29f7427">TEXTUREACCESS_RENDERTARGET</a>
+ }</td></tr>
+<tr class="memdesc:ga3f0d888586c300e3aa214f9c0a0a427a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Documentation for the TEXTUREACCESS enum.  <a href="#ga3f0d888586c300e3aa214f9c0a0a427a">More...</a><br /></td></tr>
+<tr class="memitem:gaa7e916bd65c2f97fc446b8cd1c58268a" id="r_gaa7e916bd65c2f97fc446b8cd1c58268a"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> { <br />
+&#160;&#160;<a class="el" href="#ggaa7e916bd65c2f97fc446b8cd1c58268aa5f25f1208d3ecdb77f4309c4ea228b85">TEXTUREFORMAT_RGBA8888</a>
+, <a class="el" href="#ggaa7e916bd65c2f97fc446b8cd1c58268aa1e21f91e218740724bcebdc6493153b6">TEXTUREFORMAT_ABGR8888</a>
+, <a class="el" href="#ggaa7e916bd65c2f97fc446b8cd1c58268aa9d8ecc20385a1e4f80ff1dd65a5d4aeb">TEXTUREFORMAT_ARGB8888</a>
+, <a class="el" href="#ggaa7e916bd65c2f97fc446b8cd1c58268aa862da3572f7f625479798b0695fe5737">TEXTUREFORMAT_RGA888</a>
+, <br />
+&#160;&#160;<a class="el" href="#ggaa7e916bd65c2f97fc446b8cd1c58268aa365fab941357987defc6a3c390db856d">TEXTUREFORMAT_BGR888</a>
+, <a class="el" href="#ggaa7e916bd65c2f97fc446b8cd1c58268aa374d3d641a3936bfb8cfcc4600d780dc">TEXTUREFORMAT_INDEXED</a>
+, <a class="el" href="#ggaa7e916bd65c2f97fc446b8cd1c58268aa74f5a0ae93dda753570a4e071319aac5">TEXTUREFORMAT_NATIVE</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:gaa7e916bd65c2f97fc446b8cd1c58268a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Documentation for the TEXTUREFORMAT enum.  <a href="#gaa7e916bd65c2f97fc446b8cd1c58268a">More...</a><br /></td></tr>
 <tr class="memitem:ga522d0ebaa99b3cf34f214e8884fea09d" id="r_ga522d0ebaa99b3cf34f214e8884fea09d"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#ga522d0ebaa99b3cf34f214e8884fea09d">TILECOLLISION</a> { <a class="el" href="#gga522d0ebaa99b3cf34f214e8884fea09da058df502d0d9e5710c778a162770c0cb">TILECOLLISION_NONE</a>
 , <a class="el" href="#gga522d0ebaa99b3cf34f214e8884fea09daacf7b41b9f5384cc8d1bc1e1feaaffed">TILECOLLISION_DOWN</a>
 , <a class="el" href="#gga522d0ebaa99b3cf34f214e8884fea09da37cebe928ec170fbb03d51fe19dc01fb">TILECOLLISION_UP</a>
@@ -2120,6 +2137,62 @@ var&#160;</td><td class="memItemRight"><b>Scene_DebugMode</b></td></tr>
 <tr><td class="fieldname"><a id="ggabf9db434fbfc4453d83068d8963f6627a6c667f2498f9608933c1f2a07f92e5da" name="ggabf9db434fbfc4453d83068d8963f6627a6c667f2498f9608933c1f2a07f92e5da"></a>StencilTest_LEqual&#160;</td><td class="fielddoc"><p>Does a "less than or equal to" operation. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggabf9db434fbfc4453d83068d8963f6627a7116c57d96f1584d1fd8740c621463d6" name="ggabf9db434fbfc4453d83068d8963f6627a7116c57d96f1584d1fd8740c621463d6"></a>StencilTest_GEqual&#160;</td><td class="fielddoc"><p>Does a "greater than or equal to" operation. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga3f0d888586c300e3aa214f9c0a0a427a" name="ga3f0d888586c300e3aa214f9c0a0a427a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f0d888586c300e3aa214f9c0a0a427a">&#9670;&#160;</a></span>TEXTUREACCESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ga3f0d888586c300e3aa214f9c0a0a427a">TEXTUREACCESS</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Documentation for the TEXTUREACCESS enum. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga3f0d888586c300e3aa214f9c0a0a427aaccd8c904771395856fcc597fca870dbb" name="gga3f0d888586c300e3aa214f9c0a0a427aaccd8c904771395856fcc597fca870dbb"></a>TEXTUREACCESS_STATIC&#160;</td><td class="fielddoc"><p>The texture is created with the given pixel data and never updated again, or it updates rarely. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga3f0d888586c300e3aa214f9c0a0a427aa8c6fb12de6fe3c7c26797fa489c12095" name="gga3f0d888586c300e3aa214f9c0a0a427aa8c6fb12de6fe3c7c26797fa489c12095"></a>TEXTUREACCESS_STREAMING&#160;</td><td class="fielddoc"><p>The texture is expected to be updated often. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga3f0d888586c300e3aa214f9c0a0a427aa737570b5cf755d814544f720c29f7427" name="gga3f0d888586c300e3aa214f9c0a0a427aa737570b5cf755d814544f720c29f7427"></a>TEXTUREACCESS_RENDERTARGET&#160;</td><td class="fielddoc"><p>The texture can be used as a render target. A texture of this kind cannot be reinitialized; which is to say, if you want to change its size or type, a new texture must be created. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="gaa7e916bd65c2f97fc446b8cd1c58268a" name="gaa7e916bd65c2f97fc446b8cd1c58268a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7e916bd65c2f97fc446b8cd1c58268a">&#9670;&#160;</a></span>TEXTUREFORMAT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Documentation for the TEXTUREFORMAT enum. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaa7e916bd65c2f97fc446b8cd1c58268aa5f25f1208d3ecdb77f4309c4ea228b85" name="ggaa7e916bd65c2f97fc446b8cd1c58268aa5f25f1208d3ecdb77f4309c4ea228b85"></a>TEXTUREFORMAT_RGBA8888&#160;</td><td class="fielddoc"><p>RGBA8888 texture format. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaa7e916bd65c2f97fc446b8cd1c58268aa1e21f91e218740724bcebdc6493153b6" name="ggaa7e916bd65c2f97fc446b8cd1c58268aa1e21f91e218740724bcebdc6493153b6"></a>TEXTUREFORMAT_ABGR8888&#160;</td><td class="fielddoc"><p>ABGR8888 texture format. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaa7e916bd65c2f97fc446b8cd1c58268aa9d8ecc20385a1e4f80ff1dd65a5d4aeb" name="ggaa7e916bd65c2f97fc446b8cd1c58268aa9d8ecc20385a1e4f80ff1dd65a5d4aeb"></a>TEXTUREFORMAT_ARGB8888&#160;</td><td class="fielddoc"><p>ARGB8888 texture format. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaa7e916bd65c2f97fc446b8cd1c58268aa862da3572f7f625479798b0695fe5737" name="ggaa7e916bd65c2f97fc446b8cd1c58268aa862da3572f7f625479798b0695fe5737"></a>TEXTUREFORMAT_RGA888&#160;</td><td class="fielddoc"><p>RGB888 texture format. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaa7e916bd65c2f97fc446b8cd1c58268aa365fab941357987defc6a3c390db856d" name="ggaa7e916bd65c2f97fc446b8cd1c58268aa365fab941357987defc6a3c390db856d"></a>TEXTUREFORMAT_BGR888&#160;</td><td class="fielddoc"><p>BGR888 texture format. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaa7e916bd65c2f97fc446b8cd1c58268aa374d3d641a3936bfb8cfcc4600d780dc" name="ggaa7e916bd65c2f97fc446b8cd1c58268aa374d3d641a3936bfb8cfcc4600d780dc"></a>TEXTUREFORMAT_INDEXED&#160;</td><td class="fielddoc"><p>Indexed (palette) texture format. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaa7e916bd65c2f97fc446b8cd1c58268aa74f5a0ae93dda753570a4e071319aac5" name="ggaa7e916bd65c2f97fc446b8cd1c58268aa74f5a0ae93dda753570a4e071319aac5"></a>TEXTUREFORMAT_NATIVE&#160;</td><td class="fielddoc"><p>The native texture format of the renderer. </p>
 </td></tr>
 </table>
 

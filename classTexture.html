@@ -102,19 +102,1009 @@ $(function(){initNavTree('classTexture.html','','classTexture-members'); });
 </div><!--header-->
 <div class="contents">
 
-<p>Texture manipulation functions.  
+<p>Representation of a GPU texture.  
  <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6c9c2a89f9cc361a53983a66ffa19780" id="r_a6c9c2a89f9cc361a53983a66ffa19780"><td class="memItemLeft"><a id="a6c9c2a89f9cc361a53983a66ffa19780" name="a6c9c2a89f9cc361a53983a66ffa19780"></a>
-void&#160;</td><td class="memItemRight"><b>Create</b> ()</td></tr>
-<tr class="memitem:a5158e7fb3acddd87c4cdbf8632c4a57d" id="r_a5158e7fb3acddd87c4cdbf8632c4a57d"><td class="memItemLeft"><a id="a5158e7fb3acddd87c4cdbf8632c4a57d" name="a5158e7fb3acddd87c4cdbf8632c4a57d"></a>
-void&#160;</td><td class="memItemRight"><b>Copy</b> ()</td></tr>
+<tr class="memitem:a636a3d74def378790455f23bbf8c6dd7" id="r_a636a3d74def378790455f23bbf8c6dd7"><td class="memItemLeft"><a class="el" href="classTexture.html">Texture</a>&#160;</td><td class="memItemRight"><a class="el" href="#a636a3d74def378790455f23bbf8c6dd7">Create</a> (integer width, integer height)</td></tr>
+<tr class="memdesc:a636a3d74def378790455f23bbf8c6dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a texture with the given dimensions.  <br /></td></tr>
+<tr class="memitem:ab3ccc8689fd3dabb98d0350832ccc32b" id="r_ab3ccc8689fd3dabb98d0350832ccc32b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab3ccc8689fd3dabb98d0350832ccc32b">Copy</a> (<a class="el" href="classTexture.html">Texture</a> destTexture, Drawable srcDrawable)</td></tr>
+<tr class="memdesc:ab3ccc8689fd3dabb98d0350832ccc32b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies pixels from <em class="arg">srcDrawable</em> into <em class="arg">destTexture</em>.  <br /></td></tr>
+<tr class="memitem:aaf5b8c1f906bff420cd9d6f74815f200" id="r_aaf5b8c1f906bff420cd9d6f74815f200"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaf5b8c1f906bff420cd9d6f74815f200">Convert</a> (Drawable srcDrawable, array destPixels, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> targetFormat, array palette)</td></tr>
+<tr class="memdesc:aaf5b8c1f906bff420cd9d6f74815f200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the format of the pixels in <em class="arg">srcPixels</em> from <em class="arg">srcFormat</em> into <em class="arg">targetFormat</em>. If <em class="arg">srcFormat</em> and <em class="arg">targetFormat</em> are the same, this just copies the pixels from <em class="arg">srcDrawable</em> into <em class="arg">destPixels</em>.  <br /></td></tr>
+<tr class="memitem:a53450b677b785cad59b94aefb682b449" id="r_a53450b677b785cad59b94aefb682b449"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a53450b677b785cad59b94aefb682b449">Convert</a> (array srcPixels, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> srcFormat, array destPixels, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> targetFormat, array palette)</td></tr>
+<tr class="memdesc:a53450b677b785cad59b94aefb682b449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the format of the pixels in <em class="arg">srcPixels</em> from <em class="arg">srcFormat</em> into <em class="arg">targetFormat</em>. If <em class="arg">srcFormat</em> and <em class="arg">targetFormat</em> are the same, this just copies the pixels from <em class="arg">srcPixels</em> into <em class="arg">destPixels</em>.  <br /></td></tr>
+<tr class="memitem:ac7773f39721d1b309c88b1372b5d3ce9" id="r_ac7773f39721d1b309c88b1372b5d3ce9"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#ac7773f39721d1b309c88b1372b5d3ce9">Convert</a> (integer color, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> srcFormat, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> targetFormat, array palette)</td></tr>
+<tr class="memdesc:ac7773f39721d1b309c88b1372b5d3ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <em class="arg">color</em> from <em class="arg">srcFormat</em> into <em class="arg">targetFormat</em>. If <em class="arg">srcFormat</em> and <em class="arg">targetFormat</em> are the same, this just returns <em class="arg">color</em>.  <br /></td></tr>
+<tr class="memitem:ac7e5a443b035227b08703544a7e47c8b" id="r_ac7e5a443b035227b08703544a7e47c8b"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#ac7e5a443b035227b08703544a7e47c8b">CanConvertBetweenFormats</a> (<a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> srcFormat, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> targetFormat)</td></tr>
+<tr class="memdesc:ac7e5a443b035227b08703544a7e47c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether <em class="arg">srcFormat</em> can be converted into <em class="arg">targetFormat</em>.  <br /></td></tr>
+<tr class="memitem:a60aed5ade43033f5f5f251929f920c8e" id="r_a60aed5ade43033f5f5f251929f920c8e"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a60aed5ade43033f5f5f251929f920c8e">FormatHasAlphaChannel</a> (<a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> format)</td></tr>
+<tr class="memdesc:a60aed5ade43033f5f5f251929f920c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether <em class="arg">format</em> has an alpha channel.  <br /></td></tr>
+<tr class="memitem:a8061fede408a6f1dfb2866008acba84d" id="r_a8061fede408a6f1dfb2866008acba84d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8061fede408a6f1dfb2866008acba84d">SetSize</a> (integer width, integer height)</td></tr>
+<tr class="memdesc:a8061fede408a6f1dfb2866008acba84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the dimensions of the texture, without scaling the pixels.  <br /></td></tr>
+<tr class="memitem:ae68abf2ff898708fc57c636225158ec7" id="r_ae68abf2ff898708fc57c636225158ec7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae68abf2ff898708fc57c636225158ec7">Scale</a> (integer width, integer height)</td></tr>
+<tr class="memdesc:ae68abf2ff898708fc57c636225158ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales the texture to the given dimensions, using nearest neighbor interpolation.  <br /></td></tr>
+<tr class="memitem:a2a0f0d1951bedc2a72be53108fa0fc2f" id="r_a2a0f0d1951bedc2a72be53108fa0fc2f"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a2a0f0d1951bedc2a72be53108fa0fc2f">GetPixel</a> (integer x, integer y)</td></tr>
+<tr class="memdesc:a2a0f0d1951bedc2a72be53108fa0fc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pixel at the specified coordinates.  <br /></td></tr>
+<tr class="memitem:a64518e943eac247ed55c5ae3379f2a69" id="r_a64518e943eac247ed55c5ae3379f2a69"><td class="memItemLeft">array&#160;</td><td class="memItemRight"><a class="el" href="#a64518e943eac247ed55c5ae3379f2a69">GetPixelData</a> (integer x=0, integer y=0, integer width, integer height)</td></tr>
+<tr class="memdesc:a64518e943eac247ed55c5ae3379f2a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an array of pixels of the given dimensions at the specified coordinates.  <br /></td></tr>
+<tr class="memitem:aa16992ecb4e2a7e0c909c02563134949" id="r_aa16992ecb4e2a7e0c909c02563134949"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa16992ecb4e2a7e0c909c02563134949">SetPixel</a> (integer x, integer y, integer color)</td></tr>
+<tr class="memdesc:aa16992ecb4e2a7e0c909c02563134949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the pixel at the specified coordinates.  <br /></td></tr>
+<tr class="memitem:a9ddfc4daf63dab4c052f11ee571fbb27" id="r_a9ddfc4daf63dab4c052f11ee571fbb27"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9ddfc4daf63dab4c052f11ee571fbb27">CopyPixels</a> (Drawable srcDrawable, array srcPalette)</td></tr>
+<tr class="memdesc:a9ddfc4daf63dab4c052f11ee571fbb27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies pixels from a Drawable into the specified coordinates. The formats must be compatible.  <br /></td></tr>
+<tr class="memitem:ab480a4a7e5f27364472d658b09e845ff" id="r_ab480a4a7e5f27364472d658b09e845ff"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab480a4a7e5f27364472d658b09e845ff">CopyPixels</a> (Drawable srcDrawable, integer destX, integer destY, array srcPalette)</td></tr>
+<tr class="memdesc:ab480a4a7e5f27364472d658b09e845ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies pixels from a Drawable into the specified coordinates. The formats must be compatible.  <br /></td></tr>
+<tr class="memitem:a11e0d09fa5657db09cb0255cc46876e1" id="r_a11e0d09fa5657db09cb0255cc46876e1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a11e0d09fa5657db09cb0255cc46876e1">CopyPixels</a> (Drawable srcDrawable, integer srcX, integer srcY, integer destX, integer destY, integer destWidth, integer destHeight, array srcPalette)</td></tr>
+<tr class="memdesc:a11e0d09fa5657db09cb0255cc46876e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a region of pixels from a Drawable into the specified coordinates. The formats must be compatible.  <br /></td></tr>
+<tr class="memitem:a21ded4910081a8e5f088d7e19ee35bca" id="r_a21ded4910081a8e5f088d7e19ee35bca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a21ded4910081a8e5f088d7e19ee35bca">CopyPixels</a> (array srcPixels, array srcPalette)</td></tr>
+<tr class="memdesc:a21ded4910081a8e5f088d7e19ee35bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies pixels from an array into the specified coordinates.  <br /></td></tr>
+<tr class="memitem:ae4d85105417caa23d06bf5356038dcf4" id="r_ae4d85105417caa23d06bf5356038dcf4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae4d85105417caa23d06bf5356038dcf4">CopyPixels</a> (array srcPixels, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> srcFormat, array srcPalette)</td></tr>
+<tr class="memdesc:ae4d85105417caa23d06bf5356038dcf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies pixels from an array into the specified coordinates.  <br /></td></tr>
+<tr class="memitem:a986c630b208b814b94f40724b47c02bd" id="r_a986c630b208b814b94f40724b47c02bd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a986c630b208b814b94f40724b47c02bd">CopyPixels</a> (array srcPixels, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> srcFormat, integer srcWidth, integer srcHeight, array srcPalette)</td></tr>
+<tr class="memdesc:a986c630b208b814b94f40724b47c02bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies pixels from an array into the specified coordinates.  <br /></td></tr>
+<tr class="memitem:abc9953b8db95984db08ed47ef7b9972b" id="r_abc9953b8db95984db08ed47ef7b9972b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abc9953b8db95984db08ed47ef7b9972b">CopyPixels</a> (array srcPixels, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> srcFormat, integer srcWidth, integer srcHeight, integer destX, integer destY, array srcPalette)</td></tr>
+<tr class="memdesc:abc9953b8db95984db08ed47ef7b9972b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a region of pixels from an array into the specified coordinates.  <br /></td></tr>
+<tr class="memitem:a8d143eea5455fa600f972bc9a008bcd4" id="r_a8d143eea5455fa600f972bc9a008bcd4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8d143eea5455fa600f972bc9a008bcd4">CopyPixels</a> (array srcPixels, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> srcFormat, integer srcX, integer srcY, integer srcWidth, integer srcHeight, integer destX, integer destY, integer destWidth, integer destHeight, array srcPalette)</td></tr>
+<tr class="memdesc:a8d143eea5455fa600f972bc9a008bcd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a region of pixels from an array into the specified coordinates.  <br /></td></tr>
+<tr class="memitem:ad2e1b209512dbeed06f413007c44682f" id="r_ad2e1b209512dbeed06f413007c44682f"><td class="memItemLeft"><a id="ad2e1b209512dbeed06f413007c44682f" name="ad2e1b209512dbeed06f413007c44682f"></a>
+void&#160;</td><td class="memItemRight"><b>Apply</b> ()</td></tr>
+<tr class="memdesc:ad2e1b209512dbeed06f413007c44682f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uploads all changes made to the texture to the GPU. This is an expensive operation, so change the most amount of pixels as possible before calling this. <br /></td></tr>
+<tr class="memitem:a654001bce4a5c518a218cee5bba97a46" id="r_a654001bce4a5c518a218cee5bba97a46"><td class="memItemLeft"><a id="a654001bce4a5c518a218cee5bba97a46" name="a654001bce4a5c518a218cee5bba97a46"></a>
+void&#160;</td><td class="memItemRight"><b>Delete</b> ()</td></tr>
+<tr class="memdesc:a654001bce4a5c518a218cee5bba97a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the texture. It can no longer be used after this function is called. <br /></td></tr>
+<tr class="memitem:a70afea98a78efba4a8d305235bfd0967" id="r_a70afea98a78efba4a8d305235bfd0967"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a70afea98a78efba4a8d305235bfd0967">Texture</a> (integer width, integer height, <a class="el" href="group__hsl.html#ga3f0d888586c300e3aa214f9c0a0a427a">TEXTUREACCESS</a> access, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> format, array pixels, array palette)</td></tr>
+<tr class="memdesc:a70afea98a78efba4a8d305235bfd0967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a texture with the given dimensions, access mode, and format.  <br /></td></tr>
+<tr class="memitem:a416bc05cf92a84d57bd439746b259e43" id="r_a416bc05cf92a84d57bd439746b259e43"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a416bc05cf92a84d57bd439746b259e43">Texture</a> (integer width, integer height, <a class="el" href="group__hsl.html#ga3f0d888586c300e3aa214f9c0a0a427a">TEXTUREACCESS</a> access, <a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a> format, Drawable source, array palette)</td></tr>
+<tr class="memdesc:a416bc05cf92a84d57bd439746b259e43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a texture with the given dimensions, access mode, and format.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8f0ce2f12c687837bd43876d2677d22d" id="r_a8f0ce2f12c687837bd43876d2677d22d"><td class="memItemLeft"><a id="a8f0ce2f12c687837bd43876d2677d22d" name="a8f0ce2f12c687837bd43876d2677d22d"></a>
+integer&#160;</td><td class="memItemRight"><b>Width</b></td></tr>
+<tr class="memdesc:a8f0ce2f12c687837bd43876d2677d22d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The width of the texture. <br /></td></tr>
+<tr class="memitem:ab8d0d5078ed30eaeec1bb7d20913adca" id="r_ab8d0d5078ed30eaeec1bb7d20913adca"><td class="memItemLeft"><a id="ab8d0d5078ed30eaeec1bb7d20913adca" name="ab8d0d5078ed30eaeec1bb7d20913adca"></a>
+integer&#160;</td><td class="memItemRight"><b>Height</b></td></tr>
+<tr class="memdesc:ab8d0d5078ed30eaeec1bb7d20913adca"><td class="mdescLeft">&#160;</td><td class="mdescRight">The height of the texture. <br /></td></tr>
+<tr class="memitem:afc42c0767fe71cb7ccf2cb99d37fff3b" id="r_afc42c0767fe71cb7ccf2cb99d37fff3b"><td class="memItemLeft"><a id="afc42c0767fe71cb7ccf2cb99d37fff3b" name="afc42c0767fe71cb7ccf2cb99d37fff3b"></a>
+<a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a>&#160;</td><td class="memItemRight"><b>Format</b></td></tr>
+<tr class="memdesc:afc42c0767fe71cb7ccf2cb99d37fff3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The format of the texture. <br /></td></tr>
+<tr class="memitem:a307e56d709de99433eee2ee61cf18ed6" id="r_a307e56d709de99433eee2ee61cf18ed6"><td class="memItemLeft"><a id="a307e56d709de99433eee2ee61cf18ed6" name="a307e56d709de99433eee2ee61cf18ed6"></a>
+<a class="el" href="group__hsl.html#ga3f0d888586c300e3aa214f9c0a0a427a">TEXTUREACCESS</a>&#160;</td><td class="memItemRight"><b>Access</b></td></tr>
+<tr class="memdesc:a307e56d709de99433eee2ee61cf18ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The access mode of the texture. <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Texture manipulation functions. </p>
-</div></div><!-- contents -->
+<div class="textblock"><p>Representation of a GPU texture. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a70afea98a78efba4a8d305235bfd0967" name="a70afea98a78efba4a8d305235bfd0967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70afea98a78efba4a8d305235bfd0967">&#9670;&#160;</a></span>Texture() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Texture.Texture </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#ga3f0d888586c300e3aa214f9c0a0a427a">TEXTUREACCESS</a></td>          <td class="paramname"><span class="paramname"><em>access</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>pixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>palette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a texture with the given dimensions, access mode, and format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>The width of the texture. </td></tr>
+    <tr><td class="paramname">height</td><td>The height of the texture. </td></tr>
+    <tr><td class="paramname">access</td><td>The access mode of the texture. (default: <a class="el" href="group__hsl.html#gga3f0d888586c300e3aa214f9c0a0a427aaccd8c904771395856fcc597fca870dbb" title="TEXTUREACCESS_STATIC">TEXTUREACCESS_STATIC</a>) </td></tr>
+    <tr><td class="paramname">format</td><td>The format of the texture. The default is TEXTUREFORMAT_RGB888, or <a class="el" href="group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa74f5a0ae93dda753570a4e071319aac5" title="TEXTUREFORMAT_NATIVE">TEXTUREFORMAT_NATIVE</a> for render target textures. </td></tr>
+    <tr><td class="paramname">pixels</td><td>An array of pixels to initialize the texture with. The length of the array must match the dimensions of the texture (e.g., for a 64x64 texture, you must pass an array of exactly 4096 values.) </td></tr>
+    <tr><td class="paramname">palette</td><td>The palette of the texture, format 0xRRGGBB. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a416bc05cf92a84d57bd439746b259e43" name="a416bc05cf92a84d57bd439746b259e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416bc05cf92a84d57bd439746b259e43">&#9670;&#160;</a></span>Texture() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Texture.Texture </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#ga3f0d888586c300e3aa214f9c0a0a427a">TEXTUREACCESS</a></td>          <td class="paramname"><span class="paramname"><em>access</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Drawable</td>          <td class="paramname"><span class="paramname"><em>source</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>palette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a texture with the given dimensions, access mode, and format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>The width of the texture. </td></tr>
+    <tr><td class="paramname">height</td><td>The height of the texture. </td></tr>
+    <tr><td class="paramname">access</td><td>The access mode of the texture. (default: <a class="el" href="group__hsl.html#gga3f0d888586c300e3aa214f9c0a0a427aaccd8c904771395856fcc597fca870dbb" title="TEXTUREACCESS_STATIC">TEXTUREACCESS_STATIC</a>) </td></tr>
+    <tr><td class="paramname">format</td><td>The format of the texture. The default is TEXTUREFORMAT_RGB888, or <a class="el" href="group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa74f5a0ae93dda753570a4e071319aac5" title="TEXTUREFORMAT_NATIVE">TEXTUREFORMAT_NATIVE</a> for render target textures. </td></tr>
+    <tr><td class="paramname">source</td><td>The Drawable to initialize the texture with. </td></tr>
+    <tr><td class="paramname">palette</td><td>The palette of the Drawable, format 0xRRGGBB. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ac7e5a443b035227b08703544a7e47c8b" name="ac7e5a443b035227b08703544a7e47c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7e5a443b035227b08703544a7e47c8b">&#9670;&#160;</a></span>CanConvertBetweenFormats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean Texture.CanConvertBetweenFormats </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>srcFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>targetFormat</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns whether <em class="arg">srcFormat</em> can be converted into <em class="arg">targetFormat</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcFormat</td><td>The source format. </td></tr>
+    <tr><td class="paramname">targetFormat</td><td>The target format. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a boolean value. </dd></dl>
+
+</div>
+</div>
+<a id="a53450b677b785cad59b94aefb682b449" name="a53450b677b785cad59b94aefb682b449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53450b677b785cad59b94aefb682b449">&#9670;&#160;</a></span>Convert() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.Convert </td>
+          <td>(</td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>srcFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>destPixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>targetFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>palette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts the format of the pixels in <em class="arg">srcPixels</em> from <em class="arg">srcFormat</em> into <em class="arg">targetFormat</em>. If <em class="arg">srcFormat</em> and <em class="arg">targetFormat</em> are the same, this just copies the pixels from <em class="arg">srcPixels</em> into <em class="arg">destPixels</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcPixels</td><td>An array of pixels. </td></tr>
+    <tr><td class="paramname">srcFormat</td><td>The source format. </td></tr>
+    <tr><td class="paramname">destPixels</td><td>The destination array. </td></tr>
+    <tr><td class="paramname">targetFormat</td><td>The target format. </td></tr>
+    <tr><td class="paramname">palette</td><td>The palette of the source if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>, or the palette of the target if <em class="arg">targetFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>. Format 0xRRGGBB. Required if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aaf5b8c1f906bff420cd9d6f74815f200" name="aaf5b8c1f906bff420cd9d6f74815f200"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf5b8c1f906bff420cd9d6f74815f200">&#9670;&#160;</a></span>Convert() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.Convert </td>
+          <td>(</td>
+          <td class="paramtype">Drawable</td>          <td class="paramname"><span class="paramname"><em>srcDrawable</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>destPixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>targetFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>palette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts the format of the pixels in <em class="arg">srcPixels</em> from <em class="arg">srcFormat</em> into <em class="arg">targetFormat</em>. If <em class="arg">srcFormat</em> and <em class="arg">targetFormat</em> are the same, this just copies the pixels from <em class="arg">srcDrawable</em> into <em class="arg">destPixels</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcDrawable</td><td>The Drawable to convert. </td></tr>
+    <tr><td class="paramname">destPixels</td><td>The destination array. </td></tr>
+    <tr><td class="paramname">targetFormat</td><td>The target format. </td></tr>
+    <tr><td class="paramname">palette</td><td>The palette of the source if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>, or the palette of the target if <em class="arg">targetFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>. Format 0xRRGGBB. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac7773f39721d1b309c88b1372b5d3ce9" name="ac7773f39721d1b309c88b1372b5d3ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7773f39721d1b309c88b1372b5d3ce9">&#9670;&#160;</a></span>Convert() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer Texture.Convert </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>color</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>srcFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>targetFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>palette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts <em class="arg">color</em> from <em class="arg">srcFormat</em> into <em class="arg">targetFormat</em>. If <em class="arg">srcFormat</em> and <em class="arg">targetFormat</em> are the same, this just returns <em class="arg">color</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The color to convert. </td></tr>
+    <tr><td class="paramname">srcFormat</td><td>The source format. </td></tr>
+    <tr><td class="paramname">targetFormat</td><td>The target format. </td></tr>
+    <tr><td class="paramname">palette</td><td>The palette of the source if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>, or the palette of the target if <em class="arg">targetFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>. Format 0xRRGGBB. Required if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns <em class="arg">color</em> converted to <em class="arg">targetFormat</em>. </dd></dl>
+
+</div>
+</div>
+<a id="ab3ccc8689fd3dabb98d0350832ccc32b" name="ab3ccc8689fd3dabb98d0350832ccc32b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3ccc8689fd3dabb98d0350832ccc32b">&#9670;&#160;</a></span>Copy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.Copy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTexture.html">Texture</a></td>          <td class="paramname"><span class="paramname"><em>destTexture</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Drawable</td>          <td class="paramname"><span class="paramname"><em>srcDrawable</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies pixels from <em class="arg">srcDrawable</em> into <em class="arg">destTexture</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destTexture</td><td>The texture to copy pixels into. </td></tr>
+    <tr><td class="paramname">srcDrawable</td><td>The drawable to copy pixels from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000011">Deprecated</a></b></dt><dd>Use <a class="el" href="#a9ddfc4daf63dab4c052f11ee571fbb27" title="Texture.CopyPixels">Texture.CopyPixels</a> instead. </dd></dl>
+
+</div>
+</div>
+<a id="a21ded4910081a8e5f088d7e19ee35bca" name="a21ded4910081a8e5f088d7e19ee35bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21ded4910081a8e5f088d7e19ee35bca">&#9670;&#160;</a></span>CopyPixels() <span class="overload">[1/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.CopyPixels </td>
+          <td>(</td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPalette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies pixels from an array into the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcPixels</td><td>An array of pixels in the pixel format of the texture. </td></tr>
+    <tr><td class="paramname">srcPalette</td><td>The palette of the source, format 0xRRGGBB. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae4d85105417caa23d06bf5356038dcf4" name="ae4d85105417caa23d06bf5356038dcf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d85105417caa23d06bf5356038dcf4">&#9670;&#160;</a></span>CopyPixels() <span class="overload">[2/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.CopyPixels </td>
+          <td>(</td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>srcFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPalette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies pixels from an array into the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcPixels</td><td>An array of pixels in the pixel format of the texture. </td></tr>
+    <tr><td class="paramname">srcFormat</td><td>The format of the pixels in the array. </td></tr>
+    <tr><td class="paramname">srcPalette</td><td>The palette of the source, format 0xRRGGBB. Required if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>, and the format of the destination texture is not <span class="tt">TEXTUREFORMAT_INDEXED</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a986c630b208b814b94f40724b47c02bd" name="a986c630b208b814b94f40724b47c02bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986c630b208b814b94f40724b47c02bd">&#9670;&#160;</a></span>CopyPixels() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.CopyPixels </td>
+          <td>(</td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>srcFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcWidth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPalette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies pixels from an array into the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcPixels</td><td>An array of pixels in the pixel format of the texture. </td></tr>
+    <tr><td class="paramname">srcFormat</td><td>The format of the pixels in the array. </td></tr>
+    <tr><td class="paramname">srcWidth</td><td>The width of the source. </td></tr>
+    <tr><td class="paramname">srcHeight</td><td>The height of the source. </td></tr>
+    <tr><td class="paramname">srcPalette</td><td>The palette of the source, format 0xRRGGBB. Required if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>, and the format of the destination texture is not <span class="tt">TEXTUREFORMAT_INDEXED</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abc9953b8db95984db08ed47ef7b9972b" name="abc9953b8db95984db08ed47ef7b9972b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc9953b8db95984db08ed47ef7b9972b">&#9670;&#160;</a></span>CopyPixels() <span class="overload">[4/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.CopyPixels </td>
+          <td>(</td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>srcFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcWidth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPalette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies a region of pixels from an array into the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcPixels</td><td>An array of pixels in the pixel format of the texture. </td></tr>
+    <tr><td class="paramname">srcFormat</td><td>The format of the pixels in the array. </td></tr>
+    <tr><td class="paramname">srcWidth</td><td>The width of the source. </td></tr>
+    <tr><td class="paramname">srcHeight</td><td>The height of the source. </td></tr>
+    <tr><td class="paramname">destX</td><td>The X coordinate in the destination to copy the pixels to. </td></tr>
+    <tr><td class="paramname">destY</td><td>The Y coordinate in the destination to copy the pixels to. </td></tr>
+    <tr><td class="paramname">srcPalette</td><td>The palette of the source, format 0xRRGGBB. Required if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>, and the format of the destination texture is not <span class="tt">TEXTUREFORMAT_INDEXED</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8d143eea5455fa600f972bc9a008bcd4" name="a8d143eea5455fa600f972bc9a008bcd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d143eea5455fa600f972bc9a008bcd4">&#9670;&#160;</a></span>CopyPixels() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.CopyPixels </td>
+          <td>(</td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPixels</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>srcFormat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcWidth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destWidth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPalette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies a region of pixels from an array into the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcPixels</td><td>An array of pixels in the pixel format of the texture. </td></tr>
+    <tr><td class="paramname">srcFormat</td><td>The format of the pixels in the array. </td></tr>
+    <tr><td class="paramname">srcX</td><td>The X coordinate in the source to start copying the pixels from. </td></tr>
+    <tr><td class="paramname">srcY</td><td>The Y coordinate in the source to start copying the pixels from. </td></tr>
+    <tr><td class="paramname">srcWidth</td><td>The width of the source. </td></tr>
+    <tr><td class="paramname">srcHeight</td><td>The height of the source. </td></tr>
+    <tr><td class="paramname">destX</td><td>The X coordinate in the destination to copy the pixels to. </td></tr>
+    <tr><td class="paramname">destY</td><td>The Y coordinate in the destination to copy the pixels to. </td></tr>
+    <tr><td class="paramname">destWidth</td><td>The width of the region to copy. </td></tr>
+    <tr><td class="paramname">destHeight</td><td>The height of the region to copy. </td></tr>
+    <tr><td class="paramname">srcPalette</td><td>The palette of the source, format 0xRRGGBB. Required if <em class="arg">srcFormat</em> is <span class="tt">TEXTUREFORMAT_INDEXED</span>, and the format of the destination texture is not <span class="tt">TEXTUREFORMAT_INDEXED</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9ddfc4daf63dab4c052f11ee571fbb27" name="a9ddfc4daf63dab4c052f11ee571fbb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ddfc4daf63dab4c052f11ee571fbb27">&#9670;&#160;</a></span>CopyPixels() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.CopyPixels </td>
+          <td>(</td>
+          <td class="paramtype">Drawable</td>          <td class="paramname"><span class="paramname"><em>srcDrawable</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPalette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies pixels from a Drawable into the specified coordinates. The formats must be compatible. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcDrawable</td><td>The Drawable to copy pixels from. </td></tr>
+    <tr><td class="paramname">srcPalette</td><td>The palette of the source, format 0xRRGGBB. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab480a4a7e5f27364472d658b09e845ff" name="ab480a4a7e5f27364472d658b09e845ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab480a4a7e5f27364472d658b09e845ff">&#9670;&#160;</a></span>CopyPixels() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.CopyPixels </td>
+          <td>(</td>
+          <td class="paramtype">Drawable</td>          <td class="paramname"><span class="paramname"><em>srcDrawable</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPalette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies pixels from a Drawable into the specified coordinates. The formats must be compatible. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcDrawable</td><td>The Drawable to copy pixels from. </td></tr>
+    <tr><td class="paramname">destX</td><td>The X coordinate in the destination to copy the pixels to. </td></tr>
+    <tr><td class="paramname">destY</td><td>The Y coordinate in the destination to copy the pixels to. </td></tr>
+    <tr><td class="paramname">srcPalette</td><td>The palette of the source, format 0xRRGGBB. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a11e0d09fa5657db09cb0255cc46876e1" name="a11e0d09fa5657db09cb0255cc46876e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11e0d09fa5657db09cb0255cc46876e1">&#9670;&#160;</a></span>CopyPixels() <span class="overload">[8/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.CopyPixels </td>
+          <td>(</td>
+          <td class="paramtype">Drawable</td>          <td class="paramname"><span class="paramname"><em>srcDrawable</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destWidth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array</td>          <td class="paramname"><span class="paramname"><em>srcPalette</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies a region of pixels from a Drawable into the specified coordinates. The formats must be compatible. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcDrawable</td><td>The Drawable to copy pixels from. </td></tr>
+    <tr><td class="paramname">srcX</td><td>The X coordinate in the source to start copying the pixels from. </td></tr>
+    <tr><td class="paramname">srcY</td><td>The Y coordinate in the source to start copying the pixels from. </td></tr>
+    <tr><td class="paramname">destX</td><td>The X coordinate in the destination to copy the pixels to. </td></tr>
+    <tr><td class="paramname">destY</td><td>The Y coordinate in the destination to copy the pixels to. </td></tr>
+    <tr><td class="paramname">destWidth</td><td>The width of the region to copy. </td></tr>
+    <tr><td class="paramname">destHeight</td><td>The height of the region to copy. </td></tr>
+    <tr><td class="paramname">srcPalette</td><td>The palette of the source, format 0xRRGGBB. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a636a3d74def378790455f23bbf8c6dd7" name="a636a3d74def378790455f23bbf8c6dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a636a3d74def378790455f23bbf8c6dd7">&#9670;&#160;</a></span>Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTexture.html">Texture</a> Texture.Create </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a texture with the given dimensions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>The width of the texture. </td></tr>
+    <tr><td class="paramname">height</td><td>The height of the texture. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a texture. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000010">Deprecated</a></b></dt><dd>Use the &lt;Texture&gt; constructor instead. </dd></dl>
+
+</div>
+</div>
+<a id="a60aed5ade43033f5f5f251929f920c8e" name="a60aed5ade43033f5f5f251929f920c8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60aed5ade43033f5f5f251929f920c8e">&#9670;&#160;</a></span>FormatHasAlphaChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean Texture.FormatHasAlphaChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a">TEXTUREFORMAT</a></td>          <td class="paramname"><span class="paramname"><em>format</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns whether <em class="arg">format</em> has an alpha channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>The texture format to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a boolean value. </dd></dl>
+
+</div>
+</div>
+<a id="a2a0f0d1951bedc2a72be53108fa0fc2f" name="a2a0f0d1951bedc2a72be53108fa0fc2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a0f0d1951bedc2a72be53108fa0fc2f">&#9670;&#160;</a></span>GetPixel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer Texture.GetPixel </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the pixel at the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The X coordinate of the pixel to get. </td></tr>
+    <tr><td class="paramname">y</td><td>The Y coordinate of the pixel to get. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a color in the pixel format of the texture. </dd></dl>
+
+</div>
+</div>
+<a id="a64518e943eac247ed55c5ae3379f2a69" name="a64518e943eac247ed55c5ae3379f2a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64518e943eac247ed55c5ae3379f2a69">&#9670;&#160;</a></span>GetPixelData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">array Texture.GetPixelData </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>x</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>y</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets an array of pixels of the given dimensions at the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The X coordinate of the region. </td></tr>
+    <tr><td class="paramname">y</td><td>The Y coordinate of the region. </td></tr>
+    <tr><td class="paramname">width</td><td>The width of the region. (default: width of texture) </td></tr>
+    <tr><td class="paramname">height</td><td>The height of the region. (default: height of texture) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns an array of pixels in the pixel format of the texture. </dd></dl>
+
+</div>
+</div>
+<a id="ae68abf2ff898708fc57c636225158ec7" name="ae68abf2ff898708fc57c636225158ec7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68abf2ff898708fc57c636225158ec7">&#9670;&#160;</a></span>Scale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.Scale </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scales the texture to the given dimensions, using nearest neighbor interpolation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>The new width of the texture. </td></tr>
+    <tr><td class="paramname">height</td><td>The new height of the texture. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa16992ecb4e2a7e0c909c02563134949" name="aa16992ecb4e2a7e0c909c02563134949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa16992ecb4e2a7e0c909c02563134949">&#9670;&#160;</a></span>SetPixel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.SetPixel </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>color</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the pixel at the specified coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The X coordinate of the pixel to set. </td></tr>
+    <tr><td class="paramname">y</td><td>The Y coordinate of the pixel to set. </td></tr>
+    <tr><td class="paramname">color</td><td>The color in the pixel format of the texture. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8061fede408a6f1dfb2866008acba84d" name="a8061fede408a6f1dfb2866008acba84d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8061fede408a6f1dfb2866008acba84d">&#9670;&#160;</a></span>SetSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Texture.SetSize </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes the dimensions of the texture, without scaling the pixels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>The new width of the texture. </td></tr>
+    <tr><td class="paramname">height</td><td>The new height of the texture. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
