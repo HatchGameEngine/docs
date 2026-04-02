@@ -117,8 +117,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acb9ad4eb81cf4e0f5fc188a9c758a393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arccosine of x.  <br /></td></tr>
 <tr class="memitem:aae366fa00273dcd0c80fc0cab7d4ce41" id="r_aae366fa00273dcd0c80fc0cab7d4ce41"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#aae366fa00273dcd0c80fc0cab7d4ce41">Asin</a> (decimal x)</td></tr>
 <tr class="memdesc:aae366fa00273dcd0c80fc0cab7d4ce41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arcsine of x.  <br /></td></tr>
-<tr class="memitem:a8007f26ce613fb550041d4b7d16a0a8d" id="r_a8007f26ce613fb550041d4b7d16a0a8d"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#a8007f26ce613fb550041d4b7d16a0a8d">Atan</a> (decimal x, decimal y)</td></tr>
-<tr class="memdesc:a8007f26ce613fb550041d4b7d16a0a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arctangent angle (in radians) from x and y.  <br /></td></tr>
+<tr class="memitem:a9cbbdb4bbc1f2bbd4dae76a756a65f96" id="r_a9cbbdb4bbc1f2bbd4dae76a756a65f96"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#a9cbbdb4bbc1f2bbd4dae76a756a65f96">Atan</a> (decimal n)</td></tr>
+<tr class="memdesc:a9cbbdb4bbc1f2bbd4dae76a756a65f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arctangent angle (in radians) from n.  <br /></td></tr>
+<tr class="memitem:a972f997607c1329a0d98957a1dfe72b8" id="r_a972f997607c1329a0d98957a1dfe72b8"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#a972f997607c1329a0d98957a1dfe72b8">Atan</a> (decimal n, decimal a)</td></tr>
+<tr class="memdesc:a972f997607c1329a0d98957a1dfe72b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arctangent angle (in radians) from n and a.  <br /></td></tr>
+<tr class="memitem:abeacd38e006cae6400b247189728ef5b" id="r_abeacd38e006cae6400b247189728ef5b"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#abeacd38e006cae6400b247189728ef5b">Atan2</a> (decimal x, decimal y)</td></tr>
+<tr class="memdesc:abeacd38e006cae6400b247189728ef5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arctangent angle (in radians) from x and y.  <br /></td></tr>
 <tr class="memitem:ae318db7abc5f794aa7e360eb4db8163c" id="r_ae318db7abc5f794aa7e360eb4db8163c"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#ae318db7abc5f794aa7e360eb4db8163c">Distance</a> (number x1, number y1, number x2, number y2)</td></tr>
 <tr class="memdesc:ae318db7abc5f794aa7e360eb4db8163c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the distance from (x1,y1) to (x2,y2) in pixels.  <br /></td></tr>
 <tr class="memitem:a0de5e9a2379326ef11eb00742210d68c" id="r_a0de5e9a2379326ef11eb00742210d68c"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#a0de5e9a2379326ef11eb00742210d68c">Direction</a> (number x1, number y1, number x2, number y2)</td></tr>
@@ -241,14 +245,72 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8007f26ce613fb550041d4b7d16a0a8d" name="a8007f26ce613fb550041d4b7d16a0a8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8007f26ce613fb550041d4b7d16a0a8d">&#9670;&#160;</a></span>Atan()</h2>
+<a id="a9cbbdb4bbc1f2bbd4dae76a756a65f96" name="a9cbbdb4bbc1f2bbd4dae76a756a65f96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cbbdb4bbc1f2bbd4dae76a756a65f96">&#9670;&#160;</a></span>Atan() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">decimal Math.Atan </td>
+          <td>(</td>
+          <td class="paramtype">decimal</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the arctangent angle (in radians) from n. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>n value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The angle from n. </dd></dl>
+
+</div>
+</div>
+<a id="a972f997607c1329a0d98957a1dfe72b8" name="a972f997607c1329a0d98957a1dfe72b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a972f997607c1329a0d98957a1dfe72b8">&#9670;&#160;</a></span>Atan() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decimal Math.Atan </td>
+          <td>(</td>
+          <td class="paramtype">decimal</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decimal</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the arctangent angle (in radians) from n and a. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>n value. </td></tr>
+    <tr><td class="paramname">a</td><td>a value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The angle from n and a. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated</a></b></dt><dd>Use <a class="el" href="#abeacd38e006cae6400b247189728ef5b" title="Math.Atan2">Math.Atan2</a> instead. </dd></dl>
+
+</div>
+</div>
+<a id="abeacd38e006cae6400b247189728ef5b" name="abeacd38e006cae6400b247189728ef5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeacd38e006cae6400b247189728ef5b">&#9670;&#160;</a></span>Atan2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decimal Math.Atan2 </td>
           <td>(</td>
           <td class="paramtype">decimal</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
         </tr>

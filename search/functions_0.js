@@ -39,6 +39,7 @@ var searchData=
   ['asin512_36',['ASin512',['../classRSDK_1_1Math.html#a18169672975954a8c258b767b6198ef0',1,'RSDK::Math']]],
   ['asinteger_37',['AsInteger',['../classNumber.html#ad0c68aa9a4eba297653c1517456ef871',1,'Number']]],
   ['assigntextureunit_38',['AssignTextureUnit',['../classShader.html#a8bbf2cf26991b83a6f7343681e8dd801',1,'Shader']]],
-  ['atan_39',['Atan',['../classMath.html#a8007f26ce613fb550041d4b7d16a0a8d',1,'Math']]],
-  ['atan2_40',['ATan2',['../classRSDK_1_1Math.html#adb1bccc909d96009b888d6f189f687e3',1,'RSDK::Math']]]
+  ['atan_39',['Atan',['../classMath.html#a9cbbdb4bbc1f2bbd4dae76a756a65f96',1,'Math.Atan(decimal n)'],['../classMath.html#a972f997607c1329a0d98957a1dfe72b8',1,'Math.Atan(decimal n, decimal a)']]],
+  ['atan2_40',['ATan2',['../classRSDK_1_1Math.html#adb1bccc909d96009b888d6f189f687e3',1,'RSDK::Math']]],
+  ['atan2_41',['Atan2',['../classMath.html#abeacd38e006cae6400b247189728ef5b',1,'Math']]]
 ];
