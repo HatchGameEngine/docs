@@ -1529,6 +1529,7 @@ var group__hsl =
     [ "Math_PI_DOUBLE", "group__hsl.html#ga9df06fd797d73972ce76ec6372015cc2", null ],
     [ "Math_PI_HALF", "group__hsl.html#gafcb18ee09e451f6d84b8ea2554d17c98", null ],
     [ "Math_R_PI", "group__hsl.html#ga15a9e8fdc7a7eb4adae8e9ae2a2e0d6e", null ],
+    [ "Math_TAU", "group__hsl.html#ga6ff68d4aa87297b2a27512fa7267a0f7", null ],
     [ "MAX_DRAW_GROUPS", "group__hsl.html#gae4b0bb6c5b87240f5e33d3ad2a410e9a", null ],
     [ "MAX_PALETTE_COUNT", "group__hsl.html#ga594b45a41ec10b34caf08432dccf8db0", null ],
     [ "MAX_SCENE_VIEWS", "group__hsl.html#ga95d0fa49512721afd147c5f340a50b8f", null ],
