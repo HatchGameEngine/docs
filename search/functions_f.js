@@ -198,7 +198,7 @@ var searchData=
   ['sort_195',['Sort',['../classArray.html#aef8a3c18aba317bcb88091f1bffd8543',1,'Array']]],
   ['split_196',['Split',['../classString.html#a3200a9ab596a04a8670202ec88ccebde',1,'String']]],
   ['sprite_197',['Sprite',['../classDraw.html#ac8b5321b2a7320ac579dcd2e9cf23b0e',1,'Draw.Sprite()'],['../classDraw3D.html#ab5c371959a23a64ae1f13b171922bbd6',1,'Draw3D.Sprite()']]],
-  ['spritebasic_198',['SpriteBasic',['../classDraw.html#a61650b897168ae5c948d01790256ecfa',1,'Draw']]],
+  ['spritebasic_198',['SpriteBasic',['../classDraw.html#a0aacb924bda1f3656a2e7afef5ce491e',1,'Draw']]],
   ['spritepart_199',['SpritePart',['../classDraw.html#a34fa4d8072fb23885e0f24ce77c6c6e2',1,'Draw.SpritePart()'],['../classDraw3D.html#a1a05bd7c9315fa233687e7573181743e',1,'Draw3D.SpritePart(integer sprite, integer animation, integer frame, number x, number y, number z, integer partX, integer partY, integer partW, integer partH, boolean flipX=false, boolean flipY=false, number scaleX=1.0, number scaleY=1.0, matrix matrixModel, matrix matrixNormal)']]],
   ['spritepoints_200',['SpritePoints',['../classDraw3D.html#a05eea5b8bebc320fca3698bbd13fb91d',1,'Draw3D']]],
   ['sqrt_201',['Sqrt',['../classMath.html#ac782cd4c3bc2f7b57c262213076258d9',1,'Math']]],

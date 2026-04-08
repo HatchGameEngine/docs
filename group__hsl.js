@@ -154,8 +154,8 @@ var group__hsl =
       [ "GetWidth", "classDisplay.html#a1527b236a19254275877648fcfb0afe9", null ]
     ] ],
     [ "Draw", "classDraw.html", [
-      [ "Animator", "classDraw.html#a8e3e9611477864907223b120d8768e6b", null ],
-      [ "AnimatorBasic", "classDraw.html#a7577735348ce6521b0568d1c74157b31", null ],
+      [ "Animator", "classDraw.html#a2cda534bca722f7b867d1d82655084c4", null ],
+      [ "AnimatorBasic", "classDraw.html#ad10b755df7221427c1c9a1bc5a1da19c", null ],
       [ "Circle", "classDraw.html#ac1fc573bdcd631ba36a2a966d45dd8ce", null ],
       [ "CircleStroke", "classDraw.html#ad8821eda3b4d5945545e2058bc1d2fb1", null ],
       [ "Clear", "classDraw.html#ac003dda8a3be79c9273551138721f262", null ],
@@ -217,7 +217,7 @@ var group__hsl =
       [ "SetVerticalDotMask", "classDraw.html#aaf763171e8026a069196a79571df1f20", null ],
       [ "SetVerticalDotMaskOffset", "classDraw.html#a97524bdf526a3434ebd2c3c92f415bc1", null ],
       [ "Sprite", "classDraw.html#ac8b5321b2a7320ac579dcd2e9cf23b0e", null ],
-      [ "SpriteBasic", "classDraw.html#a61650b897168ae5c948d01790256ecfa", null ],
+      [ "SpriteBasic", "classDraw.html#a0aacb924bda1f3656a2e7afef5ce491e", null ],
       [ "SpritePart", "classDraw.html#a34fa4d8072fb23885e0f24ce77c6c6e2", null ],
       [ "Text", "classDraw.html#aeaa4dee5e134795be77ea4889dace544", null ],
       [ "TextArray", "classDraw.html#a7490f106fb912d5e7c867d6b1699798a", null ],
