@@ -209,5 +209,6 @@ var searchData=
   ['stoprumble_206',['StopRumble',['../classController.html#a6e169e18c5af47b57b8fdbb115a07c31',1,'Controller']]],
   ['stopsound_207',['StopSound',['../classEntity.html#ab524cbcd6be0ff6d821d5f80e51074b8',1,'Entity']]],
   ['stopwithfadeout_208',['StopWithFadeOut',['../classMusic.html#af90f5c068b152cd18026d13b0c286467',1,'Music']]],
-  ['substring_209',['Substring',['../classString.html#a0cebf41064c7bc0522604dafcb9ea59f',1,'String']]]
+  ['substring_209',['Substring',['../classString.html#a0cebf41064c7bc0522604dafcb9ea59f',1,'String']]],
+  ['swapcolors_210',['SwapColors',['../classPalette.html#aa862cc1ddea82d2dd482e60b4d308662',1,'Palette']]]
 ];

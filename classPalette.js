@@ -12,5 +12,6 @@ var classPalette =
     [ "SetColor", "classPalette.html#abb6b2c75a8f54fa8ca0fe131d5ac696a", null ],
     [ "SetColorTransparent", "classPalette.html#ac145e12e978a2ab4b38c98c89c6c3c39", null ],
     [ "SetPaletteIndexLines", "classPalette.html#aed971433771abb7476f39cf8daefb6eb", null ],
+    [ "SwapColors", "classPalette.html#aa862cc1ddea82d2dd482e60b4d308662", null ],
     [ "UsePaletteIndexLines", "classPalette.html#a35317affab2c239fa4507a726712eaee", null ]
 ];

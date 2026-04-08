@@ -304,5 +304,6 @@ var searchData=
   ['stream_301',['Stream',['../classStream.html',1,'']]],
   ['string_302',['String',['../classString.html',1,'']]],
   ['substring_303',['Substring',['../classString.html#a0cebf41064c7bc0522604dafcb9ea59f',1,'String']]],
-  ['system_304',['Virtual File System',['../vfs.html',1,'manual_page']]]
+  ['swapcolors_304',['SwapColors',['../classPalette.html#aa862cc1ddea82d2dd482e60b4d308662',1,'Palette']]],
+  ['system_305',['Virtual File System',['../vfs.html',1,'manual_page']]]
 ];

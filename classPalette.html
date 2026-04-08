@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a309682d678b22deb3a8716d0a406f8f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shifts the colors on the palette to the right.  <br /></td></tr>
 <tr class="memitem:ab290eb4f4e41a352a2f1d57eb1b2c0e3" id="r_ab290eb4f4e41a352a2f1d57eb1b2c0e3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab290eb4f4e41a352a2f1d57eb1b2c0e3">CopyColors</a> (integer paletteIndexA, integer colorIndexStartA, integer paletteIndexB, integer colorIndexStartB, integer colorCount)</td></tr>
 <tr class="memdesc:ab290eb4f4e41a352a2f1d57eb1b2c0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies colors from Palette A to Palette B.  <br /></td></tr>
+<tr class="memitem:aa862cc1ddea82d2dd482e60b4d308662" id="r_aa862cc1ddea82d2dd482e60b4d308662"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa862cc1ddea82d2dd482e60b4d308662">SwapColors</a> (integer paletteIndexA, integer paletteIndexB)</td></tr>
+<tr class="memdesc:aa862cc1ddea82d2dd482e60b4d308662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps colors from Palette A to Palette B.  <br /></td></tr>
 <tr class="memitem:a35317affab2c239fa4507a726712eaee" id="r_a35317affab2c239fa4507a726712eaee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a35317affab2c239fa4507a726712eaee">UsePaletteIndexLines</a> (boolean usePaletteIndexLines)</td></tr>
 <tr class="memdesc:a35317affab2c239fa4507a726712eaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the global palette index table.  <br /></td></tr>
 <tr class="memitem:aed971433771abb7476f39cf8daefb6eb" id="r_aed971433771abb7476f39cf8daefb6eb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aed971433771abb7476f39cf8daefb6eb">SetPaletteIndexLines</a> (integer paletteIndex, number lineStart, number lineEnd)</td></tr>
@@ -567,6 +569,36 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">paletteIndex</td><td>Index of palette. </td></tr>
     <tr><td class="paramname">lineStart</td><td>Start line to set to the palette. </td></tr>
     <tr><td class="paramname">lineEnd</td><td>Line where to stop setting the palette. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa862cc1ddea82d2dd482e60b4d308662" name="aa862cc1ddea82d2dd482e60b4d308662"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa862cc1ddea82d2dd482e60b4d308662">&#9670;&#160;</a></span>SwapColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Palette.SwapColors </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>paletteIndexA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>paletteIndexB</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Swaps colors from Palette A to Palette B. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">paletteIndexA</td><td>Index of palette to be swapped. </td></tr>
+    <tr><td class="paramname">paletteIndexB</td><td>Index of swapped palette. </td></tr>
   </table>
   </dd>
 </dl>
