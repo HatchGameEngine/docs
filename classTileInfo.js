@@ -1,8 +1,8 @@
 var classTileInfo =
 [
-    [ "GetAngle", "classTileInfo.html#a5e224d46cfcb7bd68ab9468d31db5f0a", null ],
+    [ "GetAngle", "classTileInfo.html#a4d9b40611eb8b2edd952596e2dd0d4f8", null ],
     [ "GetBehaviorFlag", "classTileInfo.html#aad5e8656c956944b484fcac0a06d4c8e", null ],
-    [ "GetCollision", "classTileInfo.html#ab9e3cb1eaa095881f163f68db15f8aeb", null ],
+    [ "GetCollision", "classTileInfo.html#a683aca007dc84d6e5733ad41c1a77da4", null ],
     [ "GetEmptyTile", "classTileInfo.html#aafb17317b8a3f99e96639b1a60eb5f16", null ],
     [ "IsCeiling", "classTileInfo.html#a482a20bdc4dddf3796d1c364f81e7378", null ],
     [ "IsEmptySpace", "classTileInfo.html#ac6585db7c54e962a433f7638aa84cf05", null ],

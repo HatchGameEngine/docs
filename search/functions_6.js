@@ -6,7 +6,7 @@ var searchData=
   ['getactivecount_3',['GetActiveCount',['../classView.html#af9dd2e7e58e7274bb293d9dac97b329f',1,'View']]],
   ['getactivity_4',['GetActivity',['../classObject.html#a3d9e45fcc1b64dd8ff8fb55eed26f1ed',1,'Object']]],
   ['getanalogactioninput_5',['GetAnalogActionInput',['../classInput.html#aea81f5f6e0a1b92b46d5e71bf49b0e61',1,'Input']]],
-  ['getangle_6',['GetAngle',['../classTileInfo.html#a5e224d46cfcb7bd68ab9468d31db5f0a',1,'TileInfo']]],
+  ['getangle_6',['GetAngle',['../classTileInfo.html#a4d9b40611eb8b2edd952596e2dd0d4f8',1,'TileInfo']]],
   ['getanimationcount_7',['GetAnimationCount',['../classModel.html#abf3822ac4984967f5f66f2ece1900374',1,'Model.GetAnimationCount()'],['../classSprite.html#a0d6eae9164be9eb50773736d238b2114',1,'Sprite.GetAnimationCount()']]],
   ['getanimationindex_8',['GetAnimationIndex',['../classModel.html#a0a284472daeaeee87dd641b7bb0b7554',1,'Model']]],
   ['getanimationindexbyname_9',['GetAnimationIndexByName',['../classSprite.html#a8056ef291d7abcabf6f2e7aec7e824e1',1,'Sprite']]],
@@ -38,7 +38,7 @@ var searchData=
   ['getclipx_35',['GetClipX',['../classDraw.html#a04b96cd23ab3fc435feae016ba924643',1,'Draw']]],
   ['getclipy_36',['GetClipY',['../classDraw.html#aa36224f783e0f525eaa99e209af8c84d',1,'Draw']]],
   ['getcodepoints_37',['GetCodepoints',['../classString.html#a4efdf5020ba0e918b9bbae5e216a4c88',1,'String']]],
-  ['getcollision_38',['GetCollision',['../classTileInfo.html#ab9e3cb1eaa095881f163f68db15f8aeb',1,'TileInfo']]],
+  ['getcollision_38',['GetCollision',['../classTileInfo.html#a683aca007dc84d6e5733ad41c1a77da4',1,'TileInfo']]],
   ['getcolor_39',['GetColor',['../classPalette.html#a7ff87529a28ae9e3591ccdc3c56f1f4f',1,'Palette']]],
   ['getcolortransparent_40',['GetColorTransparent',['../classPalette.html#a39e4cad0002e57ab135664479faf5830',1,'Palette']]],
   ['getcommandlinearguments_41',['GetCommandLineArguments',['../classApplication.html#ab090f327fc4fde0cad46d203f7b7ea87',1,'Application']]],
@@ -207,5 +207,5 @@ var searchData=
   ['getx_204',['GetX',['../classTouch.html#a9d81ec2fbdc0e14e4a6e19bdc7ad4b17',1,'Touch.GetX()'],['../classView.html#a9f8e1096d46dca5681eda7f621c72966',1,'View.GetX()']]],
   ['gety_205',['GetY',['../classTouch.html#a846568e2a6c8f292cf181a71427210c9',1,'Touch.GetY()'],['../classView.html#a7fd7748284674c03f39ea429b4ce3dde',1,'View.GetY(integer viewIndex)']]],
   ['getz_206',['GetZ',['../classView.html#af3cc87994850e9ae4984728686060197',1,'View']]],
-  ['glyph_207',['Glyph',['../classDraw.html#a113f9284ebfe0ae0ef137a54eb08a965',1,'Draw']]]
+  ['glyph_207',['Glyph',['../classDraw.html#aac9611d631cb786d5ba9063639a8823d',1,'Draw']]]
 ];
