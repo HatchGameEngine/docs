@@ -623,7 +623,7 @@ var group__hsl =
     [ "Object", "classObject.html", [
       [ "GetActivity", "classObject.html#a3d9e45fcc1b64dd8ff8fb55eed26f1ed", null ],
       [ "Loaded", "classObject.html#abdbca67c87d36e9245215e9c0b2f5ea0", null ],
-      [ "SetActivity", "classObject.html#a6879edfd84b1a9506607372909c3a18a", null ]
+      [ "SetActivity", "classObject.html#ad672ff5918312f04afb8c0c0813e1c19", null ]
     ] ],
     [ "Palette", "classPalette.html", [
       [ "CopyColors", "classPalette.html#ab290eb4f4e41a352a2f1d57eb1b2c0e3", null ],
@@ -957,7 +957,7 @@ var group__hsl =
       [ "Length", "classString.html#a057ceff4b461d9a65b3f501cb0457e26", null ],
       [ "ParseDecimal", "classString.html#a1fc755c2a1fa0508a94f9a6897fc360d", null ],
       [ "ParseInteger", "classString.html#a444d51afbeb528a9920df0a29153fd6a", null ],
-      [ "Split", "classString.html#a3200a9ab596a04a8670202ec88ccebde", null ],
+      [ "Split", "classString.html#a9099fdf593100e0e4850ec38b9dbd1e5", null ],
       [ "Substring", "classString.html#a0cebf41064c7bc0522604dafcb9ea59f", null ],
       [ "ToLowerCase", "classString.html#ab17215dc6d3ea5f295969dac478629be", null ],
       [ "ToUpperCase", "classString.html#ae7d932cae322ec26ff1ef3f9f0d3e09d", null ]

@@ -109,8 +109,8 @@ $(function(){initNavTree('classString.html','','classString-members'); });
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acc421363d69d3eed6be45110af36aae5" id="r_acc421363d69d3eed6be45110af36aae5"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#acc421363d69d3eed6be45110af36aae5">Format</a> (string string, value values)</td></tr>
 <tr class="memdesc:acc421363d69d3eed6be45110af36aae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formats a <b>format string</b> according to the given <b>format specifiers</b>. A format specifier is a string of the form.  <br /></td></tr>
-<tr class="memitem:a3200a9ab596a04a8670202ec88ccebde" id="r_a3200a9ab596a04a8670202ec88ccebde"><td class="memItemLeft">array&#160;</td><td class="memItemRight"><a class="el" href="#a3200a9ab596a04a8670202ec88ccebde">Split</a> (string string, integer delimiter)</td></tr>
-<tr class="memdesc:a3200a9ab596a04a8670202ec88ccebde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits a string by a delimiter.  <br /></td></tr>
+<tr class="memitem:a9099fdf593100e0e4850ec38b9dbd1e5" id="r_a9099fdf593100e0e4850ec38b9dbd1e5"><td class="memItemLeft">array&#160;</td><td class="memItemRight"><a class="el" href="#a9099fdf593100e0e4850ec38b9dbd1e5">Split</a> (string string, string delimiter)</td></tr>
+<tr class="memdesc:a9099fdf593100e0e4850ec38b9dbd1e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits a string by a delimiter.  <br /></td></tr>
 <tr class="memitem:a5ab35ea48eacd2a69a2147efcd074314" id="r_a5ab35ea48eacd2a69a2147efcd074314"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a5ab35ea48eacd2a69a2147efcd074314">CharAt</a> (string string, integer index)</td></tr>
 <tr class="memdesc:a5ab35ea48eacd2a69a2147efcd074314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the 8-bit value of the character at the specified index.  <br /></td></tr>
 <tr class="memitem:acc01e337f310f5fac13a8c4ea1e0f71c" id="r_acc01e337f310f5fac13a8c4ea1e0f71c"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#acc01e337f310f5fac13a8c4ea1e0f71c">CodepointAt</a> (string string, integer index)</td></tr>
@@ -232,7 +232,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns the comparison result as an integer. The return value is a negative integer if <em class="arg">stringA</em> appears before <span class="tt">stringB</span> lexicographically, a positive integer if <em class="arg">stringA</em> appears after <em class="arg">stringB</em> lexicographically, and zero if <em class="arg">stringA</em> and <em class="arg">stringB</em> are equal. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the comparison result as an integer. The return value is a negative integer if <em class="arg">stringA</em> appears before <em class="arg">stringB</em> lexicographically, a positive integer if <em class="arg">stringA</em> appears after <em class="arg">stringB</em> lexicographically, and zero if <em class="arg">stringA</em> and <em class="arg">stringB</em> are equal. </dd></dl>
 
 </div>
 </div>
@@ -564,8 +564,8 @@ Else, the number is assumed to be in base 10. </td></tr>
 
 </div>
 </div>
-<a id="a3200a9ab596a04a8670202ec88ccebde" name="a3200a9ab596a04a8670202ec88ccebde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3200a9ab596a04a8670202ec88ccebde">&#9670;&#160;</a></span>Split()</h2>
+<a id="a9099fdf593100e0e4850ec38b9dbd1e5" name="a9099fdf593100e0e4850ec38b9dbd1e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9099fdf593100e0e4850ec38b9dbd1e5">&#9670;&#160;</a></span>Split()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,7 +578,7 @@ Else, the number is assumed to be in base 10. </td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>delimiter</em></span>&#160;)</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>delimiter</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
