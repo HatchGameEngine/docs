@@ -547,6 +547,7 @@ var group__hsl =
     [ "Math", "classMath.html", [
       [ "Abs", "classMath.html#a70e9ddd762bc4a2b7eb3a0cbf36e49cb", null ],
       [ "Acos", "classMath.html#acb9ad4eb81cf4e0f5fc188a9c758a393", null ],
+      [ "AngleDifference", "classMath.html#a931e8b5abb735b801a27e114310b194b", null ],
       [ "Asin", "classMath.html#aae366fa00273dcd0c80fc0cab7d4ce41", null ],
       [ "Atan", "classMath.html#a9cbbdb4bbc1f2bbd4dae76a756a65f96", null ],
       [ "Atan", "classMath.html#a972f997607c1329a0d98957a1dfe72b8", null ],
