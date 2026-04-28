@@ -1,6 +1,6 @@
 var manual_page =
 [
-    [ "Scripting", "scripting.html", null ],
+    [ "Scripting", "scripting.html", "scripting" ],
     [ "Game Configuration File", "gameconfig.html", [
       [ "Example <span class=\"tt\">GameConfig.xml</span>", "gameconfig.html#example-gameconfigxml", null ]
     ] ],

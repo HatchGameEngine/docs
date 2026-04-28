@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a56f383e6ea6b7f6eefacada9527226ce":[4,0,78,0],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a57a37b0b73bc17e18476d8cd08a55c23":[4,0,78,60],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a584f74e1bba46c18aa1ec72c09254146":[4,0,78,79],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a5b3c0a4648c1367f1643e1c066e1181b":[4,0,78,36],
@@ -136,6 +137,8 @@ var NAVTREEINDEX6 =
 "settings.html":[2,2],
 "shaders.html":[2,14],
 "sprites_images_and_textures.html":[2,7],
+"statements.html":[2,0,1],
 "topics.html":[4],
+"variables.html":[2,0,0],
 "vfs.html":[2,12]
 };

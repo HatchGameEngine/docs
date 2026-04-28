@@ -24,13 +24,14 @@ var searchData=
   ['hitbox_5fright_21',['HITBOX_RIGHT',['../group__hsl.html#ggada65c25ca783f5dc4f72659f53ae0a56a0345b6813906dafd8bbd217eac43258c',1,'HITBOX.hsl']]],
   ['hitbox_5ftop_22',['HITBOX_TOP',['../group__hsl.html#ggada65c25ca783f5dc4f72659f53ae0a56ab639465f6b033b7ecf69c445b62de382',1,'HITBOX.hsl']]],
   ['hitboxbottom_23',['HitboxBottom',['../classEntity.html#a786a27e7201e00ca4b7ab2832e19f85e',1,'Entity']]],
-  ['hitboxh_24',['HitboxH',['../classEntity.html#a47f27bdd145aad6c1892abe32f3b035d',1,'Entity']]],
-  ['hitboxleft_25',['HitboxLeft',['../classEntity.html#a30ec5761d9e98c2a7f7e00737ce98d14',1,'Entity']]],
-  ['hitboxoffx_26',['HitboxOffX',['../classEntity.html#a6b807f9b71a62c2f703446bdf5fc5a73',1,'Entity']]],
-  ['hitboxoffy_27',['HitboxOffY',['../classEntity.html#a50ca9a0b8b83e4d9e7f8feb7bb02d430',1,'Entity']]],
-  ['hitboxright_28',['HitboxRight',['../classEntity.html#a5199aae9e98e5df74dd8faf0ab59c9d6',1,'Entity']]],
-  ['hitboxtop_29',['HitboxTop',['../classEntity.html#afd3021ee577588e67d4ebd02dfc1cffc',1,'Entity']]],
-  ['hitboxw_30',['HitboxW',['../classEntity.html#a59875fa4425974a2869457f06935f069',1,'Entity']]],
-  ['hsl_31',['HSL',['../group__hsl.html',1,'']]],
-  ['http_32',['HTTP',['../classHTTP.html',1,'']]]
+  ['hitboxes_24',['Hitboxes',['../variables.html#hitboxes',1,'']]],
+  ['hitboxh_25',['HitboxH',['../classEntity.html#a47f27bdd145aad6c1892abe32f3b035d',1,'Entity']]],
+  ['hitboxleft_26',['HitboxLeft',['../classEntity.html#a30ec5761d9e98c2a7f7e00737ce98d14',1,'Entity']]],
+  ['hitboxoffx_27',['HitboxOffX',['../classEntity.html#a6b807f9b71a62c2f703446bdf5fc5a73',1,'Entity']]],
+  ['hitboxoffy_28',['HitboxOffY',['../classEntity.html#a50ca9a0b8b83e4d9e7f8feb7bb02d430',1,'Entity']]],
+  ['hitboxright_29',['HitboxRight',['../classEntity.html#a5199aae9e98e5df74dd8faf0ab59c9d6',1,'Entity']]],
+  ['hitboxtop_30',['HitboxTop',['../classEntity.html#afd3021ee577588e67d4ebd02dfc1cffc',1,'Entity']]],
+  ['hitboxw_31',['HitboxW',['../classEntity.html#a59875fa4425974a2869457f06935f069',1,'Entity']]],
+  ['hsl_32',['HSL',['../group__hsl.html',1,'']]],
+  ['http_33',['HTTP',['../classHTTP.html',1,'']]]
 ];

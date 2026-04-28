@@ -110,14 +110,13 @@ Installing Hatch</h2>
 The Hatch Scripting Language</h2>
 <p>The Hatch Scripting Language is an <b>object-oriented</b> programming language created for use in Hatch. It emphasizes the use of <b>classes</b> to code entities, and provides facilities found in other programming languages you may already be familiar with. Features of HSL include:</p>
 <ul>
-<li>A syntax reminiscent of JavaScript.</li>
+<li>A syntax reminiscent of C and Java.</li>
 <li>Dynamic typing.</li>
 <li>Integer and floating point number types.</li>
 <li>Arrays, maps, and enumerations.</li>
 <li>Class-based inheritance.</li>
-<li>Class extension, without the need to create a subclass.</li>
-<li>A standard library provided by the engine.</li>
 <li>I/O streams.</li>
+<li>A garbage collector.</li>
 </ul>
 <p>Most of your Hatch scripts will be the definition of one or more classes. Entities are defined by their classes, and spawning an entity is merely the same as instantiating a class. Let's create our first script, an entity that displays something to the screen and can be moved around.</p>
 <p>Before doing anything, we need to setup our project's folders. Go to the root of your project, and create a folder named <span class="tt">Resources</span> in it. Inside of that folder, create an <span class="tt">Objects</span> folder. Hatch uses a bytecode virtual machine to execute HSL code, so it needs to compile script files before executing them. This folder is where Hatch will output the compiled scripts to.</p>

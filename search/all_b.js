@@ -20,6 +20,8 @@ var searchData=
   ['loadsprite_17',['LoadSprite',['../classResources.html#ac972df6800480cd5c2b7ec13e21792c9',1,'Resources']]],
   ['loadtilecollisions_18',['LoadTileCollisions',['../classScene.html#a992f27b00b03f16c336bf9f5b21e3eca',1,'Scene']]],
   ['loadvideo_19',['LoadVideo',['../classResources.html#af22f460ea3d4c5e44daec12a02cff4ea',1,'Resources']]],
-  ['loopsound_20',['LoopSound',['../classEntity.html#a1a9ff79c444881cae63b99c22bccdc57',1,'Entity']]],
-  ['lowpassfilter_21',['LowPassFilter',['../group__hsl.html#gaff9f93c9501fe1cf3d6ac003b4271da4',1,'globals.hsl']]]
+  ['loop_20and_20iteration_20statements_20',['Loop and iteration statements',['../statements.html#loop-and-iteration-statements',1,'']]],
+  ['loops_21',['loops',['../statements.html#for-loops',1,'&lt;span class=&quot;tt&quot;&gt;for&lt;/span&gt; loops'],['../statements.html#for-in-loops',1,'&lt;span class=&quot;tt&quot;&gt;for&lt;/span&gt;-&lt;span class=&quot;tt&quot;&gt;in&lt;/span&gt; loops'],['../statements.html#repeat-loops',1,'&lt;span class=&quot;tt&quot;&gt;repeat&lt;/span&gt; loops'],['../statements.html#while-and-do-while-loops',1,'&lt;span class=&quot;tt&quot;&gt;while&lt;/span&gt; and &lt;span class=&quot;tt&quot;&gt;do&lt;/span&gt;-&lt;span class=&quot;tt&quot;&gt;while&lt;/span&gt; loops']]],
+  ['loopsound_22',['LoopSound',['../classEntity.html#a1a9ff79c444881cae63b99c22bccdc57',1,'Entity']]],
+  ['lowpassfilter_23',['LowPassFilter',['../group__hsl.html#gaff9f93c9501fe1cf3d6ac003b4271da4',1,'globals.hsl']]]
 ];

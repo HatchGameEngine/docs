@@ -139,6 +139,7 @@ var NAVTREEINDEX4 =
 "deprecated.html":[3],
 "distribution.html":[2,15],
 "entities.html":[2,4],
+"expressions_and_operators.html":[2,0,2],
 "filesystem_and_input_output.html":[2,11],
 "functions.html":[6,2,0],
 "functions.html":[6,2,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "group__hsl.html#gaa7e916bd65c2f97fc446b8cd1c58268a":[4,0,92],
 "group__hsl.html#gaaa53ca0b650dfd85c4f59fa156f7a2cc":[4,0,63],
 "group__hsl.html#gaaca6948c34da7fef3bca8d2bf205fe91":[4,0,66],
-"group__hsl.html#gab0d484040f07b1af5c50f8512371baf8":[4,0,132],
-"group__hsl.html#gab1100ca14fd7e13fcef15bb9d6b34b19":[4,0,134]
+"group__hsl.html#gab0d484040f07b1af5c50f8512371baf8":[4,0,132]
 };
