@@ -1,5 +1,5 @@
 var classFunction =
 [
-    [ "Bind", "classFunction.html#aebb7d98ef9b842f33a2a614076c6d1ba", null ],
-    [ "BindArguments", "classFunction.html#a2b9a34789c43b4b22e86c75dd0eeae02", null ]
+    [ "Bind", "classFunction.html#a6e8354ff5a568bc82fa32626d3671a9b", null ],
+    [ "BindArguments", "classFunction.html#a3a75371e50ab6b358698ee49044b0bf2", null ]
 ];
