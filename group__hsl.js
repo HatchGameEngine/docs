@@ -444,7 +444,8 @@ var group__hsl =
       [ "SetSpaceWidth", "classFont.html#a6c9fef7690d9cca1201ab680dddc5326", null ]
     ] ],
     [ "Function", "classFunction.html", [
-      [ "Bind", "classFunction.html#aebb7d98ef9b842f33a2a614076c6d1ba", null ]
+      [ "Bind", "classFunction.html#aebb7d98ef9b842f33a2a614076c6d1ba", null ],
+      [ "BindArguments", "classFunction.html#a2b9a34789c43b4b22e86c75dd0eeae02", null ]
     ] ],
     [ "Geometry", "classGeometry.html", [
       [ "Intersect", "classGeometry.html#a09a4184d9cdb0021a908316051cb795e", null ],
