@@ -37,5 +37,6 @@ var searchData=
   ['fromcodepoints_34',['FromCodepoints',['../classString.html#aaefa772f11897c16d32464f91d6343ee',1,'String']]],
   ['fromfile_35',['FromFile',['../classStream.html#a6a5dd5858017ec024b6ae9e70306f5c3',1,'Stream']]],
   ['fromfixed_36',['FromFixed',['../classRSDK_1_1Math.html#a8cc544a80b518647016057a864071b4d',1,'RSDK::Math']]],
-  ['fromresource_37',['FromResource',['../classStream.html#a95c84abd59d99c54953fb76b5f3304b5',1,'Stream']]]
+  ['fromresource_37',['FromResource',['../classStream.html#a95c84abd59d99c54953fb76b5f3304b5',1,'Stream']]],
+  ['function_38',['Function',['../classFunction.html',1,'']]]
 ];

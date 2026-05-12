@@ -26,7 +26,7 @@ var searchData=
   ['rectangle_23',['Rectangle',['../classDraw.html#a80f6f5b8e0859f4cae73dc5315ecd930',1,'Draw']]],
   ['rectanglestroke_24',['RectangleStroke',['../classDraw.html#a82f077d00ba94840e0ee2cbd700f23b9',1,'Draw']]],
   ['reference_25',['API Reference',['../index.html#api-reference',1,'']]],
-  ['remove_26',['Remove',['../classAnimator.html#a969b7c72f032c6e4ef67d3b7f660eea9',1,'Animator']]],
+  ['remove_26',['Remove',['../classAnimator.html#a969b7c72f032c6e4ef67d3b7f660eea9',1,'Animator.Remove()'],['../classMap.html#a963b49a855c7e63ef543bfe2c97b10eb',1,'Map.Remove()']]],
   ['removeactionbind_27',['RemoveActionBind',['../classInput.html#ab8b3e923791b57a07b12829dce1b97fe',1,'Input']]],
   ['removedefaultactionbind_28',['RemoveDefaultActionBind',['../classInput.html#a97264fd34cb7071c38c0cf6e4f4c8fd4',1,'Input']]],
   ['removefromdrawgroup_29',['RemoveFromDrawGroup',['../classEntity.html#a4b1b6813ccc04efab5f0b3bc0f436397',1,'Entity']]],

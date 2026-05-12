@@ -81,7 +81,7 @@ var searchData=
   ['apply_78',['Apply',['../classTexture.html#ad2e1b209512dbeed06f413007c44682f',1,'Texture']]],
   ['applymotion_79',['ApplyMotion',['../classEntity.html#afe42c664dba691ddabbb21291baee8bd',1,'Entity']]],
   ['aretilecollisionsloaded_80',['AreTileCollisionsLoaded',['../classScene.html#ae29957474591c9f782f53d0630f14e00',1,'Scene']]],
-  ['array_81',['Array',['../classArray.html',1,'']]],
+  ['array_81',['Array',['../classArray.html',1,'Array'],['../classArray.html#aa450bba4d644ca891c871938bfea7bac',1,'Array.Array()']]],
   ['asdecimal_82',['AsDecimal',['../classNumber.html#af0e7935d7fbee138d7587e8165a290f0',1,'Number']]],
   ['asin_83',['Asin',['../classMath.html#aae366fa00273dcd0c80fc0cab7d4ce41',1,'Math']]],
   ['asin1024_84',['ASin1024',['../classRSDK_1_1Math.html#adcf4d77502ee3dc083d63b2e3f4f8a43',1,'RSDK::Math']]],

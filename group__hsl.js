@@ -69,8 +69,9 @@ var group__hsl =
       [ "UseFixedTimestep", "classApplication.html#a17594992568837db92c3f3653978e1df", null ]
     ] ],
     [ "Array", "classArray.html", [
+      [ "Array", "classArray.html#aa450bba4d644ca891c871938bfea7bac", null ],
       [ "Clear", "classArray.html#a9a045036ddca9accb8ba76bb14f01fa1", null ],
-      [ "Create", "classArray.html#a112f97895e01bffc32a2f6e17854890c", null ],
+      [ "Create", "classArray.html#a6bfb46776366ee19dc47625086a66838", null ],
       [ "Erase", "classArray.html#a5d6da6e22b7647b346ca3f6f5e72df5b", null ],
       [ "Insert", "classArray.html#ad31758907ac42342a06c2020f987387b", null ],
       [ "Length", "classArray.html#af52337fbc21e65c40ed453bc18093572", null ],
@@ -442,6 +443,9 @@ var group__hsl =
       [ "SetPixelsPerUnit", "classFont.html#abfa8e7ef09eb02938ff0982471ca4444", null ],
       [ "SetSpaceWidth", "classFont.html#a6c9fef7690d9cca1201ab680dddc5326", null ]
     ] ],
+    [ "Function", "classFunction.html", [
+      [ "Bind", "classFunction.html#aebb7d98ef9b842f33a2a614076c6d1ba", null ]
+    ] ],
     [ "Geometry", "classGeometry.html", [
       [ "Intersect", "classGeometry.html#a09a4184d9cdb0021a908316051cb795e", null ],
       [ "IsLineIntersectingPolygon", "classGeometry.html#a06cbf6470f8a9ff55c7f80f4f4faa0ba", null ],
@@ -525,6 +529,12 @@ var group__hsl =
     [ "JSON", "classJSON.html", [
       [ "Parse", "classJSON.html#adc76881e4f826e88915ea90a3e0c0681", null ],
       [ "ToString", "classJSON.html#ac696e1dd73ea9d030b19fdace1b147b3", null ]
+    ] ],
+    [ "Map", "classMap.html", [
+      [ "Map", "classMap.html#af020476bbce3b6eb3e74621d8503a957", null ],
+      [ "GetKeys", "classMap.html#a0ef6a2398e27efe8b46810f27f236e4d", null ],
+      [ "Length", "classMap.html#a8c157e3445aca9410471927b6643310a", null ],
+      [ "Remove", "classMap.html#a963b49a855c7e63ef543bfe2c97b10eb", null ]
     ] ],
     [ "Material", "classMaterial.html", [
       [ "Material", "classMaterial.html#a65144a0041cede1f0363812792fd81f7", null ],

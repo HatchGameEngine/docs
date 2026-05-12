@@ -1,7 +1,8 @@
 var classArray =
 [
+    [ "Array", "classArray.html#aa450bba4d644ca891c871938bfea7bac", null ],
     [ "Clear", "classArray.html#a9a045036ddca9accb8ba76bb14f01fa1", null ],
-    [ "Create", "classArray.html#a112f97895e01bffc32a2f6e17854890c", null ],
+    [ "Create", "classArray.html#a6bfb46776366ee19dc47625086a66838", null ],
     [ "Erase", "classArray.html#a5d6da6e22b7647b346ca3f6f5e72df5b", null ],
     [ "Insert", "classArray.html#ad31758907ac42342a06c2020f987387b", null ],
     [ "Length", "classArray.html#af52337fbc21e65c40ed453bc18093572", null ],
