@@ -1434,6 +1434,7 @@ var group__hsl =
     ] ],
     [ "SCOPE", "group__hsl.html#ga51fb466065610b59ea508dc6d1db1ab8", [
       [ "SCOPE_SCENE", "group__hsl.html#gga51fb466065610b59ea508dc6d1db1ab8a7f58b024dd1ea5f89f886496b52c33f8", null ],
+      [ "SCOPE_GROUP", "group__hsl.html#gga51fb466065610b59ea508dc6d1db1ab8a4b664dc2c5ca25cc028f233d0e0877ed", null ],
       [ "SCOPE_GAME", "group__hsl.html#gga51fb466065610b59ea508dc6d1db1ab8ac403a6e4e10ac2145d091501c1a5381e", null ]
     ] ],
     [ "SensorDirection", "group__hsl.html#ga37636acd6f892f0a1e3cddbe084dac66", [
