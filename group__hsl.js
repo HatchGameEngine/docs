@@ -477,6 +477,8 @@ var group__hsl =
       [ "GetDefaultBoundActionMap", "classInput.html#a280cf04f5cbb91b350fc66dfaae6c9c5", null ],
       [ "GetKeyName", "classInput.html#afb78bad2fd6e85e08618c9e0d5f3fc3c", null ],
       [ "GetMouseMode", "classInput.html#ae1a3115717fec7529b58506931ddda65", null ],
+      [ "GetMouseMotionX", "classInput.html#aba25575d350d0061996143a9b2f018a1", null ],
+      [ "GetMouseMotionY", "classInput.html#a28ea333dc4fe681da3e732cc79583e2e", null ],
       [ "GetMouseWheelMotion", "classInput.html#a5f13f3f9f566ecc68088d2af693d4680", null ],
       [ "GetMouseX", "classInput.html#a6cbb8b224b435ad4f688c43de6605196", null ],
       [ "GetMouseY", "classInput.html#a1f7a722c92a5845887ce11126f46d2d5", null ],
