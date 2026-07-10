@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Hatch Game Engine Documentation: Related Pages</title>
+<title>Hatch Game Engine Documentation: Comments</title>
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -72,7 +72,7 @@ $(function() { codefold.init(); });
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('pages.html','',''); });
+$(function(){initNavTree('comments.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -97,18 +97,45 @@ $(function(){initNavTree('pages.html','',''); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">Related Pages</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Comments </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all related documentation pages:</div><div class="directory">
-<table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="comments.html" target="_self">Comments</a></td><td class="desc"></td></tr>
-<tr id="row_1_" class="odd"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="deprecated.html" target="_self">Deprecated List</a></td><td class="desc"></td></tr>
-</table>
-</div><!-- directory -->
-</div><!-- contents -->
+<div class="textblock"><p><b>Comments</b> are lines of code that get ignored by the compiler, meaning they don't affect your project.</p>
+<h2 class="doxsection"><a class="anchor" id="declaring-a-comment"></a>
+Declaring a comment</h2>
+<p>There are 2 types of comments, one being single-line comments, which you can declare by using the <span class="tt">//</span> prefix.</p>
+<div class="fragment"><div class="line"><span class="comment">// This is a comment!</span></div>
+</div><!-- fragment --><p>The other one is multi-line comments which start with <span class="tt">/*</span> and end with <span class="tt">*/</span>. Any text between will be considered as a comment.</p>
+<div class="fragment"><div class="line"><span class="comment">/*</span></div>
+<div class="line"><span class="comment">This is a multi-line comment!</span></div>
+<div class="line"><span class="comment">Multi-line comments can have multiple lines!</span></div>
+<div class="line"><span class="comment">*/</span></div>
+</div><!-- fragment --><div class="fragment"><div class="line">This isn<span class="stringliteral">&#39;t a comment /* but this is. */</span></div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="when-to-use-comments"></a>
+When to use comments</h2>
+<p>Comments can be used to leave notes for yourself or other programmers that may be working on the same project.</p>
+<div class="fragment"><div class="line"><span class="comment">// Note: This constant variable stores the maximum amount of objects that can be present at the same time.</span></div>
+<div class="line"><span class="keyword">const</span> MAX_OBJ_C = 5;</div>
+</div><!-- fragment --><p>Comments can be used to "ignore" lines of code, skipping their execution.</p>
+<div class="fragment"><div class="line"><span class="keyword">event</span> Create() {</div>
+<div class="line">    print(<span class="stringliteral">&quot;Getting executed is my favorite activity.&quot;</span>);</div>
+<div class="line">    <span class="comment">/* </span></div>
+<div class="line"><span class="comment">    print(&quot;Hello!&quot;);</span></div>
+<div class="line"><span class="comment">    print(&quot;Please skip these lines!&quot;);</span></div>
+<div class="line"><span class="comment">    */</span></div>
+<div class="line">}</div>
+</div><!-- fragment --><div class="fragment"><div class="line">INFO: Getting executed is my favorite activity.</div>
+</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

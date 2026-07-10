@@ -28,6 +28,7 @@ var NAVTREE =
     [ "Introduction", "introduction_to_hatch.html", null ],
     [ "Hello World Tutorial", "hello_world.html", null ],
     [ "Manual", "manual_page.html", "manual_page" ],
+    [ "Comments", "comments.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
@@ -52,8 +53,8 @@ var NAVTREEINDEX =
 "classInput.html#a5f13f3f9f566ecc68088d2af693d4680",
 "classScene.html#a18db2d32b5d9ecef1e80b8e4b06810ba",
 "classStream.html#a7c735c8f3eda229b2037b932e2c8eab5",
-"group__hsl.html#ga81efa6293c4006e4c0ad4ff3a59b9e28",
-"group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a3279edd67ada17976a452484f00c3856"
+"group__hsl.html#ga81b904903f4bfc430f4794bc3849503b",
+"group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a2ef45a22db2db6b608a6bb5f53b3fb04"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
