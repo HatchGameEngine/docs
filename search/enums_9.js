@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mousemode_0',['MOUSEMODE',['../group__hsl.html#gacdf9599c2f11830b8dd61a796653990e',1,'MOUSEMODE.hsl']]]
+  ['layertype_0',['LAYERTYPE',['../group__hsl.html#ga76f1a21bfdea12be9408b5f30e126a3f',1,'LAYERTYPE.hsl']]]
 ];

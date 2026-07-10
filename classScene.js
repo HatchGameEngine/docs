@@ -34,6 +34,7 @@ var classScene =
     [ "GetLayerOpacity", "classScene.html#a78ee4403e736eea13654df43b123ad90", null ],
     [ "GetLayerProperty", "classScene.html#ae9b794bfa5b59017c72bf5ea0d73d50b", null ],
     [ "GetLayerShader", "classScene.html#aa596837ae997209101fb548c1317651d", null ],
+    [ "GetLayerType", "classScene.html#a88ae27132ac90b3e856a10d7612522e0", null ],
     [ "GetLayerUsePaletteIndexLines", "classScene.html#ada864b6bd0f80cbee59126e820bd8305", null ],
     [ "GetLayerVerticalConstantScroll", "classScene.html#aca42ae88c18145ec8df9d511fd61901c", null ],
     [ "GetLayerVerticalParallaxFactor", "classScene.html#a21743a0e4b714e1f79ce3b99a1648519", null ],

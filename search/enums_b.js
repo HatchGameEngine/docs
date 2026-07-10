@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['rotstyle_0',['ROTSTYLE',['../group__hsl.html#ga07c952913bd6dbc4a9fcf4e9cdd53ba9',1,'ROTSTYLE.hsl']]]
+  ['persistence_0',['Persistence',['../group__hsl.html#ga5e63a3f648917896ecbf9de92e237141',1,'Persistence.hsl']]],
+  ['platform_1',['Platform',['../group__hsl.html#ga5be836f305c9cd8b44ffb7c964f4cbd9',1,'Platform.hsl']]]
 ];

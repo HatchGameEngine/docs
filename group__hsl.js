@@ -707,6 +707,7 @@ var group__hsl =
       [ "GetLayerOpacity", "classScene.html#a78ee4403e736eea13654df43b123ad90", null ],
       [ "GetLayerProperty", "classScene.html#ae9b794bfa5b59017c72bf5ea0d73d50b", null ],
       [ "GetLayerShader", "classScene.html#aa596837ae997209101fb548c1317651d", null ],
+      [ "GetLayerType", "classScene.html#a88ae27132ac90b3e856a10d7612522e0", null ],
       [ "GetLayerUsePaletteIndexLines", "classScene.html#ada864b6bd0f80cbee59126e820bd8305", null ],
       [ "GetLayerVerticalConstantScroll", "classScene.html#aca42ae88c18145ec8df9d511fd61901c", null ],
       [ "GetLayerVerticalParallaxFactor", "classScene.html#a21743a0e4b714e1f79ce3b99a1648519", null ],
@@ -1399,6 +1400,10 @@ var group__hsl =
       [ "KeyBind_DevMenuToggle", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baba553f08ff90c92886f60d40321bb2ea", null ],
       [ "KeyBind_DevScriptDebugger", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba9bbf31c6a72242f28b98ff3344ce615a", null ],
       [ "KeyBind_DevQuit", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baeb9252565e62a539faf78b31165ad53a", null ]
+    ] ],
+    [ "LAYERTYPE", "group__hsl.html#ga76f1a21bfdea12be9408b5f30e126a3f", [
+      [ "LAYERTYPE_TILE", "group__hsl.html#gga76f1a21bfdea12be9408b5f30e126a3fac9c90947d736788d54b335cb6e3c5e83", null ],
+      [ "LAYERTYPE_IMAGE", "group__hsl.html#gga76f1a21bfdea12be9408b5f30e126a3fa18773ae1e59e6b22a06b6981faad4ee5", null ]
     ] ],
     [ "MOUSEMODE", "group__hsl.html#gacdf9599c2f11830b8dd61a796653990e", [
       [ "MOUSEMODE_DEFAULT", "group__hsl.html#ggacdf9599c2f11830b8dd61a796653990eaa06168cd70864ac0b8872366f5ad40e8", null ],

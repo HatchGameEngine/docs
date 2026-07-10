@@ -1,10 +1,24 @@
 var searchData=
 [
-  ['weekday_5ffriday_0',['WEEKDAY_FRIDAY',['../group__hsl.html#gga77fb5cb3d35d8d6ce041e134f70d5138a8819ecdb388e487ecd14e0faafe6e00f',1,'WEEKDAY.hsl']]],
-  ['weekday_5fmonday_1',['WEEKDAY_MONDAY',['../group__hsl.html#gga77fb5cb3d35d8d6ce041e134f70d5138ac55fd9a177ea238ec7be8a1ea6fd9a84',1,'WEEKDAY.hsl']]],
-  ['weekday_5fsaturday_2',['WEEKDAY_SATURDAY',['../group__hsl.html#gga77fb5cb3d35d8d6ce041e134f70d5138a81d8e6547fefda0c5faa864451d0d694',1,'WEEKDAY.hsl']]],
-  ['weekday_5fsunday_3',['WEEKDAY_SUNDAY',['../group__hsl.html#gga77fb5cb3d35d8d6ce041e134f70d5138a581cc2adba8e31fbf3b73da250269cd6',1,'WEEKDAY.hsl']]],
-  ['weekday_5fthursday_4',['WEEKDAY_THURSDAY',['../group__hsl.html#gga77fb5cb3d35d8d6ce041e134f70d5138a91bb8af5f9ff9880552c282c184ae3d9',1,'WEEKDAY.hsl']]],
-  ['weekday_5ftuesday_5',['WEEKDAY_TUESDAY',['../group__hsl.html#gga77fb5cb3d35d8d6ce041e134f70d5138a8ed6ced04d1353a5fc2820f619b39e05',1,'WEEKDAY.hsl']]],
-  ['weekday_5fwednesday_6',['WEEKDAY_WEDNESDAY',['../group__hsl.html#gga77fb5cb3d35d8d6ce041e134f70d5138a16cac545cde222f3ac0fd8ad060e7f21',1,'WEEKDAY.hsl']]]
+  ['textureaccess_5frendertarget_0',['TEXTUREACCESS_RENDERTARGET',['../group__hsl.html#gga3f0d888586c300e3aa214f9c0a0a427aa737570b5cf755d814544f720c29f7427',1,'TEXTUREACCESS.hsl']]],
+  ['textureaccess_5fstatic_1',['TEXTUREACCESS_STATIC',['../group__hsl.html#gga3f0d888586c300e3aa214f9c0a0a427aaccd8c904771395856fcc597fca870dbb',1,'TEXTUREACCESS.hsl']]],
+  ['textureaccess_5fstreaming_2',['TEXTUREACCESS_STREAMING',['../group__hsl.html#gga3f0d888586c300e3aa214f9c0a0a427aa8c6fb12de6fe3c7c26797fa489c12095',1,'TEXTUREACCESS.hsl']]],
+  ['textureformat_5fabgr8888_3',['TEXTUREFORMAT_ABGR8888',['../group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa1e21f91e218740724bcebdc6493153b6',1,'TEXTUREFORMAT.hsl']]],
+  ['textureformat_5fargb8888_4',['TEXTUREFORMAT_ARGB8888',['../group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa9d8ecc20385a1e4f80ff1dd65a5d4aeb',1,'TEXTUREFORMAT.hsl']]],
+  ['textureformat_5fbgr888_5',['TEXTUREFORMAT_BGR888',['../group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa365fab941357987defc6a3c390db856d',1,'TEXTUREFORMAT.hsl']]],
+  ['textureformat_5findexed_6',['TEXTUREFORMAT_INDEXED',['../group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa374d3d641a3936bfb8cfcc4600d780dc',1,'TEXTUREFORMAT.hsl']]],
+  ['textureformat_5fnative_7',['TEXTUREFORMAT_NATIVE',['../group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa74f5a0ae93dda753570a4e071319aac5',1,'TEXTUREFORMAT.hsl']]],
+  ['textureformat_5frga888_8',['TEXTUREFORMAT_RGA888',['../group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa862da3572f7f625479798b0695fe5737',1,'TEXTUREFORMAT.hsl']]],
+  ['textureformat_5frgba8888_9',['TEXTUREFORMAT_RGBA8888',['../group__hsl.html#ggaa7e916bd65c2f97fc446b8cd1c58268aa5f25f1208d3ecdb77f4309c4ea228b85',1,'TEXTUREFORMAT.hsl']]],
+  ['tilecollision_5fdown_10',['TILECOLLISION_DOWN',['../group__hsl.html#gga522d0ebaa99b3cf34f214e8884fea09daacf7b41b9f5384cc8d1bc1e1feaaffed',1,'TILECOLLISION.hsl']]],
+  ['tilecollision_5fnone_11',['TILECOLLISION_NONE',['../group__hsl.html#gga522d0ebaa99b3cf34f214e8884fea09da058df502d0d9e5710c778a162770c0cb',1,'TILECOLLISION.hsl']]],
+  ['tilecollision_5fup_12',['TILECOLLISION_UP',['../group__hsl.html#gga522d0ebaa99b3cf34f214e8884fea09da37cebe928ec170fbb03d51fe19dc01fb',1,'TILECOLLISION.hsl']]],
+  ['timeofday_5fevening_13',['TIMEOFDAY_EVENING',['../group__hsl.html#ggaefaeb14b8c3084eb444e0c307aed89c8a4f6b6aab2ccb48a667aec6068f26c537',1,'TIMEOFDAY.hsl']]],
+  ['timeofday_5fmidday_14',['TIMEOFDAY_MIDDAY',['../group__hsl.html#ggaefaeb14b8c3084eb444e0c307aed89c8adaac86221d267a6ac6a4a343c3ed60b8',1,'TIMEOFDAY.hsl']]],
+  ['timeofday_5fmorning_15',['TIMEOFDAY_MORNING',['../group__hsl.html#ggaefaeb14b8c3084eb444e0c307aed89c8a9753e00ff148d9b3be0bef11ed3a8301',1,'TIMEOFDAY.hsl']]],
+  ['timeofday_5fnight_16',['TIMEOFDAY_NIGHT',['../group__hsl.html#ggaefaeb14b8c3084eb444e0c307aed89c8a0d8ad2c276f4b685c2647f5a7842212e',1,'TIMEOFDAY.hsl']]],
+  ['tintmode_5fdst_5fblend_17',['TintMode_DST_BLEND',['../group__hsl.html#gga1755bbb0536462aea383b5353c6afd63ab848d21adc576dc825e79388a5d8c118',1,'TintMode.hsl']]],
+  ['tintmode_5fdst_5fnormal_18',['TintMode_DST_NORMAL',['../group__hsl.html#gga1755bbb0536462aea383b5353c6afd63a2d8f811a83b6cfdd03bd1c9b628df8be',1,'TintMode.hsl']]],
+  ['tintmode_5fsrc_5fblend_19',['TintMode_SRC_BLEND',['../group__hsl.html#gga1755bbb0536462aea383b5353c6afd63a48d08e7fef74c38d7cec4136a6dc7145',1,'TintMode.hsl']]],
+  ['tintmode_5fsrc_5fnormal_20',['TintMode_SRC_NORMAL',['../group__hsl.html#gga1755bbb0536462aea383b5353c6afd63a0f358a4ded848b4df1dc5506bfe34f42',1,'TintMode.hsl']]]
 ];

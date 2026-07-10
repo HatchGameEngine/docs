@@ -184,7 +184,7 @@ Classes</h2></td></tr>
 <tr class="memitem:Resources" id="r_Resources"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classResources.html">Resources</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resource loading.  <a href="classResources.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Scene" id="r_Scene"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classScene.html">Scene</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions for manipulating and retrieving information about scenes.  <a href="classScene.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions for manipulating and retrieving information about scenes and layers.  <a href="classScene.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Scene3D" id="r_Scene3D"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classScene3D.html">Scene3D</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main interface for drawing 3D elements.  <a href="classScene3D.html#details">More...</a><br /></td></tr>
 <tr class="memitem:SceneList" id="r_SceneList"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classSceneList.html">SceneList</a></td></tr>
@@ -599,6 +599,10 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:ga4b246822d2357bc7be50a0c0211bf26b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Documentation for the KeyBind enum.  <a href="#ga4b246822d2357bc7be50a0c0211bf26b">More...</a><br /></td></tr>
+<tr class="memitem:ga76f1a21bfdea12be9408b5f30e126a3f" id="r_ga76f1a21bfdea12be9408b5f30e126a3f"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#ga76f1a21bfdea12be9408b5f30e126a3f">LAYERTYPE</a> { <a class="el" href="#gga76f1a21bfdea12be9408b5f30e126a3fac9c90947d736788d54b335cb6e3c5e83">LAYERTYPE_TILE</a>
+, <a class="el" href="#gga76f1a21bfdea12be9408b5f30e126a3fa18773ae1e59e6b22a06b6981faad4ee5">LAYERTYPE_IMAGE</a>
+ }</td></tr>
+<tr class="memdesc:ga76f1a21bfdea12be9408b5f30e126a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Documentation for the LAYERTYPE enum.  <a href="#ga76f1a21bfdea12be9408b5f30e126a3f">More...</a><br /></td></tr>
 <tr class="memitem:gacdf9599c2f11830b8dd61a796653990e" id="r_gacdf9599c2f11830b8dd61a796653990e"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#gacdf9599c2f11830b8dd61a796653990e">MOUSEMODE</a> { <a class="el" href="#ggacdf9599c2f11830b8dd61a796653990eaa06168cd70864ac0b8872366f5ad40e8">MOUSEMODE_DEFAULT</a>
 , <a class="el" href="#ggacdf9599c2f11830b8dd61a796653990ea91d8550060e85b3ef9e981e0858bdf2f">MOUSEMODE_RELATIVE</a>
  }</td></tr>
@@ -1817,6 +1821,28 @@ var&#160;</td><td class="memItemRight"><b>Scene_DebugMode</b></td></tr>
 <tr><td class="fieldname"><a id="gga4b246822d2357bc7be50a0c0211bf26ba9bbf31c6a72242f28b98ff3344ce615a" name="gga4b246822d2357bc7be50a0c0211bf26ba9bbf31c6a72242f28b98ff3344ce615a"></a>KeyBind_DevScriptDebugger&#160;</td><td class="fielddoc"><p>Script debugger keybind. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga4b246822d2357bc7be50a0c0211bf26baeb9252565e62a539faf78b31165ad53a" name="gga4b246822d2357bc7be50a0c0211bf26baeb9252565e62a539faf78b31165ad53a"></a>KeyBind_DevQuit&#160;</td><td class="fielddoc"><p>App quit keybind. (dev) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga76f1a21bfdea12be9408b5f30e126a3f" name="ga76f1a21bfdea12be9408b5f30e126a3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga76f1a21bfdea12be9408b5f30e126a3f">&#9670;&#160;</a></span>LAYERTYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ga76f1a21bfdea12be9408b5f30e126a3f">LAYERTYPE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Documentation for the LAYERTYPE enum. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga76f1a21bfdea12be9408b5f30e126a3fac9c90947d736788d54b335cb6e3c5e83" name="gga76f1a21bfdea12be9408b5f30e126a3fac9c90947d736788d54b335cb6e3c5e83"></a>LAYERTYPE_TILE&#160;</td><td class="fielddoc"><p>Tile layer. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga76f1a21bfdea12be9408b5f30e126a3fa18773ae1e59e6b22a06b6981faad4ee5" name="gga76f1a21bfdea12be9408b5f30e126a3fa18773ae1e59e6b22a06b6981faad4ee5"></a>LAYERTYPE_IMAGE&#160;</td><td class="fielddoc"><p>Image layer. </p>
 </td></tr>
 </table>
 
