@@ -5,7 +5,7 @@ var searchData=
   ['code_2',['Organizing the code',['../hello_world.html#organizing-the-code',1,'']]],
   ['collision_3',['Physics and tile collision',['../hello_world.html#physics-and-tile-collision',1,'']]],
   ['comment_4',['Declaring a comment',['../comments.html#declaring-a-comment',1,'']]],
-  ['comments_5',['Comments',['../comments.html',1,'']]],
+  ['comments_5',['Comments',['../comments.html',1,'scripting']]],
   ['comments_6',['When to use comments',['../comments.html#when-to-use-comments',1,'']]],
   ['concepts_7',['Core engine concepts',['../introduction_to_hatch.html#core-engine-concepts',1,'']]],
   ['conclusion_8',['Conclusion',['../hello_world.html#conclusion',1,'']]],

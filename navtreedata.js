@@ -28,7 +28,6 @@ var NAVTREE =
     [ "Introduction", "introduction_to_hatch.html", null ],
     [ "Hello World Tutorial", "hello_world.html", null ],
     [ "Manual", "manual_page.html", "manual_page" ],
-    [ "Comments", "comments.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [

@@ -51,7 +51,7 @@ var searchData=
   ['collisionmode_48',['CollisionMode',['../classEntity.html#aa541d2feca82fe0fadc8140097b3dca0',1,'Entity']]],
   ['collisionplane_49',['CollisionPlane',['../classEntity.html#ae63051e6410b7c4732d2b90578c1e805',1,'Entity']]],
   ['comment_50',['Declaring a comment',['../comments.html#declaring-a-comment',1,'']]],
-  ['comments_51',['Comments',['../comments.html',1,'']]],
+  ['comments_51',['Comments',['../comments.html',1,'scripting']]],
   ['comments_52',['When to use comments',['../comments.html#when-to-use-comments',1,'']]],
   ['compare_53',['Compare',['../classString.html#a78a220cb3f1314ee26406c5ce7eee2e8',1,'String']]],
   ['compile_54',['Compile',['../classShader.html#a14662f1a1b44ad3129e9459259eb93fc',1,'Shader']]],
