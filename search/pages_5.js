@@ -9,5 +9,5 @@ var searchData=
   ['for_20in_20loops_6',['&lt;span class=&quot;tt&quot;&gt;for&lt;/span&gt;-&lt;span class=&quot;tt&quot;&gt;in&lt;/span&gt; loops',['../statements.html#for-in-loops',1,'']]],
   ['for_20loops_7',['&lt;span class=&quot;tt&quot;&gt;for&lt;/span&gt; loops',['../statements.html#for-loops',1,'']]],
   ['function_8',['Declaring a function',['../hsl_functions.html#declaring-a-function',1,'']]],
-  ['functions_9',['Functions',['../hsl_functions.html',1,'']]]
+  ['functions_9',['Functions',['../hsl_functions.html',1,'scripting']]]
 ];

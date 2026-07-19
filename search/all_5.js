@@ -40,5 +40,5 @@ var searchData=
   ['fromresource_37',['FromResource',['../classStream.html#a95c84abd59d99c54953fb76b5f3304b5',1,'Stream']]],
   ['function_38',['Function',['../classFunction.html',1,'']]],
   ['function_39',['Declaring a function',['../hsl_functions.html#declaring-a-function',1,'']]],
-  ['functions_40',['Functions',['../hsl_functions.html',1,'']]]
+  ['functions_40',['Functions',['../hsl_functions.html',1,'scripting']]]
 ];
