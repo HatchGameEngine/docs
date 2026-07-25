@@ -34,7 +34,7 @@ var searchData=
   ['playsound_31',['PlaySound',['../classEntity.html#ae03564ac1d1218b29e6699337f48a030',1,'Entity']]],
   ['point_32',['Point',['../classTileCollision.html#a96fee3501135f920e8d8b416c2230f0e',1,'TileCollision']]],
   ['pointextended_33',['PointExtended',['../classTileCollision.html#ac263c6b81ebe5f4ae42033577b76af4a',1,'TileCollision']]],
-  ['pop_34',['Pop',['../classArray.html#afb7a03d033c289660ba7071e6cbb3dba',1,'Array']]],
+  ['pop_34',['Pop',['../classArray.html#afb7a03d033c289660ba7071e6cbb3dba',1,'Array.Pop()'],['../arrays.html#push--pop',1,'Push &amp;amp; Pop']]],
   ['posearmature_35',['PoseArmature',['../classModel.html#a94e5c950c16386f2f008e0e682b51901',1,'Model']]],
   ['position_36',['Position',['../classStream.html#ab9f469bededc22fdeb65b00b9fb24af9',1,'Stream']]],
   ['pow_37',['Pow',['../classMath.html#aec4f9a536912ea3a16a3a190d05d396e',1,'Math']]],
@@ -45,5 +45,6 @@ var searchData=
   ['properties_42',['Entity properties',['../hello_world.html#entity-properties',1,'']]],
   ['propertyexists_43',['PropertyExists',['../classEntity.html#a4246f27bcd096415b011d9b94bceba52',1,'Entity.PropertyExists()'],['../classScene.html#af009e5a1920f5d26c65b8f7234d2cc78',1,'Scene.PropertyExists()'],['../classSettings.html#a869cb4b23c16b1df4bca764ba0239908',1,'Settings.PropertyExists()']]],
   ['propertyget_44',['PropertyGet',['../classEntity.html#ae93cece4286dcb4f62fd11f1f9f707de',1,'Entity']]],
-  ['push_45',['Push',['../classArray.html#a7eaa9b3cddc5091a50e252847f126ffa',1,'Array']]]
+  ['push_45',['Push',['../classArray.html#a7eaa9b3cddc5091a50e252847f126ffa',1,'Array']]],
+  ['push_20pop_46',['Push &amp;amp; Pop',['../arrays.html#push--pop',1,'']]]
 ];

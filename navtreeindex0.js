@@ -1,6 +1,7 @@
 var NAVTREEINDEX0 =
 {
 "annotated.html":[6,0],
+"arrays.html":[2,0,1],
 "audio_sounds_and_music.html":[2,8],
 "capabilities.html":[2,13],
 "classAPI_1_1Discord.html":[5,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classDraw.html#aca36ba908a3149db34d8b71b0af6fd78":[4,0,13,70],
 "classDraw.html#acae6a390552b205005a9f353140663bf":[4,0,13,83],
 "classDraw.html#acf829a4a10e9b9a1fe498fafae39caae":[4,0,13,88],
-"classDraw.html#acfc8d8e48711947a2001adfeba3d7f1b":[4,0,13,26],
-"classDraw.html#ad10b755df7221427c1c9a1bc5a1da19c":[4,0,13,1]
+"classDraw.html#acfc8d8e48711947a2001adfeba3d7f1b":[4,0,13,26]
 };

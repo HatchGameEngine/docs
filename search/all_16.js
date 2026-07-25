@@ -31,5 +31,6 @@ var searchData=
   ['writeuint16be_28',['WriteUInt16BE',['../classStream.html#a6f8517abe9b5753a476293de18aa326c',1,'Stream']]],
   ['writeuint32_29',['WriteUInt32',['../classStream.html#a6d9e0498ce4ef915d52b50f04122d9dd',1,'Stream']]],
   ['writeuint32be_30',['WriteUInt32BE',['../classStream.html#ae84365d9f05aa1d7fe1adf01bbf1dc4a',1,'Stream']]],
-  ['writeuint64_31',['WriteUInt64',['../classStream.html#a8b649b454ab13f0d3d252bbb9e549911',1,'Stream']]]
+  ['writeuint64_31',['WriteUInt64',['../classStream.html#a8b649b454ab13f0d3d252bbb9e549911',1,'Stream']]],
+  ['writing_20to_20individual_20values_32',['Reading &amp;amp; writing to individual values',['../arrays.html#reading--writing-to-individual-values',1,'']]]
 ];

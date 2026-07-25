@@ -5,11 +5,14 @@ var searchData=
   ['image_2',['Drawing an image',['../hello_world.html#drawing-an-image',1,'']]],
   ['images_20and_20textures_3',['Sprites, Images, and Textures',['../sprites_images_and_textures.html',1,'manual_page']]],
   ['in_20loops_4',['&lt;span class=&quot;tt&quot;&gt;for&lt;/span&gt;-&lt;span class=&quot;tt&quot;&gt;in&lt;/span&gt; loops',['../statements.html#for-in-loops',1,'']]],
-  ['input_5',['Input',['../input.html',1,'manual_page']]],
-  ['input_20handling_6',['Input handling',['../hello_world.html#input-handling',1,'']]],
-  ['installing_20hatch_7',['Installing Hatch',['../hello_world.html#installing-hatch',1,'']]],
-  ['instance_20fields_8',['Instance fields',['../hello_world.html#instance-fields',1,'']]],
-  ['introduction_9',['Introduction',['../introduction_to_hatch.html',1,'Introduction'],['../index.html#introduction',1,'Introduction']]],
-  ['is_20hatch_20capable_20of_10',['What is Hatch capable of?',['../introduction_to_hatch.html#what-is-hatch-capable-of',1,'']]],
-  ['iteration_20statements_11',['Loop and iteration statements',['../statements.html#loop-and-iteration-statements',1,'']]]
+  ['individual_20values_5',['Reading &amp;amp; writing to individual values',['../arrays.html#reading--writing-to-individual-values',1,'']]],
+  ['input_6',['Input',['../input.html',1,'manual_page']]],
+  ['input_20handling_7',['Input handling',['../hello_world.html#input-handling',1,'']]],
+  ['inserting_20removing_20items_8',['Inserting &amp;amp; removing items',['../arrays.html#inserting--removing-items',1,'']]],
+  ['installing_20hatch_9',['Installing Hatch',['../hello_world.html#installing-hatch',1,'']]],
+  ['instance_20fields_10',['Instance fields',['../hello_world.html#instance-fields',1,'']]],
+  ['introduction_11',['Introduction',['../introduction_to_hatch.html',1,'Introduction'],['../index.html#introduction',1,'Introduction']]],
+  ['is_20hatch_20capable_20of_12',['What is Hatch capable of?',['../introduction_to_hatch.html#what-is-hatch-capable-of',1,'']]],
+  ['items_13',['Inserting &amp;amp; removing items',['../arrays.html#inserting--removing-items',1,'']]],
+  ['iteration_20statements_14',['Loop and iteration statements',['../statements.html#loop-and-iteration-statements',1,'']]]
 ];

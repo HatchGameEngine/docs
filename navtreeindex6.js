@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a29a2f57f7d4a077ea118c27d777bce4a":[4,0,80,39],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a2ef45a22db2db6b608a6bb5f53b3fb04":[4,0,80,84],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a3279edd67ada17976a452484f00c3856":[4,0,80,51],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a341f620c2836c485d12cc00af4850b96":[4,0,80,82],
@@ -138,7 +139,7 @@ var NAVTREEINDEX6 =
 "group__hsl.html#ggafe3ff237038cb3a50f12392d7fb19670a6517d7036db4721d87e151fe53eb9bd0":[4,0,70,2],
 "group__hsl.html#ggafe3ff237038cb3a50f12392d7fb19670a813e8978addedebf984cb2e782c94138":[4,0,70,0],
 "hello_world.html":[1],
-"hsl_functions.html":[2,0,4],
+"hsl_functions.html":[2,0,5],
 "index.html":[],
 "input.html":[2,9],
 "introduction_to_hatch.html":[0],
@@ -155,7 +156,7 @@ var NAVTREEINDEX6 =
 "settings.html":[2,2],
 "shaders.html":[2,14],
 "sprites_images_and_textures.html":[2,7],
-"statements.html":[2,0,1],
+"statements.html":[2,0,2],
 "topics.html":[4],
 "variables.html":[2,0,0],
 "vfs.html":[2,12]
