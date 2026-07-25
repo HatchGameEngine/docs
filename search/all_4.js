@@ -12,7 +12,7 @@ var searchData=
   ['entities_20and_20methods_9',['Entities and methods',['../hello_world.html#entities-and-methods',1,'']]],
   ['entity_10',['Entity',['../classEntity.html',1,'Entity'],['../introduction_to_hatch.html#entity',1,'Entity']]],
   ['entity_20properties_11',['Entity properties',['../hello_world.html#entity-properties',1,'']]],
-  ['erase_12',['Erase',['../classArray.html#a5d6da6e22b7647b346ca3f6f5e72df5b',1,'Array']]],
+  ['erase_12',['Erase',['../classArray.html#a5d6da6e22b7647b346ca3f6f5e72df5b',1,'Array.Erase()'],['../arrays.html#insert--erase',1,'Insert &amp;amp; Erase']]],
   ['error_13',['Error',['../classApplication.html#a27007a4654e592832fbc44aeda6c9f0e',1,'Application']]],
   ['example_20gameconfig_20xml_14',['Example &lt;span class=&quot;tt&quot;&gt;GameConfig.xml&lt;/span&gt;',['../gameconfig.html#example-gameconfigxml',1,'']]],
   ['exists_15',['Exists',['../classDirectory.html#aec0bb6df8e7a347795a690f76129bb9a',1,'Directory.Exists()'],['../classFile.html#a4f1beb19c7bad36c96d2dd2bfc3df4da',1,'File.Exists()']]],

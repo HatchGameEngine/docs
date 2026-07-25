@@ -8,7 +8,8 @@ var searchData=
   ['entities_20and_20methods_5',['Entities and methods',['../hello_world.html#entities-and-methods',1,'']]],
   ['entity_6',['Entity',['../introduction_to_hatch.html#entity',1,'']]],
   ['entity_20properties_7',['Entity properties',['../hello_world.html#entity-properties',1,'']]],
-  ['example_20gameconfig_20xml_8',['Example &lt;span class=&quot;tt&quot;&gt;GameConfig.xml&lt;/span&gt;',['../gameconfig.html#example-gameconfigxml',1,'']]],
-  ['expressions_9',['Constant expressions',['../expressions_and_operators.html#constant-expressions',1,'']]],
-  ['expressions_20and_20operators_10',['Expressions and operators',['../expressions_and_operators.html',1,'scripting']]]
+  ['erase_8',['Insert &amp;amp; Erase',['../arrays.html#insert--erase',1,'']]],
+  ['example_20gameconfig_20xml_9',['Example &lt;span class=&quot;tt&quot;&gt;GameConfig.xml&lt;/span&gt;',['../gameconfig.html#example-gameconfigxml',1,'']]],
+  ['expressions_10',['Constant expressions',['../expressions_and_operators.html#constant-expressions',1,'']]],
+  ['expressions_20and_20operators_11',['Expressions and operators',['../expressions_and_operators.html',1,'scripting']]]
 ];

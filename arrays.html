@@ -153,25 +153,41 @@ Push &amp; Pop</h3>
 <div class="line">myFavoriteNumbers.Pop();</div>
 <div class="line"> </div>
 <div class="line">print(myFavoriteNumbers);</div>
-</div><!-- fragment --><p> INFO: [0, 8] </p><div class="fragment"><div class="line">### Insert &amp; Erase</div>
+</div><!-- fragment --> <div class="fragment"><div class="line">INFO: [0, 8]</div>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="insert--erase"></a>
+Insert &amp; Erase</h3>
+<p><span class="tt">Insert</span> takes an index and a value as arguments. The value gets appended at the index defined by first argument. Using <span class="tt">Insert</span> shifts all the items after the specified index to the right to accomodate the new value.</p>
+<div class="fragment"><div class="line">var dayAction = <span class="stringliteral">&quot;Game&quot;</span>;</div>
+<div class="line">var nightAction = <span class="stringliteral">&quot;Engine&quot;</span>;</div>
+<div class="line">var combination = <span class="stringliteral">&quot;Hatch&quot;</span>;</div>
 <div class="line"> </div>
-<div class="line">`Insert` takes an index and a value as arguments. The value gets appended at the index defined by first argument. Using `Insert` shifts all the items after the specified index to the right to accomodate the new value.</div>
-</div><!-- fragment --><p> java var dayAction = "Game"; var nightAction = "Engine"; var combination = "Hatch";</p>
-<p>var encouragement = ["First we ", ", then we ", ". Let\'s ", "!"];</p>
-<p>encouragement.Insert(1, dayAction); encouragement.Insert(3, nightAction); encouragement.Insert(5, combination);</p>
-<p>print(encouragement); </p><div class="fragment"></div><!-- fragment --><p> INFO: ["First we ", "Game", ", then we ", "Engine", ". Let's ", "Hatch", "!"] </p><div class="fragment"><div class="line">As a counterpart, `Erase` removes any value specified in the index argument, shifting all the values after the index to the left.</div>
-</div><!-- fragment --><p> java encouragement.Erase(0); encouragement.Erase(2); encouragement.Erase(4); encouragement.Erase(6);</p>
-<p>print(encouragement); </p><div class="fragment"><div class="line">INFO: [&quot;Game&quot;, Engine&quot;, &quot;Hatch&quot;]</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="clear"></a>
-Clear</h3>
-<p>Finally, <span class="tt">Clear</span> erases all the elements inside the array.</p>
-<div class="fragment"><div class="line">var competitors = [<span class="stringliteral">&quot;Blender&quot;</span>, <span class="stringliteral">&quot;Scratch&quot;</span>, <span class="stringliteral">&quot;Doom Engine&quot;</span>];</div>
+<div class="line">var encouragement = [<span class="stringliteral">&quot;First we &quot;</span>, <span class="stringliteral">&quot;, then we &quot;</span>, <span class="stringliteral">&quot;. Let\&#39;s &quot;</span>, <span class="stringliteral">&quot;!&quot;</span>]; </div>
 <div class="line"> </div>
-<div class="line">competitors.Clear();</div>
+<div class="line">encouragement.Insert(1, dayAction);</div>
+<div class="line">encouragement.Insert(3, nightAction);</div>
+<div class="line">encouragement.Insert(5, combination);</div>
 <div class="line"> </div>
-<div class="line">print(competitors);</div>
-</div><!-- fragment --> <div class="fragment"><div class="line">INFO: []</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+<div class="line">print(encouragement);</div>
+</div><!-- fragment --> <div class="fragment"><div class="line">INFO: [&quot;First we &quot;, &quot;Game&quot;, &quot;, then we &quot;, &quot;Engine&quot;, &quot;. Let&#39;s &quot;, &quot;Hatch&quot;, &quot;!&quot;]</div>
+</div><!-- fragment --><p>As a counterpart, <span class="tt">Erase</span> removes any value specified in the index argument, shifting all the values after the index to the left.</p>
+<div class="fragment"><div class="line">encouragement.Erase(0);</div>
+<div class="line">encouragement.Erase(2);</div>
+<div class="line">encouragement.Erase(4);</div>
+<div class="line">encouragement.Erase(6);</div>
+<div class="line"> </div>
+<div class="line">print(encouragement);</div>
+</div><!-- fragment --><p> INFO: ["Game", Engine", "Hatch"]
+@icode 
+
+### Clear
+
+Finally, `Clear` erases all the elements inside the array.
+
+@endicode java
+var competitors = ["Blender", "Scratch", "Doom Engine"];</p>
+<p>competitors.Clear();</p>
+<p>print(competitors); </p><div class="fragment"></div><!-- fragment --><p> INFO: [] ``` </p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
