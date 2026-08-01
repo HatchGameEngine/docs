@@ -179,7 +179,7 @@ var searchData=
   ['getposition_176',['GetPosition',['../classMusic.html#a3d83556cf252e6fab118e33ceb0c83fa',1,'Music']]],
   ['getprevanimation_177',['GetPrevAnimation',['../classAnimator.html#acd2e363163d2013f84de9749fe52e939',1,'Animator']]],
   ['getpriority_178',['GetPriority',['../classView.html#a44224f3937f0bfe5152b78dd876dfc71',1,'View']]],
-  ['getproperty_179',['GetProperty',['../classScene.html#a765fe8c855b394f63f90d51ab7dcf9ba',1,'Scene']]],
+  ['getproperty_179',['GetProperty',['../classScene.html#a765fe8c855b394f63f90d51ab7dcf9ba',1,'Scene.GetProperty()'],['../classTileInfo.html#a0bdf42e2237e93d4434ace71c5846fe7',1,'TileInfo.GetProperty()']]],
   ['getpropertycount_180',['GetPropertyCount',['../classSettings.html#ada9f12a7ccf7ee478a8cf18e4769435f',1,'Settings']]],
   ['getrandseed_181',['GetRandSeed',['../classRSDK_1_1Math.html#ae786f4835577a7bb72d11e20127fe1f1',1,'RSDK::Math']]],
   ['getreservedslotids_182',['GetReservedSlotIDs',['../classScene.html#a9b5a285a24827094110b4c25fd46977b',1,'Scene']]],

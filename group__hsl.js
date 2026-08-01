@@ -1018,8 +1018,10 @@ var group__hsl =
       [ "GetBehaviorFlag", "classTileInfo.html#aad5e8656c956944b484fcac0a06d4c8e", null ],
       [ "GetCollision", "classTileInfo.html#a683aca007dc84d6e5733ad41c1a77da4", null ],
       [ "GetEmptyTile", "classTileInfo.html#aafb17317b8a3f99e96639b1a60eb5f16", null ],
+      [ "GetProperty", "classTileInfo.html#a0bdf42e2237e93d4434ace71c5846fe7", null ],
       [ "IsCeiling", "classTileInfo.html#a482a20bdc4dddf3796d1c364f81e7378", null ],
       [ "IsEmptySpace", "classTileInfo.html#ac6585db7c54e962a433f7638aa84cf05", null ],
+      [ "PropertyExists", "classTileInfo.html#a5bfaa0e0dfbc95493c9bf06907df990e", null ],
       [ "SetSpriteInfo", "classTileInfo.html#a0b157b1e52275e0f411cb503d4dc9006", null ]
     ] ],
     [ "Touch", "classTouch.html", [

@@ -122,6 +122,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aad5e8656c956944b484fcac0a06d4c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the behavior value of the desired tile.  <br /></td></tr>
 <tr class="memitem:a482a20bdc4dddf3796d1c364f81e7378" id="r_a482a20bdc4dddf3796d1c364f81e7378"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a482a20bdc4dddf3796d1c364f81e7378">IsCeiling</a> (integer tileID, integer collisionPlane)</td></tr>
 <tr class="memdesc:a482a20bdc4dddf3796d1c364f81e7378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the desired tile is a ceiling tile.  <br /></td></tr>
+<tr class="memitem:a0bdf42e2237e93d4434ace71c5846fe7" id="r_a0bdf42e2237e93d4434ace71c5846fe7"><td class="memItemLeft">value&#160;</td><td class="memItemRight"><a class="el" href="#a0bdf42e2237e93d4434ace71c5846fe7">GetProperty</a> (integer tileID, string property)</td></tr>
+<tr class="memdesc:a0bdf42e2237e93d4434ace71c5846fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a property of the desired tile.  <br /></td></tr>
+<tr class="memitem:a5bfaa0e0dfbc95493c9bf06907df990e" id="r_a5bfaa0e0dfbc95493c9bf06907df990e"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a5bfaa0e0dfbc95493c9bf06907df990e">PropertyExists</a> (integer tileID, string property)</td></tr>
+<tr class="memdesc:a5bfaa0e0dfbc95493c9bf06907df990e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a property exists in the desired tile.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions for retrieving information about tiles. </p>
@@ -281,6 +285,37 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0bdf42e2237e93d4434ace71c5846fe7" name="a0bdf42e2237e93d4434ace71c5846fe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bdf42e2237e93d4434ace71c5846fe7">&#9670;&#160;</a></span>GetProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">value TileInfo.GetProperty </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>tileID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>property</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a property of the desired tile. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tileID</td><td>ID of the tile to check. </td></tr>
+    <tr><td class="paramname">property</td><td>Name of the property to get. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the property, or <span class="tt">null</span> if it doesn't exist. </dd></dl>
+
+</div>
+</div>
 <a id="a482a20bdc4dddf3796d1c364f81e7378" name="a482a20bdc4dddf3796d1c364f81e7378"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a482a20bdc4dddf3796d1c364f81e7378">&#9670;&#160;</a></span>IsCeiling()</h2>
 
@@ -340,6 +375,37 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Returns whether the tile is empty space. </dd></dl>
+
+</div>
+</div>
+<a id="a5bfaa0e0dfbc95493c9bf06907df990e" name="a5bfaa0e0dfbc95493c9bf06907df990e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bfaa0e0dfbc95493c9bf06907df990e">&#9670;&#160;</a></span>PropertyExists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean TileInfo.PropertyExists </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>tileID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>property</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a property exists in the desired tile. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tileID</td><td>ID of the tile to check. </td></tr>
+    <tr><td class="paramname">property</td><td>Name of the property to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns a boolean value. </dd></dl>
 
 </div>
 </div>
