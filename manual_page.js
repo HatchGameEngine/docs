@@ -5,6 +5,7 @@ var manual_page =
       [ "Example <span class=\"tt\">GameConfig.xml</span>", "gameconfig.html#example-gameconfigxml", null ]
     ] ],
     [ "Settings File", "settings.html", null ],
+    [ "Command Line Options", "command_line_options.html", null ],
     [ "Scenes", "scenes.html", null ],
     [ "Entities", "entities.html", null ],
     [ "Resource Management", "resource_management.html", null ],

@@ -2,8 +2,8 @@ var NAVTREEINDEX0 =
 {
 "annotated.html":[6,0],
 "arrays.html":[2,0,1],
-"audio_sounds_and_music.html":[2,8],
-"capabilities.html":[2,13],
+"audio_sounds_and_music.html":[2,9],
+"capabilities.html":[2,14],
 "classAPI_1_1Discord.html":[5,0,0,0],
 "classAPI_1_1Discord.html":[6,0,0,0],
 "classAPI_1_1Discord.html#a1149749896be84369ad6b5a0c0ff508e":[5,0,0,0,8],

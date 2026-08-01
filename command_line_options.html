@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Hatch Game Engine Documentation: Manual</title>
+<title>Hatch Game Engine Documentation: Command Line Options</title>
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -73,7 +73,7 @@ $(function() { codefold.init(); });
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('manual_page.html','',''); });
+$(function(){initNavTree('command_line_options.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -99,32 +99,35 @@ $(function(){initNavTree('manual_page.html','',''); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Manual </div></div>
+  <div class="headertitle"><div class="title">Command Line Options </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>TODO</p>
-<ul>
-<li><a class="el" href="scripting.html" title="Scripting">Scripting</a></li>
-<li><a class="el" href="gameconfig.html" title="Game Configuration File">Game Configuration File</a></li>
-<li><a class="el" href="settings.html" title="Settings File">Settings File</a></li>
-<li><a class="el" href="command_line_options.html" title="Command Line Options">Command Line Options</a></li>
-<li><a class="el" href="scenes.html" title="Scenes">Scenes</a></li>
-<li><a class="el" href="entities.html" title="Entities">Entities</a></li>
-<li><a class="el" href="resource_management.html" title="Resource Management">Resource Management</a></li>
-<li><a class="el" href="rendering.html" title="Rendering">Rendering</a></li>
-<li><a class="el" href="sprites_images_and_textures.html" title="Sprites, Images, and Textures">Sprites, Images, and Textures</a></li>
-<li><a class="el" href="audio_sounds_and_music.html" title="Audio, Sounds, and Music">Audio, Sounds, and Music</a></li>
-<li><a class="el" href="input.html" title="Input">Input</a></li>
-<li><a class="el" href="math.html" title="Math">Math</a></li>
-<li><a class="el" href="filesystem_and_input_output.html" title="Filesystem and I/O">Filesystem and I/O</a></li>
-<li><a class="el" href="vfs.html" title="Virtual File System">Virtual File System</a></li>
-<li><a class="el" href="capabilities.html" title="Capabilities">Capabilities</a></li>
-<li><a class="el" href="shaders.html" title="Shaders">Shaders</a></li>
-<li><a class="el" href="distribution.html" title="Distributing Games">Distributing Games</a> </li>
-</ul>
+<div class="textblock"><p><b>Command Line Options</b> are arguments specified when running Hatch. They alter the behavior of the application in some way, such as loading a specific scene, or loading a resource file from a given path. Examples of ways command line options can be given to the application are running Hatch from a terminal, launching it from a shell script, or specified in a Windows shortcut.</p>
+<p>All command line options are prefixed by <span class="tt">--</span> (two hyphens). Additionally, a path to a .hatch file or to a file inside the Resources directory can be specified directly after the path to the executable, which respectively will load a resource file or a scene file.</p>
+<h2 class="doxsection"><a class="anchor" id="all-command-line-arguments"></a>
+All command line arguments</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Argument  </th><th class="markdownTableHeadNone">Description  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">--project-dir &lt;path&gt;</span>  </td><td class="markdownTableBodyNone">Specifies the location of the Resources and Scripts directories.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">--resource-file &lt;path&gt;</span>  </td><td class="markdownTableBodyNone">Specifies the resource file to load. This may be a .hatch file, or a directory containing the resources.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">--scripts-dir &lt;path&gt;</span>  </td><td class="markdownTableBodyNone">Specifies the path to the directory containing scripts.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">--scene &lt;resource-path&gt;</span>  </td><td class="markdownTableBodyNone">Specifies a scene file to load. This must be the name of a resource, not a path in the filesystem.  </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
