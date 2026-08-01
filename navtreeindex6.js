@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a266a1eb78791136405280972f7b7e0d5":[4,0,80,63],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a269dc20b66ca922fbdb3d0061270dae6":[4,0,80,26],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a27edbba96d9c99312e5459e72d9250a6":[4,0,80,16],
 "group__hsl.html#ggab3c7af4820830f9166ede9e5623c4e73a29a2f57f7d4a077ea118c27d777bce4a":[4,0,80,39],

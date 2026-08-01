@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"classScene.html#a11b296f9de0efc6f88d5124add45fdd5":[4,0,37,6],
 "classScene.html#a14f4eadded19bc894d11227011cd3e8b":[4,0,37,39],
 "classScene.html#a18db2d32b5d9ecef1e80b8e4b06810ba":[4,0,37,118],
 "classScene.html#a198110226b9a6f2188a6d97b6b889052":[4,0,37,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "classStream.html#a665aa5341944c301d1e89f4fe0db1243":[4,0,46,6],
 "classStream.html#a6a5dd5858017ec024b6ae9e70306f5c3":[4,0,46,1],
 "classStream.html#a6bb0deb44c26bd590f773fafe1967df5":[4,0,46,16],
-"classStream.html#a6d9e0498ce4ef915d52b50f04122d9dd":[4,0,46,32],
-"classStream.html#a6f8517abe9b5753a476293de18aa326c":[4,0,46,31]
+"classStream.html#a6d9e0498ce4ef915d52b50f04122d9dd":[4,0,46,32]
 };
