@@ -187,6 +187,14 @@ void&#160;</td><td class="memItemRight"><b>Restart</b> ()</td></tr>
 <tr class="memdesc:a32da3151edc81b4400317002d61f9964"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the horizontal constant scroll amount of the layer.  <br /></td></tr>
 <tr class="memitem:aca42ae88c18145ec8df9d511fd61901c" id="r_aca42ae88c18145ec8df9d511fd61901c"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#aca42ae88c18145ec8df9d511fd61901c">GetLayerVerticalConstantScroll</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:aca42ae88c18145ec8df9d511fd61901c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the vertical constant scroll amount of the layer.  <br /></td></tr>
+<tr class="memitem:ace9764b617fd925fea1840696807ef46" id="r_ace9764b617fd925fea1840696807ef46"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#ace9764b617fd925fea1840696807ef46">GetLayerScrollInfoCount</a> (integer layerIndex)</td></tr>
+<tr class="memdesc:ace9764b617fd925fea1840696807ef46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the amount of scroll info groups in the specified layer.  <br /></td></tr>
+<tr class="memitem:a98a79c035e2a767721cee1e76619e4a0" id="r_a98a79c035e2a767721cee1e76619e4a0"><td class="memItemLeft">number&#160;</td><td class="memItemRight"><a class="el" href="#a98a79c035e2a767721cee1e76619e4a0">GetLayerScrollInfoOffset</a> (integer layerIndex, integer scrollIndex)</td></tr>
+<tr class="memdesc:a98a79c035e2a767721cee1e76619e4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the manual offset of an individual scroll info group.  <br /></td></tr>
+<tr class="memitem:a820c771829c77ab796a24c81a2a3bf77" id="r_a820c771829c77ab796a24c81a2a3bf77"><td class="memItemLeft">number&#160;</td><td class="memItemRight"><a class="el" href="#a820c771829c77ab796a24c81a2a3bf77">GetLayerScrollInfoConstantScroll</a> (integer layerIndex, integer scrollIndex)</td></tr>
+<tr class="memdesc:a820c771829c77ab796a24c81a2a3bf77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the constant parallax factor (scroll speed) of an individual scroll info group.  <br /></td></tr>
+<tr class="memitem:ab82710925c163df538361b0a9102ff28" id="r_ab82710925c163df538361b0a9102ff28"><td class="memItemLeft">number&#160;</td><td class="memItemRight"><a class="el" href="#ab82710925c163df538361b0a9102ff28">GetLayerScrollInfoParallaxFactor</a> (integer layerIndex, integer scrollIndex)</td></tr>
+<tr class="memdesc:ab82710925c163df538361b0a9102ff28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the relative parallax factor of an individual scroll info group.  <br /></td></tr>
 <tr class="memitem:a88ae27132ac90b3e856a10d7612522e0" id="r_a88ae27132ac90b3e856a10d7612522e0"><td class="memItemLeft"><a class="el" href="group__hsl.html#ga76f1a21bfdea12be9408b5f30e126a3f">LAYERTYPE</a>&#160;</td><td class="memItemRight"><a class="el" href="#a88ae27132ac90b3e856a10d7612522e0">GetLayerType</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:a88ae27132ac90b3e856a10d7612522e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of the layer.  <br /></td></tr>
 <tr class="memitem:a1e23502796b89751288f28d7fb664fbc" id="r_a1e23502796b89751288f28d7fb664fbc"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a1e23502796b89751288f28d7fb664fbc">GetTilesetCount</a> ()</td></tr>
@@ -268,6 +276,8 @@ void&#160;</td><td class="memItemRight"><b>SetDebugMode</b> ()</td></tr>
 <tr class="memdesc:a2ce5543082c8c23b73c9d9ab3694f502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the collision of a tile at a position.  <br /></td></tr>
 <tr class="memitem:aaef7a88a3bca810029e6560505a56f30" id="r_aaef7a88a3bca810029e6560505a56f30"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaef7a88a3bca810029e6560505a56f30">SetPaused</a> (boolean isPaused)</td></tr>
 <tr class="memdesc:aaef7a88a3bca810029e6560505a56f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether the game is paused. When paused, only objects with <a class="el" href="classEntity.html#a9fa7da592664d8bebe2dc0edb6982f30" title="Entity.Pauseable">Entity.Pauseable</a> set to <span class="tt">false</span> will continue to <span class="tt">Update</span>.  <br /></td></tr>
+<tr class="memitem:af01528fa84ca441829607ffe997b14cf" id="r_af01528fa84ca441829607ffe997b14cf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af01528fa84ca441829607ffe997b14cf">CopyTiles</a> (integer dstLayerIndex, integer dstStartX, integer dstStartY, integer srcLayerIndex, integer srcStartX, integer srcStartY, integer countX, integer countY)</td></tr>
+<tr class="memdesc:af01528fa84ca441829607ffe997b14cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a block of tiles.  <br /></td></tr>
 <tr class="memitem:af436e66a8578b525351e7be987ef06e0" id="r_af436e66a8578b525351e7be987ef06e0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af436e66a8578b525351e7be987ef06e0">SetTileAnimationEnabled</a> (integer isEnabled)</td></tr>
 <tr class="memdesc:af436e66a8578b525351e7be987ef06e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether tile animation is enabled.  <br /></td></tr>
 <tr class="memitem:a5504978073fe9e3343b70053a6e0c4d5" id="r_a5504978073fe9e3343b70053a6e0c4d5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5504978073fe9e3343b70053a6e0c4d5">SetTileAnimSequence</a> (integer tileID, array tileIDs, array frameDurations)</td></tr>
@@ -327,6 +337,12 @@ void&#160;</td><td class="memItemRight"><b>SetLayerInternalSize</b> ()</td></tr>
 <tr class="memdesc:af646402b020c19a63e8e019859526db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the horizontal constant scroll amount of the layer.  <br /></td></tr>
 <tr class="memitem:ad4155a5c7b808f9fde9bbbdf2d2b9708" id="r_ad4155a5c7b808f9fde9bbbdf2d2b9708"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad4155a5c7b808f9fde9bbbdf2d2b9708">SetLayerVerticalConstantScroll</a> (integer layerIndex, decimal constant)</td></tr>
 <tr class="memdesc:ad4155a5c7b808f9fde9bbbdf2d2b9708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the vertical constant scroll amount of the layer.  <br /></td></tr>
+<tr class="memitem:ade11aa0cc570281152d0d0d2d3f465e3" id="r_ade11aa0cc570281152d0d0d2d3f465e3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ade11aa0cc570281152d0d0d2d3f465e3">SetLayerScrollInfoOffset</a> (integer layerIndex, integer scrollIndex, number offset)</td></tr>
+<tr class="memdesc:ade11aa0cc570281152d0d0d2d3f465e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the manual offset of an individual scroll info group.  <br /></td></tr>
+<tr class="memitem:af4056c440b7d5c2996a36329ac1394bb" id="r_af4056c440b7d5c2996a36329ac1394bb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af4056c440b7d5c2996a36329ac1394bb">SetLayerScrollInfoParallaxFactor</a> (integer layerIndex, integer scrollIndex, number parallax)</td></tr>
+<tr class="memdesc:af4056c440b7d5c2996a36329ac1394bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the relative parallax factor of an individual scroll info group.  <br /></td></tr>
+<tr class="memitem:a48bedea562304cc6e1c8480879f0bb41" id="r_a48bedea562304cc6e1c8480879f0bb41"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a48bedea562304cc6e1c8480879f0bb41">SetLayerScrollInfoConstantScroll</a> (integer layerIndex, integer scrollIndex, number constant)</td></tr>
+<tr class="memdesc:a48bedea562304cc6e1c8480879f0bb41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the constant parallax factor of an individual scroll info group.  <br /></td></tr>
 <tr class="memitem:aaf638a69ed75dccdf65c38509cc02b0d" id="r_aaf638a69ed75dccdf65c38509cc02b0d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaf638a69ed75dccdf65c38509cc02b0d">SetLayerSetParallaxLinesBegin</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:aaf638a69ed75dccdf65c38509cc02b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begins setup for changing the parallax lines.  <br /></td></tr>
 <tr class="memitem:a4c3107378a2d1b3f534b87697ffc45e2" id="r_a4c3107378a2d1b3f534b87697ffc45e2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4c3107378a2d1b3f534b87697ffc45e2">SetLayerSetParallaxLines</a> (integer lineStart, integer lineEnd, number relative, number constant, boolean canDeform)</td></tr>
@@ -484,6 +500,72 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
   <table class="params">
     <tr><td class="paramname">scene</td><td>The file path of the scene to change. </td></tr>
     <tr><td class="paramname">filter</td><td>Filter to match </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af01528fa84ca441829607ffe997b14cf" name="af01528fa84ca441829607ffe997b14cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af01528fa84ca441829607ffe997b14cf">&#9670;&#160;</a></span>CopyTiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.CopyTiles </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>dstLayerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>dstStartX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>dstStartY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcLayerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcStartX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcStartY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>countX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>countY</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies a block of tiles. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dstLayerIndex</td><td>Index of the destination layer. </td></tr>
+    <tr><td class="paramname">dstStartX</td><td>Destination X start coordinate (in tiles). </td></tr>
+    <tr><td class="paramname">dstStartY</td><td>Destination Y start coordinate (in tiles). </td></tr>
+    <tr><td class="paramname">srcLayerIndex</td><td>Index of the source layer. </td></tr>
+    <tr><td class="paramname">srcStartX</td><td>Source X start coordinate (in tiles). </td></tr>
+    <tr><td class="paramname">srcStartY</td><td>Source Y start coordinate (in tiles). </td></tr>
+    <tr><td class="paramname">countX</td><td>Number of tiles to copy horizontally. </td></tr>
+    <tr><td class="paramname">countY</td><td>Number of tiles to copy vertically. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1149,6 +1231,125 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Returns the property, or <span class="tt">null</span> if it doesn't exist. </dd></dl>
+
+</div>
+</div>
+<a id="a820c771829c77ab796a24c81a2a3bf77" name="a820c771829c77ab796a24c81a2a3bf77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a820c771829c77ab796a24c81a2a3bf77">&#9670;&#160;</a></span>GetLayerScrollInfoConstantScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">number Scene.GetLayerScrollInfoConstantScroll </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scrollIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the constant parallax factor (scroll speed) of an individual scroll info group. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of the layer. </td></tr>
+    <tr><td class="paramname">scrollIndex</td><td>Index of the scroll info group. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the constant parallax factor. </dd></dl>
+
+</div>
+</div>
+<a id="ace9764b617fd925fea1840696807ef46" name="ace9764b617fd925fea1840696807ef46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace9764b617fd925fea1840696807ef46">&#9670;&#160;</a></span>GetLayerScrollInfoCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer Scene.GetLayerScrollInfoCount </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the amount of scroll info groups in the specified layer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of the layer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the count of scroll info groups. </dd></dl>
+
+</div>
+</div>
+<a id="a98a79c035e2a767721cee1e76619e4a0" name="a98a79c035e2a767721cee1e76619e4a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a79c035e2a767721cee1e76619e4a0">&#9670;&#160;</a></span>GetLayerScrollInfoOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">number Scene.GetLayerScrollInfoOffset </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scrollIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the manual offset of an individual scroll info group. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of the layer. </td></tr>
+    <tr><td class="paramname">scrollIndex</td><td>Index of the scroll info group. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the current offset. </dd></dl>
+
+</div>
+</div>
+<a id="ab82710925c163df538361b0a9102ff28" name="ab82710925c163df538361b0a9102ff28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82710925c163df538361b0a9102ff28">&#9670;&#160;</a></span>GetLayerScrollInfoParallaxFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">number Scene.GetLayerScrollInfoParallaxFactor </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scrollIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the relative parallax factor of an individual scroll info group. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of the layer. </td></tr>
+    <tr><td class="paramname">scrollIndex</td><td>Index of the scroll info group. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the relative parallax factor. </dd></dl>
 
 </div>
 </div>
@@ -2753,6 +2954,114 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
   </dd>
 </dl>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000010">Deprecated</a></b></dt><dd>Use <a class="el" href="#a9276cee453b1711d27c570d710abde18" title="Scene.SetLayerVerticalParallaxFactor">Scene.SetLayerVerticalParallaxFactor</a> and <a class="el" href="#ad4155a5c7b808f9fde9bbbdf2d2b9708" title="Scene.SetLayerVerticalConstantScroll">Scene.SetLayerVerticalConstantScroll</a> instead. </dd></dl>
+
+</div>
+</div>
+<a id="a48bedea562304cc6e1c8480879f0bb41" name="a48bedea562304cc6e1c8480879f0bb41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48bedea562304cc6e1c8480879f0bb41">&#9670;&#160;</a></span>SetLayerScrollInfoConstantScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.SetLayerScrollInfoConstantScroll </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scrollIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">number</td>          <td class="paramname"><span class="paramname"><em>constant</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the constant parallax factor of an individual scroll info group. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of the layer. </td></tr>
+    <tr><td class="paramname">scrollIndex</td><td>Index of the scroll info group. </td></tr>
+    <tr><td class="paramname">constant</td><td>The new constant parallax factor. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ade11aa0cc570281152d0d0d2d3f465e3" name="ade11aa0cc570281152d0d0d2d3f465e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade11aa0cc570281152d0d0d2d3f465e3">&#9670;&#160;</a></span>SetLayerScrollInfoOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.SetLayerScrollInfoOffset </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scrollIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">number</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the manual offset of an individual scroll info group. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of thelayer. </td></tr>
+    <tr><td class="paramname">scrollIndex</td><td>Index of the scroll info group. </td></tr>
+    <tr><td class="paramname">offset</td><td>The new offset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af4056c440b7d5c2996a36329ac1394bb" name="af4056c440b7d5c2996a36329ac1394bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4056c440b7d5c2996a36329ac1394bb">&#9670;&#160;</a></span>SetLayerScrollInfoParallaxFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.SetLayerScrollInfoParallaxFactor </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scrollIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">number</td>          <td class="paramname"><span class="paramname"><em>parallax</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the relative parallax factor of an individual scroll info group. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of the layer. </td></tr>
+    <tr><td class="paramname">scrollIndex</td><td>Index of the scroll info group. </td></tr>
+    <tr><td class="paramname">parallax</td><td>The new relative parallax factor. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
