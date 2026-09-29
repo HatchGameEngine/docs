@@ -24,5 +24,7 @@ var classSprite =
     [ "GetTextArray", "classSprite.html#a15b8122fa8b18fed34e08b1759f6b189", null ],
     [ "GetTextWidth", "classSprite.html#a82ef651834e2603fa5e431e36bc27a50", null ],
     [ "MakeNonPalettized", "classSprite.html#a84f26be3efd0b37ca7af48e7b74d25b0", null ],
-    [ "MakePalettized", "classSprite.html#a7bad6864c89c388d5daf8f2897c707b4", null ]
+    [ "MakePalettized", "classSprite.html#a7bad6864c89c388d5daf8f2897c707b4", null ],
+    [ "SetFrameOffsetX", "classSprite.html#aa9e231201ad127d5c88ec209eb0fc685", null ],
+    [ "SetFrameOffsetY", "classSprite.html#a2e947c750f14ebb820d1e44ecca46f4a", null ]
 ];

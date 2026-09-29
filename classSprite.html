@@ -154,6 +154,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a15b8122fa8b18fed34e08b1759f6b189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string to an array of sprite indexes by comparing codepoints to a frame's ID.  <br /></td></tr>
 <tr class="memitem:a82ef651834e2603fa5e431e36bc27a50" id="r_a82ef651834e2603fa5e431e36bc27a50"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a82ef651834e2603fa5e431e36bc27a50">GetTextWidth</a> (integer sprite, integer animation, array text, integer startIndex, integer spacing)</td></tr>
 <tr class="memdesc:a82ef651834e2603fa5e431e36bc27a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the width (in pixels) of a converted sprite string.  <br /></td></tr>
+<tr class="memitem:aa9e231201ad127d5c88ec209eb0fc685" id="r_aa9e231201ad127d5c88ec209eb0fc685"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa9e231201ad127d5c88ec209eb0fc685">SetFrameOffsetX</a> (integer sprite, integer animationID, integer frame, integer offsetX)</td></tr>
+<tr class="memdesc:aa9e231201ad127d5c88ec209eb0fc685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the X pivot point of the specified sprite frame.  <br /></td></tr>
+<tr class="memitem:a2e947c750f14ebb820d1e44ecca46f4a" id="r_a2e947c750f14ebb820d1e44ecca46f4a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2e947c750f14ebb820d1e44ecca46f4a">SetFrameOffsetY</a> (integer sprite, integer animationID, integer frame, integer offsetY)</td></tr>
+<tr class="memdesc:a2e947c750f14ebb820d1e44ecca46f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Y pivot point of the specified sprite frame.  <br /></td></tr>
 <tr class="memitem:a7bad6864c89c388d5daf8f2897c707b4" id="r_a7bad6864c89c388d5daf8f2897c707b4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7bad6864c89c388d5daf8f2897c707b4">MakePalettized</a> (integer sprite, integer paletteIndex)</td></tr>
 <tr class="memdesc:a7bad6864c89c388d5daf8f2897c707b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a sprite's colors to the ones in the specified palette index.  <br /></td></tr>
 <tr class="memitem:a84f26be3efd0b37ca7af48e7b74d25b0" id="r_a84f26be3efd0b37ca7af48e7b74d25b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a84f26be3efd0b37ca7af48e7b74d25b0">MakeNonPalettized</a> (integer sprite)</td></tr>
@@ -1033,6 +1037,90 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">sprite</td><td>The sprite index. </td></tr>
     <tr><td class="paramname">paletteIndex</td><td>The palette index. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa9e231201ad127d5c88ec209eb0fc685" name="aa9e231201ad127d5c88ec209eb0fc685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9e231201ad127d5c88ec209eb0fc685">&#9670;&#160;</a></span>SetFrameOffsetX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sprite.SetFrameOffsetX </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>sprite</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>animationID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>frame</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>offsetX</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the X pivot point of the specified sprite frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sprite</td><td>The sprite index to modify. </td></tr>
+    <tr><td class="paramname">animationID</td><td>The animation index of the sprite to modify. </td></tr>
+    <tr><td class="paramname">frame</td><td>The frame index of the animation to modify. </td></tr>
+    <tr><td class="paramname">offsetX</td><td>The new X pivot point for the frame. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2e947c750f14ebb820d1e44ecca46f4a" name="a2e947c750f14ebb820d1e44ecca46f4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e947c750f14ebb820d1e44ecca46f4a">&#9670;&#160;</a></span>SetFrameOffsetY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sprite.SetFrameOffsetY </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>sprite</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>animationID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>frame</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>offsetY</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the Y pivot point of the specified sprite frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sprite</td><td>The sprite index to modify. </td></tr>
+    <tr><td class="paramname">animationID</td><td>The animation index of the sprite to modify. </td></tr>
+    <tr><td class="paramname">frame</td><td>The frame index of the animation to modify. </td></tr>
+    <tr><td class="paramname">offsetY</td><td>The new Y pivot point for the frame. </td></tr>
   </table>
   </dd>
 </dl>
