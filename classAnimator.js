@@ -15,6 +15,7 @@ var classAnimator =
     [ "GetCurrentFrame", "classAnimator.html#aaecc6396debb7dcbbd5c82a1ce8a7d7b", null ],
     [ "GetDuration", "classAnimator.html#afcb4f4e06092a418ba1d8c1fa2b0df0d", null ],
     [ "GetFrameCount", "classAnimator.html#a04f7fe35203fb6f307d7c29a587a6845", null ],
+    [ "GetFrameID", "classAnimator.html#ad1a0a15e8d7b8dd4bc4386f0e5c83cce", null ],
     [ "GetHitbox", "classAnimator.html#a1e599d01c5bcd6b9941f75a922808fd3", null ],
     [ "GetLoopIndex", "classAnimator.html#afcf0285af3230c21398141d4745c7437", null ],
     [ "GetPrevAnimation", "classAnimator.html#acd2e363163d2013f84de9749fe52e939", null ],
