@@ -1410,6 +1410,7 @@ var group__hsl =
       [ "KeyBind_DevTileCol", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba2c08ca95bd4f0ab9b29497ac99966467", null ],
       [ "KeyBind_DevObjectRegions", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba44553cf9c2b7c3082894c69d0df739d0", null ],
       [ "KeyBind_DevViewHitboxes", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26bac94fab0620b0400a2a95fe3137089e32", null ],
+      [ "KeyBind_DevPaletteViewer", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba1bf13381d44693066a4027c6a90e72b2", null ],
       [ "KeyBind_DevMenuToggle", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baba553f08ff90c92886f60d40321bb2ea", null ],
       [ "KeyBind_DevScriptDebugger", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26ba9bbf31c6a72242f28b98ff3344ce615a", null ],
       [ "KeyBind_DevQuit", "group__hsl.html#gga4b246822d2357bc7be50a0c0211bf26baeb9252565e62a539faf78b31165ad53a", null ]
