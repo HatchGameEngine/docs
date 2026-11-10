@@ -22,7 +22,7 @@ var searchData=
   ['loadmodel_19',['LoadModel',['../classResources.html#a13064fed01509e1a4425507a3512cb4e',1,'Resources']]],
   ['loadmusic_20',['LoadMusic',['../classResources.html#a690f8712b2d4989edaabd164a89d7e02',1,'Resources']]],
   ['loadsound_21',['LoadSound',['../classResources.html#a924cb092e02f03be9104c34856042eda',1,'Resources']]],
-  ['loadsprite_22',['LoadSprite',['../classResources.html#ac972df6800480cd5c2b7ec13e21792c9',1,'Resources']]],
+  ['loadsprite_22',['LoadSprite',['../classResources.html#a87ffef293875b460a0998cb82501c1cb',1,'Resources']]],
   ['loadtilecollisions_23',['LoadTileCollisions',['../classScene.html#a992f27b00b03f16c336bf9f5b21e3eca',1,'Scene']]],
   ['loadvideo_24',['LoadVideo',['../classResources.html#af22f460ea3d4c5e44daec12a02cff4ea',1,'Resources']]],
   ['loop_20and_20iteration_20statements_25',['Loop and iteration statements',['../statements.html#loop-and-iteration-statements',1,'']]],
