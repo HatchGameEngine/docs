@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a402b09581d6d2bc324cb971ddb7b1854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the fullscreen state of the active window.  <br /></td></tr>
 <tr class="memitem:a6206e5e274265fcae1b7d24fd6d3bd74" id="r_a6206e5e274265fcae1b7d24fd6d3bd74"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6206e5e274265fcae1b7d24fd6d3bd74">SetScale</a> (integer scale)</td></tr>
 <tr class="memdesc:a6206e5e274265fcae1b7d24fd6d3bd74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scale of the active window.  <br /></td></tr>
+<tr class="memitem:adc4791558bf1b0a2f4b93937a5c57607" id="r_adc4791558bf1b0a2f4b93937a5c57607"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adc4791558bf1b0a2f4b93937a5c57607">SetResizable</a> (boolean isResizable)</td></tr>
+<tr class="memdesc:adc4791558bf1b0a2f4b93937a5c57607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the resizable state of the active window.  <br /></td></tr>
 <tr class="memitem:a5a6d8d28739ac668916c354eb9a06ee1" id="r_a5a6d8d28739ac668916c354eb9a06ee1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5a6d8d28739ac668916c354eb9a06ee1">SetBorderless</a> (boolean isBorderless)</td></tr>
 <tr class="memdesc:a5a6d8d28739ac668916c354eb9a06ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the bordered state of the active window.  <br /></td></tr>
 <tr class="memitem:af2c2a82242d981cf19b4614bce8b13fb" id="r_af2c2a82242d981cf19b4614bce8b13fb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af2c2a82242d981cf19b4614bce8b13fb">SetVSync</a> (boolean enableVsync)</td></tr>
@@ -135,12 +137,35 @@ void&#160;</td><td class="memItemRight"><b>SetPositionCentered</b> ()</td></tr>
 <tr class="memdesc:ae3cdf5b12afd71f2b5e6bd35e5db05cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the active window is currently fullscreen.  <br /></td></tr>
 <tr class="memitem:a39efd2ec2cbd5530ddec91d541e8932f" id="r_a39efd2ec2cbd5530ddec91d541e8932f"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a39efd2ec2cbd5530ddec91d541e8932f">GetScale</a> ()</td></tr>
 <tr class="memdesc:a39efd2ec2cbd5530ddec91d541e8932f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scale of the active window.  <br /></td></tr>
-<tr class="memitem:a26d0d6393f49698291ff7f8ff7876998" id="r_a26d0d6393f49698291ff7f8ff7876998"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a26d0d6393f49698291ff7f8ff7876998">IsResizeable</a> ()</td></tr>
-<tr class="memdesc:a26d0d6393f49698291ff7f8ff7876998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the active window is resizeable.  <br /></td></tr>
+<tr class="memitem:a03ea447a6391cbc4efb84801518be982" id="r_a03ea447a6391cbc4efb84801518be982"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a03ea447a6391cbc4efb84801518be982">GetResizable</a> ()</td></tr>
+<tr class="memdesc:a03ea447a6391cbc4efb84801518be982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the resizable state of the active window.  <br /></td></tr>
+<tr class="memitem:ae2867967bfa968a157b33957c6364a35" id="r_ae2867967bfa968a157b33957c6364a35"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#ae2867967bfa968a157b33957c6364a35">CanBeResized</a> ()</td></tr>
+<tr class="memdesc:ae2867967bfa968a157b33957c6364a35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the active window can be resized by the user.  <br /></td></tr>
+<tr class="memitem:a97678a74a6ff6834e6dfc93af509ad73" id="r_a97678a74a6ff6834e6dfc93af509ad73"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a97678a74a6ff6834e6dfc93af509ad73">IsResizeable</a> ()</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Window manipulation functions. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ae2867967bfa968a157b33957c6364a35" name="ae2867967bfa968a157b33957c6364a35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2867967bfa968a157b33957c6364a35">&#9670;&#160;</a></span>CanBeResized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean Window.CanBeResized </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets whether the active window can be resized by the user. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns <span class="tt">true</span> if the window can be resized, <span class="tt">false</span> if otherwise. </dd></dl>
+
+</div>
+</div>
 <a id="ae3cdf5b12afd71f2b5e6bd35e5db05cf" name="ae3cdf5b12afd71f2b5e6bd35e5db05cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3cdf5b12afd71f2b5e6bd35e5db05cf">&#9670;&#160;</a></span>GetFullscreen()</h2>
 
@@ -178,6 +203,26 @@ void&#160;</td><td class="memItemRight"><b>SetPositionCentered</b> ()</td></tr>
 
 <p>Gets the height of the active window. </p>
 <dl class="section return"><dt>Returns</dt><dd>Returns the height of the active window. </dd></dl>
+
+</div>
+</div>
+<a id="a03ea447a6391cbc4efb84801518be982" name="a03ea447a6391cbc4efb84801518be982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03ea447a6391cbc4efb84801518be982">&#9670;&#160;</a></span>GetResizable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean Window.GetResizable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the resizable state of the active window. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns <span class="tt">true</span> if the window is resizable, <span class="tt">false</span> if otherwise. </dd></dl>
 
 </div>
 </div>
@@ -221,23 +266,21 @@ void&#160;</td><td class="memItemRight"><b>SetPositionCentered</b> ()</td></tr>
 
 </div>
 </div>
-<a id="a26d0d6393f49698291ff7f8ff7876998" name="a26d0d6393f49698291ff7f8ff7876998"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26d0d6393f49698291ff7f8ff7876998">&#9670;&#160;</a></span>IsResizeable()</h2>
+<a id="a97678a74a6ff6834e6dfc93af509ad73" name="a97678a74a6ff6834e6dfc93af509ad73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97678a74a6ff6834e6dfc93af509ad73">&#9670;&#160;</a></span>IsResizeable()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boolean Window.IsResizeable </td>
+          <td class="memname">void Window.IsResizeable </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Gets whether the active window is resizeable. </p>
-<dl class="section return"><dt>Returns</dt><dd>Returns whether the window is resizeable. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Deprecated</a></b></dt><dd>Use <a class="el" href="#ae2867967bfa968a157b33957c6364a35" title="Window.CanBeResized">Window.CanBeResized</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -346,6 +389,31 @@ void&#160;</td><td class="memItemRight"><b>SetPositionCentered</b> ()</td></tr>
 
 </div>
 </div>
+<a id="adc4791558bf1b0a2f4b93937a5c57607" name="adc4791558bf1b0a2f4b93937a5c57607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4791558bf1b0a2f4b93937a5c57607">&#9670;&#160;</a></span>SetResizable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Window.SetResizable </td>
+          <td>(</td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>isResizable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the resizable state of the active window. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isResizable</td><td>Whether or not the window should be resizable. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a6206e5e274265fcae1b7d24fd6d3bd74" name="a6206e5e274265fcae1b7d24fd6d3bd74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6206e5e274265fcae1b7d24fd6d3bd74">&#9670;&#160;</a></span>SetScale()</h2>
 
@@ -393,8 +461,8 @@ void&#160;</td><td class="memItemRight"><b>SetPositionCentered</b> ()</td></tr>
 <p>Sets the size of the active window. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">width</td><td>Window width </td></tr>
-    <tr><td class="paramname">height</td><td>Window height </td></tr>
+    <tr><td class="paramname">width</td><td>The window width. </td></tr>
+    <tr><td class="paramname">height</td><td>The window height. </td></tr>
   </table>
   </dd>
 </dl>

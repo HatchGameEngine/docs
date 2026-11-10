@@ -74,7 +74,7 @@ var searchData=
   ['ispointinsidepolygon_71',['IsPointInsidePolygon',['../classGeometry.html#abe21d90cb7f3cfa24409e178e7f497c3',1,'Geometry']]],
   ['ispressed_72',['IsPressed',['../classTouch.html#a77d7c3620e726b3c0b8d64381a8fa5f7',1,'Touch']]],
   ['isreleased_73',['IsReleased',['../classTouch.html#abf859e42a41d838cfabe832c173257dd',1,'Touch']]],
-  ['isresizeable_74',['IsResizeable',['../classWindow.html#a26d0d6393f49698291ff7f8ff7876998',1,'Window']]],
+  ['isresizeable_74',['IsResizeable',['../classWindow.html#a97678a74a6ff6834e6dfc93af509ad73',1,'Window']]],
   ['isrumbleactive_75',['IsRumbleActive',['../classController.html#a7ddf219d29261a5d8e9477c0551d2911',1,'Controller']]],
   ['isrumblepaused_76',['IsRumblePaused',['../classController.html#a4bdda7c59077ad91d12db1b63c1f3dde',1,'Controller']]],
   ['isusingdrawtarget_77',['IsUsingDrawTarget',['../classView.html#a3d554c7e16f35392f338fe8e9e5a649c',1,'View']]],
