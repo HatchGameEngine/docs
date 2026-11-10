@@ -359,7 +359,7 @@ Input handling</h2>
 <h2 class="doxsection"><a class="anchor" id="drawing-an-image"></a>
 Drawing an image</h2>
 <p>All resources in Hatch are loaded through a Virtual File System. Since we created a Resources/ directory earlier, Hatch mounts this to an internal VFS, and all resources are loaded from that folder. When it's time for you to package your game for distribution, you'll be given options to pack your resources into a single file, and Hatch supports different formats for resource packing, including its own. The manual provides more details about this functionality.</p>
-<p>To load resources like sprites, images and audio, we use the <span class="tt">Resources</span> class in the standard library. For image files, the <a class="el" href="classResources.html#a36422921017ac15c03d5259396a08f30" title="Resources.LoadImage">Resources.LoadImage</a> function can open a PNG or GIF file and return an image we can draw. This is the image we'll be using:</p>
+<p>To load resources like sprites, images and audio, we use the <span class="tt">Resources</span> class in the standard library. For image files, the <a class="el" href="classResources.html#af78b22772c32a95d9fd1d7aae6ad1d48" title="Resources.LoadImage">Resources.LoadImage</a> function can open a PNG or GIF file and return an image we can draw. This is the image we'll be using:</p>
 <p><img src="hatch.png" alt="Hatch icon" style="float: left;" class="inline"/> </p><div style="clear: left;"></div><p>Save this image into the Resources/ directory. Your folder structure should be looking similar to this:</p>
 <div class="fragment"><div class="line">Resources/</div>
 <div class="line">    Objects/</div>
@@ -370,7 +370,7 @@ Drawing an image</h2>
 </div><!-- fragment --><p>Since this won't be a square anymore, let's rename the class to something else:</p>
 <div class="fragment"><div class="line">- class Square {</div>
 <div class="line">+ class Chick {</div>
-</div><!-- fragment --><p>Now, let's load the image using <a class="el" href="classResources.html#a36422921017ac15c03d5259396a08f30" title="Resources.LoadImage">Resources.LoadImage</a> as previously mentioned:</p>
+</div><!-- fragment --><p>Now, let's load the image using <a class="el" href="classResources.html#af78b22772c32a95d9fd1d7aae6ad1d48" title="Resources.LoadImage">Resources.LoadImage</a> as previously mentioned:</p>
 <div class="fragment"><div class="line"> class Chick {</div>
 <div class="line">     event Create() {</div>
 <div class="line">+        this.HatchImage = Resources.LoadImage(&quot;hatch.png&quot;, SCOPE_SCENE);</div>
@@ -414,7 +414,7 @@ Organizing the code</h2>
 <p>Speaking of good practice, it's a good idea to separate classes into their own files. So let's do just that. Currently, this is the contents of our <span class="tt">init.hsl</span> file:</p>
 <div class="fragment"><div class="line"><span class="keyword">class </span>Chick {</div>
 <div class="line">    <span class="keyword">event</span> Create() {</div>
-<div class="line">        this.HatchImage = <a class="code hl_class" href="classResources.html">Resources</a>.<a class="code hl_function" href="classResources.html#a36422921017ac15c03d5259396a08f30">LoadImage</a>(<span class="stringliteral">&quot;hatch.png&quot;</span>, <a class="code hl_enumvalue" href="group__hsl.html#gga51fb466065610b59ea508dc6d1db1ab8a7f58b024dd1ea5f89f886496b52c33f8">SCOPE_SCENE</a>);</div>
+<div class="line">        this.HatchImage = <a class="code hl_class" href="classResources.html">Resources</a>.<a class="code hl_function" href="classResources.html#af78b22772c32a95d9fd1d7aae6ad1d48">LoadImage</a>(<span class="stringliteral">&quot;hatch.png&quot;</span>, <a class="code hl_enumvalue" href="group__hsl.html#gga51fb466065610b59ea508dc6d1db1ab8a7f58b024dd1ea5f89f886496b52c33f8">SCOPE_SCENE</a>);</div>
 <div class="line">        this.RedColor = 1.0;</div>
 <div class="line">        this.GreenColor = 0.0;</div>
 <div class="line">        this.BlueColor = 0.0;</div>
@@ -470,13 +470,13 @@ Organizing the code</h2>
 <div class="line"><a class="code hl_class" href="classInstance.html">Instance</a>.<a class="code hl_function" href="classInstance.html#ac8ccea0b48c663ac42dd47363e243992">Create</a>(<span class="stringliteral">&quot;Chick&quot;</span>, 48.0, 48.0);</div>
 <div class="ttc" id="aclassInput_html_a779387761a7a9f4eff3928b7d82dd6f8"><div class="ttname"><a href="classInput.html#a779387761a7a9f4eff3928b7d82dd6f8">Input.IsActionHeld</a></div><div class="ttdeci">boolean IsActionHeld(integer playerID, string actionName, InputDevice inputDevice)</div><div class="ttdoc">Gets whether the input action is currently held for the specified player.</div></div>
 <div class="ttc" id="aclassResources_html"><div class="ttname"><a href="classResources.html">Resources</a></div><div class="ttdoc">Resource loading.</div><div class="ttdef"><b>Definition</b> Resources.dox:8</div></div>
-<div class="ttc" id="aclassResources_html_a36422921017ac15c03d5259396a08f30"><div class="ttname"><a href="classResources.html#a36422921017ac15c03d5259396a08f30">Resources.LoadImage</a></div><div class="ttdeci">integer LoadImage(string filename, integer unloadPolicy)</div><div class="ttdoc">Loads an Image resource, returning its Image index.</div></div>
+<div class="ttc" id="aclassResources_html_af78b22772c32a95d9fd1d7aae6ad1d48"><div class="ttname"><a href="classResources.html#af78b22772c32a95d9fd1d7aae6ad1d48">Resources.LoadImage</a></div><div class="ttdeci">integer LoadImage(string filename, SCOPE unloadPolicy)</div><div class="ttdoc">Loads an Image resource, returning its Image index.</div></div>
 <div class="ttc" id="agroup__hsl_html_gga51fb466065610b59ea508dc6d1db1ab8a7f58b024dd1ea5f89f886496b52c33f8"><div class="ttname"><a href="group__hsl.html#gga51fb466065610b59ea508dc6d1db1ab8a7f58b024dd1ea5f89f886496b52c33f8">SCOPE_SCENE</a></div><div class="ttdeci">@ SCOPE_SCENE</div><div class="ttdef"><b>Definition</b> SCOPE.hsl:12</div></div>
 </div><!-- fragment --><p>We'll be moving the class's code into its own file, leaving <span class="tt">init.hsl</span> to only deal with spawning the entity. In <span class="tt">Scripts</span>, create a file named <span class="tt">Chick.hsl</span>, and move the definition of the <span class="tt">Chick</span> class into it. If done correctly, your scripts should be laid out like this:</p>
 <p><span class="tt">Chick.hsl</span>:</p>
 <div class="fragment"><div class="line"><span class="keyword">class </span>Chick {</div>
 <div class="line">    <span class="keyword">event</span> Create() {</div>
-<div class="line">        this.HatchImage = <a class="code hl_class" href="classResources.html">Resources</a>.<a class="code hl_function" href="classResources.html#a36422921017ac15c03d5259396a08f30">LoadImage</a>(<span class="stringliteral">&quot;hatch.png&quot;</span>, <a class="code hl_enumvalue" href="group__hsl.html#gga51fb466065610b59ea508dc6d1db1ab8a7f58b024dd1ea5f89f886496b52c33f8">SCOPE_SCENE</a>);</div>
+<div class="line">        this.HatchImage = <a class="code hl_class" href="classResources.html">Resources</a>.<a class="code hl_function" href="classResources.html#af78b22772c32a95d9fd1d7aae6ad1d48">LoadImage</a>(<span class="stringliteral">&quot;hatch.png&quot;</span>, <a class="code hl_enumvalue" href="group__hsl.html#gga51fb466065610b59ea508dc6d1db1ab8a7f58b024dd1ea5f89f886496b52c33f8">SCOPE_SCENE</a>);</div>
 <div class="line">        this.RedColor = 1.0;</div>
 <div class="line">        this.GreenColor = 0.0;</div>
 <div class="line">        this.BlueColor = 0.0;</div>

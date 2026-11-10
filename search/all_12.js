@@ -152,7 +152,7 @@ var searchData=
   ['setlooppoint_149',['SetLoopPoint',['../classMusic.html#a8c80d48db5558108cd8db068007ea1b4',1,'Music.SetLoopPoint()'],['../classSound.html#a7a92e3f97b49c835dcd9051bf06886c8',1,'Sound.SetLoopPoint()']]],
   ['setmastervolume_150',['SetMasterVolume',['../classAudio.html#a8ef5dbe5932776e415b048ab4a7033a1',1,'Audio']]],
   ['setmousemode_151',['SetMouseMode',['../classInput.html#aebb67937b2d438eb1bd5134b14d089ff',1,'Input']]],
-  ['setmusicunloadpolicy_152',['SetMusicUnloadPolicy',['../classResources.html#a9bb5876ee7d5b0b3ee6c73163dffe0a0',1,'Resources']]],
+  ['setmusicunloadpolicy_152',['SetMusicUnloadPolicy',['../classResources.html#afc105dfcd7c66febca302fffcee2ef09',1,'Resources']]],
   ['setmusicvolume_153',['SetMusicVolume',['../classAudio.html#abac5eb53d0ea9224c87c63a688dcb866',1,'Audio']]],
   ['setnearclippingplane_154',['SetNearClippingPlane',['../classScene3D.html#a942edf8b6067c745eb2cb3cbd9ecd662',1,'Scene3D']]],
   ['setnumber_155',['SetNumber',['../classSettings.html#ae1d51a91cc780b81f048dfbf6c1687a6',1,'Settings']]],
