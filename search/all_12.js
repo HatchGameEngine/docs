@@ -163,7 +163,7 @@ var searchData=
   ['setoutputx_160',['SetOutputX',['../classView.html#a9b7d9cdbc623cd265f4c1a30a86665c9',1,'View']]],
   ['setoutputy_161',['SetOutputY',['../classView.html#aea3b08eeb4b76681fc52ee88b58e2e5c',1,'View']]],
   ['setoversampling_162',['SetOversampling',['../classFont.html#ae312c2aa71e4b48f016cfc45c8b96b14',1,'Font']]],
-  ['setpaletteindexlines_163',['SetPaletteIndexLines',['../classPalette.html#aed971433771abb7476f39cf8daefb6eb',1,'Palette']]],
+  ['setpaletteindexlines_163',['SetPaletteIndexLines',['../classPalette.html#af19e8616287f27b731a5b4a38a77bc33',1,'Palette']]],
   ['setpaused_164',['SetPaused',['../classScene.html#aaef7a88a3bca810029e6560505a56f30',1,'Scene']]],
   ['setpixel_165',['SetPixel',['../classTexture.html#aa16992ecb4e2a7e0c909c02563134949',1,'Texture']]],
   ['setpixelcoveragethreshold_166',['SetPixelCoverageThreshold',['../classFont.html#ae93b28b362ea1410b4737509fc06d076',1,'Font']]],

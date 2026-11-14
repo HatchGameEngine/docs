@@ -134,8 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa862cc1ddea82d2dd482e60b4d308662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps colors from Palette A to Palette B.  <br /></td></tr>
 <tr class="memitem:a35317affab2c239fa4507a726712eaee" id="r_a35317affab2c239fa4507a726712eaee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a35317affab2c239fa4507a726712eaee">UsePaletteIndexLines</a> (boolean usePaletteIndexLines)</td></tr>
 <tr class="memdesc:a35317affab2c239fa4507a726712eaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the global palette index table.  <br /></td></tr>
-<tr class="memitem:aed971433771abb7476f39cf8daefb6eb" id="r_aed971433771abb7476f39cf8daefb6eb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aed971433771abb7476f39cf8daefb6eb">SetPaletteIndexLines</a> (integer paletteIndex, number lineStart, number lineEnd)</td></tr>
-<tr class="memdesc:aed971433771abb7476f39cf8daefb6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the palette to be used for drawing on certain Y-positions on the screen (between the start and end lines).  <br /></td></tr>
+<tr class="memitem:af19e8616287f27b731a5b4a38a77bc33" id="r_af19e8616287f27b731a5b4a38a77bc33"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af19e8616287f27b731a5b4a38a77bc33">SetPaletteIndexLines</a> (integer paletteIndex, number lineStart, number lineEnd, boolean enableLines=false)</td></tr>
+<tr class="memdesc:af19e8616287f27b731a5b4a38a77bc33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the palette to be used for drawing on certain Y-positions on the screen (between the start and end lines).  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Palette manipulation. </p>
@@ -540,8 +540,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aed971433771abb7476f39cf8daefb6eb" name="aed971433771abb7476f39cf8daefb6eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed971433771abb7476f39cf8daefb6eb">&#9670;&#160;</a></span>SetPaletteIndexLines()</h2>
+<a id="af19e8616287f27b731a5b4a38a77bc33" name="af19e8616287f27b731a5b4a38a77bc33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af19e8616287f27b731a5b4a38a77bc33">&#9670;&#160;</a></span>SetPaletteIndexLines()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,7 +559,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">number</td>          <td class="paramname"><span class="paramname"><em>lineEnd</em></span>&#160;)</td>
+          <td class="paramtype">number</td>          <td class="paramname"><span class="paramname"><em>lineEnd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>enableLines</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -570,6 +575,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">paletteIndex</td><td>Index of palette. </td></tr>
     <tr><td class="paramname">lineStart</td><td>Start line to set to the palette. </td></tr>
     <tr><td class="paramname">lineEnd</td><td>Line where to stop setting the palette. </td></tr>
+    <tr><td class="paramname">enableLines</td><td>Whether to also enable the global palette index table. </td></tr>
   </table>
   </dd>
 </dl>
