@@ -907,6 +907,7 @@ var group__hsl =
       [ "StopChannel", "classSound.html#adc8d225771b39e3f3d90fd27aa627846", null ]
     ] ],
     [ "Sprite", "classSprite.html", [
+      [ "CopyFrame", "classSprite.html#a7f642517d8896bccbf02c83add35a392", null ],
       [ "GetAnimationCount", "classSprite.html#a0d6eae9164be9eb50773736d238b2114", null ],
       [ "GetAnimationIndexByName", "classSprite.html#a8056ef291d7abcabf6f2e7aec7e824e1", null ],
       [ "GetAnimationName", "classSprite.html#a9be3e0e627956a08b97ad3e85e9bdc25", null ],

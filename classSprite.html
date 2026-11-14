@@ -156,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa9e231201ad127d5c88ec209eb0fc685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the X pivot point of the specified sprite frame.  <br /></td></tr>
 <tr class="memitem:a2e947c750f14ebb820d1e44ecca46f4a" id="r_a2e947c750f14ebb820d1e44ecca46f4a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2e947c750f14ebb820d1e44ecca46f4a">SetFrameOffsetY</a> (integer sprite, integer animationID, integer frame, integer offsetY)</td></tr>
 <tr class="memdesc:a2e947c750f14ebb820d1e44ecca46f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Y pivot point of the specified sprite frame.  <br /></td></tr>
+<tr class="memitem:a7f642517d8896bccbf02c83add35a392" id="r_a7f642517d8896bccbf02c83add35a392"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7f642517d8896bccbf02c83add35a392">CopyFrame</a> (integer sprite, integer destAnimationID, integer destFrame, integer srcAnimationID, integer srcFrame)</td></tr>
+<tr class="memdesc:a7f642517d8896bccbf02c83add35a392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a sprite frame over another.  <br /></td></tr>
 <tr class="memitem:a7bad6864c89c388d5daf8f2897c707b4" id="r_a7bad6864c89c388d5daf8f2897c707b4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7bad6864c89c388d5daf8f2897c707b4">MakePalettized</a> (integer sprite, integer paletteIndex)</td></tr>
 <tr class="memdesc:a7bad6864c89c388d5daf8f2897c707b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a sprite's colors to the ones in the specified palette index.  <br /></td></tr>
 <tr class="memitem:a84f26be3efd0b37ca7af48e7b74d25b0" id="r_a84f26be3efd0b37ca7af48e7b74d25b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a84f26be3efd0b37ca7af48e7b74d25b0">MakeNonPalettized</a> (integer sprite)</td></tr>
@@ -164,6 +166,54 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to retrieve information about sprites. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a7f642517d8896bccbf02c83add35a392" name="a7f642517d8896bccbf02c83add35a392"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f642517d8896bccbf02c83add35a392">&#9670;&#160;</a></span>CopyFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sprite.CopyFrame </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>sprite</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destAnimationID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>destFrame</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcAnimationID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>srcFrame</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies a sprite frame over another. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sprite</td><td>The sprite index to modify. </td></tr>
+    <tr><td class="paramname">destAnimationID</td><td>The animation index of the frame to overwrite. </td></tr>
+    <tr><td class="paramname">destFrame</td><td>The frame index of the frame to overwrite. </td></tr>
+    <tr><td class="paramname">srcAnimationID</td><td>The animation index of the frame to copy. </td></tr>
+    <tr><td class="paramname">srcFrame</td><td>The frame index of the frame to copy. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a0d6eae9164be9eb50773736d238b2114" name="a0d6eae9164be9eb50773736d238b2114"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d6eae9164be9eb50773736d238b2114">&#9670;&#160;</a></span>GetAnimationCount()</h2>
 
