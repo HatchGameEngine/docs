@@ -343,6 +343,8 @@ void&#160;</td><td class="memItemRight"><b>SetLayerInternalSize</b> ()</td></tr>
 <tr class="memdesc:af4056c440b7d5c2996a36329ac1394bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the relative parallax factor of an individual scroll info group.  <br /></td></tr>
 <tr class="memitem:a48bedea562304cc6e1c8480879f0bb41" id="r_a48bedea562304cc6e1c8480879f0bb41"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a48bedea562304cc6e1c8480879f0bb41">SetLayerScrollInfoConstantScroll</a> (integer layerIndex, integer scrollIndex, number constant)</td></tr>
 <tr class="memdesc:a48bedea562304cc6e1c8480879f0bb41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the constant parallax factor of an individual scroll info group.  <br /></td></tr>
+<tr class="memitem:a6cf33d5d64c983d0071b82e6a1fcade7" id="r_a6cf33d5d64c983d0071b82e6a1fcade7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6cf33d5d64c983d0071b82e6a1fcade7">SetLayerScrollInfoCanDeform</a> (integer layerIndex, integer scrollIndex, boolean canDeform)</td></tr>
+<tr class="memdesc:a6cf33d5d64c983d0071b82e6a1fcade7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether an individual scroll info group uses the layer's tile deforms.  <br /></td></tr>
 <tr class="memitem:aaf638a69ed75dccdf65c38509cc02b0d" id="r_aaf638a69ed75dccdf65c38509cc02b0d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaf638a69ed75dccdf65c38509cc02b0d">SetLayerSetParallaxLinesBegin</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:aaf638a69ed75dccdf65c38509cc02b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begins setup for changing the parallax lines.  <br /></td></tr>
 <tr class="memitem:a4c3107378a2d1b3f534b87697ffc45e2" id="r_a4c3107378a2d1b3f534b87697ffc45e2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4c3107378a2d1b3f534b87697ffc45e2">SetLayerSetParallaxLines</a> (integer lineStart, integer lineEnd, number relative, number constant, boolean canDeform)</td></tr>
@@ -364,6 +366,10 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 <tr class="memdesc:a640332d2c45835811249c00f5130951b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the function to be used for generating custom tile scanlines.  <br /></td></tr>
 <tr class="memitem:a18db2d32b5d9ecef1e80b8e4b06810ba" id="r_a18db2d32b5d9ecef1e80b8e4b06810ba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a18db2d32b5d9ecef1e80b8e4b06810ba">SetTileScanline</a> (integer scanline, number srcX, number srcY, number deltaX, number deltaY, decimal opacity, number maxHorzCells, number maxVertCells)</td></tr>
 <tr class="memdesc:a18db2d32b5d9ecef1e80b8e4b06810ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the tile scanline (for use only inside a Custom Scanline Function).  <br /></td></tr>
+<tr class="memitem:afc6a06821204c4d6a7fec8bf58ddec84" id="r_afc6a06821204c4d6a7fec8bf58ddec84"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#afc6a06821204c4d6a7fec8bf58ddec84">GetTileScanlineSrcX</a> (integer scanline)</td></tr>
+<tr class="memdesc:afc6a06821204c4d6a7fec8bf58ddec84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the source X position of a tile scanline (for use only inside a Custom Scanline Function). Vertical layers fill one scanline per screen column before their Custom Scanline Function runs, so it can read and adjust them.  <br /></td></tr>
+<tr class="memitem:adddd3c3d2afb50c9c0f05e5e89687ed8" id="r_adddd3c3d2afb50c9c0f05e5e89687ed8"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#adddd3c3d2afb50c9c0f05e5e89687ed8">GetTileScanlineSrcY</a> (integer scanline)</td></tr>
+<tr class="memdesc:adddd3c3d2afb50c9c0f05e5e89687ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the source Y position of a tile scanline (for use only inside a Custom Scanline Function). Vertical layers fill one scanline per screen column before their Custom Scanline Function runs, so it can read and adjust them.  <br /></td></tr>
 <tr class="memitem:aa6ce1785a86cebfde7a3b0361cde1b3a" id="r_aa6ce1785a86cebfde7a3b0361cde1b3a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa6ce1785a86cebfde7a3b0361cde1b3a">SetLayerCustomRenderFunction</a> (integer layerIndex, function function)</td></tr>
 <tr class="memdesc:aa6ce1785a86cebfde7a3b0361cde1b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the function to be used for rendering a specific layer.  <br /></td></tr>
 <tr class="memitem:a38bc2245c63c9970da6dce41a32baefa" id="r_a38bc2245c63c9970da6dce41a32baefa"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a38bc2245c63c9970da6dce41a32baefa">SetObjectViewRender</a> (integer viewIndex, boolean enableViewRender)</td></tr>
@@ -1928,6 +1934,58 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 
 </div>
 </div>
+<a id="afc6a06821204c4d6a7fec8bf58ddec84" name="afc6a06821204c4d6a7fec8bf58ddec84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc6a06821204c4d6a7fec8bf58ddec84">&#9670;&#160;</a></span>GetTileScanlineSrcX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decimal Scene.GetTileScanlineSrcX </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scanline</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the source X position of a tile scanline (for use only inside a Custom Scanline Function). Vertical layers fill one scanline per screen column before their Custom Scanline Function runs, so it can read and adjust them. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scanline</td><td>Index of the scanline. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the source X position. </dd></dl>
+
+</div>
+</div>
+<a id="adddd3c3d2afb50c9c0f05e5e89687ed8" name="adddd3c3d2afb50c9c0f05e5e89687ed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adddd3c3d2afb50c9c0f05e5e89687ed8">&#9670;&#160;</a></span>GetTileScanlineSrcY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">decimal Scene.GetTileScanlineSrcY </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scanline</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the source Y position of a tile scanline (for use only inside a Custom Scanline Function). Vertical layers fill one scanline per screen column before their Custom Scanline Function runs, so it can read and adjust them. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scanline</td><td>Index of the scanline. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the source Y position. </dd></dl>
+
+</div>
+</div>
 <a id="a1e23502796b89751288f28d7fb664fbc" name="a1e23502796b89751288f28d7fb664fbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e23502796b89751288f28d7fb664fbc">&#9670;&#160;</a></span>GetTilesetCount()</h2>
 
@@ -2954,6 +3012,42 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
   </dd>
 </dl>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000010">Deprecated</a></b></dt><dd>Use <a class="el" href="#a9276cee453b1711d27c570d710abde18" title="Scene.SetLayerVerticalParallaxFactor">Scene.SetLayerVerticalParallaxFactor</a> and <a class="el" href="#ad4155a5c7b808f9fde9bbbdf2d2b9708" title="Scene.SetLayerVerticalConstantScroll">Scene.SetLayerVerticalConstantScroll</a> instead. </dd></dl>
+
+</div>
+</div>
+<a id="a6cf33d5d64c983d0071b82e6a1fcade7" name="a6cf33d5d64c983d0071b82e6a1fcade7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cf33d5d64c983d0071b82e6a1fcade7">&#9670;&#160;</a></span>SetLayerScrollInfoCanDeform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene.SetLayerScrollInfoCanDeform </td>
+          <td>(</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>scrollIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>canDeform</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets whether an individual scroll info group uses the layer's tile deforms. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layerIndex</td><td>Index of the layer. </td></tr>
+    <tr><td class="paramname">scrollIndex</td><td>Index of the scroll info group. </td></tr>
+    <tr><td class="paramname">canDeform</td><td>Whether the group can deform. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
