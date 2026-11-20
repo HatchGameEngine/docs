@@ -216,13 +216,14 @@ var searchData=
   ['gettilewidth_213',['GetTileWidth',['../classScene.html#a99d323dff57bea2e8afa83eb5cb47ae2',1,'Scene']]],
   ['gettimeofday_214',['GetTimeOfDay',['../classDate.html#a1b8523679c1ba3e0263374f99930cf80',1,'Date']]],
   ['gettype_215',['GetType',['../classController.html#a9a7d9f9dd4f4d4745a875cdd97eeb8da',1,'Controller.GetType()'],['../classScene.html#ada7aa7f489ad05d53dc36b812ade9f9e',1,'Scene.GetType()']]],
-  ['getuniformtype_216',['GetUniformType',['../classShader.html#a392512eb330a2be6b44ecb35569798ce',1,'Shader']]],
-  ['getupdatepriority_217',['GetUpdatePriority',['../classEntity.html#acdc1123b606ff25474a94370eb33af32',1,'Entity']]],
-  ['getvertexcount_218',['GetVertexCount',['../classModel.html#a667cfe35a9d739319e8038d509af791d',1,'Model']]],
-  ['getweekday_219',['GetWeekday',['../classDate.html#ae78d3f4aa48bba60c9065c690084fbca',1,'Date']]],
-  ['getwidth_220',['GetWidth',['../classDisplay.html#a1527b236a19254275877648fcfb0afe9',1,'Display.GetWidth()'],['../classImage.html#a0c74f4d4f2c7eaeb35adb80c2d74818c',1,'Image.GetWidth()'],['../classScene.html#a4299cb61e650ea0fa7fb9f5ea37f54aa',1,'Scene.GetWidth()'],['../classView.html#ab847cd54d61766a3b30a8bc1662f2ae5',1,'View.GetWidth()'],['../classWindow.html#a372adb8c0b163cab7cd6906666c3fd6d',1,'Window.GetWidth()']]],
-  ['getx_221',['GetX',['../classTouch.html#a9d81ec2fbdc0e14e4a6e19bdc7ad4b17',1,'Touch.GetX()'],['../classView.html#a9f8e1096d46dca5681eda7f621c72966',1,'View.GetX()']]],
-  ['gety_222',['GetY',['../classTouch.html#a846568e2a6c8f292cf181a71427210c9',1,'Touch.GetY()'],['../classView.html#a7fd7748284674c03f39ea429b4ce3dde',1,'View.GetY(integer viewIndex)']]],
-  ['getz_223',['GetZ',['../classView.html#af3cc87994850e9ae4984728686060197',1,'View']]],
-  ['glyph_224',['Glyph',['../classDraw.html#aac9611d631cb786d5ba9063639a8823d',1,'Draw']]]
+  ['getuniformnames_216',['GetUniformNames',['../classShader.html#adca737e107d958a74ae9aadd8d3745a1',1,'Shader']]],
+  ['getuniformtype_217',['GetUniformType',['../classShader.html#a392512eb330a2be6b44ecb35569798ce',1,'Shader']]],
+  ['getupdatepriority_218',['GetUpdatePriority',['../classEntity.html#acdc1123b606ff25474a94370eb33af32',1,'Entity']]],
+  ['getvertexcount_219',['GetVertexCount',['../classModel.html#a667cfe35a9d739319e8038d509af791d',1,'Model']]],
+  ['getweekday_220',['GetWeekday',['../classDate.html#ae78d3f4aa48bba60c9065c690084fbca',1,'Date']]],
+  ['getwidth_221',['GetWidth',['../classDisplay.html#a1527b236a19254275877648fcfb0afe9',1,'Display.GetWidth()'],['../classImage.html#a0c74f4d4f2c7eaeb35adb80c2d74818c',1,'Image.GetWidth()'],['../classScene.html#a4299cb61e650ea0fa7fb9f5ea37f54aa',1,'Scene.GetWidth()'],['../classView.html#ab847cd54d61766a3b30a8bc1662f2ae5',1,'View.GetWidth()'],['../classWindow.html#a372adb8c0b163cab7cd6906666c3fd6d',1,'Window.GetWidth()']]],
+  ['getx_222',['GetX',['../classTouch.html#a9d81ec2fbdc0e14e4a6e19bdc7ad4b17',1,'Touch.GetX()'],['../classView.html#a9f8e1096d46dca5681eda7f621c72966',1,'View.GetX()']]],
+  ['gety_223',['GetY',['../classTouch.html#a846568e2a6c8f292cf181a71427210c9',1,'Touch.GetY()'],['../classView.html#a7fd7748284674c03f39ea429b4ce3dde',1,'View.GetY(integer viewIndex)']]],
+  ['getz_224',['GetZ',['../classView.html#af3cc87994850e9ae4984728686060197',1,'View']]],
+  ['glyph_225',['Glyph',['../classDraw.html#aac9611d631cb786d5ba9063639a8823d',1,'Draw']]]
 ];

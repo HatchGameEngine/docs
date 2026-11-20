@@ -115,27 +115,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a81c4c615195d069dbd9e43c530296ede" id="r_a81c4c615195d069dbd9e43c530296ede"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a81c4c615195d069dbd9e43c530296ede">IsValid</a> ()</td></tr>
 <tr class="memdesc:a81c4c615195d069dbd9e43c530296ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the shader can be used.  <br /></td></tr>
 <tr class="memitem:acbf1d8c2ba879e2f609f6eefad9b2c36" id="r_acbf1d8c2ba879e2f609f6eefad9b2c36"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acbf1d8c2ba879e2f609f6eefad9b2c36">AddStage</a> (<a class="el" href="group__hsl.html#ga34c3f812126fdd446628118c18102a8e">SHADERSTAGE</a> stage, string shader)</td></tr>
-<tr class="memdesc:acbf1d8c2ba879e2f609f6eefad9b2c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a stage to the shader program. This should not be called multiple times for the same stage.  <br /></td></tr>
+<tr class="memdesc:acbf1d8c2ba879e2f609f6eefad9b2c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a stage to the shader program.  <br /></td></tr>
 <tr class="memitem:af5f84a6847747310ef727586a9401adb" id="r_af5f84a6847747310ef727586a9401adb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af5f84a6847747310ef727586a9401adb">AddStage</a> (<a class="el" href="group__hsl.html#ga34c3f812126fdd446628118c18102a8e">SHADERSTAGE</a> stage, stream shader)</td></tr>
-<tr class="memdesc:af5f84a6847747310ef727586a9401adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a stage to the shader program. This should not be called multiple times for the same stage.  <br /></td></tr>
+<tr class="memdesc:af5f84a6847747310ef727586a9401adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a stage to the shader program.  <br /></td></tr>
 <tr class="memitem:a084cd2084b1fedf0290b1e933777140e" id="r_a084cd2084b1fedf0290b1e933777140e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a084cd2084b1fedf0290b1e933777140e">AddStageFromString</a> (<a class="el" href="group__hsl.html#ga34c3f812126fdd446628118c18102a8e">SHADERSTAGE</a> stage, string shader)</td></tr>
-<tr class="memdesc:a084cd2084b1fedf0290b1e933777140e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a stage to the shader program, from a String containing the shader code. This should not be called multiple times for the same stage.  <br /></td></tr>
+<tr class="memdesc:a084cd2084b1fedf0290b1e933777140e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a stage to the shader program, from a String containing the shader code.  <br /></td></tr>
 <tr class="memitem:a8bbf2cf26991b83a6f7343681e8dd801" id="r_a8bbf2cf26991b83a6f7343681e8dd801"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8bbf2cf26991b83a6f7343681e8dd801">AssignTextureUnit</a> (string uniform)</td></tr>
-<tr class="memdesc:a8bbf2cf26991b83a6f7343681e8dd801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a texture unit to a texture uniform. This is safe to call multiple times for the same uniform name.  <br /></td></tr>
+<tr class="memdesc:a8bbf2cf26991b83a6f7343681e8dd801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a texture unit to a texture uniform.  <br /></td></tr>
 <tr class="memitem:afecf5f571ad9a6557b14b27739146f47" id="r_afecf5f571ad9a6557b14b27739146f47"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#afecf5f571ad9a6557b14b27739146f47">GetTextureUnit</a> (string uniform)</td></tr>
 <tr class="memdesc:afecf5f571ad9a6557b14b27739146f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the texture unit assigned to a texture uniform.  <br /></td></tr>
 <tr class="memitem:a14662f1a1b44ad3129e9459259eb93fc" id="r_a14662f1a1b44ad3129e9459259eb93fc"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a14662f1a1b44ad3129e9459259eb93fc">Compile</a> ()</td></tr>
 <tr class="memdesc:a14662f1a1b44ad3129e9459259eb93fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles a shader.  <br /></td></tr>
+<tr class="memitem:adca737e107d958a74ae9aadd8d3745a1" id="r_adca737e107d958a74ae9aadd8d3745a1"><td class="memItemLeft">array&#160;</td><td class="memItemRight"><a class="el" href="#adca737e107d958a74ae9aadd8d3745a1">GetUniformNames</a> ()</td></tr>
+<tr class="memdesc:adca737e107d958a74ae9aadd8d3745a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of uniform names.  <br /></td></tr>
 <tr class="memitem:a1bfe273983c6280d69c9ec95394272bb" id="r_a1bfe273983c6280d69c9ec95394272bb"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a1bfe273983c6280d69c9ec95394272bb">HasUniform</a> (string uniform)</td></tr>
-<tr class="memdesc:a1bfe273983c6280d69c9ec95394272bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the shader has an uniform with the given name. This can only be called after the shader has been compiled.  <br /></td></tr>
+<tr class="memdesc:a1bfe273983c6280d69c9ec95394272bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the shader has an uniform with the given name.  <br /></td></tr>
 <tr class="memitem:a392512eb330a2be6b44ecb35569798ce" id="r_a392512eb330a2be6b44ecb35569798ce"><td class="memItemLeft"><a class="el" href="group__hsl.html#ga34c3f812126fdd446628118c18102a8e">SHADERSTAGE</a>&#160;</td><td class="memItemRight"><a class="el" href="#a392512eb330a2be6b44ecb35569798ce">GetUniformType</a> (string uniform)</td></tr>
-<tr class="memdesc:a392512eb330a2be6b44ecb35569798ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of the uniform with the given name. This can only be called after the shader has been compiled.  <br /></td></tr>
+<tr class="memdesc:a392512eb330a2be6b44ecb35569798ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of the uniform with the given name.  <br /></td></tr>
 <tr class="memitem:aea9e149b392c0426972f1138f578fb33" id="r_aea9e149b392c0426972f1138f578fb33"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aea9e149b392c0426972f1138f578fb33">SetUniform</a> (string uniform, number value, <a class="el" href="group__hsl.html#ga0c4b70f214a66471f4af679b5471af2a">SHADERDATATYPE</a> dataType)</td></tr>
-<tr class="memdesc:aea9e149b392c0426972f1138f578fb33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of an uniform variable. The value passed to the uniform persists between different invocations, and can be set at any time, as long as the shader is valid. This can only be called after the shader has been compiled.  <br /></td></tr>
+<tr class="memdesc:aea9e149b392c0426972f1138f578fb33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of an uniform variable.  <br /></td></tr>
 <tr class="memitem:a3f3bacbe0c8d771ef63569f0d39e96ae" id="r_a3f3bacbe0c8d771ef63569f0d39e96ae"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3f3bacbe0c8d771ef63569f0d39e96ae">SetUniform</a> (string uniform, array value, <a class="el" href="group__hsl.html#ga0c4b70f214a66471f4af679b5471af2a">SHADERDATATYPE</a> dataType)</td></tr>
-<tr class="memdesc:a3f3bacbe0c8d771ef63569f0d39e96ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of an uniform variable. The value passed to the uniform persists between different invocations, and can be set at any time, as long as the shader is valid. This can only be called after the shader has been compiled.  <br /></td></tr>
+<tr class="memdesc:a3f3bacbe0c8d771ef63569f0d39e96ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of an uniform variable.  <br /></td></tr>
 <tr class="memitem:a5d54ba5739ca31a72064fbe30865b402" id="r_a5d54ba5739ca31a72064fbe30865b402"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5d54ba5739ca31a72064fbe30865b402">SetTexture</a> (string uniform, integer image)</td></tr>
-<tr class="memdesc:a5d54ba5739ca31a72064fbe30865b402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns an Image to a specific texture unit linked to an uniform variable. The texture unit must have been defined using <a class="el" href="#a8bbf2cf26991b83a6f7343681e8dd801" title="Shader.AssignTextureUnit">Shader.AssignTextureUnit</a> for this function to succeed.  <br /></td></tr>
+<tr class="memdesc:a5d54ba5739ca31a72064fbe30865b402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns an Image to a specific texture unit linked to an uniform variable.  <br /></td></tr>
 <tr class="memitem:ac46169990a729308047eca8daec8e01f" id="r_ac46169990a729308047eca8daec8e01f"><td class="memItemLeft"><a id="ac46169990a729308047eca8daec8e01f" name="ac46169990a729308047eca8daec8e01f"></a>
 void&#160;</td><td class="memItemRight"><b>Delete</b> ()</td></tr>
 <tr class="memdesc:ac46169990a729308047eca8daec8e01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the shader. It can no longer be used after this function is called. <br /></td></tr>
@@ -167,8 +169,8 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Adds a stage to the shader program. This should not be called multiple times for the same stage. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Adds a stage to the shader program. </p>
+<p>This should not be called multiple times for the same stage. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stage</td><td>The shader stage. </td></tr>
     <tr><td class="paramname">shader</td><td>A stream containing shader code. </td></tr>
@@ -197,8 +199,8 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Adds a stage to the shader program. This should not be called multiple times for the same stage. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Adds a stage to the shader program. </p>
+<p>This should not be called multiple times for the same stage. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stage</td><td>The shader stage. </td></tr>
     <tr><td class="paramname">shader</td><td>Filename of the resource containing shader code. </td></tr>
@@ -227,8 +229,8 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Adds a stage to the shader program, from a String containing the shader code. This should not be called multiple times for the same stage. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Adds a stage to the shader program, from a String containing the shader code. </p>
+<p>This should not be called multiple times for the same stage. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stage</td><td>The shader stage. </td></tr>
     <tr><td class="paramname">shader</td><td>A String that contains shader code. </td></tr>
@@ -253,8 +255,8 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Assigns a texture unit to a texture uniform. This is safe to call multiple times for the same uniform name. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Assigns a texture unit to a texture uniform. </p>
+<p>This is safe to call multiple times for the same uniform name. This cannot be called after the shader has been compiled. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uniform</td><td>The name of the uniform. </td></tr>
   </table>
@@ -319,13 +321,33 @@ The software renderer does not support shaders. </p>
 </div><div class="memdoc">
 
 <p>Gets the texture unit assigned to a texture uniform. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This can only be called after the shader has been compiled. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uniform</td><td>The name of the uniform. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Returns an integer value, or <span class="tt">null</span> if no texture unit was assigned. </dd></dl>
+
+</div>
+</div>
+<a id="adca737e107d958a74ae9aadd8d3745a1" name="adca737e107d958a74ae9aadd8d3745a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca737e107d958a74ae9aadd8d3745a1">&#9670;&#160;</a></span>GetUniformNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">array Shader.GetUniformNames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a list of uniform names. </p>
+<p>This can only be called after the shader has been compiled. </p><dl class="section return"><dt>Returns</dt><dd>Returns an array of string values. </dd></dl>
 
 </div>
 </div>
@@ -344,8 +366,8 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Gets the type of the uniform with the given name. This can only be called after the shader has been compiled. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Gets the type of the uniform with the given name. </p>
+<p>This can only be called after the shader has been compiled. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uniform</td><td>The name of the uniform. </td></tr>
   </table>
@@ -396,8 +418,8 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Checks if the shader has an uniform with the given name. This can only be called after the shader has been compiled. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Checks if the shader has an uniform with the given name. </p>
+<p>This can only be called after the shader has been compiled. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uniform</td><td>The name of the uniform. </td></tr>
   </table>
@@ -446,8 +468,8 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Assigns an Image to a specific texture unit linked to an uniform variable. The texture unit must have been defined using <a class="el" href="#a8bbf2cf26991b83a6f7343681e8dd801" title="Shader.AssignTextureUnit">Shader.AssignTextureUnit</a> for this function to succeed. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Assigns an Image to a specific texture unit linked to an uniform variable. </p>
+<p>The texture unit must have been defined using <a class="el" href="#a8bbf2cf26991b83a6f7343681e8dd801" title="Shader.AssignTextureUnit">Shader.AssignTextureUnit</a> for this function to succeed. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uniform</td><td>The name of the uniform. </td></tr>
     <tr><td class="paramname">image</td><td>The image index to bind to the uniform. </td></tr>
@@ -481,8 +503,9 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the value of an uniform variable. The value passed to the uniform persists between different invocations, and can be set at any time, as long as the shader is valid. This can only be called after the shader has been compiled. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Sets the value of an uniform variable. </p>
+<p>The value passed to the uniform persists between different invocations, and can be set at any time, as long as the shader is valid.<br  />
+This can only be called after the shader has been compiled. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uniform</td><td>The name of the uniform. </td></tr>
     <tr><td class="paramname">value</td><td>The value. </td></tr>
@@ -517,8 +540,9 @@ The software renderer does not support shaders. </p>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the value of an uniform variable. The value passed to the uniform persists between different invocations, and can be set at any time, as long as the shader is valid. This can only be called after the shader has been compiled. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Sets the value of an uniform variable. </p>
+<p>The value passed to the uniform persists between different invocations, and can be set at any time, as long as the shader is valid.<br  />
+This can only be called after the shader has been compiled. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uniform</td><td>The name of the uniform. </td></tr>
     <tr><td class="paramname">value</td><td>The value. </td></tr>

@@ -9,6 +9,7 @@ var classShader =
     [ "Compile", "classShader.html#a14662f1a1b44ad3129e9459259eb93fc", null ],
     [ "Delete", "classShader.html#ac46169990a729308047eca8daec8e01f", null ],
     [ "GetTextureUnit", "classShader.html#afecf5f571ad9a6557b14b27739146f47", null ],
+    [ "GetUniformNames", "classShader.html#adca737e107d958a74ae9aadd8d3745a1", null ],
     [ "GetUniformType", "classShader.html#a392512eb330a2be6b44ecb35569798ce", null ],
     [ "HasStage", "classShader.html#a7f042cc6f4da59fe7e91f07db87c1ee2", null ],
     [ "HasUniform", "classShader.html#a1bfe273983c6280d69c9ec95394272bb", null ],
