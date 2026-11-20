@@ -137,8 +137,8 @@ void&#160;</td><td class="memItemRight"><b>Restart</b> ()</td></tr>
 <tr class="memdesc:a665b6d8a5eb6452cba52a0c548125a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the layer index of the layer with the specified name.  <br /></td></tr>
 <tr class="memitem:a8a245c95947311fd7684ad34d2b4927e" id="r_a8a245c95947311fd7684ad34d2b4927e"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a8a245c95947311fd7684ad34d2b4927e">GetLayerName</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:a8a245c95947311fd7684ad34d2b4927e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the specified layer.  <br /></td></tr>
-<tr class="memitem:a14f4eadded19bc894d11227011cd3e8b" id="r_a14f4eadded19bc894d11227011cd3e8b"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a14f4eadded19bc894d11227011cd3e8b">GetLayerVisible</a> (integer layerIndex)</td></tr>
-<tr class="memdesc:a14f4eadded19bc894d11227011cd3e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the visibility of the specified layer.  <br /></td></tr>
+<tr class="memitem:af08358b8393c6df7684890869e0abeac" id="r_af08358b8393c6df7684890869e0abeac"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#af08358b8393c6df7684890869e0abeac">GetLayerVisible</a> (integer layerIndex, integer viewIndex)</td></tr>
+<tr class="memdesc:af08358b8393c6df7684890869e0abeac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the visibility of the specified layer.  <br /></td></tr>
 <tr class="memitem:a78ee4403e736eea13654df43b123ad90" id="r_a78ee4403e736eea13654df43b123ad90"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#a78ee4403e736eea13654df43b123ad90">GetLayerOpacity</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:a78ee4403e736eea13654df43b123ad90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the opacity of the specified layer.  <br /></td></tr>
 <tr class="memitem:aa596837ae997209101fb548c1317651d" id="r_aa596837ae997209101fb548c1317651d"><td class="memItemLeft"><a class="el" href="classShader.html">Shader</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa596837ae997209101fb548c1317651d">GetLayerShader</a> (integer layerIndex)</td></tr>
@@ -173,8 +173,8 @@ void&#160;</td><td class="memItemRight"><b>Restart</b> ()</td></tr>
 <tr class="memdesc:a46ddd91a57f4880fd8c49d001e0ea9e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the X offset of a layer index.  <br /></td></tr>
 <tr class="memitem:ac587ad4a538692064be5f6efc7a2e4a3" id="r_ac587ad4a538692064be5f6efc7a2e4a3"><td class="memItemLeft">decimal&#160;</td><td class="memItemRight"><a class="el" href="#ac587ad4a538692064be5f6efc7a2e4a3">GetLayerOffsetY</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:ac587ad4a538692064be5f6efc7a2e4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Y offset of a layer index.  <br /></td></tr>
-<tr class="memitem:a717169d83aae546fadf6e49447762b68" id="r_a717169d83aae546fadf6e49447762b68"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a717169d83aae546fadf6e49447762b68">GetLayerDrawGroup</a> (integer layerIndex)</td></tr>
-<tr class="memdesc:a717169d83aae546fadf6e49447762b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the draw group of the specified layer.  <br /></td></tr>
+<tr class="memitem:a5f0c26823c5ba9a2f09fc83a64569567" id="r_a5f0c26823c5ba9a2f09fc83a64569567"><td class="memItemLeft">integer&#160;</td><td class="memItemRight"><a class="el" href="#a5f0c26823c5ba9a2f09fc83a64569567">GetLayerDrawGroup</a> (integer layerIndex, integer viewIndex)</td></tr>
+<tr class="memdesc:a5f0c26823c5ba9a2f09fc83a64569567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the draw group of the specified layer.  <br /></td></tr>
 <tr class="memitem:a3687bca4f6c9bffdcabcb5b407970d10" id="r_a3687bca4f6c9bffdcabcb5b407970d10"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a3687bca4f6c9bffdcabcb5b407970d10">GetLayerHorizontalRepeat</a> (integer layerIndex)</td></tr>
 <tr class="memdesc:a3687bca4f6c9bffdcabcb5b407970d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the layer repeats horizontally.  <br /></td></tr>
 <tr class="memitem:ae4aa4b9e06f9736cf2c07ce9e23097e8" id="r_ae4aa4b9e06f9736cf2c07ce9e23097e8"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#ae4aa4b9e06f9736cf2c07ce9e23097e8">GetLayerVerticalRepeat</a> (integer layerIndex)</td></tr>
@@ -292,8 +292,8 @@ void&#160;</td><td class="memItemRight"><b>SetDebugMode</b> ()</td></tr>
 <tr class="memdesc:af702ee34b9b70f535a2852ef0f065962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current frame of a tile ID animation sequence.  <br /></td></tr>
 <tr class="memitem:ae63f00df29269fd03741cb19ebb466e6" id="r_ae63f00df29269fd03741cb19ebb466e6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae63f00df29269fd03741cb19ebb466e6">SetTilesetPaletteIndex</a> (integer tilesetID, integer paletteIndex)</td></tr>
 <tr class="memdesc:ae63f00df29269fd03741cb19ebb466e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the palette index of the specified tileset.  <br /></td></tr>
-<tr class="memitem:a222266e7b22056235cac97db4758294a" id="r_a222266e7b22056235cac97db4758294a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a222266e7b22056235cac97db4758294a">SetLayerVisible</a> (integer layerIndex, boolean isVisible)</td></tr>
-<tr class="memdesc:a222266e7b22056235cac97db4758294a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the specified layer.  <br /></td></tr>
+<tr class="memitem:af93d0341772df396ebe3bcb807b156b9" id="r_af93d0341772df396ebe3bcb807b156b9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af93d0341772df396ebe3bcb807b156b9">SetLayerVisible</a> (integer layerIndex, boolean isVisible, integer viewIndex)</td></tr>
+<tr class="memdesc:af93d0341772df396ebe3bcb807b156b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the specified layer for every view or a specified view.  <br /></td></tr>
 <tr class="memitem:aef53c20ad5c54d81f34d730f6ee57f20" id="r_aef53c20ad5c54d81f34d730f6ee57f20"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aef53c20ad5c54d81f34d730f6ee57f20">SetLayerCollidable</a> (integer layerIndex, boolean isVisible)</td></tr>
 <tr class="memdesc:aef53c20ad5c54d81f34d730f6ee57f20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether the specified layer's tiles can be collided with.  <br /></td></tr>
 <tr class="memitem:afa41f93b434fc0eba2e7e282d8972fd4" id="r_afa41f93b434fc0eba2e7e282d8972fd4"><td class="memItemLeft"><a id="afa41f93b434fc0eba2e7e282d8972fd4" name="afa41f93b434fc0eba2e7e282d8972fd4"></a>
@@ -305,8 +305,8 @@ void&#160;</td><td class="memItemRight"><b>SetLayerInternalSize</b> ()</td></tr>
 <tr class="memdesc:a5fde1d27a79a2424e3a56db6bc2bb452"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the camera offset X value of the specified layer.  <br /></td></tr>
 <tr class="memitem:aa7c66a00a2224b762c0e72ceb8814120" id="r_aa7c66a00a2224b762c0e72ceb8814120"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa7c66a00a2224b762c0e72ceb8814120">SetLayerOffsetY</a> (integer layerIndex, number offsetY)</td></tr>
 <tr class="memdesc:aa7c66a00a2224b762c0e72ceb8814120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the camera offset Y value of the specified layer.  <br /></td></tr>
-<tr class="memitem:ad663917189c943afdfb35f472ebce0e2" id="r_ad663917189c943afdfb35f472ebce0e2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad663917189c943afdfb35f472ebce0e2">SetLayerDrawGroup</a> (integer layerIndex, integer drawGroup)</td></tr>
-<tr class="memdesc:ad663917189c943afdfb35f472ebce0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the draw group of the specified layer.  <br /></td></tr>
+<tr class="memitem:a902bb231bdafbdd58335b16e169971ad" id="r_a902bb231bdafbdd58335b16e169971ad"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a902bb231bdafbdd58335b16e169971ad">SetLayerDrawGroup</a> (integer layerIndex, integer drawGroup, integer viewIndex)</td></tr>
+<tr class="memdesc:a902bb231bdafbdd58335b16e169971ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the draw group of the specified layer for every view or a specified view.  <br /></td></tr>
 <tr class="memitem:aa74b6f1a0bc49c516a3fcc423bdd03d9" id="r_aa74b6f1a0bc49c516a3fcc423bdd03d9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa74b6f1a0bc49c516a3fcc423bdd03d9">SetLayerDrawBehavior</a> (integer layerIndex, <a class="el" href="group__hsl.html#gaaca6948c34da7fef3bca8d2bf205fe91">DrawBehavior</a> drawBehavior)</td></tr>
 <tr class="memdesc:aa74b6f1a0bc49c516a3fcc423bdd03d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the parallax direction of the layer.  <br /></td></tr>
 <tr class="memitem:afead97e445c9d0bd979e4ce2a6ec819b" id="r_afead97e445c9d0bd979e4ce2a6ec819b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afead97e445c9d0bd979e4ce2a6ec819b">SetLayerRepeat</a> (integer layerIndex, boolean doesRepeat)</td></tr>
@@ -922,8 +922,8 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 
 </div>
 </div>
-<a id="a717169d83aae546fadf6e49447762b68" name="a717169d83aae546fadf6e49447762b68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a717169d83aae546fadf6e49447762b68">&#9670;&#160;</a></span>GetLayerDrawGroup()</h2>
+<a id="a5f0c26823c5ba9a2f09fc83a64569567" name="a5f0c26823c5ba9a2f09fc83a64569567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f0c26823c5ba9a2f09fc83a64569567">&#9670;&#160;</a></span>GetLayerDrawGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -931,8 +931,12 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
         <tr>
           <td class="memname">integer Scene.GetLayerDrawGroup </td>
           <td>(</td>
-          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span></td><td>)</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>viewIndex</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -941,6 +945,7 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+    <tr><td class="paramname">viewIndex</td><td>Gets the draw group used in this view instead, including its per-view override. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1515,8 +1520,8 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 
 </div>
 </div>
-<a id="a14f4eadded19bc894d11227011cd3e8b" name="a14f4eadded19bc894d11227011cd3e8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14f4eadded19bc894d11227011cd3e8b">&#9670;&#160;</a></span>GetLayerVisible()</h2>
+<a id="af08358b8393c6df7684890869e0abeac" name="af08358b8393c6df7684890869e0abeac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08358b8393c6df7684890869e0abeac">&#9670;&#160;</a></span>GetLayerVisible()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1524,8 +1529,12 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
         <tr>
           <td class="memname">boolean Scene.GetLayerVisible </td>
           <td>(</td>
-          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span></td><td>)</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>layerIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>viewIndex</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1534,6 +1543,7 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
+    <tr><td class="paramname">viewIndex</td><td>Gets the visibility in this view instead, including its per-view override. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2702,8 +2712,8 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 
 </div>
 </div>
-<a id="ad663917189c943afdfb35f472ebce0e2" name="ad663917189c943afdfb35f472ebce0e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad663917189c943afdfb35f472ebce0e2">&#9670;&#160;</a></span>SetLayerDrawGroup()</h2>
+<a id="a902bb231bdafbdd58335b16e169971ad" name="a902bb231bdafbdd58335b16e169971ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902bb231bdafbdd58335b16e169971ad">&#9670;&#160;</a></span>SetLayerDrawGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2716,16 +2726,22 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>drawGroup</em></span>&#160;)</td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>drawGroup</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>viewIndex</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the draw group of the specified layer. </p>
+<p>Sets the draw group of the specified layer for every view or a specified view. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
     <tr><td class="paramname">drawGroup</td><td>Number between 0 to the result of <a class="el" href="#a2293dc3f7be36922d99a50cafd91b438" title="Scene.GetDrawGroupCount">Scene.GetDrawGroupCount</a>. </td></tr>
+    <tr><td class="paramname">viewIndex</td><td>Sets the draw group in only this view. Without this parameter, the draw group is set for every view and per-view overrides are cleared. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3490,8 +3506,8 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
 
 </div>
 </div>
-<a id="a222266e7b22056235cac97db4758294a" name="a222266e7b22056235cac97db4758294a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a222266e7b22056235cac97db4758294a">&#9670;&#160;</a></span>SetLayerVisible()</h2>
+<a id="af93d0341772df396ebe3bcb807b156b9" name="af93d0341772df396ebe3bcb807b156b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af93d0341772df396ebe3bcb807b156b9">&#9670;&#160;</a></span>SetLayerVisible()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3504,16 +3520,22 @@ void&#160;</td><td class="memItemRight"><b>SetLayerSetParallaxLinesEnd</b> ()</t
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>isVisible</em></span>&#160;)</td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>isVisible</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer</td>          <td class="paramname"><span class="paramname"><em>viewIndex</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the visibility of the specified layer. </p>
+<p>Sets the visibility of the specified layer for every view or a specified view. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layerIndex</td><td>Index of layer. </td></tr>
     <tr><td class="paramname">isVisible</td><td>Whether the layer can be seen. </td></tr>
+    <tr><td class="paramname">viewIndex</td><td>Sets the visibility in only this view. Without this parameter, the visibility is set for every view and per-view overrides are cleared. </td></tr>
   </table>
   </dd>
 </dl>
