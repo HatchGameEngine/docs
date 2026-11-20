@@ -32,6 +32,6 @@ var searchData=
   ['hitboxright_29',['HitboxRight',['../classEntity.html#a5199aae9e98e5df74dd8faf0ab59c9d6',1,'Entity']]],
   ['hitboxtop_30',['HitboxTop',['../classEntity.html#afd3021ee577588e67d4ebd02dfc1cffc',1,'Entity']]],
   ['hitboxw_31',['HitboxW',['../classEntity.html#a59875fa4425974a2869457f06935f069',1,'Entity']]],
-  ['hsl_32',['HSL',['../group__hsl.html',1,'']]],
+  ['hsl_32',['HSL',['../settings.html#accessing-settings-through-hsl',1,'Accessing settings through HSL'],['../group__hsl.html',1,'HSL']]],
   ['http_33',['HTTP',['../classHTTP.html',1,'']]]
 ];

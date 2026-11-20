@@ -23,14 +23,14 @@ var manual_page =
         [ "Development related settings", "settings.html#development-related-settings", [
           [ "<span class=\"tt\">dev</span> section", "settings.html#dev-section", null ],
           [ "General settings", "settings.html#general-settings", null ],
-          [ "Rendering", "settings.html#rendering", null ],
-          [ "Scripting", "settings.html#scripting", null ],
-          [ "Performance measuring", "settings.html#performance-measuring", null ],
+          [ "Rendering settings", "settings.html#rendering-settings", null ],
+          [ "Scripting settings", "settings.html#scripting-settings", null ],
+          [ "Performance measuring settings", "settings.html#performance-measuring-settings", null ],
           [ "VFS-related settings", "settings.html#vfs-related-settings", null ],
-          [ "Miscellaneous", "settings.html#miscellaneous", null ]
+          [ "Miscellaneous settings", "settings.html#miscellaneous-settings", null ]
         ] ]
       ] ],
-      [ "Scripting", "settings.html#scripting-1", null ]
+      [ "Accessing settings through HSL", "settings.html#accessing-settings-through-hsl", null ]
     ] ],
     [ "Command Line Options", "command_line_options.html", null ],
     [ "Scenes", "scenes.html", null ],

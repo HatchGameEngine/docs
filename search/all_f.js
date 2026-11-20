@@ -11,7 +11,7 @@ var searchData=
   ['pauseable_8',['Pauseable',['../classEntity.html#a9fa7da592664d8bebe2dc0edb6982f30',1,'Entity']]],
   ['pauseall_9',['PauseAll',['../classSound.html#a885b09b25f9016a0392f4838db1ad527',1,'Sound']]],
   ['pausechannel_10',['PauseChannel',['../classSound.html#adf8635ed353d385e599881dccab9bfb0',1,'Sound']]],
-  ['performance_20measuring_11',['Performance measuring',['../settings.html#performance-measuring',1,'']]],
+  ['performance_20measuring_20settings_11',['Performance measuring settings',['../settings.html#performance-measuring-settings',1,'']]],
   ['persistence_12',['Persistence',['../classEntity.html#a8793c498a7da690b655385ed0e60fd06',1,'Entity.Persistence'],['../group__hsl.html#ga5e63a3f648917896ecbf9de92e237141',1,'Persistence:&#160;Persistence.hsl']]],
   ['persistence_5fgame_13',['Persistence_GAME',['../group__hsl.html#gga5e63a3f648917896ecbf9de92e237141a2438b7eb20cfef1a0642429e96765750',1,'Persistence.hsl']]],
   ['persistence_5fnone_14',['Persistence_NONE',['../group__hsl.html#gga5e63a3f648917896ecbf9de92e237141a6fc7cf731fc24287535246b5ba17b23d',1,'Persistence.hsl']]],
