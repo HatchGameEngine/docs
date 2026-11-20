@@ -102,10 +102,530 @@ $(function(){initNavTree('settings.html','',''); });
   <div class="headertitle"><div class="title">Settings File </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>TODO </p>
-</div></div><!-- contents -->
+<div class="textblock"><p>The <b>Settings File</b> is an <a href="https://en.wikipedia.org/wiki/INI_file">INI file</a> loaded by the engine at startup. It contains lists of key-value pairs, which are divided by sections.</p>
+<p>Example of a settings file:</p>
+<div class="fragment"><div class="line">[display]</div>
+<div class="line">vsync = true</div>
+<div class="line">scale = 2</div>
+<div class="line"> </div>
+<div class="line">[audio]</div>
+<div class="line">masterVolume = 100</div>
+<div class="line">musicVolume = 75</div>
+<div class="line">soundVolume = 100</div>
+<div class="line"> </div>
+<div class="line">[keys]</div>
+<div class="line">fullscreen = F4</div>
+<div class="line">screenshot = F11</div>
+</div><!-- fragment --><p>Lines that start with a semicolon (<span class="tt">;</span>) are considered to be comments and are ignored:</p>
+<div class="fragment"><div class="line">[keys]</div>
+<div class="line">fullscreen = F4</div>
+<div class="line">; Disable screenshot key</div>
+<div class="line">; screenshot = F11</div>
+</div><!-- fragment --><p>By default, the settings are loaded from <span class="tt">config://config.ini</span>, but this can be changed through the Game Configuration File. Otherwise, Hatch will load and save the settings using one the following paths:</p>
+<p><b>Windows</b></p><ul>
+<li><span class="tt">C:/Users/&lt;username&gt;/AppData/Local/&lt;GameDeveloper&gt;/&lt;GameName&gt;/config.ini</span></li>
+<li><span class="tt">C:/Users/&lt;username&gt;/AppData/Local/&lt;GameName&gt;/config.ini</span></li>
+</ul>
+<p><b>Linux, or other Unix systems</b></p><ul>
+<li><span class="tt">.config/&lt;GameDeveloper&gt;/&lt;GameName&gt;/config.ini</span></li>
+<li><span class="tt">.config/&lt;GameName&gt;/config.ini</span></li>
+<li><span class="tt">$XDG_CONFIG_HOME/&lt;GameDeveloper&gt;/&lt;GameName&gt;/config.ini</span></li>
+<li><span class="tt">$XDG_CONFIG_HOME/&lt;GameName&gt;/config.ini</span></li>
+</ul>
+<h1 class="doxsection"><a class="anchor" id="all-settings"></a>
+All settings</h1>
+<p>The following are lists of all settings recognized by the engine.</p>
+<h2 class="doxsection"><a class="anchor" id="video-related-settings"></a>
+Video related settings</h2>
+<h3 class="doxsection"><a class="anchor" id="display-section"></a>
+<span class="tt">display</span> section</h3>
+<p>Configures window related settings.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">scale</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The scale of the screen. Must be between 1 and 8.  </td><td class="markdownTableBodyNone"><span class="tt">2</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">fullscreen</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Enables fullscreen.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">borderless</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether the window lacks a border.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">vsync</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Enables VSync.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">frameSkip</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">How many frames are permitted to be skipped when the application is lagging. Must be between 0 and 15.  </td><td class="markdownTableBodyNone"><span class="tt">15</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">defaultMonitor</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">Which monitor to show the window on.  </td><td class="markdownTableBodyNone"><span class="tt">0</span>  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="graphics-section"></a>
+<span class="tt">graphics</span> section</h3>
+<p>Configures rendering related settings.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">multisample</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The multisampling (MSAA) level. If this value is 0, multisampling is disabled.  </td><td class="markdownTableBodyNone"><span class="tt">0</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">precompileShaders</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">Whether to precompile the default shaders on startup. May reduce stuttering during gameplay.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">layerTileBuffering</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to buffer tile layers in the GPU. May increase performance.  </td><td class="markdownTableBodyNone"><span class="tt">true</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">showFramerate</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">If enabled, shows the current frame rate on the top right of the screen.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">defaultFontOversampling</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The oversampling value of the default font. Must be between 1 and 8.  </td><td class="markdownTableBodyNone">None  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">forceFontOversampling</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">Forces a specific oversampling value on all non-bitmap fonts. Must be between 1 and 8.  </td><td class="markdownTableBodyNone">None  </td></tr>
+</table>
+<h2 class="doxsection"><a class="anchor" id="audio-related-settings"></a>
+Audio related settings</h2>
+<h3 class="doxsection"><a class="anchor" id="audio-section"></a>
+<span class="tt">audio</span> section</h3>
+<p>Configures audio related settings.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">masterVolume</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The master volume. Must be between 0 and 100.  </td><td class="markdownTableBodyNone"><span class="tt">100</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">musicVolume</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The music volume. Must be between 0 and 100.  </td><td class="markdownTableBodyNone"><span class="tt">100</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">soundVolume</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">The sound effects volume. Must be between 0 and 100.  </td><td class="markdownTableBodyNone"><span class="tt">100</span>  </td></tr>
+</table>
+<h2 class="doxsection"><a class="anchor" id="input-related-settings"></a>
+Input related settings</h2>
+<p>See below for a <a class="el" href="#list-of-accepted-keys" title="List of accepted keys">list of accepted keys</a>.</p>
+<h3 class="doxsection"><a class="anchor" id="keys-section"></a>
+<span class="tt">keys</span> section</h3>
+<p>Configures default key binds.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">fullscreen</span>  </td><td class="markdownTableBodyNone">Toggles fullscreen.  </td><td class="markdownTableBodyNone">F4  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">screenshot</span>  </td><td class="markdownTableBodyNone">Takes a screenshot.  </td><td class="markdownTableBodyNone">None  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">toggleFPSCounter</span>  </td><td class="markdownTableBodyNone">Toggles the frame rate counter.  </td><td class="markdownTableBodyNone">F2  </td></tr>
+</table>
+<p>Additionally, the following key binds are accepted when developer mode is enabled:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devRestartApp</span>  </td><td class="markdownTableBodyNone">Restarts the entire application.  </td><td class="markdownTableBodyNone">F1  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devRestartScene</span>  </td><td class="markdownTableBodyNone">Restarts the current scene.  </td><td class="markdownTableBodyNone">F6  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devRecompile</span>  </td><td class="markdownTableBodyNone">Recompiles all scripts, then restarts the current scene.  </td><td class="markdownTableBodyNone">F5  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devPerfSnapshot</span>  </td><td class="markdownTableBodyNone">Logs a performance snapshot.  </td><td class="markdownTableBodyNone">F3  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devLogLayerInfo</span>  </td><td class="markdownTableBodyNone">Logs information about the current scene's layers.  </td><td class="markdownTableBodyNone">F7  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devFastForward</span>  </td><td class="markdownTableBodyNone">Toggles fast forward.  </td><td class="markdownTableBodyNone">Backspace  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devToggleFrameStepper</span>  </td><td class="markdownTableBodyNone">Toggles the frame stepper.  </td><td class="markdownTableBodyNone">F9  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devStepFrame</span>  </td><td class="markdownTableBodyNone">Steps a single frame, enabling the frame stepper if it's not already enabled.  </td><td class="markdownTableBodyNone">F10  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devShowTileCol</span>  </td><td class="markdownTableBodyNone">Shows tile collision.  </td><td class="markdownTableBodyNone">None  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devShowObjectRegions</span>  </td><td class="markdownTableBodyNone">Shows the update and render regions of entities.  </td><td class="markdownTableBodyNone">None  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devViewHitboxes</span>  </td><td class="markdownTableBodyNone">Toggles display of entity hitboxes.  </td><td class="markdownTableBodyNone">None  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devPaletteViewer</span>  </td><td class="markdownTableBodyNone">Toggles the palette viewer.  </td><td class="markdownTableBodyNone">None  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devPreviousScene</span>  </td><td class="markdownTableBodyNone">Goes to the previous scene in the Scene List.  </td><td class="markdownTableBodyNone">Page Down  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devNextScene</span>  </td><td class="markdownTableBodyNone">Goes to the next scene in the Scene List.  </td><td class="markdownTableBodyNone">Page Up  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devMenuToggle</span>  </td><td class="markdownTableBodyNone">Opens the system menu.  </td><td class="markdownTableBodyNone">Escape  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">devScriptDebugger</span>  </td><td class="markdownTableBodyNone">Opens the script debugger. There must be a terminal open, otherwise this will just freeze the application.  </td><td class="markdownTableBodyNone">None  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devQuit</span>  </td><td class="markdownTableBodyNone">Closes the application.  </td><td class="markdownTableBodyNone">None  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="list-of-accepted-keys"></a>
+List of accepted keys</h3>
+<details >
+<summary >
+Expand to see list</summary>
+<p></p>
+<p></p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Key name  </th><th class="markdownTableHeadNone">Corresponds to  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">A  </td><td class="markdownTableBodyNone">A key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">B  </td><td class="markdownTableBodyNone">B key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">C  </td><td class="markdownTableBodyNone">C key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">D  </td><td class="markdownTableBodyNone">D key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">E  </td><td class="markdownTableBodyNone">E key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">F  </td><td class="markdownTableBodyNone">F key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">G  </td><td class="markdownTableBodyNone">G key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">H  </td><td class="markdownTableBodyNone">H key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">I  </td><td class="markdownTableBodyNone">I key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">J  </td><td class="markdownTableBodyNone">J key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">K  </td><td class="markdownTableBodyNone">K key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">L  </td><td class="markdownTableBodyNone">L key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">M  </td><td class="markdownTableBodyNone">M key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">N  </td><td class="markdownTableBodyNone">N key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">O  </td><td class="markdownTableBodyNone">O key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">P  </td><td class="markdownTableBodyNone">P key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Q  </td><td class="markdownTableBodyNone">Q key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">R  </td><td class="markdownTableBodyNone">R key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">S  </td><td class="markdownTableBodyNone">S key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">T  </td><td class="markdownTableBodyNone">T key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">U  </td><td class="markdownTableBodyNone">U key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">V  </td><td class="markdownTableBodyNone">V key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">W  </td><td class="markdownTableBodyNone">W key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">X  </td><td class="markdownTableBodyNone">X key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Y  </td><td class="markdownTableBodyNone">Y key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Z  </td><td class="markdownTableBodyNone">Z key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">1 key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">2  </td><td class="markdownTableBodyNone">2 key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">3 key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">4  </td><td class="markdownTableBodyNone">4 key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">5  </td><td class="markdownTableBodyNone">5 key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">6  </td><td class="markdownTableBodyNone">6 key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">7  </td><td class="markdownTableBodyNone">7 key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">8  </td><td class="markdownTableBodyNone">8 key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">9  </td><td class="markdownTableBodyNone">9 key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">0  </td><td class="markdownTableBodyNone">0 key  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">RETURN  </td><td class="markdownTableBodyNone">Return (or Enter)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">ESCAPE  </td><td class="markdownTableBodyNone">Escape  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">BACKSPACE  </td><td class="markdownTableBodyNone">Backspace  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">TAB  </td><td class="markdownTableBodyNone">Tab  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">SPACE  </td><td class="markdownTableBodyNone">Space bar  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">MINUS  </td><td class="markdownTableBodyNone">Minus (-)  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">EQUALS  </td><td class="markdownTableBodyNone">Equals (=)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">LEFTBRACKET  </td><td class="markdownTableBodyNone">Left square bracket ([)  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">RIGHTBRACKET  </td><td class="markdownTableBodyNone">Right square bracket (])  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">BACKSLASH  </td><td class="markdownTableBodyNone">Backslash (\)  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">SEMICOLON  </td><td class="markdownTableBodyNone">Semicolon (;)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">APOSTROPHE  </td><td class="markdownTableBodyNone">Apostrophe (')  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">GRAVE  </td><td class="markdownTableBodyNone">Grave (`)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">COMMA  </td><td class="markdownTableBodyNone">Comma (,)  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">PERIOD  </td><td class="markdownTableBodyNone">Period (.)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">SLASH  </td><td class="markdownTableBodyNone">Slash (/)  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">CAPSLOCK  </td><td class="markdownTableBodyNone">Caps Lock  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">F1  </td><td class="markdownTableBodyNone">F1  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">F2  </td><td class="markdownTableBodyNone">F2  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">F3  </td><td class="markdownTableBodyNone">F3  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">F4  </td><td class="markdownTableBodyNone">F4  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">F5  </td><td class="markdownTableBodyNone">F5  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">F6  </td><td class="markdownTableBodyNone">F6  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">F7  </td><td class="markdownTableBodyNone">F7  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">F8  </td><td class="markdownTableBodyNone">F8  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">F9  </td><td class="markdownTableBodyNone">F9  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">F10  </td><td class="markdownTableBodyNone">F10  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">F11  </td><td class="markdownTableBodyNone">F11  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">F12  </td><td class="markdownTableBodyNone">F12  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">PRINTSCREEN  </td><td class="markdownTableBodyNone">Print Screen  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">SCROLLLOCK  </td><td class="markdownTableBodyNone">Scroll Lock  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">PAUSE  </td><td class="markdownTableBodyNone">Pause/Break  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">INSERT  </td><td class="markdownTableBodyNone">Insert  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">HOME  </td><td class="markdownTableBodyNone">Home  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">PAGEUP  </td><td class="markdownTableBodyNone">Page Up  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">DELETE  </td><td class="markdownTableBodyNone">Delete  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">END  </td><td class="markdownTableBodyNone">End  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">PAGEDOWN  </td><td class="markdownTableBodyNone">Page Down  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">RIGHT  </td><td class="markdownTableBodyNone">Right arrow  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">LEFT  </td><td class="markdownTableBodyNone">Left arrow  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">DOWN  </td><td class="markdownTableBodyNone">Down arrow  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">UP  </td><td class="markdownTableBodyNone">Up arrow  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">NUMLOCKCLEAR  </td><td class="markdownTableBodyNone">Num Lock  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">KP_DIVIDE  </td><td class="markdownTableBodyNone">Keypad Divide (/)  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">KP_MULTIPLY  </td><td class="markdownTableBodyNone">Keypad Multiply (*)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">KP_MINUS  </td><td class="markdownTableBodyNone">Keypad Minus (-)  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">KP_PLUS  </td><td class="markdownTableBodyNone">Keypad Plus (+)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">KP_ENTER  </td><td class="markdownTableBodyNone">Keypad Enter  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">KP_1  </td><td class="markdownTableBodyNone">Keypad 1  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">KP_2  </td><td class="markdownTableBodyNone">Keypad 2  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">KP_3  </td><td class="markdownTableBodyNone">Keypad 3  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">KP_4  </td><td class="markdownTableBodyNone">Keypad 4  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">KP_5  </td><td class="markdownTableBodyNone">Keypad 5  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">KP_6  </td><td class="markdownTableBodyNone">Keypad 6  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">KP_7  </td><td class="markdownTableBodyNone">Keypad 7  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">KP_8  </td><td class="markdownTableBodyNone">Keypad 8  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">KP_9  </td><td class="markdownTableBodyNone">Keypad 9  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">KP_0  </td><td class="markdownTableBodyNone">Keypad 0  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">KP_PERIOD  </td><td class="markdownTableBodyNone">Keypad Period (.)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">LCTRL  </td><td class="markdownTableBodyNone">Left Ctrl  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">LSHIFT  </td><td class="markdownTableBodyNone">Left Shift  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">LALT  </td><td class="markdownTableBodyNone">Left Alt  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">LGUI  </td><td class="markdownTableBodyNone">Left GUI key  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">RCTRL  </td><td class="markdownTableBodyNone">Right Ctrl  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">RSHIFT  </td><td class="markdownTableBodyNone">Right Shift  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">RALT  </td><td class="markdownTableBodyNone">Right Alt  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">RGUI  </td><td class="markdownTableBodyNone">Right GUI key  </td></tr>
+</table>
+<p></p>
+</details>
+<h2 class="doxsection"><a class="anchor" id="script-compiler-related-settings"></a>
+Script compiler related settings</h2>
+<h3 class="doxsection"><a class="anchor" id="compiler-section"></a>
+<span class="tt">compiler</span> section</h3>
+<p>Configures the script compiler.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">log</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Toggles logging.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">optimizations</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Enables code optimizations.  </td><td class="markdownTableBodyNone"><span class="tt">true</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">showWarnings</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to log compile warnings.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">writeDebugInfo</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">When enabled, the compiler writes debug information into the bytecode, like line numbers and variable names.  </td><td class="markdownTableBodyNone"><span class="tt">false</span> on non-dev builds, <span class="tt">true</span> on dev builds  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">writeSourceFilename</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">When enables, preserves the path of the script file the bytecode was compiled from.  </td><td class="markdownTableBodyNone"><span class="tt">false</span> on non-dev builds, <span class="tt">true</span> on dev builds  </td></tr>
+</table>
+<h2 class="doxsection"><a class="anchor" id="development-related-settings"></a>
+Development related settings</h2>
+<h3 class="doxsection"><a class="anchor" id="dev-section"></a>
+<span class="tt">dev</span> section</h3>
+<p>Development-related settings.</p>
+<h3 class="doxsection"><a class="anchor" id="general-settings"></a>
+General settings</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">devMenu</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Enables developer mode.  </td><td class="markdownTableBodyNone"><span class="tt">false</span> on non-dev builds, <span class="tt">true</span> on dev builds  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">fastForward</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">How many frames to run when fast forwarding.  </td><td class="markdownTableBodyNone"><span class="tt">4</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">logLevel</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">Log level. Messages lower than the specified number are not logged.<br  />
+<b>Log levels:</b><br  />
+-2 = API<br  />
+-1 = Verbose<br  />
+0 = Info<br  />
+1 = Warning<br  />
+2 = Error<br  />
+3 = Important<br  />
+4 = Fatal  </td><td class="markdownTableBodyNone"><span class="tt">0</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">writeLogFile</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether to write to the log file.  </td><td class="markdownTableBodyNone"><span class="tt">true</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">trackMemory</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Track memory allocations.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="rendering"></a>
+Rendering</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">renderer</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">Which rendering backend to use. It's not recommended to change this.<br  />
+<b>Accepted options:</b><br  />
+<span class="tt">opengl</span> = OpenGL backend.<br  />
+<span class="tt">sdl2</span> = SDL Renderer backend.  </td><td class="markdownTableBodyNone"><span class="tt">opengl</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">noTiles</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Disables layer rendering.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">noObjectRender</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Disables entity rendering.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">viewCollision</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">Shows tile collision.<br  />
+<b>Accepted options:</b><br  />
+0 = Disabled.<br  />
+1 = View Path A.<br  />
+2 = View Path B.  </td><td class="markdownTableBodyNone"><span class="tt">0</span>  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="scripting"></a>
+Scripting</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">enableScriptBreakpoints</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Whether breakpoints are enabled.  </td><td class="markdownTableBodyNone"><span class="tt">true</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">branchLimit</span>  </td><td class="markdownTableBodyNone">integer or boolean  </td><td class="markdownTableBodyNone">Interrupts script execution when a call frame exceeds the specified amount of branches. If <span class="tt">true</span>, uses the default, and if <span class="tt">false</span> or <span class="tt">0</span>, disables it.  </td><td class="markdownTableBodyNone"><span class="tt">100000</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">loadAllClasses</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Loads all script classes on startup.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">debugCompiler</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Logs a listing of the bytecode after compilation.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="performance-measuring"></a>
+Performance measuring</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">viewPerformance</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Shows the performance viewer.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">autoPerfSnapshots</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Enables automatic performance snapshots.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">apsMinFrameTime</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">When the frame time in milliseconds exceeds this value, take a performance snapshot.  </td><td class="markdownTableBodyNone"><span class="tt">20</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">apsMinInterval</span>  </td><td class="markdownTableBodyNone">integer  </td><td class="markdownTableBodyNone">Configures the time in milliseconds between automatic performance snapshots.  </td><td class="markdownTableBodyNone"><span class="tt">5000</span>  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="vfs-related-settings"></a>
+VFS-related settings</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">useMemoryFileCache</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Keep the file cache in-memory.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">allowWritableResource</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Makes the main resource file writable.<br  />
+Note that when the application mounts the Resources directory as the main resource file, the mount is writable by default.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="miscellaneous"></a>
+Miscellaneous</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Type  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">Default  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">sceneBrowserMode</span>  </td><td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">How the scene browser lists scenes in the developer menu.<br  />
+<b>Accepted options:</b><br  />
+<span class="tt">default</span> = Use the Scene List if available, but otherwise, use the resources browser.<br  />
+<span class="tt">scenelist</span>: Use the Scene List.<br  />
+<span class="tt">resources</span> = Browse through resources.  </td><td class="markdownTableBodyNone"><span class="tt">default</span>  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">convertModels</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Converts and saves 3D models as .hmdl when they are loaded.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">doNothing</span>  </td><td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">Makes the game, uh, do nothing.  </td><td class="markdownTableBodyNone"><span class="tt">false</span>  </td></tr>
+</table>
+<h1 class="doxsection"><a class="anchor" id="scripting-1"></a>
+Scripting</h1>
+<p>The <a class="el" href="classSettings.html" title="Settings">Settings</a> class in HSL can be used to access and modify the current settings, as well as load from and save to different .ini files. You may use <a class="el" href="classSettings.html" title="Settings">Settings</a> to store and load settings for your own game. Example:</p>
+<div class="fragment"><div class="line">var PlayerName;</div>
+<div class="line">var UIScale;</div>
+<div class="line">var AutoSave;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">event</span> LoadSettings() {</div>
+<div class="line">    PlayerName = <a class="code hl_class" href="classSettings.html">Settings</a>.<a class="code hl_function" href="classSettings.html#a0853422808d8a3174c0a8701f391836a">GetString</a>(<span class="stringliteral">&quot;player&quot;</span>, <span class="stringliteral">&quot;name&quot;</span>) || <span class="stringliteral">&quot;Matilda&quot;</span>;</div>
+<div class="line">    UIScale = <a class="code hl_class" href="classSettings.html">Settings</a>.<a class="code hl_function" href="classSettings.html#a63df5f8539b1e4438c341be721f9ae95">GetNumber</a>(<span class="stringliteral">&quot;ui&quot;</span>, <span class="stringliteral">&quot;scale&quot;</span>) || 1.0;</div>
+<div class="line">    AutoSave = <a class="code hl_class" href="classSettings.html">Settings</a>.<a class="code hl_function" href="classSettings.html#a091f97465a77bb6a987024197c027dad">GetBool</a>(<span class="stringliteral">&quot;game&quot;</span>, <span class="stringliteral">&quot;autosave&quot;</span>) || <span class="keyword">true</span>;</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">event</span> SaveSettings() {</div>
+<div class="line">    <a class="code hl_class" href="classSettings.html">Settings</a>.<a class="code hl_function" href="classSettings.html#a1095c04ee71222a87c2151b651d5ae65">SetString</a>(<span class="stringliteral">&quot;player&quot;</span>, <span class="stringliteral">&quot;name&quot;</span>, PlayerName);</div>
+<div class="line">    <a class="code hl_class" href="classSettings.html">Settings</a>.<a class="code hl_function" href="classSettings.html#a39e3beae4153fb28914449bd9c47f987">SetNumber</a>(<span class="stringliteral">&quot;ui&quot;</span>, <span class="stringliteral">&quot;scale&quot;</span>, UIScale);</div>
+<div class="line">    <a class="code hl_class" href="classSettings.html">Settings</a>.<a class="code hl_function" href="classSettings.html#a870de60d9892b8fc44ed9a22d6715a65">SetBool</a>(<span class="stringliteral">&quot;game&quot;</span>, <span class="stringliteral">&quot;autosave&quot;</span>, AutoSave);</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_class" href="classSettings.html">Settings</a>.<a class="code hl_function" href="classSettings.html#ae5b00b8649c4e746625fcf3d9c761d84">Save</a>();</div>
+<div class="line">}</div>
+<div class="ttc" id="aclassSettings_html"><div class="ttname"><a href="classSettings.html">Settings</a></div><div class="ttdoc">Reading and writing the application&#39;s settings from and into INI files.</div><div class="ttdef"><b>Definition</b> Settings.dox:8</div></div>
+<div class="ttc" id="aclassSettings_html_a0853422808d8a3174c0a8701f391836a"><div class="ttname"><a href="classSettings.html#a0853422808d8a3174c0a8701f391836a">Settings.GetString</a></div><div class="ttdeci">string GetString(string section, string property)</div><div class="ttdoc">Looks for a property in a section, and returns its value, as a string.</div></div>
+<div class="ttc" id="aclassSettings_html_a091f97465a77bb6a987024197c027dad"><div class="ttname"><a href="classSettings.html#a091f97465a77bb6a987024197c027dad">Settings.GetBool</a></div><div class="ttdeci">boolean GetBool(string section, string property)</div><div class="ttdoc">Looks for a property in a section, and returns its value, as a boolean.</div></div>
+<div class="ttc" id="aclassSettings_html_a1095c04ee71222a87c2151b651d5ae65"><div class="ttname"><a href="classSettings.html#a1095c04ee71222a87c2151b651d5ae65">Settings.SetString</a></div><div class="ttdeci">void SetString(string section, string property, string value)</div><div class="ttdoc">Sets a property in a section to a string value.</div></div>
+<div class="ttc" id="aclassSettings_html_a39e3beae4153fb28914449bd9c47f987"><div class="ttname"><a href="classSettings.html#a39e3beae4153fb28914449bd9c47f987">Settings.SetNumber</a></div><div class="ttdeci">void SetNumber(string section, string property, decimal value)</div><div class="ttdoc">Sets a property in a section to a decimal value.</div></div>
+<div class="ttc" id="aclassSettings_html_a63df5f8539b1e4438c341be721f9ae95"><div class="ttname"><a href="classSettings.html#a63df5f8539b1e4438c341be721f9ae95">Settings.GetNumber</a></div><div class="ttdeci">decimal GetNumber(string section, string property)</div><div class="ttdoc">Looks for a property in a section, and returns its value, as a decimal.</div></div>
+<div class="ttc" id="aclassSettings_html_a870de60d9892b8fc44ed9a22d6715a65"><div class="ttname"><a href="classSettings.html#a870de60d9892b8fc44ed9a22d6715a65">Settings.SetBool</a></div><div class="ttdeci">void SetBool(string section, string property, boolean value)</div><div class="ttdoc">Sets a property in a section to a boolean value.</div></div>
+<div class="ttc" id="aclassSettings_html_ae5b00b8649c4e746625fcf3d9c761d84"><div class="ttname"><a href="classSettings.html#ae5b00b8649c4e746625fcf3d9c761d84">Settings.Save</a></div><div class="ttdeci">void Save()</div><div class="ttdoc">Saves the settings.</div></div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

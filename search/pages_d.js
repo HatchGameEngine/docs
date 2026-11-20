@@ -4,11 +4,12 @@ var searchData=
   ['object_20types_1',['Object types',['../variables.html#object-types',1,'']]],
   ['of_2',['What is Hatch capable of?',['../introduction_to_hatch.html#what-is-hatch-capable-of',1,'']]],
   ['of_20a_20variable_3',['Scope of a variable',['../variables.html#scope-of-a-variable',1,'']]],
-  ['operations_20with_20numbers_4',['Operations with numbers',['../expressions_and_operators.html#operations-with-numbers',1,'']]],
-  ['operator_5',['The &lt;span class=&quot;tt&quot;&gt;typeof&lt;/span&gt; operator',['../expressions_and_operators.html#the-typeof-operator',1,'']]],
-  ['operators_6',['operators',['../expressions_and_operators.html',1,'Expressions and operators'],['../expressions_and_operators.html#unary-and-binary-operators',1,'Unary and binary operators']]],
-  ['optional_20arguments_7',['Optional arguments',['../hsl_functions.html#optional-arguments',1,'']]],
-  ['options_8',['Command Line Options',['../command_line_options.html',1,'manual_page']]],
-  ['options_9',['options',['../gameconfig.html#audio-options',1,'&lt;span class=&quot;tt&quot;&gt;audio&lt;/span&gt; options'],['../gameconfig.html#controls-options',1,'&lt;span class=&quot;tt&quot;&gt;controls&lt;/span&gt; options'],['../gameconfig.html#display-options',1,'&lt;span class=&quot;tt&quot;&gt;display&lt;/span&gt; options'],['../gameconfig.html#engine-options',1,'&lt;span class=&quot;tt&quot;&gt;engine&lt;/span&gt; options'],['../gameconfig.html#keys-options',1,'&lt;span class=&quot;tt&quot;&gt;keys&lt;/span&gt; options'],['../gameconfig.html#main-options',1,'Main options']]],
-  ['organizing_20the_20code_10',['Organizing the code',['../hello_world.html#organizing-the-code',1,'']]]
+  ['of_20accepted_20keys_4',['List of accepted keys',['../settings.html#list-of-accepted-keys',1,'']]],
+  ['operations_20with_20numbers_5',['Operations with numbers',['../expressions_and_operators.html#operations-with-numbers',1,'']]],
+  ['operator_6',['The &lt;span class=&quot;tt&quot;&gt;typeof&lt;/span&gt; operator',['../expressions_and_operators.html#the-typeof-operator',1,'']]],
+  ['operators_7',['operators',['../expressions_and_operators.html',1,'Expressions and operators'],['../expressions_and_operators.html#unary-and-binary-operators',1,'Unary and binary operators']]],
+  ['optional_20arguments_8',['Optional arguments',['../hsl_functions.html#optional-arguments',1,'']]],
+  ['options_9',['Command Line Options',['../command_line_options.html',1,'manual_page']]],
+  ['options_10',['options',['../gameconfig.html#audio-options',1,'&lt;span class=&quot;tt&quot;&gt;audio&lt;/span&gt; options'],['../gameconfig.html#controls-options',1,'&lt;span class=&quot;tt&quot;&gt;controls&lt;/span&gt; options'],['../gameconfig.html#display-options',1,'&lt;span class=&quot;tt&quot;&gt;display&lt;/span&gt; options'],['../gameconfig.html#engine-options',1,'&lt;span class=&quot;tt&quot;&gt;engine&lt;/span&gt; options'],['../gameconfig.html#keys-options',1,'&lt;span class=&quot;tt&quot;&gt;keys&lt;/span&gt; options'],['../gameconfig.html#main-options',1,'Main options']]],
+  ['organizing_20the_20code_11',['Organizing the code',['../hello_world.html#organizing-the-code',1,'']]]
 ];

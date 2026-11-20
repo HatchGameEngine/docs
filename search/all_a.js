@@ -135,5 +135,7 @@ var searchData=
   ['keymod_5frctrl_132',['KeyMod_RCTRL',['../group__hsl.html#ga9bf18bbe6e54810dac1aeb79597a28b9',1,'constants.hsl']]],
   ['keymod_5frshift_133',['KeyMod_RSHIFT',['../group__hsl.html#ga0636a511ad5407e3634419e24ef72a50',1,'constants.hsl']]],
   ['keymod_5fshift_134',['KeyMod_SHIFT',['../group__hsl.html#ga78e6ab8c79263982f966241abff3b8ae',1,'constants.hsl']]],
-  ['keys_20options_135',['&lt;span class=&quot;tt&quot;&gt;keys&lt;/span&gt; options',['../gameconfig.html#keys-options',1,'']]]
+  ['keys_135',['List of accepted keys',['../settings.html#list-of-accepted-keys',1,'']]],
+  ['keys_20options_136',['&lt;span class=&quot;tt&quot;&gt;keys&lt;/span&gt; options',['../gameconfig.html#keys-options',1,'']]],
+  ['keys_20section_137',['&lt;span class=&quot;tt&quot;&gt;keys&lt;/span&gt; section',['../settings.html#keys-section',1,'']]]
 ];

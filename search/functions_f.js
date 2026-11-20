@@ -117,7 +117,7 @@ var searchData=
   ['setmusicunloadpolicy_114',['SetMusicUnloadPolicy',['../classResources.html#afc105dfcd7c66febca302fffcee2ef09',1,'Resources']]],
   ['setmusicvolume_115',['SetMusicVolume',['../classAudio.html#abac5eb53d0ea9224c87c63a688dcb866',1,'Audio']]],
   ['setnearclippingplane_116',['SetNearClippingPlane',['../classScene3D.html#a942edf8b6067c745eb2cb3cbd9ecd662',1,'Scene3D']]],
-  ['setnumber_117',['SetNumber',['../classSettings.html#ae1d51a91cc780b81f048dfbf6c1687a6',1,'Settings']]],
+  ['setnumber_117',['SetNumber',['../classSettings.html#a39e3beae4153fb28914449bd9c47f987',1,'Settings']]],
   ['setobjectviewrender_118',['SetObjectViewRender',['../classScene.html#a38bc2245c63c9970da6dce41a32baefa',1,'Scene']]],
   ['setoutputposition_119',['SetOutputPosition',['../classView.html#a0932365967c551a81266708649a7512a',1,'View']]],
   ['setoutputsize_120',['SetOutputSize',['../classView.html#a7c86cc54675e3ebe236e636720e16d14',1,'View']]],

@@ -158,7 +158,7 @@ var searchData=
   ['getname_155',['GetName',['../classController.html#a0f2dac99d4b8dac5746d6491e5d8c5d7',1,'Controller.GetName()'],['../classScene.html#ad61ec41c147504bab1b2849ccd6096dd',1,'Scene.GetName()']]],
   ['getnextinstance_156',['GetNextInstance',['../classInstance.html#a8a7ac1dcb051d6d3f38d409377ab08c3',1,'Instance']]],
   ['getnth_157',['GetNth',['../classInstance.html#a7b191acffe013512f97f1810ae927d5a',1,'Instance']]],
-  ['getnumber_158',['GetNumber',['../classSettings.html#ae4c43dce84a9cf7ee3d87796c297bb87',1,'Settings']]],
+  ['getnumber_158',['GetNumber',['../classSettings.html#a63df5f8539b1e4438c341be721f9ae95',1,'Settings']]],
   ['getoutputheight_159',['GetOutputHeight',['../classView.html#a3c74c472ed8a5636c0cc10820b8d1c96',1,'View']]],
   ['getoutputwidth_160',['GetOutputWidth',['../classView.html#ae58e5a9d9950380ee6edb46cb7c8e8f6',1,'View']]],
   ['getoutputx_161',['GetOutputX',['../classView.html#a5bd609c3d91fb5974645b51df15f97cd',1,'View']]],

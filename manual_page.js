@@ -4,7 +4,34 @@ var manual_page =
     [ "Game Configuration File", "gameconfig.html", [
       [ "Example <span class=\"tt\">GameConfig.xml</span>", "gameconfig.html#example-gameconfigxml", null ]
     ] ],
-    [ "Settings File", "settings.html", null ],
+    [ "Settings File", "settings.html", [
+      [ "All settings", "settings.html#all-settings", [
+        [ "Video related settings", "settings.html#video-related-settings", [
+          [ "<span class=\"tt\">display</span> section", "settings.html#display-section", null ],
+          [ "<span class=\"tt\">graphics</span> section", "settings.html#graphics-section", null ]
+        ] ],
+        [ "Audio related settings", "settings.html#audio-related-settings", [
+          [ "<span class=\"tt\">audio</span> section", "settings.html#audio-section", null ]
+        ] ],
+        [ "Input related settings", "settings.html#input-related-settings", [
+          [ "<span class=\"tt\">keys</span> section", "settings.html#keys-section", null ],
+          [ "List of accepted keys", "settings.html#list-of-accepted-keys", null ]
+        ] ],
+        [ "Script compiler related settings", "settings.html#script-compiler-related-settings", [
+          [ "<span class=\"tt\">compiler</span> section", "settings.html#compiler-section", null ]
+        ] ],
+        [ "Development related settings", "settings.html#development-related-settings", [
+          [ "<span class=\"tt\">dev</span> section", "settings.html#dev-section", null ],
+          [ "General settings", "settings.html#general-settings", null ],
+          [ "Rendering", "settings.html#rendering", null ],
+          [ "Scripting", "settings.html#scripting", null ],
+          [ "Performance measuring", "settings.html#performance-measuring", null ],
+          [ "VFS-related settings", "settings.html#vfs-related-settings", null ],
+          [ "Miscellaneous", "settings.html#miscellaneous", null ]
+        ] ]
+      ] ],
+      [ "Scripting", "settings.html#scripting-1", null ]
+    ] ],
     [ "Command Line Options", "command_line_options.html", null ],
     [ "Scenes", "scenes.html", null ],
     [ "Entities", "entities.html", null ],
